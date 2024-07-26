@@ -1,0 +1,25 @@
+format-version: 1.2
+data-version: releases/2024-07-26
+idspace: dce http://purl.org/dc/elements/1.1/ 
+idspace: dcterms http://purl.org/dc/terms/ 
+ontology: clm
+property_value: dcterms:description "None" xsd:string
+property_value: dcterms:license https://creativecommons.org/licenses/unspecified
+property_value: dcterms:title "Cell Markers Ontology" xsd:string
+property_value: owl:versionInfo "2024-07-26" xsd:string
+
+[Term]
+id: CLM:0000000
+name: root node
+
+[Typedef]
+id: BFO:0000050
+name: part of
+is_transitive: true
+inverse_of: BFO:0000051 ! has part
+
+[Typedef]
+id: BFO:0000051
+name: has part
+is_transitive: true
+
