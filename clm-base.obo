@@ -10,6 +10,56 @@ property_value: dcterms:title "Cell Markers Ontology" xsd:string
 property_value: owl:versionInfo "2024-07-26" xsd:string
 
 [Term]
+id: CL:4037001
+name: NS forest marker set of alveolar adventitial fibroblast (Human Lung).
+is_a: SO:0001260
+relationship: BFO:0000051 http://identifiers.org/ncbigene/286133
+relationship: BFO:0000051 http://identifiers.org/ncbigene/57124
+property_value: STATO:0000663 "0.85" xsd:string
+
+[Term]
+id: CL:4037002
+name: NS forest marker set of alveolar type 1 fibroblast cell (Human Lung).
+is_a: SO:0001260
+relationship: BFO:0000051 http://identifiers.org/ncbigene/4060
+relationship: BFO:0000051 http://identifiers.org/ncbigene/8639
+property_value: STATO:0000663 "0.7" xsd:string
+
+[Term]
+id: CL:4037003
+name: NS forest marker set of alveolar macrophage (Human Lung).
+is_a: SO:0001260
+relationship: BFO:0000051 http://identifiers.org/ncbigene/2168
+relationship: BFO:0000051 http://identifiers.org/ncbigene/4481
+property_value: STATO:0000663 "0.8" xsd:string
+
+[Term]
+id: CL:4037004
+name: NS forest marker set of CCL3-positive alveolar macrophage (Human Lung).
+is_a: SO:0001260
+relationship: BFO:0000051 http://identifiers.org/ncbigene/6374
+relationship: BFO:0000051 http://identifiers.org/ncbigene/79931
+property_value: STATO:0000663 "0.67" xsd:string
+
+[Term]
+id: CL:4037005
+name: NS forest marker set of metallothionein-positive alveolar macrophage (Human Lung).
+is_a: SO:0001260
+relationship: BFO:0000051 http://identifiers.org/ncbigene/3162
+relationship: BFO:0000051 http://identifiers.org/ncbigene/3248
+property_value: STATO:0000663 "0.41" xsd:string
+
+[Term]
+id: CL:4037006
+name: NS forest marker set of cell (Human Lung).
+is_a: SO:0001260
+relationship: BFO:0000051 http://identifiers.org/ncbigene/11065
+relationship: BFO:0000051 http://identifiers.org/ncbigene/51203
+relationship: BFO:0000051 http://identifiers.org/ncbigene/6241
+relationship: BFO:0000051 http://identifiers.org/ncbigene/9768
+property_value: STATO:0000663 "0.26" xsd:string
+
+[Term]
 id: CLM:0000000
 name: root node
 

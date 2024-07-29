@@ -2,6 +2,7 @@
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/clm/clm-base.owl#"
      xml:base="http://purl.obolibrary.org/obo/clm/clm-base.owl"
      xmlns:dce="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -30,6 +31,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/STATO_0000663 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/STATO_0000663"/>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/type -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type"/>
@@ -38,19 +45,42 @@
 
     <!-- http://purl.org/dc/terms/description -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description">
+        <rdfs:label>description</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.org/dc/terms/license -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license">
+        <rdfs:label>license</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.org/dc/terms/title -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title">
+        <rdfs:label>title</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
     
 
 
@@ -65,11 +95,253 @@
     
 
 
+    <!-- http://identifiers.org/ncbigene/11065 -->
+
+    <owl:Class rdf:about="http://identifiers.org/ncbigene/11065"/>
+    
+
+
+    <!-- http://identifiers.org/ncbigene/2168 -->
+
+    <owl:Class rdf:about="http://identifiers.org/ncbigene/2168"/>
+    
+
+
+    <!-- http://identifiers.org/ncbigene/286133 -->
+
+    <owl:Class rdf:about="http://identifiers.org/ncbigene/286133"/>
+    
+
+
+    <!-- http://identifiers.org/ncbigene/3162 -->
+
+    <owl:Class rdf:about="http://identifiers.org/ncbigene/3162"/>
+    
+
+
+    <!-- http://identifiers.org/ncbigene/3248 -->
+
+    <owl:Class rdf:about="http://identifiers.org/ncbigene/3248"/>
+    
+
+
+    <!-- http://identifiers.org/ncbigene/4060 -->
+
+    <owl:Class rdf:about="http://identifiers.org/ncbigene/4060"/>
+    
+
+
+    <!-- http://identifiers.org/ncbigene/4481 -->
+
+    <owl:Class rdf:about="http://identifiers.org/ncbigene/4481"/>
+    
+
+
+    <!-- http://identifiers.org/ncbigene/51203 -->
+
+    <owl:Class rdf:about="http://identifiers.org/ncbigene/51203"/>
+    
+
+
+    <!-- http://identifiers.org/ncbigene/57124 -->
+
+    <owl:Class rdf:about="http://identifiers.org/ncbigene/57124"/>
+    
+
+
+    <!-- http://identifiers.org/ncbigene/6241 -->
+
+    <owl:Class rdf:about="http://identifiers.org/ncbigene/6241"/>
+    
+
+
+    <!-- http://identifiers.org/ncbigene/6374 -->
+
+    <owl:Class rdf:about="http://identifiers.org/ncbigene/6374"/>
+    
+
+
+    <!-- http://identifiers.org/ncbigene/79931 -->
+
+    <owl:Class rdf:about="http://identifiers.org/ncbigene/79931"/>
+    
+
+
+    <!-- http://identifiers.org/ncbigene/8639 -->
+
+    <owl:Class rdf:about="http://identifiers.org/ncbigene/8639"/>
+    
+
+
+    <!-- http://identifiers.org/ncbigene/9768 -->
+
+    <owl:Class rdf:about="http://identifiers.org/ncbigene/9768"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CLM_0000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_0000000">
         <rdfs:label xml:lang="en">root node</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4037001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4037001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001260"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/286133"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/57124"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:STATO_0000663>0.85</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of alveolar adventitial fibroblast (Human Lung).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4037002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4037002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001260"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/4060"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/8639"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:STATO_0000663>0.7</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of alveolar type 1 fibroblast cell (Human Lung).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4037003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4037003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001260"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/2168"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/4481"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:STATO_0000663>0.8</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of alveolar macrophage (Human Lung).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4037004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4037004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001260"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/6374"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/79931"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:STATO_0000663>0.67</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of CCL3-positive alveolar macrophage (Human Lung).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4037005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4037005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001260"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/3162"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/3248"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:STATO_0000663>0.41</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of metallothionein-positive alveolar macrophage (Human Lung).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4037006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4037006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001260"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/11065"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/51203"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/6241"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/9768"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:STATO_0000663>0.26</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of cell (Human Lung).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001260"/>
 </rdf:RDF>
 
 

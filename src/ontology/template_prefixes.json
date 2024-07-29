@@ -1,0 +1,6 @@
+{
+  "@context": {
+    "ensembl": "http://identifiers.org/ensembl/",
+    "ncbigene": "http://identifiers.org/ncbigene/"
+  }
+}

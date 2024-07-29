@@ -11,3 +11,8 @@ property_value: terms:title "Cell Markers Ontology" xsd:string
 id: CLM:0000000
 name: root node
 
+[Typedef]
+id: BFO:0000051
+name: has part
+is_transitive: true
+
