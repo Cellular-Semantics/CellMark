@@ -3,37 +3,47 @@ pattern_iri: http://purl.obolibrary.org/obo/cl/MarkersToCells.yaml
 description: "Adds marker sets to cell types logically and documentation"
 
 classes:
+  "cell": "CL:0000000"
   "thing": "owl:Thing"
   "Metazoa": "NCBITaxon:33208"
 
 relations:
   has part: "BFO:0000051"
-  has characterizing marker set: "RO:0015004"
-  present in taxon: "RO:0002175"
+  has_characterizing_marker_set: "RO:0015004"
+#  present in taxon: "RO:0002175"
+
+annotationProperties:
+  present_in_taxon: "RO:0002175"
 
 vars:
-  species: "'Metazoa'"
+  Cell_type: "'cell'"
+  Species: "'Metazoa'"
   has_characterization_set: "'thing'"
 
+list_vars:
+  Marker_set: "'sequence_feature'"
+
 data_vars:
-  Marker_set_xref: "xsd:string"
+#  Marker_set_xref: "xsd:string"
   Organ: "xsd:string"
   Species_abbv: "xsd:string"
   FBeta_confidence_score: "xsd:string"
-  Cell_type: "xsd:string"
+#  Cell_type: "xsd:string"
+
+data_list_vars:
+  Marker_set_xref: "xsd:string"
 
 internal_vars:
   - var_name: Minimal_markers_cat
-    input: Minimal_markers_label
+    input: Marker_set
     apply:
       join:
         sep: ', '
 
 logical_axioms:
   - axiom_type: subClassOf
-    text: "('present in taxon' some %s) and ('has characterizing marker set' some %s)"
+    text: "'has_characterizing_marker_set' some %s"
     vars:
-      - species
       - has_characterization_set
 
 comment:
@@ -45,3 +55,9 @@ comment:
     - Minimal_markers_cat
     - FBeta_confidence_score
   xrefs: Marker_set_xref
+
+#annotations:
+#  - annotationProperty: present_in_taxon
+#    text: "%s"
+#    vars:
+#      - Species

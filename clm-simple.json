@@ -13,17 +13,26 @@
         "val" : "Cell Markers Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2024-07-26"
+        "val" : "2024-07-29"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/clm/releases/2024-07-26/clm-simple.json"
+      "version" : "http://purl.obolibrary.org/obo/clm/releases/2024-07-29/clm-simple.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/CLM_0000000",
-      "lbl" : "root node",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000051",
       "lbl" : "has part",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "BFO:0000051"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "lbl" : "has characterizing marker set",
       "type" : "PROPERTY",
       "propertyType" : "OBJECT"
     }, {
@@ -43,6 +52,11 @@
     }, {
       "id" : "http://purl.org/dc/terms/title",
       "lbl" : "title",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+      "lbl" : "database_cross_reference",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     } ]

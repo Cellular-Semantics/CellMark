@@ -1,7 +1,7 @@
 defined_class	Cell_type	has_characterization_set	Marker_set	Organ	Species_abbv	Species	FBeta_confidence_score	Marker_set_xref
-CL:4028006	alveolar adventitial fibroblast	CL:4037001	SCARA5|CD248	Lung	Human	NCBITaxon:9606	0.85	
-CL:4028004	alveolar type 1 fibroblast cell	CL:4037002	AOC3|LUM	Lung	Human	NCBITaxon:9606	0.7	
-CL:0000583	alveolar macrophage	CL:4037003	MSR1|FABP4	Lung	Human	NCBITaxon:9606	0.8	
-CL:4033041	CCL3-positive alveolar macrophage	CL:4037004	TNIP3|CXCL5	Lung	Human	NCBITaxon:9606	0.67	
-CL:4033042	metallothionein-positive alveolar macrophage	CL:4037005	HMOX1|HPGD	Lung	Human	NCBITaxon:9606	0.41	
-CL:0000000	cell	CL:4037006	PCLAF|RRM2|UBE2C|NUSAP1	Lung	Human	NCBITaxon:9606	0.26	
+CL:4028006	CL:4028006	CL:4037001	SCARA5|CD248	Lung	Human	NCBITaxon:9606	0.85    	https://doi.org/10.5281/zenodo.11165918
+CL:4028004	CL:4028004	CL:4037002	AOC3|LUM	Lung	Human	NCBITaxon:9606	0.7 	https://doi.org/10.5281/zenodo.11165918
+CL:0000583	CL:0000583	CL:4037003	MSR1|FABP4	Lung	Human	NCBITaxon:9606	0.8 	https://doi.org/10.5281/zenodo.11165918
+CL:4033041	CL:4033041	CL:4037004	TNIP3|CXCL5	Lung	Human	NCBITaxon:9606	0.67    	https://doi.org/10.5281/zenodo.11165918
+CL:4033042	CL:4033042	CL:4037005	HMOX1|HPGD	Lung	Human	NCBITaxon:9606	0.41    	https://doi.org/10.5281/zenodo.11165918
+CL:0000000	CL:0000000	CL:4037006	PCLAF|RRM2|UBE2C|NUSAP1	Lung	Human	NCBITaxon:9606	0.26    	https://doi.org/10.5281/zenodo.11165918

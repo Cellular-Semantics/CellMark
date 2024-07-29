@@ -29,7 +29,7 @@ def generate_nsforest_markers_template(output_filepath: str):
             "Species_abbv": row["Species_abbv"],
             "Organ_region": row["Organ_region"],
             "Parent": row["Parent"],
-            "FBeta_confidence_score": row["FBeta_confidence_score"]
+            "FBeta_confidence_score": row["FBeta_confidence_score"],
         })
 
     class_robot_template = pd.DataFrame.from_records(class_template)
@@ -42,13 +42,13 @@ def generate_markers_to_cells_template(output_filepath: str):
     Args:
         output_filepath: output file path
     """
-    cl_ontology = _init_graph(CL_URL)
+    # cl_ontology = _init_graph(CL_URL)
     source = read_table_to_dict(MARKERS_SOURCE_PATH)
     class_template = []
     for row in source:
         class_template.append({
             "defined_class": row["class"],
-            "Cell_type": get_cl_label(cl_ontology, row["class"]),
+            "Cell_type": row["class"],
             "has_characterization_set": row["Marker_set"],
             "Marker_set": row["Minimal_markers_label"],
             "Organ": row["Organ"],
@@ -97,6 +97,7 @@ def extract_gene_terms(output_filepath: str = None):
     Extracts gene terms from the source markers template.
     Args:
         output_filepath: output file path
+    Returns: set of gene term ids
     """
     template = read_table_to_dict(MARKERS_SOURCE_PATH)
     gene_terms = set()
@@ -116,6 +117,7 @@ if __name__ == "__main__":
 
     parser_generate = subparsers.add_parser("generate", description="Template generator")
     parser_generate.add_argument("-t", "--template", type=str, help="Name of the template to generate")
+    parser_generate.add_argument("-a", "--agreed", action="store_true", help="Generate only the CL agreed markers")
     parser_generate.add_argument("-o", "--out", type=str, help="Output file path")
 
     parser_terms = subparsers.add_parser("terms", description="Template terms extractor")

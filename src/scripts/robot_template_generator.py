@@ -2,7 +2,6 @@ import os
 import argparse
 
 import pandas as pd
-import anndata as ad
 
 from dosdp_template_generator import extract_gene_terms
 from file_utils import read_table_to_dict
@@ -19,6 +18,8 @@ def extract_genes_from_anndata(anndata_path, gene_name_column, prefix, output_pa
         prefix: prefix for the gene IDs (such as ensembl or ncbigene).
         output_path: path to the output file.
     """
+    import anndata as ad  # Importing anndata here to avoid unnecessary dependency in the main script that cause ODK failure
+
     if os.path.exists(anndata_path):
         anndata = ad.read_h5ad(anndata_path)
     elif os.path.exists(SHARED_DRIVE):
@@ -37,14 +38,26 @@ def extract_genes_from_anndata(anndata_path, gene_name_column, prefix, output_pa
 
 
 def generate_genes_robot_template(input_files: list, output_filepath: str):
+    robot_template_seed = {'ID': 'ID',
+                           'TYPE': 'SC %',
+                           'NAME': 'A rdfs:label',
+                           'SYNONYMS': 'A oboInOwl:hasExactSynonym SPLIT=|'
+                           }
+    dl = [robot_template_seed]
+
     used_genes = extract_gene_terms()
-    gene_subset = []
+    found_genes = []
     for input_file in input_files:
         records = read_table_to_dict(input_file)
         for record in records:
-            if record['ID'] in used_genes:
-                gene_subset.append(record)
-    df = pd.DataFrame(gene_subset, columns=["ID", "TYPE", "NAME", "SYNONYMS"])
+            if record['ID'] in used_genes and record['ID'] not in found_genes:
+                dl.append(record)
+                found_genes.append(record['ID'])
+    missing_genes = used_genes - set(found_genes)
+    if missing_genes:
+        print(f"Missing genes: {missing_genes}")
+        raise ValueError(f"Following genes couldn't be found in the reference DBs: {missing_genes}")
+    df = pd.DataFrame(dl)
     df.to_csv(output_filepath, sep="\t", index=False)
 
 

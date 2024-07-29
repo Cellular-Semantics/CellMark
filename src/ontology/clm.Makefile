@@ -14,9 +14,8 @@ SOURCE_TABLE = $(MARKERSDIR)/NSForestMarkersSource.tsv
 GENE_LIST = LungMAP LungCellAtlas
 GENE_TABLES = $(patsubst %, $(TEMPLATESDIR)/%.tsv, $(GENE_LIST))
 GENE_TEMPLATE = $(TEMPLATESDIR)/genes.tsv
-GENE_IMPORT_MODULE = $(MIRRORDIR)/genes.owl
 
-LOCAL_CLEAN_FILES = $(GENE_IMPORT_MODULE) $(GENE_TEMPLATE)
+LOCAL_CLEAN_FILES = $(GENE_TEMPLATE)
 
 # clean previous build files
 .PHONY: clean_files
@@ -26,11 +25,12 @@ clean_files:
 $(GENE_TEMPLATE): $(GENE_TABLES)
 	python $(SCRIPTSDIR)/robot_template_generator.py genes $(patsubst %, -i %, $^) --out $@
 
-$(GENE_IMPORT_MODULE): $(GENE_TEMPLATE)
+$(MIRRORDIR)/genes.owl: $(GENE_TEMPLATE)
 	$(ROBOT) template --input $(SRC) --template $< --add-prefixes template_prefixes.json --output $@
 
-$(COMPONENTSDIR)/all_templates.owl: clean_files $(SRC) $(GENE_IMPORT_MODULE)
-	$(ROBOT) merge --input $(SRC) --input $(GENE_IMPORT_MODULE) --output $@
+$(COMPONENTSDIR)/all_templates.owl: clean_files
+	#$(ROBOT) merge --input $(SRC) --input $(GENE_IMPORT_MODULE) --output $@
+	echo "Templates ready"
 
 .PRECIOUS: $(COMPONENTSDIR)/all_templates.owl
 

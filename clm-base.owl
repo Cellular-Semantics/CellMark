@@ -8,14 +8,15 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:dcterms="http://purl.org/dc/terms/">
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/clm/clm-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/clm/releases/2024-07-26/clm-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/clm/releases/2024-07-29/clm-base.owl"/>
         <dce:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <dcterms:description>None</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <dcterms:title>Cell Markers Ontology</dcterms:title>
-        <owl:versionInfo>2024-07-26</owl:versionInfo>
+        <owl:versionInfo>2024-07-29</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -67,6 +68,12 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -84,6 +91,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0015004 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0015004">
+        <rdfs:label>has characterizing marker set</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -95,95 +110,213 @@
     
 
 
-    <!-- http://identifiers.org/ncbigene/11065 -->
+    <!-- http://identifiers.org/ensembl/ENSG00000038945 -->
 
-    <owl:Class rdf:about="http://identifiers.org/ncbigene/11065"/>
+    <owl:Class rdf:about="http://identifiers.org/ensembl/ENSG00000038945"/>
     
 
 
-    <!-- http://identifiers.org/ncbigene/2168 -->
+    <!-- http://identifiers.org/ensembl/ENSG00000050730 -->
 
-    <owl:Class rdf:about="http://identifiers.org/ncbigene/2168"/>
+    <owl:Class rdf:about="http://identifiers.org/ensembl/ENSG00000050730"/>
     
 
 
-    <!-- http://identifiers.org/ncbigene/286133 -->
+    <!-- http://identifiers.org/ensembl/ENSG00000100292 -->
 
-    <owl:Class rdf:about="http://identifiers.org/ncbigene/286133"/>
+    <owl:Class rdf:about="http://identifiers.org/ensembl/ENSG00000100292"/>
     
 
 
-    <!-- http://identifiers.org/ncbigene/3162 -->
+    <!-- http://identifiers.org/ensembl/ENSG00000131471 -->
 
-    <owl:Class rdf:about="http://identifiers.org/ncbigene/3162"/>
+    <owl:Class rdf:about="http://identifiers.org/ensembl/ENSG00000131471"/>
     
 
 
-    <!-- http://identifiers.org/ncbigene/3248 -->
+    <!-- http://identifiers.org/ensembl/ENSG00000137804 -->
 
-    <owl:Class rdf:about="http://identifiers.org/ncbigene/3248"/>
+    <owl:Class rdf:about="http://identifiers.org/ensembl/ENSG00000137804"/>
     
 
 
-    <!-- http://identifiers.org/ncbigene/4060 -->
+    <!-- http://identifiers.org/ensembl/ENSG00000139329 -->
 
-    <owl:Class rdf:about="http://identifiers.org/ncbigene/4060"/>
+    <owl:Class rdf:about="http://identifiers.org/ensembl/ENSG00000139329"/>
     
 
 
-    <!-- http://identifiers.org/ncbigene/4481 -->
+    <!-- http://identifiers.org/ensembl/ENSG00000163735 -->
 
-    <owl:Class rdf:about="http://identifiers.org/ncbigene/4481"/>
+    <owl:Class rdf:about="http://identifiers.org/ensembl/ENSG00000163735"/>
     
 
 
-    <!-- http://identifiers.org/ncbigene/51203 -->
+    <!-- http://identifiers.org/ensembl/ENSG00000164120 -->
 
-    <owl:Class rdf:about="http://identifiers.org/ncbigene/51203"/>
+    <owl:Class rdf:about="http://identifiers.org/ensembl/ENSG00000164120"/>
     
 
 
-    <!-- http://identifiers.org/ncbigene/57124 -->
+    <!-- http://identifiers.org/ensembl/ENSG00000166803 -->
 
-    <owl:Class rdf:about="http://identifiers.org/ncbigene/57124"/>
+    <owl:Class rdf:about="http://identifiers.org/ensembl/ENSG00000166803"/>
     
 
 
-    <!-- http://identifiers.org/ncbigene/6241 -->
+    <!-- http://identifiers.org/ensembl/ENSG00000168079 -->
 
-    <owl:Class rdf:about="http://identifiers.org/ncbigene/6241"/>
+    <owl:Class rdf:about="http://identifiers.org/ensembl/ENSG00000168079"/>
     
 
 
-    <!-- http://identifiers.org/ncbigene/6374 -->
+    <!-- http://identifiers.org/ensembl/ENSG00000170323 -->
 
-    <owl:Class rdf:about="http://identifiers.org/ncbigene/6374"/>
+    <owl:Class rdf:about="http://identifiers.org/ensembl/ENSG00000170323"/>
     
 
 
-    <!-- http://identifiers.org/ncbigene/79931 -->
+    <!-- http://identifiers.org/ensembl/ENSG00000171848 -->
 
-    <owl:Class rdf:about="http://identifiers.org/ncbigene/79931"/>
+    <owl:Class rdf:about="http://identifiers.org/ensembl/ENSG00000171848"/>
     
 
 
-    <!-- http://identifiers.org/ncbigene/8639 -->
+    <!-- http://identifiers.org/ensembl/ENSG00000174807 -->
 
-    <owl:Class rdf:about="http://identifiers.org/ncbigene/8639"/>
+    <owl:Class rdf:about="http://identifiers.org/ensembl/ENSG00000174807"/>
     
 
 
-    <!-- http://identifiers.org/ncbigene/9768 -->
+    <!-- http://identifiers.org/ensembl/ENSG00000175063 -->
 
-    <owl:Class rdf:about="http://identifiers.org/ncbigene/9768"/>
+    <owl:Class rdf:about="http://identifiers.org/ensembl/ENSG00000175063"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLM_0000000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_0000000">
-        <rdfs:label xml:lang="en">root node</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_0000000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015004"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_4037006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A cell in the Human Lung has the gene markers PCLAF, RRM2, UBE2C, NUSAP1 with a NS-Forest FBeta value of 0.26.</rdfs:comment>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>A cell in the Human Lung has the gene markers PCLAF, RRM2, UBE2C, NUSAP1 with a NS-Forest FBeta value of 0.26.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://doi.org/10.5281/zenodo.11165918</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000583 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000583">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015004"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_4037003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A alveolar macrophage in the Human Lung has the gene markers MSR1, FABP4 with a NS-Forest FBeta value of 0.8.</rdfs:comment>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000583"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>A alveolar macrophage in the Human Lung has the gene markers MSR1, FABP4 with a NS-Forest FBeta value of 0.8.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://doi.org/10.5281/zenodo.11165918</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4028004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4028004">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015004"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_4037002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A alveolar type 1 fibroblast cell in the Human Lung has the gene markers AOC3, LUM with a NS-Forest FBeta value of 0.7.</rdfs:comment>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_4028004"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>A alveolar type 1 fibroblast cell in the Human Lung has the gene markers AOC3, LUM with a NS-Forest FBeta value of 0.7.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://doi.org/10.5281/zenodo.11165918</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4028006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4028006">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015004"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_4037001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A alveolar adventitial fibroblast in the Human Lung has the gene markers SCARA5, CD248 with a NS-Forest FBeta value of 0.85.</rdfs:comment>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_4028006"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>A alveolar adventitial fibroblast in the Human Lung has the gene markers SCARA5, CD248 with a NS-Forest FBeta value of 0.85.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://doi.org/10.5281/zenodo.11165918</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4033041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4033041">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015004"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_4037004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A CCL3-positive alveolar macrophage in the Human Lung has the gene markers TNIP3, CXCL5 with a NS-Forest FBeta value of 0.67.</rdfs:comment>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_4033041"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>A CCL3-positive alveolar macrophage in the Human Lung has the gene markers TNIP3, CXCL5 with a NS-Forest FBeta value of 0.67.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://doi.org/10.5281/zenodo.11165918</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4033042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4033042">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015004"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_4037005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A metallothionein-positive alveolar macrophage in the Human Lung has the gene markers HMOX1, HPGD with a NS-Forest FBeta value of 0.41.</rdfs:comment>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_4033042"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>A metallothionein-positive alveolar macrophage in the Human Lung has the gene markers HMOX1, HPGD with a NS-Forest FBeta value of 0.41.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://doi.org/10.5281/zenodo.11165918</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -196,11 +329,11 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/286133"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000168079"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/57124"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000174807"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -220,11 +353,11 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/4060"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000131471"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/8639"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000139329"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -244,11 +377,11 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/2168"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000038945"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/4481"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000170323"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -268,11 +401,11 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/6374"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000050730"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/79931"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000163735"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -292,11 +425,11 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/3162"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000100292"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/3248"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000164120"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -316,19 +449,19 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/11065"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000137804"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/51203"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000166803"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/6241"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000171848"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/9768"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000175063"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>

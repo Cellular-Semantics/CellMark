@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                1075a01896dd9209d91e074ab93b98c01de3e912d0178ad0e8ce9fe89cb1c2bf
+CONFIG_HASH=                da84ed40be50b0eaa48e4a56d548e2317e4cb084c693fd39a508716dc330c2dc
 
 
 # ----------------------------------------
@@ -164,7 +164,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  cl uberon ncbitaxon go so
+IMPORTS =  cl uberon ncbitaxon go so genes
 
 IMPORT_ROOTS =  $(IMPORTDIR)/merged_import
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -494,6 +494,14 @@ mirror-go: | $(TMPDIR)
 mirror-so: | $(TMPDIR)
 	curl -L $(OBOBASE)/so.owl --create-dirs -o $(TMPDIR)/so-download.owl --retry 4 --max-time 400 && \
 	$(ROBOT) remove -i $(TMPDIR)/so-download.owl --base-iri $(OBOBASE)/SO --axioms external --preserve-structure false --trim false -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: genes
+.PHONY: mirror-genes
+.PRECIOUS: $(MIRRORDIR)/genes.owl
+mirror-genes: | $(TMPDIR)
+	curl -L $(OBOBASE)/genes.owl --create-dirs -o $(TMPDIR)/genes-download.owl --retry 4 --max-time 400 && \
+	$(ROBOT) remove -i $(TMPDIR)/genes-download.owl --base-iri $(OBOBASE)/GENES --axioms external --preserve-structure false --trim false -o $(TMPDIR)/$@.owl
 
 ALL_MIRRORS = $(patsubst %, $(MIRRORDIR)/%.owl, $(IMPORTS))
 MERGE_MIRRORS = true

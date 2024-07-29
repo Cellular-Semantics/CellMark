@@ -16,56 +16,91 @@
         "val" : "Cell Markers Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2024-07-26"
+        "val" : "2024-07-29"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/clm/releases/2024-07-26/clm-base.json"
+      "version" : "http://purl.obolibrary.org/obo/clm/releases/2024-07-29/clm-base.json"
     },
     "nodes" : [ {
-      "id" : "http://identifiers.org/ncbigene/11065",
+      "id" : "http://identifiers.org/ensembl/ENSG00000038945",
       "type" : "CLASS"
     }, {
-      "id" : "http://identifiers.org/ncbigene/2168",
+      "id" : "http://identifiers.org/ensembl/ENSG00000050730",
       "type" : "CLASS"
     }, {
-      "id" : "http://identifiers.org/ncbigene/286133",
+      "id" : "http://identifiers.org/ensembl/ENSG00000100292",
       "type" : "CLASS"
     }, {
-      "id" : "http://identifiers.org/ncbigene/3162",
+      "id" : "http://identifiers.org/ensembl/ENSG00000131471",
       "type" : "CLASS"
     }, {
-      "id" : "http://identifiers.org/ncbigene/3248",
+      "id" : "http://identifiers.org/ensembl/ENSG00000137804",
       "type" : "CLASS"
     }, {
-      "id" : "http://identifiers.org/ncbigene/4060",
+      "id" : "http://identifiers.org/ensembl/ENSG00000139329",
       "type" : "CLASS"
     }, {
-      "id" : "http://identifiers.org/ncbigene/4481",
+      "id" : "http://identifiers.org/ensembl/ENSG00000163735",
       "type" : "CLASS"
     }, {
-      "id" : "http://identifiers.org/ncbigene/51203",
+      "id" : "http://identifiers.org/ensembl/ENSG00000164120",
       "type" : "CLASS"
     }, {
-      "id" : "http://identifiers.org/ncbigene/57124",
+      "id" : "http://identifiers.org/ensembl/ENSG00000166803",
       "type" : "CLASS"
     }, {
-      "id" : "http://identifiers.org/ncbigene/6241",
+      "id" : "http://identifiers.org/ensembl/ENSG00000168079",
       "type" : "CLASS"
     }, {
-      "id" : "http://identifiers.org/ncbigene/6374",
+      "id" : "http://identifiers.org/ensembl/ENSG00000170323",
       "type" : "CLASS"
     }, {
-      "id" : "http://identifiers.org/ncbigene/79931",
+      "id" : "http://identifiers.org/ensembl/ENSG00000171848",
       "type" : "CLASS"
     }, {
-      "id" : "http://identifiers.org/ncbigene/8639",
+      "id" : "http://identifiers.org/ensembl/ENSG00000174807",
       "type" : "CLASS"
     }, {
-      "id" : "http://identifiers.org/ncbigene/9768",
+      "id" : "http://identifiers.org/ensembl/ENSG00000175063",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_0000000",
-      "lbl" : "root node",
       "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000000",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "A cell in the Human Lung has the gene markers PCLAF, RRM2, UBE2C, NUSAP1 with a NS-Forest FBeta value of 0.26." ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000583",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "A alveolar macrophage in the Human Lung has the gene markers MSR1, FABP4 with a NS-Forest FBeta value of 0.8." ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_4028004",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "A alveolar type 1 fibroblast cell in the Human Lung has the gene markers AOC3, LUM with a NS-Forest FBeta value of 0.7." ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_4028006",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "A alveolar adventitial fibroblast in the Human Lung has the gene markers SCARA5, CD248 with a NS-Forest FBeta value of 0.85." ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_4033041",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "A CCL3-positive alveolar macrophage in the Human Lung has the gene markers TNIP3, CXCL5 with a NS-Forest FBeta value of 0.67." ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_4033042",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "A metallothionein-positive alveolar macrophage in the Human Lung has the gene markers HMOX1, HPGD with a NS-Forest FBeta value of 0.41." ]
+      }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_4037001",
       "lbl" : "NS forest marker set of alveolar adventitial fibroblast (Human Lung).",
@@ -134,6 +169,11 @@
       "type" : "PROPERTY",
       "propertyType" : "OBJECT"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "lbl" : "has characterizing marker set",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/STATO_0000663",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
@@ -156,8 +196,36 @@
       "lbl" : "title",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
     } ],
     "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000000",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CL_4037006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000583",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CL_4037003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_4028004",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CL_4037002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_4028006",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CL_4037001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_4033041",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CL_4037004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_4033042",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CL_4037005"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_4037001",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
