@@ -1,7 +1,7 @@
 class	Cell_type	Marker_set	Minimal_markers	Minimal_markers_label	Organ	Species	Species_abbv	Organ_region	Parent	FBeta_confidence_score	Marker_set_xref
-CL:4028006	alveolar type 2 fibroblast cell	CL:4037001	ncbigene:286133|ncbigene:57124	SCARA5|CD248	Lung	NCBITaxon:9606	Human	UBERON:0002048	SO:0001260	0.85
-CL:4028004	alveolar type 1 fibroblast cell	CL:4037002	ncbigene:8639|ncbigene:4060	AOC3|LUM	Lung	NCBITaxon:9606	Human	UBERON:0002048	SO:0001260	0.7
-CL:0000583	alveolar macrophage	CL:4037003	ncbigene:4481|ncbigene:2168	MSR1|FABP4	Lung	NCBITaxon:9606	Human	UBERON:0002048	SO:0001260	0.8
-CL:4033041	CCL3-positive alveolar macrophage	CL:4037004	ncbigene:79931|ncbigene:6374	TNIP3|CXCL5	Lung	NCBITaxon:9606	Human	UBERON:0002048	SO:0001260	0.67
-CL:4033042	metallothionein-positive alveolar macrophage	CL:4037005	ncbigene:3162|ncbigene:3248	HMOX1|HPGD	Lung	NCBITaxon:9606	Human	UBERON:0002048	SO:0001260	0.41
-CL:0000000	cell	CL:4037006	ncbigene:9768|ncbigene:6241|ncbigene:11065|ncbigene:51203	PCLAF|RRM2|UBE2C|NUSAP1	Lung	NCBITaxon:9606	Human	UBERON:0002048	SO:0001260	0.26
+CL:4028006	alveolar type 2 fibroblast cell	CL:4037001	ncbigene:286133|ncbigene:57124	SCARA5|CD248	Lung	NCBITaxon:9606	Human	UBERON:0002048	SO:0001260	0.85    
+CL:4028004	alveolar type 1 fibroblast cell	CL:4037002	ncbigene:8639|ncbigene:4060	AOC3|LUM	Lung	NCBITaxon:9606	Human	UBERON:0002048	SO:0001260	0.7 
+CL:0000583	alveolar macrophage	CL:4037003	ncbigene:4481|ncbigene:2168	MSR1|FABP4	Lung	NCBITaxon:9606	Human	UBERON:0002048	SO:0001260	0.8 
+CL:4033041	CCL3-positive alveolar macrophage	CL:4037004	ncbigene:79931|ncbigene:6374	TNIP3|CXCL5	Lung	NCBITaxon:9606	Human	UBERON:0002048	SO:0001260	0.67    
+CL:4033042	metallothionein-positive alveolar macrophage	CL:4037005	ncbigene:3162|ncbigene:3248	HMOX1|HPGD	Lung	NCBITaxon:9606	Human	UBERON:0002048	SO:0001260	0.41    
+CL:0000000	cell	CL:4037006	ncbigene:9768|ncbigene:6241|ncbigene:11065|ncbigene:51203	PCLAF|RRM2|UBE2C|NUSAP1	Lung	NCBITaxon:9606	Human	UBERON:0002048	SO:0001260	0.26    
