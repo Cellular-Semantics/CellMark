@@ -2,19 +2,19 @@
 ## 
 ## If you need to customize your Makefile, make
 ## changes here rather than in the main Makefile
-MARKERSDIR = $(SRC)/markers
-TEMPLATESDIR = $(SRC)/templates
 
-PYTHON_REQUIREMENTS = $(RELEASEDIR)/requirements.txt
+## NOTE: This make file depends on the output of the ../markers/Makefile
+## Run it first to prepare the necessary gene template files from scratch if needed
+
+MARKERSDIR = ../markers
+TEMPLATESDIR = ../templates
 
 SOURCE_TABLE = $(MARKERSDIR)/NSForestMarkersSource.tsv
 
 GENE_LIST = LungMAP LungCellAtlas
-GENE_TABLES = $(patsubst %, $(MIRRORDIR)/%.tsv, $(GENE_LIST))
-#GENE_ONTS = $(patsubst %, $(MIRRORDIR)/%.owl, $(GENE_LIST))
+GENE_TABLES = $(patsubst %, $(TEMPLATESDIR)/%.tsv, $(GENE_LIST))
 GENE_TEMPLATE = $(TEMPLATESDIR)/genes.tsv
-GENE_IMPORT_MODULE = $(IMPORTDIR)/genes.owl
-#GENE_TERMS = $(TMPDIR)/gene_terms.txt
+GENE_IMPORT_MODULE = $(MIRRORDIR)/genes.owl
 
 LOCAL_CLEAN_FILES = $(GENE_IMPORT_MODULE) $(GENE_TEMPLATE)
 
@@ -22,16 +22,6 @@ LOCAL_CLEAN_FILES = $(GENE_IMPORT_MODULE) $(GENE_TEMPLATE)
 .PHONY: clean_files
 clean_files:
 	rm -f $(LOCAL_CLEAN_FILES)
-
-.PHONY: install_requirements
-install_requirements: $(PYTHON_REQUIREMENTS)
-	pip install -r $<
-
-$(MIRRORDIR)/LungMAP.tsv: install_requirements
-	python $(SCRIPTSDIR)/robot_template_generator.py anndata --anndata 8bcc7ef5-f08e-49fc-824f-ced6d951138a.h5ad --namecolumn origSymbol --prefix ensembl --out $@
-
-$(MIRRORDIR)/LungCellAtlas.tsv: install_requirements
-	python $(SCRIPTSDIR)/robot_template_generator.py anndata --anndata 8d84ba15-d367-4dce-979c-85da70b868a2.h5ad --prefix ncbigene --out $@
 
 $(GENE_TEMPLATE): $(GENE_TABLES)
 	python $(SCRIPTSDIR)/robot_template_generator.py genes $(patsubst %, -i %, $^) --out $@

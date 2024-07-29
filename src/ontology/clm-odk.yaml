@@ -39,6 +39,8 @@ import_group:
         - http://purl.obolibrary.org/obo/GOCHE_
     - id: so
       make_base: TRUE
+    - id: genes
+      make_base: TRUE
 
 components:
   products:

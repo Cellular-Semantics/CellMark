@@ -33,7 +33,7 @@ def extract_genes_from_anndata(anndata_path, gene_name_column, prefix, output_pa
         records.append(data)
 
     df = pd.DataFrame(records, columns=["ID", "TYPE", "NAME", "SYNONYMS"])
-    df.to_csv(output_path, sep="\t")
+    df.to_csv(output_path, sep="\t", index=False)
 
 
 def generate_genes_robot_template(input_files: list, output_filepath: str):
@@ -45,7 +45,7 @@ def generate_genes_robot_template(input_files: list, output_filepath: str):
             if record['ID'] in used_genes:
                 gene_subset.append(record)
     df = pd.DataFrame(gene_subset, columns=["ID", "TYPE", "NAME", "SYNONYMS"])
-    df.to_csv(output_filepath, sep="\t")
+    df.to_csv(output_filepath, sep="\t", index=False)
 
 
 if __name__ == "__main__":
