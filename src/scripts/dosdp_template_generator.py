@@ -10,16 +10,19 @@ MARKERS_SOURCE_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)), 
 CL_URL = "https://raw.githubusercontent.com/obophenotype/cell-ontology/master/cl-base.owl"
 
 
-def generate_nsforest_markers_template(output_filepath: str):
+def generate_nsforest_markers_template(agreed: bool, output_filepath: str):
     """
     Generates a template for NSForestMarkers pattern.
     Args:
+        agreed: generate only the agreed markers
         output_filepath: output file path
     """
     cl_ontology = _init_graph(CL_URL)
     source = read_table_to_dict(MARKERS_SOURCE_PATH)
     class_template = []
     for row in source:
+        if agreed and str(row.get("CL_agreed", "false")).strip().lower() != "true":
+            continue
         class_template.append({
             "defined_class": row["Marker_set"],
             "Marker_set_of": get_cl_label(cl_ontology, row["class"]),
@@ -36,16 +39,19 @@ def generate_nsforest_markers_template(output_filepath: str):
     class_robot_template.to_csv(output_filepath, sep="\t", index=False)
 
 
-def generate_markers_to_cells_template(output_filepath: str):
+def generate_markers_to_cells_template(agreed: bool, output_filepath: str):
     """
     Generates a template for MarkersToCells pattern.
     Args:
+        agreed: generate only the agreed markers
         output_filepath: output file path
     """
     # cl_ontology = _init_graph(CL_URL)
     source = read_table_to_dict(MARKERS_SOURCE_PATH)
     class_template = []
     for row in source:
+        if agreed and str(row.get("CL_agreed", "false")).strip().lower() != "true":
+            continue
         class_template.append({
             "defined_class": row["class"],
             "Cell_type": row["class"],
@@ -119,6 +125,7 @@ if __name__ == "__main__":
     parser_generate.add_argument("-t", "--template", type=str, help="Name of the template to generate")
     parser_generate.add_argument("-a", "--agreed", action="store_true", help="Generate only the CL agreed markers")
     parser_generate.add_argument("-o", "--out", type=str, help="Output file path")
+    parser_generate.set_defaults(agreed=False)
 
     parser_terms = subparsers.add_parser("terms", description="Template terms extractor")
     parser_terms.add_argument("-o", "--out", type=str, help="Output file path")
@@ -127,9 +134,9 @@ if __name__ == "__main__":
 
     if args.action == "generate":
         if args.template == "NSForestMarkers":
-            generate_nsforest_markers_template(args.out)
+            generate_nsforest_markers_template(args.agreed, args.out)
         elif args.template == "MarkersToCells":
-            generate_markers_to_cells_template(args.out)
+            generate_markers_to_cells_template(args.agreed, args.out)
         else:
             print("Invalid template name: {}".format(args.template))
             exit(1)

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: clm/releases/2024-07-29/clm-base.owl
+data-version: clm/releases/2024-07-30/clm-base.owl
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
@@ -8,12 +8,7 @@ property_value: dce:type IAO:8000001
 property_value: dcterms:description "None" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/unspecified
 property_value: dcterms:title "Cell Markers Ontology" xsd:string
-property_value: owl:versionInfo "2024-07-29" xsd:string
-
-[Term]
-id: CL:0000000
-comment: A cell in the Human Lung has the gene markers PCLAF, RRM2, UBE2C, NUSAP1 with a NS-Forest FBeta value of 0.26. {xref="https://doi.org/10.5281/zenodo.11165918"}
-relationship: RO:0015004 CL:4037006 ! has characterizing marker set NS forest marker set of cell (Human Lung).
+property_value: owl:versionInfo "2024-07-30" xsd:string
 
 [Term]
 id: CL:0000583
@@ -79,16 +74,6 @@ is_a: SO:0001260
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000100292
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000164120
 property_value: STATO:0000663 "0.41" xsd:string
-
-[Term]
-id: CL:4037006
-name: NS forest marker set of cell (Human Lung).
-is_a: SO:0001260
-relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137804
-relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000166803
-relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000171848
-relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000175063
-property_value: STATO:0000663 "0.26" xsd:string
 
 [Typedef]
 id: RO:0015004

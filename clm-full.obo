@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: clm/releases/2024-07-29/clm-full.owl
+data-version: clm/releases/2024-07-30/clm-full.owl
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
@@ -7,7 +7,7 @@ ontology: clm/clm-full
 property_value: dcterms:description "None" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/unspecified
 property_value: dcterms:title "Cell Markers Ontology" xsd:string
-property_value: owl:versionInfo "2024-07-29" xsd:string
+property_value: owl:versionInfo "2024-07-30" xsd:string
 
 [Term]
 id: CHEBI:24431
@@ -21,7 +21,6 @@ equivalent_to: PR:000000001
 id: CL:0000000
 name: cell
 def: "A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane." [CARO:mah]
-comment: A cell in the Human Lung has the gene markers PCLAF, RRM2, UBE2C, NUSAP1 with a NS-Forest FBeta value of 0.26. {xref="https://doi.org/10.5281/zenodo.11165918"}
 comment: The definition of cell is intended to represent all cells, and thus a cell is defined as a material entity and not an anatomical structure, which implies that it is part of an organism (or the entirety of one).
 xref: CALOHA:TS-2035
 xref: FMA:68646
@@ -38,7 +37,6 @@ disjoint_from: GO:0043226 ! organelle
 relationship: BFO:0000051 GO:0005634 {gci_filler="PATO:0001407", gci_relation="RO:0000053"} ! has part nucleus
 relationship: BFO:0000051 GO:0005634 {gci_filler="PATO:0001908", gci_relation="RO:0000053"} ! has part nucleus
 relationship: RO:0002160 NCBITaxon:131567 ! cellular organisms
-relationship: RO:0015004 CL:4037006 ! has characterizing marker set NS forest marker set of cell (Human Lung).
 
 [Term]
 id: CL:0000005
@@ -6269,16 +6267,6 @@ is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000100292 ! has part HMOX1
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000164120 ! has part HPGD
 property_value: STATO:0000663 "0.41" xsd:string
-
-[Term]
-id: CL:4037006
-name: NS forest marker set of cell (Human Lung).
-is_a: SO:0001260 ! sequence_collection
-relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137804 ! has part NUSAP1
-relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000166803 ! has part PCLAF
-relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000171848 ! has part RRM2
-relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000175063 ! has part UBE2C
-property_value: STATO:0000663 "0.26" xsd:string
 
 [Term]
 id: CL:4040003
@@ -69911,11 +69899,6 @@ name: AOC3
 is_a: SO:0000704 ! gene
 
 [Term]
-id: http://identifiers.org/ensembl/ENSG00000137804
-name: NUSAP1
-is_a: SO:0000704 ! gene
-
-[Term]
 id: http://identifiers.org/ensembl/ENSG00000139329
 name: LUM
 is_a: SO:0000704 ! gene
@@ -69931,11 +69914,6 @@ name: HPGD
 is_a: SO:0000704 ! gene
 
 [Term]
-id: http://identifiers.org/ensembl/ENSG00000166803
-name: PCLAF
-is_a: SO:0000704 ! gene
-
-[Term]
 id: http://identifiers.org/ensembl/ENSG00000168079
 name: SCARA5
 is_a: SO:0000704 ! gene
@@ -69946,18 +69924,8 @@ name: FABP4
 is_a: SO:0000704 ! gene
 
 [Term]
-id: http://identifiers.org/ensembl/ENSG00000171848
-name: RRM2
-is_a: SO:0000704 ! gene
-
-[Term]
 id: http://identifiers.org/ensembl/ENSG00000174807
 name: CD248
-is_a: SO:0000704 ! gene
-
-[Term]
-id: http://identifiers.org/ensembl/ENSG00000175063
-name: UBE2C
 is_a: SO:0000704 ! gene
 
 [Typedef]

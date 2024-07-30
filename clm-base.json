@@ -16,9 +16,9 @@
         "val" : "Cell Markers Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2024-07-29"
+        "val" : "2024-07-30"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/clm/releases/2024-07-29/clm-base.json"
+      "version" : "http://purl.obolibrary.org/obo/clm/releases/2024-07-30/clm-base.json"
     },
     "nodes" : [ {
       "id" : "http://identifiers.org/ensembl/ENSG00000038945",
@@ -33,9 +33,6 @@
       "id" : "http://identifiers.org/ensembl/ENSG00000131471",
       "type" : "CLASS"
     }, {
-      "id" : "http://identifiers.org/ensembl/ENSG00000137804",
-      "type" : "CLASS"
-    }, {
       "id" : "http://identifiers.org/ensembl/ENSG00000139329",
       "type" : "CLASS"
     }, {
@@ -45,32 +42,17 @@
       "id" : "http://identifiers.org/ensembl/ENSG00000164120",
       "type" : "CLASS"
     }, {
-      "id" : "http://identifiers.org/ensembl/ENSG00000166803",
-      "type" : "CLASS"
-    }, {
       "id" : "http://identifiers.org/ensembl/ENSG00000168079",
       "type" : "CLASS"
     }, {
       "id" : "http://identifiers.org/ensembl/ENSG00000170323",
       "type" : "CLASS"
     }, {
-      "id" : "http://identifiers.org/ensembl/ENSG00000171848",
-      "type" : "CLASS"
-    }, {
       "id" : "http://identifiers.org/ensembl/ENSG00000174807",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://identifiers.org/ensembl/ENSG00000175063",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_0000000",
       "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_0000000",
-      "type" : "CLASS",
-      "meta" : {
-        "comments" : [ "A cell in the Human Lung has the gene markers PCLAF, RRM2, UBE2C, NUSAP1 with a NS-Forest FBeta value of 0.26." ]
-      }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_0000583",
       "type" : "CLASS",
@@ -152,16 +134,6 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_4037006",
-      "lbl" : "NS forest marker set of cell (Human Lung).",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
-          "val" : "0.26"
-        } ]
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001260",
       "type" : "CLASS"
     }, {
@@ -202,10 +174,6 @@
       "propertyType" : "ANNOTATION"
     } ],
     "edges" : [ {
-      "sub" : "http://purl.obolibrary.org/obo/CL_0000000",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
-      "obj" : "http://purl.obolibrary.org/obo/CL_4037006"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_0000583",
       "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
       "obj" : "http://purl.obolibrary.org/obo/CL_4037003"
@@ -243,10 +211,6 @@
       "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_4037005",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4037006",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
     } ]

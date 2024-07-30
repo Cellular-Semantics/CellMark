@@ -7,24 +7,19 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/clm/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/clm/releases/2024-07-29/patterns/definitions.owl>
-Annotation(owl:versionInfo "2024-07-29")
+<http://purl.obolibrary.org/obo/clm/releases/2024-07-30/patterns/definitions.owl>
+Annotation(owl:versionInfo "2024-07-30")
 
 Declaration(Class(<http://identifiers.org/ensembl/ENSG00000038945>))
 Declaration(Class(<http://identifiers.org/ensembl/ENSG00000050730>))
 Declaration(Class(<http://identifiers.org/ensembl/ENSG00000100292>))
 Declaration(Class(<http://identifiers.org/ensembl/ENSG00000131471>))
-Declaration(Class(<http://identifiers.org/ensembl/ENSG00000137804>))
 Declaration(Class(<http://identifiers.org/ensembl/ENSG00000139329>))
 Declaration(Class(<http://identifiers.org/ensembl/ENSG00000163735>))
 Declaration(Class(<http://identifiers.org/ensembl/ENSG00000164120>))
-Declaration(Class(<http://identifiers.org/ensembl/ENSG00000166803>))
 Declaration(Class(<http://identifiers.org/ensembl/ENSG00000168079>))
 Declaration(Class(<http://identifiers.org/ensembl/ENSG00000170323>))
-Declaration(Class(<http://identifiers.org/ensembl/ENSG00000171848>))
 Declaration(Class(<http://identifiers.org/ensembl/ENSG00000174807>))
-Declaration(Class(<http://identifiers.org/ensembl/ENSG00000175063>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000583>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_4028004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_4028006>))
@@ -35,7 +30,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CL_4037002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_4037003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_4037004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_4037005>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CL_4037006>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001260>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0015004>))
@@ -47,11 +41,6 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 ############################
 #   Classes
 ############################
-
-# Class: <http://purl.obolibrary.org/obo/CL_0000000> (<http://purl.obolibrary.org/obo/CL_0000000>)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_0000000> "A cell in the Human Lung has the gene markers PCLAF, RRM2, UBE2C, NUSAP1 with a NS-Forest FBeta value of 0.26.")
-SubClassOf(<http://purl.obolibrary.org/obo/CL_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CL_4037006>))
 
 # Class: <http://purl.obolibrary.org/obo/CL_0000583> (<http://purl.obolibrary.org/obo/CL_0000583>)
 
@@ -112,13 +101,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_4037005> "NS forest marker set of metallothionein-positive alveolar macrophage (Human Lung).")
 SubClassOf(<http://purl.obolibrary.org/obo/CL_4037005> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CL_4037005> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000100292>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000164120>)))
-
-# Class: <http://purl.obolibrary.org/obo/CL_4037006> (NS forest marker set of cell (Human Lung).)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CL_4037006> "0.26")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_4037006> "NS forest marker set of cell (Human Lung).")
-SubClassOf(<http://purl.obolibrary.org/obo/CL_4037006> <http://purl.obolibrary.org/obo/SO_0001260>)
-SubClassOf(<http://purl.obolibrary.org/obo/CL_4037006> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000137804>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000166803>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000171848>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000175063>)))
 
 
 )
