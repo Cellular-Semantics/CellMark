@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: clm/releases/2024-07-30/clm-kg.owl
+data-version: clm/releases/2024-07-31/clm-kg.owl
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
@@ -8,37 +8,43 @@ property_value: dce:type IAO:8000001
 property_value: dcterms:description "None" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/unspecified
 property_value: dcterms:title "Cell Markers Ontology" xsd:string
-property_value: owl:versionInfo "2024-07-30" xsd:string
+property_value: owl:versionInfo "2024-07-31" xsd:string
 
 [Term]
 id: CL:0000000
 comment: A cell in the Human Lung has the gene markers PCLAF, RRM2, UBE2C, NUSAP1 with a NS-Forest FBeta value of 0.26. {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CL:4037006 ! has characterizing marker set NS forest marker set of cell (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000583
 comment: A alveolar macrophage in the Human Lung has the gene markers MSR1, FABP4 with a NS-Forest FBeta value of 0.8. {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CL:4037003 ! has characterizing marker set NS forest marker set of alveolar macrophage (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4028004
 comment: A alveolar type 1 fibroblast cell in the Human Lung has the gene markers AOC3, LUM with a NS-Forest FBeta value of 0.7. {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CL:4037002 ! has characterizing marker set NS forest marker set of alveolar type 1 fibroblast cell (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4028006
 comment: A alveolar adventitial fibroblast in the Human Lung has the gene markers SCARA5, CD248 with a NS-Forest FBeta value of 0.85. {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CL:4037001 ! has characterizing marker set NS forest marker set of alveolar adventitial fibroblast (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4033041
 comment: A CCL3-positive alveolar macrophage in the Human Lung has the gene markers TNIP3, CXCL5 with a NS-Forest FBeta value of 0.67. {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CL:4037004 ! has characterizing marker set NS forest marker set of CCL3-positive alveolar macrophage (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4033042
 comment: A metallothionein-positive alveolar macrophage in the Human Lung has the gene markers HMOX1, HPGD with a NS-Forest FBeta value of 0.41. {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CL:4037005 ! has characterizing marker set NS forest marker set of metallothionein-positive alveolar macrophage (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4037001

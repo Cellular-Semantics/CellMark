@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/clm/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/clm/releases/2024-07-30/patterns/definitions.owl>
-Annotation(owl:versionInfo "2024-07-30")
+<http://purl.obolibrary.org/obo/clm/releases/2024-07-31/patterns/definitions.owl>
+Annotation(owl:versionInfo "2024-07-31")
 
 Declaration(Class(<http://identifiers.org/ensembl/ENSG00000038945>))
 Declaration(Class(<http://identifiers.org/ensembl/ENSG00000050730>))
@@ -33,6 +33,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CL_4037005>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001260>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0015004>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002175>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/STATO_0000663>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
 
@@ -44,26 +45,31 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 
 # Class: <http://purl.obolibrary.org/obo/CL_0000583> (<http://purl.obolibrary.org/obo/CL_0000583>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_0000583> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_0000583> "A alveolar macrophage in the Human Lung has the gene markers MSR1, FABP4 with a NS-Forest FBeta value of 0.8.")
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0000583> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CL_4037003>))
 
 # Class: <http://purl.obolibrary.org/obo/CL_4028004> (<http://purl.obolibrary.org/obo/CL_4028004>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_4028004> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4028004> "A alveolar type 1 fibroblast cell in the Human Lung has the gene markers AOC3, LUM with a NS-Forest FBeta value of 0.7.")
 SubClassOf(<http://purl.obolibrary.org/obo/CL_4028004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CL_4037002>))
 
 # Class: <http://purl.obolibrary.org/obo/CL_4028006> (<http://purl.obolibrary.org/obo/CL_4028006>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_4028006> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4028006> "A alveolar adventitial fibroblast in the Human Lung has the gene markers SCARA5, CD248 with a NS-Forest FBeta value of 0.85.")
 SubClassOf(<http://purl.obolibrary.org/obo/CL_4028006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CL_4037001>))
 
 # Class: <http://purl.obolibrary.org/obo/CL_4033041> (<http://purl.obolibrary.org/obo/CL_4033041>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_4033041> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4033041> "A CCL3-positive alveolar macrophage in the Human Lung has the gene markers TNIP3, CXCL5 with a NS-Forest FBeta value of 0.67.")
 SubClassOf(<http://purl.obolibrary.org/obo/CL_4033041> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CL_4037004>))
 
 # Class: <http://purl.obolibrary.org/obo/CL_4033042> (<http://purl.obolibrary.org/obo/CL_4033042>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_4033042> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4033042> "A metallothionein-positive alveolar macrophage in the Human Lung has the gene markers HMOX1, HPGD with a NS-Forest FBeta value of 0.41.")
 SubClassOf(<http://purl.obolibrary.org/obo/CL_4033042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CL_4037005>))
 

@@ -56,8 +56,6 @@ comment:
     - FBeta_confidence_score
   xrefs: Marker_set_xref
 
-#annotations:
-#  - annotationProperty: present_in_taxon
-#    text: "%s"
-#    vars:
-#      - Species
+annotations:
+  - annotationProperty: present_in_taxon
+    var: Species

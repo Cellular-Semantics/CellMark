@@ -11,12 +11,12 @@
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/clm/clm-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/clm/releases/2024-07-30/clm-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/clm/releases/2024-07-31/clm-base.owl"/>
         <dce:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <dcterms:description>None</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <dcterms:title>Cell Markers Ontology</dcterms:title>
-        <owl:versionInfo>2024-07-30</owl:versionInfo>
+        <owl:versionInfo>2024-07-31</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -29,6 +29,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002175 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002175"/>
     
 
 
@@ -185,6 +191,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_4037003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <rdfs:comment>A alveolar macrophage in the Human Lung has the gene markers MSR1, FABP4 with a NS-Forest FBeta value of 0.8.</rdfs:comment>
     </owl:Class>
     <owl:Axiom>
@@ -205,6 +212,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_4037002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <rdfs:comment>A alveolar type 1 fibroblast cell in the Human Lung has the gene markers AOC3, LUM with a NS-Forest FBeta value of 0.7.</rdfs:comment>
     </owl:Class>
     <owl:Axiom>
@@ -225,6 +233,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_4037001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <rdfs:comment>A alveolar adventitial fibroblast in the Human Lung has the gene markers SCARA5, CD248 with a NS-Forest FBeta value of 0.85.</rdfs:comment>
     </owl:Class>
     <owl:Axiom>
@@ -245,6 +254,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_4037004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <rdfs:comment>A CCL3-positive alveolar macrophage in the Human Lung has the gene markers TNIP3, CXCL5 with a NS-Forest FBeta value of 0.67.</rdfs:comment>
     </owl:Class>
     <owl:Axiom>
@@ -265,6 +275,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_4037005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <rdfs:comment>A metallothionein-positive alveolar macrophage in the Human Lung has the gene markers HMOX1, HPGD with a NS-Forest FBeta value of 0.41.</rdfs:comment>
     </owl:Class>
     <owl:Axiom>

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: clm/releases/2024-07-30/clm-full.owl
+data-version: clm/releases/2024-07-31/clm-full.owl
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
@@ -7,7 +7,7 @@ ontology: clm/clm-full
 property_value: dcterms:description "None" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/unspecified
 property_value: dcterms:title "Cell Markers Ontology" xsd:string
-property_value: owl:versionInfo "2024-07-30" xsd:string
+property_value: owl:versionInfo "2024-07-31" xsd:string
 
 [Term]
 id: CHEBI:24431
@@ -188,6 +188,7 @@ intersection_of: CL:0000000 ! cell
 intersection_of: RO:0002215 GO:0017145 ! capable of stem cell division
 relationship: RO:0002162 NCBITaxon:33208 ! Metazoa
 relationship: RO:0002215 GO:0017145 ! capable of stem cell division
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000035
@@ -242,6 +243,7 @@ relationship: CL:4030046 PR:000002978 ! lacks_plasma_membrane_part
 relationship: CL:4030046 PR:000002981 ! lacks_plasma_membrane_part
 relationship: RO:0002202 CL:0000566 ! angioblastic mesenchymal cell
 relationship: RO:0002215 GO:0002244 ! capable of hematopoietic progenitor cell differentiation
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000038
@@ -302,6 +304,7 @@ is_a: CL:0002032 ! hematopoietic oligopotent progenitor cell
 disjoint_from: CL:0000050 ! megakaryocyte-erythroid progenitor cell
 disjoint_from: CL:0000051 ! common lymphoid progenitor
 disjoint_from: CL:0000557 ! granulocyte monocyte progenitor cell
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000050
@@ -318,6 +321,7 @@ disjoint_from: CL:0000557 ! granulocyte monocyte progenitor cell
 disjoint_from: CL:0002009 ! macrophage dendritic cell progenitor
 relationship: RO:0002215 GO:0030218 ! capable of erythrocyte differentiation
 relationship: RO:0002215 GO:0030219 ! capable of megakaryocyte differentiation
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000051
@@ -329,6 +333,7 @@ is_a: CL:0011026 ! progenitor cell
 intersection_of: CL:0002032 ! hematopoietic oligopotent progenitor cell
 intersection_of: RO:0002215 GO:0030098 ! capable of lymphocyte differentiation
 relationship: RO:0002215 GO:0030098 ! capable of lymphocyte differentiation
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000052
@@ -370,6 +375,7 @@ xref: VHOG:0001482
 is_a: BFO:0000002
 is_a: CL:0002320 ! connective tissue cell
 relationship: RO:0002202 CL:0000134 ! mesenchymal stem cell
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000058
@@ -406,6 +412,7 @@ xref: WBbt:0003672
 is_a: CL:0000000 ! cell
 disjoint_from: CL:0000738 ! leukocyte
 relationship: BFO:0000050 UBERON:0000483 ! part of epithelium
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000067
@@ -440,12 +447,14 @@ intersection_of: CL:0000115 ! endothelial cell
 intersection_of: BFO:0000050 UBERON:0001981 ! part of blood vessel
 relationship: BFO:0000050 UBERON:0004638 ! part of blood vessel endothelium
 relationship: RO:0002202 CL:0002546 ! embryonic blood vessel endothelial progenitor cell
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000075
 name: columnar/cuboidal epithelial cell
 def: "A columnar/cuboidal epithelial cell is a cell usually found in a two dimensional sheet with a free surface. Columnar/cuboidal epithelial cells take on the shape of a column or cube." [GO:0002065, https://orcid.org/0000-0001-5208-3432]
 is_a: CL:0000066 ! epithelial cell
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000076
@@ -461,6 +470,7 @@ xref: FMA:66773
 is_a: CL:0000076 ! squamous epithelial cell
 is_a: CL:0000213 ! lining cell
 is_a: CL:0002078 ! meso-epithelial cell
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000080
@@ -516,6 +526,7 @@ intersection_of: CL:0000542 ! lymphocyte
 intersection_of: RO:0002215 GO:0002456 ! capable of T cell mediated immunity
 relationship: RO:0002202 CL:0000827 ! pro-T cell
 relationship: RO:0002215 GO:0002456 ! capable of T cell mediated immunity
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000092
@@ -577,6 +588,7 @@ relationship: CL:4030046 PR:000001084 ! lacks_plasma_membrane_part
 relationship: RO:0002104 PR:000001012
 relationship: RO:0002104 PR:000001332
 relationship: RO:0002104 PR:000001969
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000095
@@ -604,6 +616,7 @@ xref: BTO:0003811
 xref: FMA:67313
 xref: WBbt:0005113
 is_a: CL:0000540 ! neuron
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000100
@@ -613,6 +626,7 @@ xref: BTO:0000312
 xref: FMA:83617
 xref: WBbt:0005409
 is_a: CL:0000527 ! efferent neuron
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000101
@@ -626,6 +640,7 @@ is_a: CL:0000526 ! afferent neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002215 GO:0050906 ! capable of detection of stimulus involved in sensory perception
 relationship: RO:0002215 GO:0050906 ! capable of detection of stimulus involved in sensory perception
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000107
@@ -646,6 +661,7 @@ is_a: CL:0000518 ! phagocyte (sensu Vertebrata)
 is_a: CL:0000842 ! mononuclear cell
 intersection_of: CL:0000518 ! phagocyte (sensu Vertebrata)
 intersection_of: RO:0000053 PATO:0001407 ! bearer of
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000115
@@ -658,6 +674,7 @@ xref: FMA:66772
 is_a: BFO:0000002
 is_a: CL:0000213 ! lining cell
 relationship: RO:0002202 CL:0000222 ! mesodermal cell
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000117
@@ -676,6 +693,7 @@ xref: BTO:0002606
 xref: CALOHA:TS-0415
 xref: FMA:54536
 is_a: CL:0000095 ! neuron associated cell
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000133
@@ -705,6 +723,7 @@ is_a: BFO:0000002
 is_a: CL:0000325 ! stuff accumulating cell
 is_a: CL:0002320 ! connective tissue cell
 relationship: RO:0002202 CL:0000134 ! mesenchymal stem cell
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000138
@@ -806,6 +825,7 @@ is_a: CL:0000157 ! surfactant secreting cell
 is_a: CL:0002202 ! epithelial cell of tracheobronchial tree
 is_a: CL:0011026 ! progenitor cell
 relationship: RO:0002104 GO:0005902 ! microvillus
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000159
@@ -822,6 +842,7 @@ is_a: CL:0000164 {gci_filler="UBERON:0000945", gci_relation="BFO:0000050"} ! ent
 is_a: CL:0000164 {gci_filler="UBERON:0000160", gci_relation="BFO:0000050"} ! enteroendocrine cell
 is_a: CL:0000164 {gci_filler="UBERON:0001264", gci_relation="BFO:0000050"} ! enteroendocrine cell
 relationship: BFO:0000050 UBERON:0000949 ! part of endocrine system
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000164
@@ -845,6 +866,7 @@ is_a: CL:0000527 ! efferent neuron
 is_a: CL:0000710 ! neurecto-epithelial cell
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002215 GO:0046879 ! capable of hormone secretion
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000167
@@ -883,6 +905,7 @@ intersection_of: BFO:0000050 UBERON:0000006 ! part of islet of Langerhans
 intersection_of: RO:0002215 GO:0030073 ! capable of insulin secretion
 relationship: BFO:0000050 UBERON:0000006 ! part of islet of Langerhans
 relationship: RO:0002202 CL:0002351 ! progenitor cell of endocrine pancreas
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000170
@@ -907,6 +930,7 @@ intersection_of: CL:0002067 ! type A enteroendocrine cell
 intersection_of: BFO:0000050 UBERON:0001264 ! part of pancreas
 relationship: BFO:0000050 UBERON:0000006 ! part of islet of Langerhans
 relationship: RO:0002202 CL:0002351 ! progenitor cell of endocrine pancreas
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000172
@@ -929,6 +953,7 @@ intersection_of: CL:0000502 ! type D enteroendocrine cell
 intersection_of: BFO:0000050 UBERON:0001264 ! part of pancreas
 relationship: BFO:0000050 UBERON:0000006 ! part of islet of Langerhans
 relationship: RO:0002202 CL:0002351 ! progenitor cell of endocrine pancreas
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000174
@@ -954,6 +979,7 @@ relationship: BFO:0000050 UBERON:0002107 ! part of liver
 relationship: RO:0002202 CL:0005026 ! hepatoblast
 relationship: RO:0002215 GO:0006699 ! capable of bile acid biosynthetic process
 relationship: RO:0002215 GO:0098754 ! capable of detoxification
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000183
@@ -986,6 +1012,7 @@ is_a: CL:0000000 ! cell
 intersection_of: CL:0000000 ! cell
 intersection_of: BFO:0000050 UBERON:0001134 ! part of skeletal muscle tissue
 relationship: BFO:0000050 UBERON:0001134 ! part of skeletal muscle tissue
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000192
@@ -997,6 +1024,7 @@ xref: FMA:14072
 is_a: CL:0008000 ! non-striated muscle cell
 is_a: CL:0008007 ! visceral muscle cell
 relationship: RO:0002202 CL:0000514 ! smooth muscle myoblast
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000197
@@ -1131,6 +1159,7 @@ relationship: CL:4030045 GO:0005840 ! lacks_part ribosome
 relationship: CL:4030046 PR:000001945 ! lacks_plasma_membrane_part
 relationship: RO:0000053 PATO:0002039 ! bearer of
 relationship: RO:0002202 CL:0000558 ! reticulocyte
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000234
@@ -1165,6 +1194,7 @@ intersection_of: RO:0002215 GO:0006909 ! capable of phagocytosis
 intersection_of: RO:0002215 GO:0031268 ! capable of pseudopodium organization
 relationship: RO:0002202 CL:0000576 ! monocyte
 relationship: RO:0002215 GO:0031268 ! capable of pseudopodium organization
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000255
@@ -1193,6 +1223,7 @@ is_a: CL:0000210 ! photoreceptor cell
 intersection_of: CL:0000210 ! photoreceptor cell
 intersection_of: BFO:0000050 UBERON:0000970 ! part of eye
 relationship: BFO:0000050 UBERON:0000970 ! part of eye
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000293
@@ -1377,6 +1408,7 @@ is_a: CL:4033054 ! perivascular cell
 intersection_of: CL:0000192 ! smooth muscle cell
 intersection_of: BFO:0000050 UBERON:0002049 ! part of vasculature
 relationship: BFO:0000050 UBERON:0002049 ! part of vasculature
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000362
@@ -1434,6 +1466,7 @@ is_a: CL:0000099 ! interneuron
 is_a: CL:2000029 ! central nervous system neuron
 intersection_of: CL:0000099 ! interneuron
 intersection_of: RO:0002100 UBERON:0001017 ! central nervous system
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000404
@@ -1500,6 +1533,7 @@ relationship: CL:4030046 PR:000001024 ! lacks_plasma_membrane_part
 relationship: CL:4030046 PR:000001289 ! lacks_plasma_membrane_part
 relationship: RO:0002215 GO:0001816 ! capable of cytokine production
 relationship: RO:0002215 GO:0045580 ! capable of regulation of T cell differentiation
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000457
@@ -1548,6 +1582,7 @@ xref: FMA:83624
 is_a: BFO:0000002
 is_a: CL:0002320 ! connective tissue cell
 relationship: RO:0002202 CL:0000134 ! mesenchymal stem cell
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000502
@@ -1586,6 +1621,7 @@ id: CL:0000509
 name: gastrin secreting cell
 def: "A peptide hormone secreting cell that secretes gastrin." [GO:tfm]
 is_a: CL:0000167 ! peptide hormone secreting cell
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000513
@@ -1648,6 +1684,7 @@ is_a: CL:0000351 ! trophoblast cell
 intersection_of: CL:0000351 ! trophoblast cell
 intersection_of: RO:0000053 PATO:0001908 ! bearer of
 relationship: BFO:0000050 UBERON:0000371 ! part of syncytiotrophoblast
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000526
@@ -1655,6 +1692,7 @@ name: afferent neuron
 def: "A neuron which conveys sensory information centrally from the periphery." [GOC:tfm, MESH:D009475]
 xref: FMA:87653
 is_a: CL:0000540 ! neuron
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000527
@@ -1677,6 +1715,7 @@ is_a: CL:0000404 ! electrically signaling cell
 is_a: CL:0002319 ! neural cell
 relationship: RO:0002202 CL:0000031 {gci_filler="NCBITaxon:7742", gci_relation="RO:0002162", xref="https://github.com/obophenotype/cell-ontology/issues/757"} ! neuroblast (sensu Vertebrata)
 relationship: RO:0002215 GO:0019226 ! capable of transmission of nerve impulse
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000542
@@ -1699,6 +1738,7 @@ relationship: BFO:0000051 CL:0017500 ! has part neutrophillic cytoplasm
 relationship: BFO:0000051 GO:0000792 ! has part heterochromatin
 relationship: RO:0000053 PATO:0040072 ! bearer of
 relationship: RO:0002202 CL:0000051 ! common lymphoid progenitor
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000547
@@ -1824,6 +1864,7 @@ relationship: CL:4030046 PR:000002981 ! lacks_plasma_membrane_part
 relationship: RO:0002202 CL:0000050 ! megakaryocyte-erythroid progenitor cell
 relationship: RO:0002215 GO:0007113 ! capable of endomitotic cell cycle
 relationship: RO:0002215 GO:0030219 ! capable of megakaryocyte differentiation
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000556
@@ -1837,6 +1878,7 @@ is_a: CL:0000763 ! myeloid cell
 disjoint_from: CL:0000764 ! erythroid lineage cell
 relationship: RO:0000053 PATO:0001393 ! bearer of
 relationship: RO:0002202 CL:0000553 ! megakaryocyte progenitor cell
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000557
@@ -1863,6 +1905,7 @@ relationship: CL:4030045 PR:000007858 ! lacks_part
 relationship: RO:0002104 PR:000001865
 relationship: RO:0002215 GO:0030225 ! capable of macrophage differentiation
 relationship: RO:0002215 GO:0030851 ! capable of granulocyte differentiation
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000558
@@ -1917,6 +1960,7 @@ intersection_of: RO:0002215 GO:0030224 ! capable of monocyte differentiation
 relationship: BFO:0000051 GO:0042582 ! has part azurophil granule
 relationship: RO:0002104 PR:000001012
 relationship: RO:0002202 CL:0000040 ! monoblast
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000562
@@ -1963,6 +2007,7 @@ xref: CALOHA:TS-0866
 xref: FMA:67748
 is_a: CL:0010009 ! camera-type eye photoreceptor cell
 relationship: RO:0002202 CL:0002672 ! retinal progenitor cell
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000575
@@ -1976,6 +2021,7 @@ is_a: CL:0002159 ! general ecto-epithelial cell
 intersection_of: CL:0000076 ! squamous epithelial cell
 intersection_of: BFO:0000050 UBERON:0001772 ! part of corneal epithelium
 relationship: BFO:0000050 UBERON:0001772 ! part of corneal epithelium
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000576
@@ -1997,6 +2043,7 @@ relationship: RO:0002202 CL:0000559 ! promonocyte
 relationship: RO:0002215 GO:0030225 ! capable of macrophage differentiation
 relationship: RO:0002215 GO:0030316 ! capable of osteoclast differentiation
 relationship: RO:0002215 GO:0043011 ! capable of myeloid dendritic cell differentiation
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000583
@@ -2030,6 +2077,7 @@ relationship: RO:0002104 PR:000002064
 relationship: RO:0002104 PR:000002972
 relationship: RO:0015004 CL:4037003 ! has characterizing marker set NS forest marker set of alveolar macrophage (Human Lung).
 relationship: RO:0015016 PR:000001012
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000586
@@ -2060,6 +2108,7 @@ xref: CALOHA:TS-0870
 xref: FMA:67747
 is_a: CL:0010009 ! camera-type eye photoreceptor cell
 relationship: RO:0002202 CL:0002672 ! retinal progenitor cell
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000622
@@ -2104,6 +2153,7 @@ is_a: CL:0000183 ! contractile cell
 is_a: CL:0000630 ! supporting cell
 is_a: CL:0002320 ! connective tissue cell
 is_a: CL:0008034 ! mural cell
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000670
@@ -2204,6 +2254,7 @@ relationship: BFO:0000050 UBERON:0002405 ! part of immune system
 relationship: RO:0002160 NCBITaxon:7742 ! Vertebrata <vertebrates>
 relationship: RO:0002202 CL:0000037 ! hematopoietic stem cell
 relationship: RO:0002215 GO:0001667 ! capable of ameboidal-type cell migration
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000740
@@ -2214,6 +2265,7 @@ xref: FMA:67765
 xref: MESH:D012165
 is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
 relationship: RO:0002100 UBERON:0000966 ! retina
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000746
@@ -2234,6 +2286,7 @@ intersection_of: RO:0000056 GO:0060047 ! participates in heart contraction
 relationship: RO:0000053 PATO:0002478 ! bearer of
 relationship: RO:0000056 GO:0060047 ! participates in heart contraction
 relationship: RO:0002202 CL:0000513 ! cardiac muscle myoblast
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000763
@@ -2257,6 +2310,7 @@ xref: CALOHA:TS-0290
 xref: FMA:62845
 xref: FMA:83516
 is_a: CL:0000763 ! myeloid cell
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000765
@@ -2423,6 +2477,7 @@ relationship: CL:4030046 PR:000002981 ! lacks_plasma_membrane_part
 relationship: RO:0000053 PATO:0001402 ! bearer of
 relationship: RO:0002104 PR:000001003
 relationship: RO:0002202 CL:0000037 ! hematopoietic stem cell
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000838
@@ -2452,6 +2507,7 @@ is_a: CL:0011026 ! progenitor cell
 intersection_of: CL:0002031 ! hematopoietic lineage restricted progenitor cell
 intersection_of: RO:0002215 GO:0030099 ! capable of myeloid cell differentiation
 relationship: RO:0002215 GO:0030099 ! capable of myeloid cell differentiation
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000842
@@ -2485,6 +2541,7 @@ relationship: CL:4030046 PR:000001289 ! lacks_plasma_membrane_part
 relationship: RO:0002215 GO:0002548 ! capable of monocyte chemotaxis
 relationship: RO:0002215 GO:0006954 ! capable of inflammatory response
 relationship: RO:0015015 PR:000001199
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000861
@@ -2556,6 +2613,7 @@ relationship: RO:0002104 PR:000002065
 relationship: RO:0002104 PR:000002979
 relationship: RO:0002202 CL:0002035 ! Slamf1-negative multipotent progenitor cell
 relationship: RO:0002215 GO:0030098 ! capable of lymphocyte differentiation
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000988
@@ -2577,6 +2635,7 @@ is_a: CL:0000451 ! dendritic cell
 intersection_of: CL:0000451 ! dendritic cell
 intersection_of: RO:0015015 PR:000001013
 relationship: RO:0015015 PR:000001013
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000995
@@ -2844,6 +2903,7 @@ is_a: CL:0000000 ! cell
 intersection_of: CL:0000000 ! cell
 intersection_of: BFO:0000050 UBERON:0001474 ! part of bone element
 relationship: BFO:0000050 UBERON:0001474 ! part of bone element
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0001054
@@ -2860,6 +2920,7 @@ relationship: CL:4030046 PR:000001002 ! lacks_plasma_membrane_part
 relationship: CL:4030046 PR:000001020 ! lacks_plasma_membrane_part
 relationship: CL:4030046 PR:000001289 ! lacks_plasma_membrane_part
 relationship: RO:0002104 PR:000001889
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0001059
@@ -3372,6 +3433,7 @@ is_a: CL:0000322 ! pulmonary alveolar epithelial cell
 intersection_of: CL:0000322 ! pulmonary alveolar epithelial cell
 intersection_of: RO:0002215 GO:0007585 ! capable of respiratory gaseous exchange by respiratory system
 relationship: RO:0002215 GO:0007585 ! capable of respiratory gaseous exchange by respiratory system
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0002063
@@ -3386,6 +3448,7 @@ intersection_of: CL:0000322 ! pulmonary alveolar epithelial cell
 intersection_of: RO:0002215 GO:0032940 ! capable of secretion by cell
 intersection_of: RO:0002215 GO:0043129 ! capable of surfactant homeostasis
 relationship: RO:0002202 CL:4040003 ! fetal pre-type II pulmonary alveolar epithelial cell
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0002064
@@ -3400,6 +3463,7 @@ intersection_of: CL:0000622 ! acinar cell
 intersection_of: BFO:0000050 UBERON:0001263 ! part of pancreatic acinus
 relationship: BFO:0000050 UBERON:0001263 ! part of pancreatic acinus
 relationship: BFO:0000051 GO:0042589 ! has part zymogen granule membrane
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0002067
@@ -3418,6 +3482,7 @@ def: "Specialized cardiac myocyte that is subendocardially interspersed with the
 xref: BTO:0001032
 xref: FMA:14146
 is_a: CL:0002086 ! specialized cardiac myocyte
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0002072
@@ -3487,6 +3552,7 @@ intersection_of: BFO:0000050 UBERON:0001064 ! part of ventral pancreatic duct
 intersection_of: RO:0002215 GO:0015106 ! capable of bicarbonate transmembrane transporter activity
 relationship: BFO:0000050 UBERON:0001064 ! part of ventral pancreatic duct
 relationship: RO:0002215 GO:0015106 ! capable of bicarbonate transmembrane transporter activity
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0002080
@@ -3499,6 +3565,7 @@ intersection_of: BFO:0000050 UBERON:0001263 ! part of pancreatic acinus
 intersection_of: RO:0002215 GO:0015106 ! capable of bicarbonate transmembrane transporter activity
 relationship: BFO:0000050 UBERON:0001263 ! part of pancreatic acinus
 relationship: RO:0002215 GO:0015106 ! capable of bicarbonate transmembrane transporter activity
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0002086
@@ -3528,6 +3595,7 @@ is_a: CL:0000710 ! neurecto-epithelial cell
 intersection_of: CL:0000710 ! neurecto-epithelial cell
 intersection_of: RO:0002215 GO:0043134 ! capable of regulation of hindgut contraction
 relationship: RO:0002215 GO:0043134 ! capable of regulation of hindgut contraction
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0002092
@@ -3549,6 +3617,7 @@ def: "A cell in the hilum of the ovary that produces androgens." [GOC:tfm, ISBN:
 xref: FMA:18710
 is_a: CL:0000593 ! androgen secreting cell
 is_a: CL:0002132 ! stromal cell of ovary
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0002132
@@ -3582,6 +3651,7 @@ is_a: CL:2000008 ! microvascular endothelial cell
 intersection_of: CL:0000071 ! blood vessel endothelial cell
 intersection_of: BFO:0000050 UBERON:0001915 ! part of endothelium of capillary
 relationship: BFO:0000050 UBERON:0001915 ! part of endothelium of capillary
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0002145
@@ -3592,6 +3662,7 @@ is_a: CL:0002202 ! epithelial cell of tracheobronchial tree
 is_a: CL:0005012 ! multi-ciliated epithelial cell
 is_a: CL:4030034 ! respiratory ciliated cell
 relationship: RO:0002202 CL:0002209 ! intermediate epitheliocyte
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0002159
@@ -3698,6 +3769,7 @@ is_a: CL:0002222 ! vertebrate lens cell
 intersection_of: CL:0000075 ! columnar/cuboidal epithelial cell
 intersection_of: BFO:0000050 UBERON:0001803 ! part of epithelium of lens
 relationship: BFO:0000050 UBERON:0001803 ! part of epithelium of lens
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0002240
@@ -3804,6 +3876,7 @@ is_a: CL:0000071 ! blood vessel endothelial cell
 intersection_of: CL:0000115 ! endothelial cell
 intersection_of: BFO:0000050 UBERON:0003909 ! part of sinusoid
 relationship: BFO:0000050 UBERON:0003909 ! part of sinusoid
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0002264
@@ -3859,6 +3932,7 @@ intersection_of: CL:0000696 ! PP cell
 intersection_of: BFO:0000050 UBERON:0000006 ! part of islet of Langerhans
 intersection_of: BFO:0000050 UBERON:0001264 ! part of pancreas
 relationship: BFO:0000050 UBERON:0000006 ! part of islet of Langerhans
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0002308
@@ -3920,6 +3994,7 @@ is_a: CL:0002145 ! ciliated columnar cell of tracheobronchial tree
 is_a: CL:0002328 ! bronchial epithelial cell
 intersection_of: CL:0000064 ! ciliated cell
 intersection_of: BFO:0000050 UBERON:0002185 ! part of bronchus
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0002333
@@ -3940,6 +4015,7 @@ is_a: CL:0010008 ! cardiac endothelial cell
 intersection_of: CL:0000115 ! endothelial cell
 intersection_of: BFO:0000050 UBERON:0002165 ! part of endocardium
 relationship: BFO:0000050 UBERON:0002165 ! part of endocardium
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0002351
@@ -3964,6 +4040,7 @@ is_a: CL:0000005 ! neural crest derived fibroblast
 intersection_of: CL:0000057 ! fibroblast
 intersection_of: BFO:0000050 UBERON:0001777 ! part of substantia propria of cornea
 relationship: BFO:0000050 UBERON:0001777 ! part of substantia propria of cornea
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0002368
@@ -4103,6 +4180,7 @@ is_a: CL:0000136 ! adipocyte
 intersection_of: CL:0000136 ! adipocyte
 intersection_of: BFO:0000050 UBERON:0002190 ! part of subcutaneous adipose tissue
 relationship: BFO:0000050 UBERON:0002190 ! part of subcutaneous adipose tissue
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0002538
@@ -4142,6 +4220,7 @@ is_a: CL:0000071 ! blood vessel endothelial cell
 intersection_of: CL:0000071 ! blood vessel endothelial cell
 intersection_of: BFO:0000050 UBERON:0001638 ! part of vein
 relationship: BFO:0000050 UBERON:0001638 ! part of vein
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0002546
@@ -4197,6 +4276,7 @@ is_a: CL:0000057 ! fibroblast
 intersection_of: CL:0000057 ! fibroblast
 intersection_of: BFO:0000050 UBERON:0002012 ! part of pulmonary artery
 relationship: BFO:0000050 UBERON:0002012 ! part of pulmonary artery
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0002563
@@ -4243,6 +4323,7 @@ is_a: CL:0000499 ! stromal cell
 intersection_of: CL:0000499 ! stromal cell
 intersection_of: BFO:0000050 UBERON:0001264 ! part of pancreas
 relationship: BFO:0000050 UBERON:0001264 ! part of pancreas
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0002575
@@ -4263,6 +4344,7 @@ is_a: CL:0009004 ! retinal cell
 intersection_of: CL:0000071 ! blood vessel endothelial cell
 intersection_of: BFO:0000050 UBERON:0000966 ! part of retina
 relationship: BFO:0000050 UBERON:0000966 ! part of retina
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0002589
@@ -4292,6 +4374,7 @@ is_a: CL:0019018 ! blood vessel smooth muscle cell
 intersection_of: CL:0000359 ! vascular associated smooth muscle cell
 intersection_of: BFO:0000050 UBERON:0002012 ! part of pulmonary artery
 relationship: BFO:0000050 UBERON:0002012 ! part of pulmonary artery
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0002595
@@ -4320,6 +4403,7 @@ is_a: CL:0019019 ! tracheobronchial smooth muscle cell
 intersection_of: CL:0000192 ! smooth muscle cell
 intersection_of: BFO:0000050 UBERON:0002185 ! part of bronchus
 relationship: BFO:0000050 UBERON:0002185 ! part of bronchus
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0002599
@@ -4369,6 +4453,7 @@ is_a: CL:0000057 ! fibroblast
 intersection_of: CL:0000057 ! fibroblast
 intersection_of: BFO:0000050 UBERON:0002097 ! part of skin of body
 relationship: BFO:0000050 UBERON:0002097 ! part of skin of body
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0002632
@@ -4573,6 +4658,7 @@ def: "A non-polarised cell precursor cell that is part of some mesenchyme, is as
 is_a: CL:0000219 ! motile cell
 relationship: BFO:0000050 UBERON:0003104 ! part of mesenchyme
 relationship: RO:0002215 GO:0016477 ! capable of cell migration
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0008022
@@ -4592,6 +4678,7 @@ is_a: CL:0000083 ! epithelial cell of pancreas
 is_a: CL:0000164 ! enteroendocrine cell
 intersection_of: CL:0000163 ! endocrine cell
 intersection_of: BFO:0000050 UBERON:0001264 ! part of pancreas
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0008028
@@ -4607,6 +4694,7 @@ id: CL:0008034
 name: mural cell
 def: "Mural cells are pericytes and the vascular smooth muscle cells (vSMCs) of the microcirculation." [Wiki:Mural_cell&oldid=930603194]
 is_a: CL:4033054 ! perivascular cell
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0008035
@@ -4663,6 +4751,7 @@ is_a: CL:0000542 ! lymphocyte
 intersection_of: CL:0000542 ! lymphocyte
 intersection_of: BFO:0000050 UBERON:0011189 ! part of lamina propria of large intestine
 relationship: BFO:0000050 UBERON:0011189 ! part of lamina propria of large intestine
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0009021
@@ -4796,6 +4885,7 @@ is_a: CL:0000669 ! pericyte
 intersection_of: CL:0000669 ! pericyte
 intersection_of: BFO:0000050 UBERON:0002048 ! part of lung
 relationship: BFO:0000050 UBERON:0002048 ! part of lung
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0009094
@@ -4824,6 +4914,7 @@ is_a: CL:0000057 ! fibroblast
 intersection_of: CL:0000057 ! fibroblast
 intersection_of: BFO:0000050 UBERON:0001279 ! part of portal triad
 relationship: BFO:0000050 UBERON:0001279 ! part of portal triad
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0010001
@@ -4881,6 +4972,7 @@ is_a: CL:0002494 ! cardiocyte
 intersection_of: CL:0000115 ! endothelial cell
 intersection_of: BFO:0000050 UBERON:0000948 ! part of heart
 relationship: BFO:0000050 UBERON:0000948 ! part of heart
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0010009
@@ -5084,6 +5176,7 @@ is_a: CL:0000138 ! chondrocyte
 intersection_of: CL:0000138 ! chondrocyte
 intersection_of: BFO:0000050 UBERON:0007196 ! part of tracheobronchial tree
 relationship: BFO:0000050 UBERON:0007196 ! part of tracheobronchial tree
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0019018
@@ -5093,6 +5186,7 @@ is_a: CL:0000359 ! vascular associated smooth muscle cell
 intersection_of: CL:0000192 ! smooth muscle cell
 intersection_of: BFO:0000050 UBERON:0001981 ! part of blood vessel
 relationship: BFO:0000050 UBERON:0001981 ! part of blood vessel
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0019019
@@ -5102,6 +5196,7 @@ is_a: CL:0000192 ! smooth muscle cell
 intersection_of: CL:0000192 ! smooth muscle cell
 intersection_of: BFO:0000050 UBERON:0007196 ! part of tracheobronchial tree
 relationship: BFO:0000050 UBERON:0007196 ! part of tracheobronchial tree
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0019020
@@ -5156,6 +5251,7 @@ intersection_of: CL:0000165 ! neuroendocrine cell
 intersection_of: BFO:0000050 UBERON:0002048 ! part of lung
 relationship: BFO:0000051 GO:0031045 ! has part dense core granule
 relationship: RO:0002215 GO:0070483 ! capable of detection of hypoxia
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:1000271
@@ -5165,6 +5261,7 @@ is_a: CL:4030034 ! respiratory ciliated cell
 intersection_of: CL:0000064 ! ciliated cell
 intersection_of: BFO:0000050 UBERON:0002048 ! part of lung
 relationship: BFO:0000050 UBERON:0002048 ! part of lung
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:1000272
@@ -5209,6 +5306,7 @@ is_a: CL:0002504 ! enteric smooth muscle cell
 intersection_of: CL:0002504 ! enteric smooth muscle cell
 intersection_of: BFO:0000050 UBERON:0000059 ! part of large intestine
 relationship: BFO:0000050 UBERON:0000059 ! part of large intestine
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:1000280
@@ -5280,6 +5378,7 @@ xref: FMA:261293
 is_a: CL:0000136 ! adipocyte
 is_a: CL:0002494 ! cardiocyte
 relationship: BFO:0000050 UBERON:0002348 ! part of epicardium
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:1000310
@@ -5310,6 +5409,7 @@ is_a: CL:0019001 ! tracheobronchial serous cell
 intersection_of: CL:0000313 ! serous secreting cell
 intersection_of: BFO:0000050 UBERON:0001901 ! part of epithelium of trachea
 relationship: BFO:0000050 UBERON:0001901 ! part of epithelium of trachea
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:1000331
@@ -5320,6 +5420,7 @@ is_a: CL:0019001 ! tracheobronchial serous cell
 intersection_of: CL:0000313 ! serous secreting cell
 intersection_of: BFO:0000050 UBERON:0002031 ! part of epithelium of bronchus
 relationship: BFO:0000050 UBERON:0002031 ! part of epithelium of bronchus
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:1000332
@@ -5376,6 +5477,7 @@ is_a: CL:0002262 ! endothelial cell of sinusoid
 intersection_of: CL:0000115 ! endothelial cell
 intersection_of: BFO:0000050 UBERON:0001281 ! part of hepatic sinusoid
 relationship: BFO:0000050 UBERON:0001281 ! part of hepatic sinusoid
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:1000409
@@ -5410,6 +5512,7 @@ is_a: CL:0000071 ! blood vessel endothelial cell
 intersection_of: CL:0000115 ! endothelial cell
 intersection_of: BFO:0000050 UBERON:0001980 ! part of arteriole
 relationship: BFO:0000050 UBERON:0001980 ! part of arteriole
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:1000413
@@ -5422,6 +5525,7 @@ is_a: CL:0000071 ! blood vessel endothelial cell
 intersection_of: CL:0000115 ! endothelial cell
 intersection_of: BFO:0000050 UBERON:0001637 ! part of artery
 relationship: BFO:0000050 UBERON:0001917 ! part of endothelium of artery
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:1000414
@@ -5432,6 +5536,7 @@ is_a: CL:0000071 ! blood vessel endothelial cell
 intersection_of: CL:0002139 ! endothelial cell of vascular tree
 intersection_of: BFO:0000050 UBERON:0001979 ! part of venule
 relationship: BFO:0000050 UBERON:0001979 ! part of venule
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:1000415
@@ -5492,6 +5597,7 @@ is_a: CL:1000490 ! mesothelial cell of peritoneum
 intersection_of: CL:0000077 ! mesothelial cell
 intersection_of: BFO:0000050 UBERON:0001178 ! part of visceral peritoneum
 relationship: BFO:0000050 UBERON:0001178 ! part of visceral peritoneum
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:1000478
@@ -5576,6 +5682,7 @@ is_a: CL:1000491 ! mesothelial cell of pleura
 intersection_of: CL:0000077 ! mesothelial cell
 intersection_of: BFO:0000050 UBERON:0002401 ! part of visceral pleura
 relationship: BFO:0000050 UBERON:0002401 ! part of visceral pleura
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:1001433
@@ -5586,6 +5693,7 @@ is_a: CL:0000083 ! epithelial cell of pancreas
 intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0000017 ! part of exocrine pancreas
 relationship: BFO:0000050 UBERON:0000017 ! part of exocrine pancreas
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:1001516
@@ -5614,6 +5722,7 @@ is_a: CL:1000413 ! endothelial cell of artery
 intersection_of: CL:0002139 ! endothelial cell of vascular tree
 intersection_of: BFO:0000050 UBERON:0002012 ! part of pulmonary artery
 relationship: BFO:0000050 UBERON:0005317 ! part of pulmonary artery endothelium
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:1001572
@@ -5701,6 +5810,7 @@ is_a: CL:1001433 ! epithelial cell of exocrine pancreas
 intersection_of: CL:0000150 ! glandular epithelial cell
 intersection_of: BFO:0000050 UBERON:0000017 ! part of exocrine pancreas
 relationship: BFO:0000050 UBERON:0013697 ! part of exocrine pancreas epithelium
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:1001603
@@ -5824,6 +5934,7 @@ is_a: CL:0000540 ! neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002100 UBERON:0000010 ! peripheral nervous system
 relationship: RO:0002100 UBERON:0000010 ! peripheral nervous system
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:2000042
@@ -5890,6 +6001,7 @@ is_a: CL:0000115 ! endothelial cell
 intersection_of: CL:0000115 ! endothelial cell
 intersection_of: BFO:0000050 UBERON:0002106 ! part of spleen
 relationship: BFO:0000050 UBERON:0002106 ! part of spleen
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:2000055
@@ -5930,6 +6042,7 @@ is_a: CL:0002548 ! fibroblast of cardiac tissue
 intersection_of: CL:0000057 ! fibroblast
 intersection_of: BFO:0000050 UBERON:0002082 ! part of cardiac ventricle
 relationship: BFO:0000050 UBERON:0002082 ! part of cardiac ventricle
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:2000067
@@ -5940,6 +6053,7 @@ is_a: CL:0002548 ! fibroblast of cardiac tissue
 intersection_of: CL:0000057 ! fibroblast
 intersection_of: BFO:0000050 UBERON:0002081 ! part of cardiac atrium
 relationship: BFO:0000050 UBERON:0002081 ! part of cardiac atrium
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:2000068
@@ -6046,6 +6160,7 @@ is_a: CL:0002319 ! neural cell
 intersection_of: CL:0000000 ! cell
 intersection_of: BFO:0000050 UBERON:0008998 ! part of vasculature of brain
 relationship: BFO:0000050 UBERON:0008998 ! part of vasculature of brain
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4023079
@@ -6056,6 +6171,7 @@ is_a: UBERON:0004121 ! ectoderm-derived structure
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002202 UBERON:0001891 ! midbrain
 relationship: RO:0002202 UBERON:0001891 ! midbrain
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4023168
@@ -6085,6 +6201,7 @@ is_a: CL:0002241 ! pulmonary interstitial fibroblast
 is_a: CL:0002553 ! fibroblast of lung
 relationship: BFO:0000050 UBERON:0002299 ! part of alveolus of lung
 relationship: RO:0015004 CL:4037002 ! has characterizing marker set NS forest marker set of alveolar type 1 fibroblast cell (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4028006
@@ -6095,6 +6212,7 @@ is_a: CL:0002241 ! pulmonary interstitial fibroblast
 is_a: CL:0002553 ! fibroblast of lung
 relationship: BFO:0000050 UBERON:0002299 ! part of alveolus of lung
 relationship: RO:0015004 CL:4037001 ! has characterizing marker set NS forest marker set of alveolar adventitial fibroblast (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4030029
@@ -6132,6 +6250,7 @@ is_a: CL:0019001 ! tracheobronchial serous cell
 intersection_of: CL:0000313 ! serous secreting cell
 intersection_of: BFO:0000050 UBERON:8410043 ! part of bronchus submucosal gland
 relationship: BFO:0000050 UBERON:8410043 ! part of bronchus submucosal gland
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4033008
@@ -6141,6 +6260,7 @@ is_a: CL:0002543 ! vein endothelial cell
 intersection_of: CL:0002543 ! vein endothelial cell
 intersection_of: BFO:0000050 UBERON:0001004 ! part of respiratory system
 relationship: BFO:0000050 UBERON:0001004 ! part of respiratory system
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4033017
@@ -6150,6 +6270,7 @@ is_a: CL:0019019 ! tracheobronchial smooth muscle cell
 intersection_of: CL:0000192 ! smooth muscle cell
 intersection_of: BFO:0000050 UBERON:0002186 ! part of bronchiole
 relationship: BFO:0000050 UBERON:0004515 ! part of smooth muscle tissue of bronchiole
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4033018
@@ -6160,6 +6281,7 @@ is_a: CL:0002320 ! connective tissue cell
 intersection_of: CL:0000556 ! megakaryocyte
 intersection_of: BFO:0000050 UBERON:0000114 ! part of lung connective tissue
 relationship: BFO:0000050 UBERON:0000114 ! part of lung connective tissue
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4033020
@@ -6170,6 +6292,7 @@ is_a: CL:4033037 ! mucus secreting cell of tracheobronchial tree submucosal glan
 intersection_of: CL:0000319 ! mucus secreting cell
 intersection_of: BFO:0000050 UBERON:0005203 ! part of trachea gland
 relationship: BFO:0000050 UBERON:0005203 ! part of trachea gland
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4033022
@@ -6180,6 +6303,7 @@ is_a: CL:4033037 ! mucus secreting cell of tracheobronchial tree submucosal glan
 intersection_of: CL:0000319 ! mucus secreting cell
 intersection_of: BFO:0000050 UBERON:8410043 ! part of bronchus submucosal gland
 relationship: BFO:0000050 UBERON:8410043 ! part of bronchus submucosal gland
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4033037
@@ -6201,6 +6325,7 @@ comment: A CCL3-positive alveolar macrophage in the Human Lung has the gene mark
 is_a: CL:0000583 ! alveolar macrophage
 relationship: RO:0002292 PR:000002123
 relationship: RO:0015004 CL:4037004 ! has characterizing marker set NS forest marker set of CCL3-positive alveolar macrophage (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4033042
@@ -6209,6 +6334,7 @@ def: "An alveolar macrophage that expresses metallothionein." [PMID:37291214]
 comment: A metallothionein-positive alveolar macrophage in the Human Lung has the gene markers HMOX1, HPGD with a NS-Forest FBeta value of 0.41. {xref="https://doi.org/10.5281/zenodo.11165918"}
 is_a: CL:0000583 ! alveolar macrophage
 relationship: RO:0015004 CL:4037005 ! has characterizing marker set NS forest marker set of metallothionein-positive alveolar macrophage (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4033054
@@ -11548,6 +11674,7 @@ intersection_of: GO:0048856 ! anatomical structure development
 intersection_of: RO:0002296 UBERON:0007100 ! results in development of primary circulatory organ
 relationship: BFO:0000050 GO:0072359 ! part of circulatory system development
 relationship: RO:0002296 UBERON:0007100 ! results in development of primary circulatory organ
+property_value: RO:0002175 NCBITaxon:7227
 
 [Term]
 id: GO:0007517
@@ -24816,6 +24943,7 @@ name: musculoskeletal movement
 def: "The movement of an organism or part of an organism using mechanoreceptors, the nervous system, striated muscle and/or the skeletal system." [GOC:dph]
 is_a: GO:0050879 ! multicellular organismal movement
 is_a: GO:0050905 ! neuromuscular process
+property_value: RO:0002175 NCBITaxon:7227
 
 [Term]
 id: GO:0050886
@@ -41566,6 +41694,9 @@ name: processual entity
 def: "An occurrent [span:Occurrent] that exists in time by occurring or happening, has temporal parts and always involves and depends on some entity." [span:ProcessualEntity]
 xref: BFO:0000003
 disjoint_from: UBERON:0001062 ! anatomical entity
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0000005
@@ -41604,6 +41735,7 @@ relationship: BFO:0000051 CL:0000168 ! has part insulin secreting cell
 relationship: BFO:0000051 CL:0000172 ! has part somatostatin secreting cell
 relationship: BFO:0000051 CL:0002067 ! has part type A enteroendocrine cell
 relationship: RO:0002433 UBERON:0000016 ! endocrine pancreas
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000009
@@ -41651,6 +41783,7 @@ xref: XAO:0000178
 xref: ZFA:0000142
 is_a: UBERON:0011216 ! organ system subdivision
 relationship: BFO:0000050 UBERON:0001016 ! part of nervous system
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000013
@@ -41709,6 +41842,9 @@ xref: AEO:0000192
 xref: CARO:0000010
 xref: FMA:50705
 is_a: UBERON:0000466 ! immaterial anatomical entity
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0000016
@@ -41737,6 +41873,7 @@ relationship: RO:0002215 GO:0070091 ! capable of glucagon secretion
 relationship: RO:0002215 GO:0070253 ! capable of somatostatin secretion
 relationship: RO:0002433 UBERON:0001264 ! pancreas
 relationship: RO:0002473 UBERON:0000006 ! islet of Langerhans
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000017
@@ -41766,6 +41903,7 @@ relationship: BFO:0000051 UBERON:0007329 ! has part pancreatic duct
 relationship: RO:0002202 UBERON:0003924 ! ventral pancreatic bud
 relationship: RO:0002216 GO:0007586 ! capable of part of digestion
 relationship: RO:0002433 UBERON:0001264 ! pancreas
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000018
@@ -42015,6 +42153,7 @@ is_a: UBERON:0000061 ! anatomical structure
 relationship: BFO:0000050 UBERON:0001016 ! part of nervous system
 relationship: RO:0002473 UBERON:0003714 ! neural tissue
 relationship: RO:0002495 UBERON:0003869 ! presumptive ganglion
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000047
@@ -42030,6 +42169,7 @@ name: vessel
 def: "A tubular structure that contains, conveys body fluid, such as blood or lymph." [https://orcid.org/0000-0002-6601-2165]
 is_a: UBERON:0004111 ! anatomical conduit
 relationship: channel_for UBERON:0006314 ! bodily fluid
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000058
@@ -42076,6 +42216,7 @@ relationship: BFO:0000050 UBERON:0000160 ! part of intestine
 relationship: BFO:0000050 UBERON:0004907 ! part of lower digestive tract
 relationship: RO:0002160 NCBITaxon:7742 ! Vertebrata <vertebrates>
 relationship: RO:0002433 UBERON:0000160 ! intestine
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000060
@@ -42113,6 +42254,9 @@ xref: ZFA:0000037
 is_a: UBERON:0000465 ! material anatomical entity
 relationship: RO:0002496 UBERON:0000106 {gci_filler="NCBITaxon:33208", gci_relation="RO:0002162"} ! zygote stage
 relationship: RO:0002497 UBERON:0000071 ! death stage
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0000062
@@ -42135,6 +42279,9 @@ relationship: BFO:0000050 UBERON:0000467 ! part of anatomical system
 relationship: RO:0002002 UBERON:0006984 ! anatomical surface
 relationship: RO:0002215 GO:0008150 ! capable of biological_process
 relationship: RO:0002496 UBERON:0000111 {gci_filler="NCBITaxon:6072", gci_relation="RO:0002162"} ! organogenesis stage
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0000063
@@ -42155,6 +42302,9 @@ xref: SCTID:113343008
 xref: SCTID:91717005
 is_a: UBERON:0010000 ! multicellular anatomical structure
 relationship: BFO:0000050 UBERON:0000062 ! part of organ
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0000065
@@ -42171,6 +42321,7 @@ is_a: UBERON:0001005 ! respiratory airway
 is_a: UBERON:0004119 ! endoderm-derived structure
 relationship: RO:0002202 UBERON:0007026 ! presumptive gut
 relationship: RO:0002202 UBERON:0008947 ! respiratory primordium
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000066
@@ -42221,6 +42372,9 @@ xref: XtroDO:0000085
 is_a: BFO:0000003
 is_a: UBERON:0000105 ! life cycle stage
 relationship: RO:0002229 UBERON:0000104 ! life cycle
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0000072
@@ -42339,6 +42493,7 @@ is_a: UBERON:0005764 ! acellular membrane
 relationship: BFO:0000050 UBERON:0000992 ! part of ovary
 relationship: BFO:0000051 CHEBI:17089 ! has part
 relationship: RO:0002007 CL:0000023 ! bounding layer of oocyte
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000087
@@ -42463,6 +42618,9 @@ is_a: UBERON:0000000 ! processual entity
 relationship: BFO:0000051 UBERON:0000105 ! has part life cycle stage
 relationship: RO:0002224 UBERON:0000106 {gci_filler="NCBITaxon:33208", gci_relation="RO:0002162"} ! starts with zygote stage
 relationship: RO:0002230 UBERON:0000071 ! ends with death stage
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0000105
@@ -42484,6 +42642,9 @@ xref: ZFS:0000000
 xref: ZFS:0100000
 is_a: UBERON:0000000 ! processual entity
 relationship: BFO:0000050 UBERON:0000104 ! part of life cycle
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0000106
@@ -42622,6 +42783,7 @@ intersection_of: BFO:0000050 UBERON:0002048 ! part of lung
 relationship: BFO:0000050 UBERON:0002048 ! part of lung
 relationship: RO:0002433 UBERON:0002048 ! lung
 relationship: RO:0002494 UBERON:0004883 ! lung mesenchyme
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000115
@@ -42745,6 +42907,7 @@ relationship: channel_for UBERON:0001988 ! feces
 relationship: RO:0002150 UBERON:0001052 ! rectum
 relationship: RO:0002150 UBERON:0001245 ! anus
 relationship: RO:0002202 UBERON:0011272 ! embryonic skin basal layer
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000160
@@ -42923,6 +43086,7 @@ relationship: RO:0002351 UBERON:0002167 ! right lung
 relationship: RO:0002351 UBERON:0002167 {cardinality="1"} ! right lung
 relationship: RO:0002351 UBERON:0002168 ! left lung
 relationship: RO:0002351 UBERON:0002168 {cardinality="1"} ! left lung
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000171
@@ -42983,6 +43147,7 @@ relationship: BFO:0000051 CL:0000232 ! has part erythrocyte
 relationship: BFO:0000051 UBERON:0001969 ! has part blood plasma
 relationship: RO:0001025 UBERON:0002049 ! vasculature
 relationship: RO:0002495 UBERON:0006596 ! presumptive blood
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000179
@@ -43015,6 +43180,7 @@ is_a: UBERON:0010428 ! flat bone
 is_a: UBERON:0011164 ! neurocranium bone
 relationship: BFO:0000050 UBERON:0003113 ! part of dermatocranium
 relationship: RO:0002131 UBERON:0001697 ! overlaps orbit of skull
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000220
@@ -43084,6 +43250,7 @@ is_a: UBERON:0001207 ! mucosa of large intestine
 intersection_of: UBERON:0000344 ! mucosa
 intersection_of: BFO:0000050 UBERON:0001155 ! part of colon
 relationship: BFO:0000050 UBERON:0001155 ! part of colon
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000320
@@ -43099,6 +43266,7 @@ is_a: UBERON:0001204 ! mucosa of small intestine
 intersection_of: UBERON:0000344 ! mucosa
 intersection_of: BFO:0000050 UBERON:0002114 ! part of duodenum
 relationship: BFO:0000050 UBERON:0002114 ! part of duodenum
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000325
@@ -43292,6 +43460,7 @@ xref: VHOG:0001346
 xref: Wikipedia:Maxillary_nerve
 is_a: UBERON:0011779 ! nerve of head region
 relationship: RO:0002380 UBERON:0001645 ! trigeminal nerve
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000379
@@ -43326,6 +43495,7 @@ intersection_of: RO:0002473 UBERON:0001015 ! musculature
 relationship: RO:0002160 NCBITaxon:6072 ! Eumetazoa
 relationship: RO:0002215 GO:0003012 ! capable of muscle system process
 relationship: RO:0002473 UBERON:0001015 ! musculature
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000389
@@ -43343,6 +43513,7 @@ intersection_of: RO:0002221 UBERON:0000390 ! lens nucleus
 relationship: BFO:0000050 UBERON:0000965 ! part of lens of camera-type eye
 relationship: RO:0002202 UBERON:0005614 ! lens anterior epithelium
 relationship: RO:0002221 UBERON:0000390 ! lens nucleus
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000390
@@ -43359,6 +43530,7 @@ intersection_of: RO:0002219 UBERON:0000389 ! lens cortex
 relationship: BFO:0000050 UBERON:0000965 ! part of lens of camera-type eye
 relationship: RO:0002202 UBERON:0005614 ! lens anterior epithelium
 relationship: RO:0002219 UBERON:0000389 ! lens cortex
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000397
@@ -43376,6 +43548,7 @@ is_a: UBERON:0001278 ! epithelium of large intestine
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: BFO:0000050 UBERON:0001155 ! part of colon
 relationship: BFO:0000050 UBERON:0001155 ! part of colon
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000409
@@ -43485,6 +43658,9 @@ xref: ZFA:0001487
 is_a: UBERON:0000465 ! material anatomical entity
 relationship: BFO:0000050 UBERON:0000468 ! part of multicellular organism
 relationship: RO:0000086 PATO:0002198
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0000464
@@ -43505,6 +43681,9 @@ xref: XAO:0003190
 xref: ZFA:0001643
 is_a: UBERON:0000466 ! immaterial anatomical entity
 relationship: RO:0002219 UBERON:0000061 ! anatomical structure
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0000465
@@ -43523,6 +43702,9 @@ xref: VHOG:0001721
 is_a: BFO:0000040
 is_a: UBERON:0001062 ! anatomical entity
 disjoint_from: UBERON:0000466 ! immaterial anatomical entity
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0000466
@@ -43540,6 +43722,9 @@ xref: TGMA:0001827
 xref: VHOG:0001727
 is_a: BFO:0000141
 is_a: UBERON:0001062 ! anatomical entity
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0000467
@@ -43574,6 +43759,10 @@ is_a: UBERON:0000061 ! anatomical structure
 relationship: BFO:0000050 UBERON:0000468 ! part of multicellular organism
 relationship: BFO:0000051 UBERON:0000062 ! has part organ
 relationship: RO:0002496 UBERON:0000111 {gci_filler="NCBITaxon:6072", gci_relation="RO:0002162"} ! organogenesis stage
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000468
@@ -43607,6 +43796,9 @@ xref: Wikipedia:Multi-cellular_organism
 xref: XAO:0003004
 xref: ZFA:0001094
 is_a: UBERON:0010000 ! multicellular anatomical structure
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0000471
@@ -43653,6 +43845,7 @@ is_a: UBERON:0000990 ! reproductive system
 intersection_of: UBERON:0000990 ! reproductive system
 intersection_of: BFO:0000050 UBERON:0003100 ! part of female organism
 relationship: BFO:0000050 UBERON:0003100 ! part of female organism
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000475
@@ -43690,6 +43883,9 @@ relationship: RO:0002131 UBERON:0001015 {gci_filler="NCBITaxon:6072", gci_relati
 relationship: RO:0002131 UBERON:0001016 {gci_filler="NCBITaxon:6072", gci_relation="RO:0002162"} ! overlaps nervous system
 relationship: RO:0002131 UBERON:0001434 {gci_filler="NCBITaxon:33213", gci_relation="RO:0002162"} ! overlaps skeletal system
 relationship: RO:0002131 UBERON:0002416 {gci_filler="NCBITaxon:6072", gci_relation="RO:0002162"} ! overlaps integumental system
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0000476
@@ -43707,6 +43903,9 @@ xref: TGMA:0001841
 xref: XAO:0003162
 xref: ZFA:0000382
 is_a: UBERON:0000061 ! anatomical structure
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0000477
@@ -43714,6 +43913,9 @@ name: anatomical cluster
 def: "Anatomical group whose component anatomical structures lie in close proximity to each other." [FBbt:00007277]
 xref: VHOG:0001737
 is_a: UBERON:0034923 ! disconnected anatomical group
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0000478
@@ -43770,6 +43972,9 @@ xref: ZFA:0001477
 is_a: UBERON:0010000 ! multicellular anatomical structure
 relationship: BFO:0000050 UBERON:0000468 ! part of multicellular organism
 relationship: BFO:0000051 GO:0031012 ! has part extracellular matrix
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0000481
@@ -43789,6 +43994,9 @@ xref: ZFA:0001488
 is_a: UBERON:0010000 ! multicellular anatomical structure
 relationship: BFO:0000050 NCBITaxon:6072 {gci_filler="NCBITaxon:6072", gci_relation="RO:0002162"} ! part of Eumetazoa
 relationship: BFO:0000051 UBERON:0000479 ! has part tissue
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0000483
@@ -44234,6 +44442,7 @@ relationship: BFO:0000050 UBERON:0001041 ! part of foregut
 relationship: RO:0002160 NCBITaxon:7776 ! Gnathostomata <vertebrates>
 relationship: RO:0002215 GO:0001696 ! capable of gastric acid secretion
 relationship: RO:0002433 UBERON:0001007 ! digestive system
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000947
@@ -44262,6 +44471,7 @@ is_a: UBERON:0003519 ! thoracic cavity blood vessel
 is_a: UBERON:0013768 ! great vessel of heart
 relationship: BFO:0000050 UBERON:0010191 ! part of aortic system
 relationship: RO:0002170 UBERON:0002084 ! heart left ventricle
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000948
@@ -44302,6 +44512,7 @@ relationship: BFO:0000051 UBERON:0004151 ! has part cardiac chamber
 relationship: RO:0002160 NCBITaxon:7742 ! Vertebrata <vertebrates>
 relationship: RO:0002202 UBERON:0004141 ! heart tube
 relationship: RO:0002433 UBERON:0004535 ! cardiovascular system
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000949
@@ -44391,6 +44602,7 @@ relationship: RO:0002433 UBERON:0001016 ! nervous system
 relationship: RO:0002473 CL:0002319 ! neural cell
 relationship: RO:0002492 UBERON:0000066 ! fully formed stage
 relationship: RO:0002495 UBERON:0006238 ! future brain
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000957
@@ -44418,6 +44630,7 @@ is_a: UBERON:0001780 ! spinal nerve
 intersection_of: UBERON:0001780 ! spinal nerve
 intersection_of: extends_fibers_into UBERON:0002726 ! cervical spinal cord
 relationship: extends_fibers_into UBERON:0002726 ! cervical spinal cord
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000963
@@ -44465,6 +44678,7 @@ relationship: RO:0002202 UBERON:0004348 ! optic eminence
 relationship: RO:0002202 UBERON:0005427 ! corneal primordium
 relationship: RO:0002256 UBERON:0005426 ! lens vesicle
 relationship: RO:0002433 UBERON:0001801 ! anterior segment of eyeball
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000965
@@ -44496,6 +44710,7 @@ relationship: BFO:0000050 UBERON:0001801 ! part of anterior segment of eyeball
 relationship: RO:0002202 UBERON:0005426 ! lens vesicle
 relationship: RO:0002256 UBERON:0003902 ! retinal neural layer
 relationship: RO:0002433 UBERON:0001801 ! anterior segment of eyeball
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000966
@@ -44536,6 +44751,7 @@ relationship: BFO:0000051 CL:0000573 ! has part retinal cone cell
 relationship: BFO:0000051 CL:0000604 ! has part retinal rod cell
 relationship: BFO:0000051 CL:0000740 ! has part retinal ganglion cell
 relationship: RO:0002202 UBERON:0003072 ! optic cup
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000970
@@ -44556,6 +44772,7 @@ relationship: BFO:0000050 UBERON:0002104 ! part of visual system
 relationship: BFO:0000051 CL:0000149 ! has part visual pigment cell
 relationship: BFO:0000051 CL:0000210 ! has part photoreceptor cell
 relationship: RO:0002215 GO:0009584 ! capable of detection of visible light
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000971
@@ -44690,6 +44907,7 @@ relationship: BFO:0000050 UBERON:0002298 ! part of brainstem
 relationship: RO:0002160 NCBITaxon:7742 ! Vertebrata <vertebrates>
 relationship: RO:0002433 UBERON:0001895 ! metencephalon
 relationship: RO:0002433 UBERON:0002298 ! brainstem
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000990
@@ -44738,6 +44956,7 @@ disjoint_from: UBERON:8450002 ! excretory system
 relationship: BFO:0000051 UBERON:0000991 ! has part gonad
 relationship: RO:0002216 GO:0022414 ! capable of part of reproductive process
 relationship: RO:0002492 UBERON:0000066 ! fully formed stage
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0000991
@@ -44801,6 +45020,7 @@ intersection_of: BFO:0000050 UBERON:0000474 ! part of female reproductive system
 disjoint_from: UBERON:0009117 ! indifferent gonad
 relationship: RO:0002160 NCBITaxon:33208 ! Metazoa
 relationship: RO:0002202 UBERON:0009117 ! indifferent gonad
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001003
@@ -44832,6 +45052,7 @@ intersection_of: BFO:0000050 UBERON:0002097 ! part of skin of body
 relationship: BFO:0000050 UBERON:0002097 ! part of skin of body
 relationship: RO:0002220 UBERON:0002067 ! adjacent to dermis
 relationship: RO:0002285 UBERON:0003055 ! periderm
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001004
@@ -44878,6 +45099,7 @@ relationship: RO:0002160 NCBITaxon:33213 ! Bilateria
 relationship: RO:0002215 GO:0003016 ! capable of respiratory system process
 relationship: RO:0002215 GO:0007585 ! capable of respiratory gaseous exchange by respiratory system
 relationship: RO:0002492 UBERON:0000066 ! fully formed stage
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001005
@@ -44931,6 +45153,7 @@ disjoint_from: UBERON:0004456 ! entire sense organ system
 disjoint_from: UBERON:8450002 ! excretory system
 relationship: RO:0002215 GO:0022600 ! capable of digestive system process
 relationship: RO:0002492 UBERON:0000066 ! fully formed stage
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001008
@@ -44969,6 +45192,7 @@ intersection_of: RO:0002215 GO:0097254 ! capable of renal tubular secretion
 relationship: RO:0002160 NCBITaxon:6072 ! Eumetazoa
 relationship: RO:0002215 GO:0097254 ! capable of renal tubular secretion
 relationship: RO:0002492 UBERON:0000066 ! fully formed stage
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001009
@@ -44993,6 +45217,7 @@ disjoint_from: UBERON:8450002 ! excretory system
 relationship: RO:0002160 NCBITaxon:33213 ! Bilateria
 relationship: RO:0002215 GO:0003013 ! capable of circulatory system process
 relationship: RO:0002492 UBERON:0000066 ! fully formed stage
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001013
@@ -45025,6 +45250,7 @@ intersection_of: UBERON:0002384 ! connective tissue
 intersection_of: RO:0002473 CL:0000136 ! adipocyte
 disjoint_from: UBERON:0003714 ! neural tissue
 relationship: RO:0002473 CL:0000136 ! adipocyte
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001015
@@ -45091,6 +45317,7 @@ relationship: RO:0002215 GO:0050877 ! capable of nervous system process
 relationship: RO:0002473 CL:0002319 ! neural cell
 relationship: RO:0002492 UBERON:0000066 ! fully formed stage
 relationship: RO:0002495 UBERON:0016880 ! future nervous system
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001017
@@ -45126,6 +45353,7 @@ is_a: UBERON:0011216 ! organ system subdivision
 relationship: BFO:0000050 UBERON:0001016 ! part of nervous system
 relationship: RO:0002160 NCBITaxon:33213 ! Bilateria
 relationship: RO:0002495 UBERON:0016879 ! future central nervous system
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001021
@@ -45168,6 +45396,7 @@ xref: ZFA:0007009
 is_a: UBERON:0000122 ! neuron projection bundle
 relationship: BFO:0000050 UBERON:0000010 ! part of peripheral nervous system
 relationship: RO:0000086 PATO:0002045
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001027
@@ -45314,6 +45543,7 @@ is_a: UBERON:0013765 ! digestive system element
 relationship: BFO:0000050 UBERON:0004908 ! part of upper digestive tract
 relationship: proximally_connected_to UBERON:0001042 ! chordate pharynx
 relationship: RO:0002202 UBERON:0001041 ! foregut
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001045
@@ -45435,6 +45665,7 @@ relationship: BFO:0000050 UBERON:0012361 ! part of internal anal region
 relationship: BSPO:0001108 UBERON:0000059 ! large intestine
 relationship: RO:0002150 UBERON:0001159 ! sigmoid colon
 relationship: RO:0002433 UBERON:0000059 ! large intestine
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001062
@@ -45458,6 +45689,9 @@ xref: XAO:0000000
 xref: ZFA:0100000
 relationship: BFO:0000050 UBERON:0003942 {gci_relation="RO:0002216", gci_filler="GO:0050975"} ! part of somatosensory system
 relationship: BFO:0000050 UBERON:0003942 {gci_relation="RO:0002216", gci_filler="GO:0019233"} ! part of somatosensory system
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0001064
@@ -45483,6 +45717,7 @@ relationship: channel_for UBERON:0001970 ! bile
 relationship: channels_into UBERON:0004913 ! hepatopancreatic ampulla
 relationship: RO:0002150 UBERON:0001174 ! common bile duct
 relationship: RO:0002202 UBERON:0003924 ! ventral pancreatic bud
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001068
@@ -45522,6 +45757,7 @@ is_a: UBERON:0005396 ! carotid artery segment
 relationship: BFO:0000050 UBERON:0001530 ! part of common carotid artery plus branches
 relationship: RO:0002202 UBERON:0001530 ! common carotid artery plus branches
 relationship: RO:0002380 UBERON:0001530 ! common carotid artery plus branches
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001071
@@ -45538,6 +45774,7 @@ intersection_of: UBERON:0012320 ! cervical artery
 intersection_of: BFO:0000050 UBERON:0035549 ! part of vasculature of integument
 relationship: BFO:0000050 UBERON:0035549 ! part of vasculature of integument
 relationship: RO:0002170 UBERON:0012324 ! transverse cervical artery
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001072
@@ -45563,6 +45800,7 @@ intersection_of: RO:0002179 UBERON:0000154 ! posterior region of body
 relationship: channels_into UBERON:0002078 {gci_filler="NCBITaxon:40674", gci_relation="BFO:0000050"} ! right cardiac atrium
 relationship: RO:0002170 UBERON:0002078 ! right cardiac atrium
 relationship: RO:0002179 UBERON:0000154 ! posterior region of body
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001073
@@ -45743,6 +45981,7 @@ xref: ZFA:0001167
 is_a: UBERON:0002412 ! vertebra
 relationship: BFO:0000050 UBERON:0006072 {gci_filler="NCBITaxon:32523", gci_relation="BFO:0000050"} ! part of cervical region of vertebral column
 relationship: BSPO:0000096 UBERON:0001093 ! vertebral bone 2
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001093
@@ -45762,6 +46001,7 @@ xref: ZFA:0001168
 is_a: UBERON:0002412 ! vertebra
 relationship: anteriorly_connected_to UBERON:0001092 ! vertebral bone 1
 relationship: BFO:0000050 UBERON:0006072 {gci_filler="NCBITaxon:32523", gci_relation="BFO:0000050"} ! part of cervical region of vertebral column
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001095
@@ -45784,6 +46024,7 @@ is_a: UBERON:0004247 ! bone of dorsum
 is_a: UBERON:0018142 ! caudal vertebra endochondral element
 intersection_of: UBERON:0018142 ! caudal vertebra endochondral element
 intersection_of: RO:0002473 UBERON:0002481 ! bone tissue
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001096
@@ -45902,6 +46143,7 @@ relationship: BFO:0000050 UBERON:0011138 ! part of postcranial axial skeletal sy
 relationship: protects UBERON:0002240 ! spinal cord
 relationship: RO:0002160 NCBITaxon:7742 ! Vertebrata <vertebrates>
 relationship: RO:0002473 UBERON:0010913 ! vertebral element
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001133
@@ -46047,6 +46289,7 @@ relationship: BFO:0000050 UBERON:0005806 ! part of portal system
 relationship: RO:0002170 UBERON:0001639 ! hepatic portal vein
 relationship: RO:0002179 UBERON:0002108 ! small intestine
 relationship: RO:0002202 UBERON:0005487 ! vitelline vein
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001143
@@ -46168,6 +46411,7 @@ xref: Wikipedia:Sigmoid_colon
 is_a: UBERON:0000168 ! proximal-distal subdivision of colon
 relationship: RO:0002150 UBERON:0001052 ! rectum
 relationship: RO:0002202 UBERON:0001046 ! hindgut
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001161
@@ -46359,6 +46603,7 @@ is_a: UBERON:0003703 ! extrahepatic bile duct
 relationship: channels_into UBERON:0001064 ! ventral pancreatic duct
 relationship: RO:0002150 UBERON:0001152 ! cystic duct
 relationship: RO:0002150 UBERON:0001175 ! common hepatic duct
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001175
@@ -46473,6 +46718,7 @@ intersection_of: UBERON:0001637 ! artery
 intersection_of: RO:0002178 UBERON:0000992 ! ovary
 relationship: RO:0002170 UBERON:0001516 ! abdominal aorta
 relationship: RO:0002178 UBERON:0000992 ! ovary
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001193
@@ -46493,6 +46739,7 @@ is_a: UBERON:0001637 ! artery
 intersection_of: UBERON:0001637 ! artery
 intersection_of: RO:0002178 UBERON:0002107 ! liver
 relationship: RO:0002178 UBERON:0002107 ! liver
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001194
@@ -46514,6 +46761,7 @@ intersection_of: RO:0002178 UBERON:0002106 ! spleen
 disjoint_from: UBERON:0001640 ! celiac artery
 relationship: RO:0002178 UBERON:0002106 ! spleen
 relationship: RO:0002252 UBERON:0001640 ! celiac artery
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001199
@@ -46732,6 +46980,7 @@ intersection_of: UBERON:0005617 ! mesenteric vein
 intersection_of: RO:0002179 UBERON:0000059 ! large intestine
 relationship: RO:0002179 UBERON:0000059 ! large intestine
 relationship: RO:0002376 UBERON:0003713 ! splenic vein
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001238
@@ -46799,6 +47048,7 @@ intersection_of: BSPO:0001108 UBERON:0001555 ! digestive tract
 relationship: BFO:0000050 UBERON:0001555 ! part of digestive tract
 relationship: BSPO:0001108 UBERON:0001555 ! digestive tract
 relationship: RO:0002202 UBERON:0000931 ! proctodeum
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001246
@@ -46846,6 +47096,7 @@ intersection_of: BFO:0000050 UBERON:0000017 ! part of exocrine pancreas
 relationship: BFO:0000050 UBERON:0007324 ! part of pancreatic lobule
 relationship: RO:0002433 UBERON:0000017 ! exocrine pancreas
 relationship: RO:0002473 CL:0002064 ! pancreatic acinar cell
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001264
@@ -46879,6 +47130,7 @@ relationship: BFO:0000051 UBERON:0000017 {gci_filler="NCBITaxon:89593", gci_rela
 relationship: RO:0002160 NCBITaxon:7742 ! Vertebrata <vertebrates>
 relationship: RO:0002254 UBERON:0003923 ! dorsal pancreatic bud
 relationship: RO:0002254 UBERON:0003924 ! ventral pancreatic bud
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001265
@@ -46895,6 +47147,7 @@ is_a: UBERON:0004120 ! mesoderm-derived structure
 intersection_of: UBERON:0000440 ! trabecula
 intersection_of: BFO:0000050 UBERON:0002106 ! part of spleen
 relationship: BFO:0000050 UBERON:1000024 ! part of parenchyma of spleen
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001268
@@ -46985,6 +47238,7 @@ relationship: BFO:0000051 UBERON:0001193 ! has part hepatic artery
 relationship: BFO:0000051 UBERON:0002017 ! has part portal vein
 relationship: BFO:0000051 UBERON:0003704 ! has part intrahepatic bile duct
 relationship: RO:0002433 UBERON:0001171 ! portal lobule
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001280
@@ -47033,6 +47287,7 @@ relationship: BFO:0000050 UBERON:0006877 ! part of vasculature of liver
 relationship: RO:0002170 UBERON:0006841 ! central vein of liver
 relationship: RO:0002226 UBERON:0001113 ! lobe of liver
 relationship: RO:0002433 UBERON:0004647 ! liver lobule
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001282
@@ -47051,6 +47306,7 @@ relationship: BFO:0000050 UBERON:0004647 ! part of liver lobule
 relationship: BFO:0000051 CL:0000182 ! has part hepatocyte
 relationship: BFO:0000051 CL:1000488 ! has part cholangiocyte
 relationship: RO:0002433 UBERON:0004647 ! liver lobule
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001353
@@ -47304,6 +47560,7 @@ relationship: RO:0002202 UBERON:0005338 ! outflow tract aortic component
 relationship: RO:0002254 UBERON:0002061 ! truncus arteriosus
 relationship: RO:0002254 UBERON:0005432 ! aortic sac
 relationship: RO:0002433 UBERON:0001515 ! thoracic aorta
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001508
@@ -47326,6 +47583,7 @@ relationship: RO:0002202 UBERON:0003121 ! pharyngeal arch artery 4
 relationship: RO:0002254 UBERON:0005432 ! aortic sac
 relationship: RO:0002254 UBERON:0005613 ! left dorsal aorta
 relationship: RO:0002433 UBERON:0001515 ! thoracic aorta
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001514
@@ -47342,6 +47600,7 @@ relationship: RO:0002170 UBERON:0001508 ! arch of aorta
 relationship: RO:0002202 UBERON:0005805 ! dorsal aorta
 relationship: RO:0002254 UBERON:0005613 ! left dorsal aorta
 relationship: RO:0002254 UBERON:0005622 ! right dorsal aorta
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001515
@@ -47384,6 +47643,7 @@ relationship: BFO:0000050 UBERON:0001514 ! part of descending aorta
 relationship: RO:0002131 UBERON:0000916 ! overlaps abdomen
 relationship: RO:0002170 UBERON:0002345 ! descending thoracic aorta
 relationship: RO:0002433 UBERON:0001514 ! descending aorta
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001529
@@ -47404,6 +47664,7 @@ is_a: UBERON:0004573 ! systemic artery
 relationship: BFO:0000050 UBERON:0007204 ! part of brachiocephalic vasculature
 relationship: channels_from UBERON:0001508 ! arch of aorta
 relationship: RO:0002170 UBERON:0001508 ! arch of aorta
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001530
@@ -47425,6 +47686,7 @@ is_a: UBERON:0004573 ! systemic artery
 relationship: RO:0002170 UBERON:0001508 ! arch of aorta
 relationship: RO:0002202 UBERON:0004363 ! pharyngeal arch artery
 relationship: RO:0002488 UBERON:0000068 ! embryo stage
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001533
@@ -47450,6 +47712,7 @@ relationship: RO:0002170 UBERON:0001508 ! arch of aorta
 relationship: RO:0002178 UBERON:0004710 ! pectoral appendage
 relationship: RO:0002202 UBERON:0002457 ! intersomitic artery
 relationship: RO:0002202 UBERON:0005622 ! right dorsal aorta
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001534
@@ -47467,6 +47730,7 @@ intersection_of: UBERON:0001533 ! subclavian artery
 intersection_of: BSPO:0000121 UBERON:0000468 ! multicellular organism
 relationship: BSPO:0000121 UBERON:0000468 ! multicellular organism
 relationship: RO:0002170 UBERON:0001529 ! brachiocephalic artery
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001555
@@ -47493,6 +47757,7 @@ relationship: BFO:0000050 UBERON:0001007 ! part of digestive system
 relationship: RO:0002160 NCBITaxon:6072 ! Eumetazoa
 relationship: RO:0002176 UBERON:0000165 ! mouth
 relationship: RO:0002495 UBERON:0007026 ! presumptive gut
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001558
@@ -47507,6 +47772,7 @@ xref: VHOG:0000382
 xref: Wikipedia:Lower_respiratory_tract
 is_a: UBERON:0000072 ! proximo-distal subdivision of respiratory tract
 relationship: BFO:0000051 UBERON:0000170 ! has part pair of lungs
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001584
@@ -47523,6 +47789,7 @@ intersection_of: UBERON:0001533 ! subclavian artery
 intersection_of: BSPO:0000120 UBERON:0000468 ! multicellular organism
 relationship: BSPO:0000120 UBERON:0000468 ! multicellular organism
 relationship: channels_from UBERON:0001508 ! arch of aorta
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001585
@@ -47546,6 +47813,7 @@ intersection_of: UBERON:0004087 ! vena cava
 intersection_of: RO:0002179 UBERON:0000153 ! anterior region of body
 relationship: RO:0002170 UBERON:0002078 ! right cardiac atrium
 relationship: RO:0002179 UBERON:0000153 ! anterior region of body
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001586
@@ -47567,6 +47835,7 @@ is_a: UBERON:0004711 ! jugular vein
 relationship: RO:0002170 UBERON:0003711 ! brachiocephalic vein
 relationship: RO:0002179 UBERON:0000955 ! brain
 relationship: RO:0002179 UBERON:0001456 ! face
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001592
@@ -47582,6 +47851,7 @@ is_a: UBERON:0001638 ! vein
 intersection_of: UBERON:0001638 ! vein
 intersection_of: RO:0002179 UBERON:0002185 ! bronchus
 relationship: RO:0002179 UBERON:0002185 ! bronchus
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001605
@@ -47598,6 +47868,7 @@ is_a: UBERON:0003386 ! smooth muscle of eye
 is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0011222 ! intra-ocular muscle
 relationship: BFO:0000050 UBERON:0001775 ! part of ciliary body
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001606
@@ -47648,6 +47919,7 @@ relationship: RO:0002202 UBERON:0002346 ! neurectoderm
 relationship: RO:0002372 UBERON:0001769 ! iris
 relationship: RO:0002373 UBERON:0001769 ! iris
 relationship: RO:0002568 UBERON:0001607 ! sphincter pupillae
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001612
@@ -47664,6 +47936,7 @@ intersection_of: UBERON:0001637 ! artery
 intersection_of: RO:0002178 UBERON:0001456 ! face
 intersection_of: RO:0002252 UBERON:0001070 ! external carotid artery
 relationship: RO:0002178 UBERON:0001456 ! face
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001630
@@ -47762,6 +48035,7 @@ is_a: UBERON:0002017 ! portal vein
 relationship: BFO:0000050 UBERON:0010194 ! part of hepatic portal system
 relationship: channels_into UBERON:0002107 ! liver
 relationship: RO:0002131 UBERON:0002107 ! overlaps liver
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001640
@@ -47782,6 +48056,7 @@ relationship: indirectly_supplies UBERON:0000160 ! intestine
 relationship: indirectly_supplies UBERON:0000945 ! stomach
 relationship: indirectly_supplies UBERON:0002106 ! spleen
 relationship: indirectly_supplies UBERON:0002107 ! liver
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001645
@@ -47822,6 +48097,7 @@ relationship: RO:0002134 UBERON:0000165 ! mouth
 relationship: RO:0002134 UBERON:0011648 ! jaw muscle
 relationship: RO:0002134 UBERON:1000021 ! skin of face
 relationship: RO:0002254 UBERON:0005239 ! basal plate metencephalon
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001651
@@ -47838,6 +48114,7 @@ intersection_of: UBERON:0001637 ! artery
 intersection_of: RO:0002178 UBERON:0002167 ! right lung
 relationship: RO:0002170 UBERON:0002333 ! pulmonary trunk
 relationship: RO:0002178 UBERON:0002167 ! right lung
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001652
@@ -47854,6 +48131,7 @@ intersection_of: UBERON:0001637 ! artery
 intersection_of: RO:0002178 UBERON:0002168 ! left lung
 relationship: RO:0002170 UBERON:0002333 ! pulmonary trunk
 relationship: RO:0002178 UBERON:0002168 ! left lung
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001653
@@ -47870,6 +48148,7 @@ is_a: UBERON:0003496 ! head blood vessel
 is_a: UBERON:0009141 ! craniocervical region vein
 relationship: BFO:0000050 UBERON:0001456 ! part of face
 relationship: RO:0002376 UBERON:0001586 ! internal jugular vein
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001675
@@ -47925,6 +48204,7 @@ relationship: RO:0002131 UBERON:0003113 ! overlaps dermatocranium
 relationship: RO:0002160 NCBITaxon:117570 ! Teleostomi
 relationship: RO:0002202 UBERON:0003089 ! sclerotome
 relationship: RO:0002221 UBERON:0003687 ! foramen magnum
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001677
@@ -47949,6 +48229,7 @@ relationship: RO:0002131 UBERON:0002241 ! overlaps chondrocranium
 relationship: RO:0002131 UBERON:0003113 ! overlaps dermatocranium
 relationship: RO:0002131 UBERON:0008895 ! overlaps splanchnocranium
 relationship: RO:0002202 UBERON:0009193 ! sphenoid cartilage element
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001679
@@ -47971,6 +48252,7 @@ relationship: BFO:0000050 UBERON:0002517 ! part of basicranium
 relationship: BFO:0000050 UBERON:0011241 ! part of ethmoid region
 relationship: RO:0002202 UBERON:0006227 ! ethmoid bone primordium
 relationship: RO:0002433 UBERON:0011156 ! facial skeleton
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001697
@@ -48011,6 +48293,7 @@ relationship: BFO:0000050 UBERON:0003128 ! part of cranium
 relationship: protects UBERON:0000955 ! brain
 relationship: RO:0001015 UBERON:0000955 ! brain
 relationship: RO:0002202 UBERON:0004761 ! cartilaginous neurocranium
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001708
@@ -48112,6 +48395,7 @@ intersection_of: UBERON:0000045 ! ganglion
 intersection_of: extends_fibers_into UBERON:0034713 ! cranial neuron projection bundle
 relationship: BFO:0000050 UBERON:0000033 ! part of head
 relationship: extends_fibers_into UBERON:0034713 ! cranial neuron projection bundle
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001731
@@ -48199,6 +48483,7 @@ is_a: UBERON:0004121 ! ectoderm-derived structure
 relationship: BFO:0000050 UBERON:0011892 ! part of anterior uvea
 relationship: RO:0002202 UBERON:0004128 ! optic vesicle
 relationship: RO:0002433 UBERON:0011892 ! anterior uvea
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001772
@@ -48225,6 +48510,7 @@ intersection_of: RO:0002007 UBERON:0000964 ! bounding layer of cornea
 relationship: RO:0002007 UBERON:0000964 ! bounding layer of cornea
 relationship: RO:0002202 UBERON:0000076 ! external ectoderm
 relationship: RO:0002433 UBERON:0000964 ! cornea
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001773
@@ -48252,6 +48538,7 @@ relationship: BFO:0000051 CL:0000347 ! has part scleral cell
 relationship: RO:0000086 PATO:0000963
 relationship: RO:0002202 UBERON:0003314 ! eye mesenchyme
 relationship: RO:0002433 UBERON:0000019 ! camera-type eye
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001774
@@ -48296,6 +48583,7 @@ relationship: BFO:0000051 UBERON:0001605 ! has part ciliary muscle
 relationship: BFO:0000051 UBERON:0010427 ! has part ciliary processes
 relationship: RO:0002202 UBERON:0002346 ! neurectoderm
 relationship: RO:0002433 UBERON:0011892 ! anterior uvea
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001776
@@ -48323,6 +48611,7 @@ relationship: RO:0002220 UBERON:0000966 ! adjacent to retina
 relationship: RO:0002220 UBERON:0001773 ! adjacent to sclera
 relationship: RO:0002220 UBERON:0011892 ! adjacent to anterior uvea
 relationship: RO:0002433 UBERON:0001768 ! uvea
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001777
@@ -48369,6 +48658,7 @@ intersection_of: BFO:0000050 UBERON:0001775 ! part of ciliary body
 relationship: BFO:0000050 UBERON:0001775 ! part of ciliary body
 relationship: BFO:0000051 GO:0048770 ! has part pigment granule
 relationship: RO:0003000 UBERON:0001796 ! produces aqueous humor of eyeball
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001779
@@ -48410,6 +48700,7 @@ is_a: UBERON:0001021 ! nerve
 intersection_of: UBERON:0001021 ! nerve
 intersection_of: extends_fibers_into UBERON:0002240 ! spinal cord
 relationship: extends_fibers_into UBERON:0002240 ! spinal cord
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001781
@@ -48458,6 +48749,7 @@ intersection_of: BSPO:0000096 UBERON:0001780 ! spinal nerve
 intersection_of: extends_fibers_into UBERON:0000955 ! brain
 relationship: BSPO:0000096 UBERON:0001780 ! spinal nerve
 relationship: RO:0002254 UBERON:0003099 ! cranial neural crest
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001796
@@ -48496,6 +48788,7 @@ is_a: UBERON:0000045 ! ganglion
 intersection_of: UBERON:0000045 ! ganglion
 intersection_of: extends_fibers_into UBERON:0001027 ! sensory nerve
 relationship: extends_fibers_into UBERON:0001027 ! sensory nerve
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001801
@@ -48552,6 +48845,7 @@ intersection_of: UBERON:0000483 ! epithelium
 intersection_of: BFO:0000050 UBERON:0000965 ! part of lens of camera-type eye
 relationship: BFO:0000050 UBERON:0000965 ! part of lens of camera-type eye
 relationship: RO:0002433 UBERON:0000965 ! lens of camera-type eye
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001804
@@ -48593,6 +48887,7 @@ intersection_of: UBERON:0000045 ! ganglion
 intersection_of: BFO:0000050 UBERON:0002410 ! part of autonomic nervous system
 relationship: BFO:0000050 UBERON:0002410 ! part of autonomic nervous system
 relationship: extends_fibers_into UBERON:0034728 ! autonomic nerve
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001806
@@ -48697,6 +48992,7 @@ intersection_of: UBERON:0001021 ! nerve
 intersection_of: RO:0002134 UBERON:0001103 ! diaphragm
 relationship: RO:0002134 UBERON:0001103 ! diaphragm
 relationship: RO:0002380 UBERON:0000962 ! nerve of cervical vertebra
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001891
@@ -48735,6 +49031,7 @@ is_a: UBERON:0010314 ! structure with developmental contribution from neural cre
 relationship: RO:0002254 UBERON:0003849 ! mesencephalic neural crest
 relationship: RO:0002433 UBERON:0000955 ! brain
 relationship: RO:0002495 UBERON:0009616 ! presumptive midbrain
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001892
@@ -48821,6 +49118,7 @@ relationship: BFO:0000050 UBERON:0005290 ! part of myelencephalon
 relationship: RO:0002215 GO:0002027 ! capable of regulation of heart rate
 relationship: RO:0002215 GO:0043576 ! capable of regulation of respiratory gaseous exchange
 relationship: RO:0002215 GO:0044058 ! capable of regulation of digestive system process
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001901
@@ -48842,6 +49140,7 @@ intersection_of: BFO:0000050 UBERON:0003126 ! part of trachea
 relationship: BFO:0000050 UBERON:0003126 ! part of trachea
 relationship: RO:0002202 UBERON:0003258 ! endoderm of foregut
 relationship: RO:0002433 UBERON:0003126 ! trachea
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001902
@@ -48967,6 +49266,7 @@ is_a: UBERON:0002616 ! regional part of brain
 relationship: BFO:0000050 UBERON:0001891 ! part of midbrain
 relationship: BFO:0000050 UBERON:0002298 ! part of brainstem
 relationship: RO:0002202 UBERON:0010285 ! midbrain basal plate
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001948
@@ -48993,6 +49293,7 @@ is_a: UBERON:0002051 ! epithelium of bronchiole
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: BFO:0000050 UBERON:0002188 ! part of respiratory bronchiole
 relationship: BFO:0000050 UBERON:0002188 ! part of respiratory bronchiole
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001956
@@ -49010,6 +49311,7 @@ relationship: BFO:0000050 UBERON:0002185 ! part of bronchus
 relationship: BFO:0000051 CL:0019002 ! has part tracheobronchial chondrocyte
 relationship: RO:0002433 UBERON:0002185 ! bronchus
 relationship: RO:0002473 UBERON:0001994 ! hyaline cartilage tissue
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001957
@@ -49038,6 +49340,7 @@ is_a: UBERON:0002051 ! epithelium of bronchiole
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: BFO:0000050 UBERON:0002187 ! part of terminal bronchiole
 relationship: BFO:0000050 UBERON:0002187 ! part of terminal bronchiole
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001969
@@ -49179,6 +49482,7 @@ is_a: UBERON:0000353 ! parenchyma
 intersection_of: UBERON:0000353 ! parenchyma
 intersection_of: BFO:0000050 UBERON:0001264 ! part of pancreas
 relationship: BFO:0000050 UBERON:0001264 ! part of pancreas
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001979
@@ -49199,6 +49503,7 @@ is_a: UBERON:0003920 ! venous blood vessel
 is_a: UBERON:8410081 ! blood microvessel
 relationship: RO:0002176 UBERON:0001638 ! vein
 relationship: RO:0002176 UBERON:0001982 ! capillary
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001980
@@ -49262,6 +49567,7 @@ relationship: RO:0000086 PATO:0002045
 relationship: RO:0002202 UBERON:0004872 ! splanchnic layer of lateral plate mesoderm
 relationship: RO:0002202 UBERON:0006965 ! vascular cord
 relationship: RO:0002216 GO:0008015 ! capable of part of blood circulation
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001982
@@ -49289,6 +49595,7 @@ intersection_of: RO:0002176 UBERON:0001979 ! venule
 intersection_of: RO:0002176 UBERON:0001980 ! arteriole
 relationship: RO:0002176 UBERON:0001979 ! venule
 relationship: RO:0002176 UBERON:0001980 ! arteriole
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001985
@@ -49313,6 +49620,7 @@ intersection_of: BFO:0000050 UBERON:0000964 ! part of cornea
 relationship: BFO:0000050 UBERON:0000964 ! part of cornea
 relationship: RO:0002220 UBERON:0001766 ! adjacent to anterior chamber of eyeball
 relationship: RO:0002433 UBERON:0000964 ! cornea
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001986
@@ -49334,6 +49642,7 @@ intersection_of: UBERON:0000483 ! epithelium
 intersection_of: RO:0002473 CL:0000115 ! endothelial cell
 relationship: RO:0002160 NCBITaxon:7742 ! Vertebrata <vertebrates>
 relationship: RO:0002473 CL:0000115 ! endothelial cell
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001988
@@ -49404,6 +49713,7 @@ relationship: RO:0002178 UBERON:0002048 ! lung
 relationship: RO:0002202 UBERON:0002061 ! truncus arteriosus
 relationship: RO:0002202 UBERON:0003123 ! pharyngeal arch artery 6
 relationship: RO:0002202 UBERON:0005339 ! outflow tract pulmonary component
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002016
@@ -49433,6 +49743,7 @@ relationship: BFO:0000050 UBERON:0008886 ! part of pulmonary vascular system
 relationship: RO:0002170 UBERON:0002079 ! left cardiac atrium
 relationship: RO:0002179 UBERON:0002048 ! lung
 relationship: RO:0002202 UBERON:0002061 ! truncus arteriosus
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002017
@@ -49454,6 +49765,7 @@ xref: VHOG:0000656
 xref: XAO:0000392
 is_a: UBERON:0001638 ! vein
 relationship: BFO:0000050 UBERON:0005806 ! part of portal system
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002020
@@ -49508,6 +49820,7 @@ relationship: RO:0002131 UBERON:0002298 ! overlaps brainstem
 relationship: RO:0002160 NCBITaxon:89593 ! Craniata <chordates>
 relationship: RO:0002433 UBERON:0000955 ! brain
 relationship: RO:0002495 UBERON:0007277 ! presumptive hindbrain
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002029
@@ -49585,6 +49898,7 @@ intersection_of: RO:0002178 UBERON:0002048 ! lung
 relationship: BFO:0000051 UBERON:0004848 ! has part respiratory system arterial endothelium
 relationship: BFO:0000051 UBERON:0012416 ! has part respiratory system arterial smooth muscle
 relationship: RO:0002178 UBERON:0002048 ! lung
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002047
@@ -49641,6 +49955,7 @@ relationship: BSPO:0000126 UBERON:0000170 ! pair of lungs
 relationship: RO:0002160 NCBITaxon:7776 ! Gnathostomata <vertebrates>
 relationship: RO:0002202 UBERON:0000118 ! lung bud
 relationship: RO:0002433 UBERON:0001004 ! respiratory system
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002049
@@ -49654,6 +49969,7 @@ is_a: UBERON:0000477 ! anatomical cluster
 relationship: BFO:0000050 UBERON:0007798 ! part of vascular system
 relationship: BFO:0000051 UBERON:0000179 ! has part haemolymphatic fluid
 relationship: RO:0002473 UBERON:0000055 ! vessel
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002050
@@ -49699,6 +50015,7 @@ relationship: BFO:0000051 CL:0000158 ! has part club cell
 relationship: BFO:0000051 CL:0002145 ! has part ciliated columnar cell of tracheobronchial tree
 relationship: BFO:0000051 CL:1000271 ! has part lung ciliated cell
 relationship: RO:0002433 UBERON:0002186 ! bronchiole
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002057
@@ -49806,6 +50123,7 @@ relationship: BSPO:0000107 UBERON:0001003 ! skin epidermis
 relationship: BSPO:0000108 UBERON:0002072 ! hypodermis
 relationship: RO:0002473 UBERON:0002384 ! connective tissue
 relationship: RO:0002495 UBERON:0010083 ! future dermis
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002072
@@ -49825,6 +50143,7 @@ relationship: BSPO:0000107 UBERON:0002067 ! dermis
 relationship: BSPO:0000108 UBERON:0001015 ! musculature
 relationship: RO:0002473 UBERON:0001013 ! adipose tissue
 relationship: RO:0002473 UBERON:0011825 ! loose connective tissue
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002075
@@ -49868,6 +50187,7 @@ is_a: UBERON:0035554 ! right cardiac chamber
 intersection_of: UBERON:0002081 ! cardiac atrium
 intersection_of: BSPO:0000121 UBERON:0000948 ! heart
 relationship: RO:0002170 UBERON:0004537 ! blood vasculature
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002079
@@ -49890,6 +50210,7 @@ is_a: UBERON:0035553 ! left cardiac chamber
 intersection_of: UBERON:0002081 ! cardiac atrium
 intersection_of: BSPO:0000120 UBERON:0000948 ! heart
 relationship: RO:0002170 UBERON:0004537 ! blood vasculature
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002080
@@ -49913,6 +50234,7 @@ intersection_of: BSPO:0000121 UBERON:0000948 ! heart
 relationship: RO:0002170 UBERON:0004537 ! blood vasculature
 relationship: RO:0002202 UBERON:0009889 ! secondary heart field
 relationship: RO:0002254 UBERON:0004706 ! bulbus cordis
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002081
@@ -49993,6 +50315,7 @@ intersection_of: BSPO:0000120 UBERON:0000948 ! heart
 relationship: RO:0002150 UBERON:0000947 ! aorta
 relationship: RO:0002170 UBERON:0004537 ! blood vasculature
 relationship: RO:0002202 UBERON:0004140 ! primary heart field
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002085
@@ -50059,6 +50382,7 @@ relationship: BFO:0000050 UBERON:0011249 ! part of appendicular skeletal system
 relationship: RO:0002131 UBERON:0000026 ! overlaps appendage
 relationship: RO:0002160 NCBITaxon:7776 ! Gnathostomata <vertebrates>
 relationship: RO:0002433 UBERON:0001434 ! skeletal system
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002094
@@ -50081,6 +50405,7 @@ intersection_of: RO:0002220 UBERON:0002080 ! adjacent to heart right ventricle
 intersection_of: RO:0002220 UBERON:0002084 ! adjacent to heart left ventricle
 relationship: RO:0002220 UBERON:0002080 ! adjacent to heart right ventricle
 relationship: RO:0002220 UBERON:0002084 ! adjacent to heart left ventricle
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002095
@@ -50121,6 +50446,7 @@ is_a: UBERON:0004121 ! ectoderm-derived structure
 relationship: BFO:0000050 UBERON:0002199 ! part of integument
 relationship: RO:0002202 UBERON:0011272 ! embryonic skin basal layer
 relationship: RO:0002473 UBERON:0000014 ! zone of skin
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002099
@@ -50228,6 +50554,7 @@ is_a: UBERON:0005057 ! immune organ
 is_a: UBERON:0017672 ! abdominal viscera
 relationship: RO:0002160 NCBITaxon:7776 ! Gnathostomata <vertebrates>
 relationship: RO:0002202 UBERON:0006293 ! spleen primordium
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002107
@@ -50270,6 +50597,7 @@ relationship: RO:0003000 UBERON:0001970 ! produces bile
 relationship: site_of GO:0002384 ! hepatic immune response
 relationship: site_of GO:0005978 ! glycogen biosynthetic process
 relationship: site_of GO:0005980 ! glycogen catabolic process
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002108
@@ -50300,6 +50628,7 @@ is_a: UBERON:0013765 ! digestive system element
 relationship: BFO:0000050 UBERON:0000160 ! part of intestine
 relationship: RO:0002160 NCBITaxon:7742 ! Vertebrata <vertebrates>
 relationship: RO:0002433 UBERON:0000160 ! intestine
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002110
@@ -50392,6 +50721,7 @@ relationship: BFO:0000050 UBERON:0002108 ! part of small intestine
 relationship: BSPO:0001106 UBERON:0002108 ! small intestine
 relationship: RO:0002150 UBERON:0001166 ! pylorus
 relationship: RO:0002433 UBERON:0002108 ! small intestine
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002118
@@ -50608,6 +50938,7 @@ xref: NCIT:C32056
 xref: Wikipedia:Alveolar_duct
 is_a: UBERON:0000117 ! respiratory tube
 relationship: BFO:0000050 UBERON:0006524 ! part of alveolar system
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002185
@@ -50632,6 +50963,7 @@ xref: XAO:0000121
 is_a: UBERON:0000117 ! respiratory tube
 relationship: BFO:0000050 UBERON:0007196 ! part of tracheobronchial tree
 relationship: RO:0001025 UBERON:0002224 ! thoracic cavity
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002186
@@ -50670,6 +51002,7 @@ is_a: UBERON:0002186 ! bronchiole
 relationship: BFO:0000050 UBERON:0010369 ! part of secondary pulmonary lobule
 relationship: distally_connected_to UBERON:0002188 ! respiratory bronchiole
 relationship: distally_connected_to UBERON:0008874 ! pulmonary acinus
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002188
@@ -50687,6 +51020,7 @@ relationship: BFO:0000050 UBERON:0008874 ! part of pulmonary acinus
 relationship: distally_connected_to UBERON:0002173 ! pulmonary alveolar duct
 relationship: proximally_connected_to UBERON:0002187 ! terminal bronchiole
 relationship: RO:0002433 UBERON:0008874 ! pulmonary acinus
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002190
@@ -50702,6 +51036,7 @@ intersection_of: UBERON:0001013 ! adipose tissue
 intersection_of: BFO:0000050 UBERON:0002072 ! part of hypodermis
 relationship: BFO:0000050 UBERON:0002072 ! part of hypodermis
 relationship: RO:0002433 UBERON:0002072 ! hypodermis
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002193
@@ -50733,6 +51068,7 @@ relationship: BFO:0000051 UBERON:0002072 ! has part hypodermis
 relationship: BFO:0000051 UBERON:0002097 ! has part skin of body
 relationship: RO:0002007 UBERON:0000468 ! bounding layer of multicellular organism
 relationship: RO:0002160 NCBITaxon:7711 ! Chordata
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002200
@@ -50775,6 +51111,7 @@ is_a: UBERON:0004777 ! respiratory system submucosa
 intersection_of: UBERON:0000009 ! submucosa
 intersection_of: BFO:0000050 UBERON:0003126 ! part of trachea
 relationship: BFO:0000050 UBERON:0003126 ! part of trachea
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002203
@@ -50790,6 +51127,7 @@ intersection_of: UBERON:0002049 ! vasculature
 intersection_of: BFO:0000050 UBERON:0000019 ! part of camera-type eye
 relationship: BFO:0000050 UBERON:0000019 ! part of camera-type eye
 relationship: RO:0002202 UBERON:0003314 ! eye mesenchyme
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002204
@@ -50921,6 +51259,7 @@ relationship: BFO:0000051 CL:0005000 ! has part spinal cord interneuron
 relationship: RO:0002202 UBERON:0003076 ! posterior neural tube
 relationship: RO:0002254 UBERON:0003853 ! spinal cord neural crest
 relationship: RO:0002495 UBERON:0006241 ! future spinal cord
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002241
@@ -51077,6 +51416,7 @@ relationship: BFO:0000050 UBERON:0008874 ! part of pulmonary acinus
 relationship: BFO:0000067 GO:0007585 ! respiratory gaseous exchange by respiratory system
 relationship: RO:0002160 NCBITaxon:40674 ! Mammalia
 relationship: RO:0002433 UBERON:0008874 ! pulmonary acinus
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002302
@@ -51161,6 +51501,7 @@ is_a: UBERON:0005174 ! dorsal region element
 intersection_of: UBERON:0014892 ! skeletal muscle organ, vertebrate
 intersection_of: BFO:0000050 UBERON:0001137 ! part of dorsum
 relationship: BFO:0000050 UBERON:0004469 ! part of musculature of back
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002328
@@ -51270,6 +51611,7 @@ relationship: BFO:0000050 UBERON:0008886 ! part of pulmonary vascular system
 relationship: RO:0002150 UBERON:0000948 ! heart
 relationship: RO:0002150 UBERON:0002080 {gci_filler="NCBITaxon:40674", gci_relation="BFO:0000050"} ! heart right ventricle
 relationship: RO:0002170 UBERON:0002080 ! heart right ventricle
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002338
@@ -51345,6 +51687,7 @@ relationship: BFO:0000050 UBERON:0001514 ! part of descending aorta
 relationship: BFO:0000050 UBERON:0001515 ! part of thoracic aorta
 relationship: RO:0002433 UBERON:0001514 ! descending aorta
 relationship: RO:0002433 UBERON:0001515 ! thoracic aorta
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002346
@@ -51390,6 +51733,7 @@ is_a: UBERON:0015008 ! thoracic vertebra endochondral element
 intersection_of: UBERON:0015008 ! thoracic vertebra endochondral element
 intersection_of: RO:0002473 UBERON:0002481 ! bone tissue
 relationship: RO:0002202 UBERON:0013507 ! thoracic vertebra cartilage element
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002348
@@ -51412,6 +51756,7 @@ relationship: BFO:0000050 UBERON:0000948 ! part of heart
 relationship: BFO:0000050 UBERON:0002425 ! part of visceral serous pericardium
 relationship: RO:0002202 UBERON:0004160 ! proepicardium
 relationship: RO:0002371 UBERON:0002349 ! myocardium
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002349
@@ -51495,6 +51840,7 @@ relationship: RO:0002162 NCBITaxon:7742 ! Vertebrata <vertebrates>
 relationship: RO:0002215 GO:0002027 ! capable of regulation of heart rate
 relationship: RO:0002216 GO:0060048 ! capable of part of cardiac muscle contraction
 relationship: RO:0002433 UBERON:0002350 ! conducting system of heart
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002352
@@ -51522,6 +51868,7 @@ relationship: BFO:0000050 UBERON:0002350 ! part of conducting system of heart
 relationship: RO:0002170 UBERON:0002085 ! interatrial septum
 relationship: RO:0002170 UBERON:0005979 ! crista terminalis
 relationship: RO:0002433 UBERON:0002350 ! conducting system of heart
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002354
@@ -51673,6 +52020,7 @@ relationship: BFO:0000050 UBERON:0002390 ! part of hematopoietic system
 relationship: BFO:0000050 UBERON:0002405 ! part of immune system
 relationship: BFO:0000051 CL:0002092 ! has part bone marrow cell
 relationship: BFO:0000051 UBERON:0012429 ! has part hematopoietic tissue
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002376
@@ -51696,6 +52044,7 @@ intersection_of: RO:0002371 UBERON:0003129 ! skull
 relationship: BFO:0000050 UBERON:0004461 ! part of skeletal musculature of head
 relationship: RO:0002202 UBERON:0006904 ! head mesenchyme from mesoderm
 relationship: RO:0002371 UBERON:0003129 ! skull
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002377
@@ -51710,6 +52059,7 @@ is_a: UBERON:0010959 ! craniocervical muscle
 intersection_of: UBERON:0014892 ! skeletal muscle organ, vertebrate
 intersection_of: BFO:0000050 UBERON:0000974 ! part of neck
 relationship: BFO:0000050 UBERON:0004465 ! part of musculature of neck
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002378
@@ -51730,6 +52080,7 @@ intersection_of: UBERON:0014892 ! skeletal muscle organ, vertebrate
 intersection_of: BFO:0000050 UBERON:0000916 ! part of abdomen
 relationship: BFO:0000050 UBERON:0002343 ! part of abdomen musculature
 relationship: BFO:0000050 UBERON:0003697 ! part of abdominal wall
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002384
@@ -51755,6 +52106,7 @@ xref: XAO:0001017
 xref: ZFA:0001632
 is_a: UBERON:0000479 ! tissue
 relationship: RO:0002160 NCBITaxon:6072 ! Eumetazoa
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002385
@@ -51816,6 +52168,7 @@ disjoint_from: UBERON:8450002 ! excretory system
 relationship: BFO:0000050 UBERON:0002193 ! part of hemolymphoid system
 relationship: RO:0002160 NCBITaxon:7711 ! Chordata
 relationship: RO:0002202 UBERON:0003061 ! blood island
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002394
@@ -51864,6 +52217,7 @@ is_a: UBERON:0011597 ! bone of upper jaw
 is_a: UBERON:0012071 ! palate bone
 relationship: BFO:0000050 UBERON:0011085 ! part of palatoquadrate arch
 relationship: RO:0002433 UBERON:0011156 ! facial skeleton
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002400
@@ -51908,6 +52262,7 @@ relationship: BFO:0000050 UBERON:0002048 ! part of lung
 relationship: RO:0002220 UBERON:0002048 ! adjacent to lung
 relationship: RO:0002371 UBERON:0008946 ! lung parenchyma
 relationship: RO:0002433 UBERON:0000977 ! pleura
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002402
@@ -51959,6 +52314,7 @@ disjoint_from: UBERON:8450002 ! excretory system
 relationship: protects UBERON:0000468 ! multicellular organism
 relationship: RO:0002215 GO:0002376 ! capable of immune system process
 relationship: RO:0002492 UBERON:0000066 ! fully formed stage
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002406
@@ -52006,6 +52362,7 @@ relationship: BFO:0000050 UBERON:0015410 ! part of heart plus pericardium
 relationship: BFO:0000051 UBERON:0002359 ! has part fibrous pericardium
 relationship: BFO:0000051 UBERON:0002406 ! has part pericardial sac
 relationship: RO:0002221 UBERON:0002349 ! myocardium
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002408
@@ -52114,6 +52471,7 @@ is_a: UBERON:0015007 ! cervical vertebra endochondral element
 intersection_of: UBERON:0015007 ! cervical vertebra endochondral element
 intersection_of: RO:0002473 UBERON:0002481 ! bone tissue
 relationship: RO:0002202 UBERON:0013505 ! cervical vertebra cartilage element
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002415
@@ -52169,6 +52527,7 @@ relationship: BFO:0000051 UBERON:0007376 ! has part outer epithelium
 relationship: RO:0002007 UBERON:0000468 ! bounding layer of multicellular organism
 relationship: RO:0002219 UBERON:0013514 ! space surrounding organism
 relationship: RO:0002492 UBERON:0000066 ! fully formed stage
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002417
@@ -52417,6 +52776,7 @@ intersection_of: BFO:0000050 UBERON:0001769 ! part of iris
 relationship: BFO:0000050 UBERON:0001769 ! part of iris
 relationship: BFO:0000051 GO:0048770 ! has part pigment granule
 relationship: RO:0002433 UBERON:0001769 ! iris
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002511
@@ -52715,6 +53075,7 @@ intersection_of: UBERON:0005844 ! spinal cord segment
 intersection_of: RO:0002220 UBERON:0005434 ! adjacent to cervical region
 relationship: RO:0002160 NCBITaxon:8287 ! Sarcopterygii
 relationship: RO:0002220 UBERON:0005434 ! adjacent to cervical region
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0002925
@@ -52757,6 +53118,7 @@ relationship: BFO:0000051 UBERON:0002047 ! has part pontine raphe nucleus
 relationship: BFO:0000051 UBERON:0002128 ! has part superior olivary complex
 relationship: BFO:0000051 UBERON:0002148 ! has part locus ceruleus
 relationship: BFO:0000051 UBERON:0002149 ! has part superior salivatory nucleus
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003037
@@ -52784,6 +53146,7 @@ is_a: UBERON:0005844 ! spinal cord segment
 intersection_of: UBERON:0005844 ! spinal cord segment
 intersection_of: BFO:0000050 UBERON:0000915 ! part of thoracic segment of trunk
 relationship: BFO:0000050 UBERON:0008231 ! part of dorsal thoracic segment of trunk
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003052
@@ -53485,6 +53848,7 @@ relationship: RO:0001025 UBERON:0002224 ! thoracic cavity
 relationship: RO:0002160 NCBITaxon:7742 ! Vertebrata <vertebrates>
 relationship: RO:0002202 UBERON:0008947 ! respiratory primordium
 relationship: RO:0002433 UBERON:0001004 ! respiratory system
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003128
@@ -53501,6 +53865,7 @@ xref: SCTID:181889008
 xref: VHOG:0000334
 xref: Wikipedia:Cranium_(anatomy)
 is_a: UBERON:0000075 ! subdivision of skeletal system
+property_value: RO:0002175 NCBITaxon:7762
 
 [Term]
 id: UBERON:0003129
@@ -53861,6 +54226,7 @@ is_a: UBERON:0003855 ! gonad mesenchyme
 intersection_of: UBERON:0003104 ! mesenchyme
 intersection_of: BFO:0000050 UBERON:0000992 ! part of ovary
 relationship: BFO:0000050 UBERON:0000992 ! part of ovary
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003316
@@ -53921,6 +54287,7 @@ is_a: UBERON:0004121 ! ectoderm-derived structure
 intersection_of: UBERON:0000009 ! submucosa
 intersection_of: BFO:0000050 UBERON:0000159 ! part of anal canal
 relationship: BFO:0000050 UBERON:0000159 ! part of anal canal
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003330
@@ -53947,6 +54314,7 @@ is_a: UBERON:0001208 ! submucosa of large intestine
 intersection_of: UBERON:0000009 ! submucosa
 intersection_of: BFO:0000050 UBERON:0001155 ! part of colon
 relationship: BFO:0000050 UBERON:0001155 ! part of colon
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003332
@@ -53962,6 +54330,7 @@ is_a: UBERON:0001205 ! submucosa of small intestine
 intersection_of: UBERON:0000009 ! submucosa
 intersection_of: BFO:0000050 UBERON:0002114 ! part of duodenum
 relationship: BFO:0000050 UBERON:0002114 ! part of duodenum
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003334
@@ -53986,6 +54355,7 @@ is_a: UBERON:0001209 ! serosa of large intestine
 intersection_of: UBERON:0000042 ! serous membrane
 intersection_of: BFO:0000050 UBERON:0001155 ! part of colon
 relationship: BFO:0000050 UBERON:0001155 ! part of colon
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003336
@@ -53999,6 +54369,7 @@ is_a: UBERON:0001206 ! serosa of small intestine
 intersection_of: UBERON:0000042 ! serous membrane
 intersection_of: BFO:0000050 UBERON:0002114 ! part of duodenum
 relationship: BFO:0000050 UBERON:0002114 ! part of duodenum
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003338
@@ -54039,6 +54410,7 @@ is_a: UBERON:0004121 ! ectoderm-derived structure
 intersection_of: UBERON:0000344 ! mucosa
 intersection_of: BFO:0000050 UBERON:0000159 ! part of anal canal
 relationship: BFO:0000050 UBERON:0000159 ! part of anal canal
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003343
@@ -54188,6 +54560,7 @@ is_a: UBERON:0004490 ! cardiac muscle tissue of atrium
 intersection_of: UBERON:0001133 ! cardiac muscle tissue
 intersection_of: BFO:0000050 UBERON:0002078 ! part of right cardiac atrium
 relationship: BFO:0000050 UBERON:0002078 ! part of right cardiac atrium
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003380
@@ -54239,6 +54612,7 @@ is_a: UBERON:0004492 ! cardiac muscle tissue of cardiac septum
 is_a: UBERON:0004667 ! interventricular septum muscular part
 intersection_of: UBERON:0001133 ! cardiac muscle tissue
 intersection_of: BFO:0000050 UBERON:0002094 ! part of interventricular septum
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003384
@@ -54277,6 +54651,7 @@ intersection_of: UBERON:0001135 ! smooth muscle tissue
 intersection_of: BFO:0000050 UBERON:0003126 ! part of trachea
 relationship: BFO:0000050 UBERON:0003126 ! part of trachea
 relationship: RO:0002433 UBERON:0003126 ! trachea
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003388
@@ -54552,6 +54927,7 @@ intersection_of: UBERON:0001637 ! artery
 intersection_of: RO:0002178 UBERON:0001834 ! upper lip
 relationship: RO:0002178 UBERON:0001834 ! upper lip
 relationship: RO:0002252 UBERON:0001612 ! facial artery
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003471
@@ -54567,6 +54943,7 @@ intersection_of: UBERON:0001637 ! artery
 intersection_of: RO:0002178 UBERON:0001835 ! lower lip
 relationship: RO:0002178 UBERON:0001835 ! lower lip
 relationship: RO:0002252 UBERON:0001612 ! facial artery
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003473
@@ -54602,6 +54979,7 @@ is_a: UBERON:0013136 ! vein of lip
 intersection_of: UBERON:0001638 ! vein
 intersection_of: RO:0002179 UBERON:0001834 ! upper lip
 relationship: RO:0002179 UBERON:0001834 ! upper lip
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003478
@@ -54615,6 +54993,7 @@ is_a: UBERON:0013136 ! vein of lip
 intersection_of: UBERON:0001638 ! vein
 intersection_of: RO:0002179 UBERON:0001835 ! lower lip
 relationship: RO:0002179 UBERON:0001835 ! lower lip
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003479
@@ -55035,6 +55414,7 @@ intersection_of: UBERON:0002384 ! connective tissue
 intersection_of: BFO:0000050 UBERON:0003126 ! part of trachea
 relationship: BFO:0000050 UBERON:0003126 ! part of trachea
 relationship: RO:0002494 UBERON:0009505 ! mesenchyme of trachea
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003580
@@ -55142,6 +55522,7 @@ intersection_of: UBERON:0007844 ! cartilage element
 intersection_of: BFO:0000050 UBERON:0003126 ! part of trachea
 relationship: BFO:0000050 UBERON:0003126 ! part of trachea
 relationship: RO:0002202 UBERON:0007267 ! trachea pre-cartilage rings
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003605
@@ -55242,6 +55623,7 @@ is_a: UBERON:0003611 ! respiratory system elastic tissue
 intersection_of: UBERON:0002521 ! elastic tissue
 intersection_of: BFO:0000050 UBERON:0003126 ! part of trachea
 relationship: BFO:0000050 UBERON:0002202 ! part of submucosa of trachea
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003618
@@ -55418,6 +55800,7 @@ xref: Wikipedia:Brachiocephalic_vein
 is_a: UBERON:0001638 ! vein
 relationship: BFO:0000050 UBERON:0007204 ! part of brachiocephalic vasculature
 relationship: RO:0002170 UBERON:0001585 ! anterior vena cava
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003713
@@ -55433,6 +55816,7 @@ xref: SCTID:278029005
 xref: Wikipedia:Splenic_vein
 is_a: UBERON:0001638 ! vein
 relationship: RO:0002170 UBERON:0001639 ! hepatic portal vein
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003714
@@ -55470,6 +55854,7 @@ intersection_of: UBERON:0001021 ! nerve
 intersection_of: RO:0002134 UBERON:0000916 ! abdomen
 relationship: RO:0002134 UBERON:0000916 ! abdomen
 relationship: RO:0002433 UBERON:0000013 ! sympathetic nervous system
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003726
@@ -55485,6 +55870,7 @@ is_a: UBERON:0001780 ! spinal nerve
 intersection_of: UBERON:0001780 ! spinal nerve
 intersection_of: extends_fibers_into UBERON:0003038 ! thoracic spinal cord
 relationship: extends_fibers_into UBERON:0003038 ! thoracic spinal cord
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003727
@@ -55869,6 +56255,7 @@ intersection_of: RO:0002495 UBERON:0005425 ! presumptive neural retina
 relationship: BFO:0000051 CL:0000210 ! has part photoreceptor cell
 relationship: RO:0002256 UBERON:0005426 ! lens vesicle
 relationship: RO:0002495 UBERON:0005425 ! presumptive neural retina
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003909
@@ -55913,6 +56300,7 @@ is_a: UBERON:0001981 ! blood vessel
 intersection_of: UBERON:0001981 ! blood vessel
 intersection_of: BFO:0000050 UBERON:0004582 ! part of venous system
 relationship: BFO:0000050 UBERON:0004582 ! part of venous system
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003921
@@ -56074,6 +56462,7 @@ intersection_of: BSPO:0000123 UBERON:0001777 ! substantia propria of cornea
 relationship: BFO:0000050 UBERON:0001777 ! part of substantia propria of cornea
 relationship: BSPO:0000123 UBERON:0001777 ! substantia propria of cornea
 relationship: RO:0002433 UBERON:0001777 ! substantia propria of cornea
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003953
@@ -56110,6 +56499,7 @@ is_a: UBERON:0003134 ! female reproductive organ
 is_a: UBERON:0004175 ! internal genitalia
 intersection_of: UBERON:0004175 ! internal genitalia
 intersection_of: BFO:0000050 UBERON:0000474 ! part of female reproductive system
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0004015
@@ -56165,6 +56555,7 @@ is_a: UBERON:0004119 ! endoderm-derived structure
 relationship: BFO:0000050 UBERON:0002107 ! part of liver
 relationship: BFO:0000050 UBERON:0002394 ! part of bile duct
 relationship: RO:0002220 UBERON:0001175 ! adjacent to common hepatic duct
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0004060
@@ -56308,6 +56699,9 @@ intersection_of: RO:0002570 UBERON:0000061 ! anatomical structure
 relationship: BFO:0000051 UBERON:0013686 ! has part anatomical conduit space
 relationship: RO:0002176 UBERON:0000464 {cardinality="2"} ! anatomical space
 relationship: RO:0002570 UBERON:0000061 ! anatomical structure
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0004118
@@ -56581,6 +56975,7 @@ def: "The internal genitalia are the internal sex organs such as the uterine tub
 comment: TODO: make a subdivision of reproductive system. Relabel. See https://github.com/obophenotype/uberon/issues/547
 xref: FMA:45652
 is_a: UBERON:0003133 ! reproductive organ
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0004176
@@ -56770,6 +57165,7 @@ is_a: UBERON:0001135 ! smooth muscle tissue
 intersection_of: UBERON:0001135 ! smooth muscle tissue
 intersection_of: BFO:0000050 UBERON:0001981 ! part of blood vessel
 relationship: BFO:0000050 UBERON:0001981 ! part of blood vessel
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0004238
@@ -56820,6 +57216,7 @@ intersection_of: UBERON:0001135 ! smooth muscle tissue
 intersection_of: BFO:0000050 UBERON:0002185 ! part of bronchus
 relationship: BFO:0000050 UBERON:0002185 ! part of bronchus
 relationship: BFO:0000051 CL:0002598 ! has part bronchial smooth muscle cell
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0004246
@@ -56936,6 +57333,7 @@ is_a: UBERON:0034925 ! anatomical collection
 disjoint_from: UBERON:0004770 ! articular system
 relationship: BFO:0000050 UBERON:0001434 ! part of skeletal system
 relationship: RO:0002351 UBERON:0004765 ! skeletal element
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0004290
@@ -57365,6 +57763,7 @@ is_a: UBERON:0004233 ! lower respiratory tract smooth muscle
 intersection_of: UBERON:0001135 ! smooth muscle tissue
 intersection_of: BFO:0000050 UBERON:0002186 ! part of bronchiole
 relationship: BFO:0000050 UBERON:0002186 ! part of bronchiole
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0004516
@@ -57376,6 +57775,7 @@ intersection_of: UBERON:0001135 ! smooth muscle tissue
 intersection_of: BFO:0000050 UBERON:0002187 ! part of terminal bronchiole
 relationship: BFO:0000050 UBERON:0002187 ! part of terminal bronchiole
 relationship: BFO:0000051 CL:4033017 ! has part bronchiolar smooth muscle cell
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0004517
@@ -57387,6 +57787,7 @@ intersection_of: UBERON:0001135 ! smooth muscle tissue
 intersection_of: BFO:0000050 UBERON:0002188 ! part of respiratory bronchiole
 relationship: BFO:0000050 UBERON:0002188 ! part of respiratory bronchiole
 relationship: BFO:0000051 CL:4033017 ! has part bronchiolar smooth muscle cell
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0004518
@@ -57474,6 +57875,7 @@ intersection_of: BFO:0000051 UBERON:0001981 ! has part blood vessel
 relationship: BFO:0000050 UBERON:0001009 ! part of circulatory system
 relationship: BFO:0000051 UBERON:0000948 ! has part heart
 relationship: BFO:0000051 UBERON:0001981 ! has part blood vessel
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0004537
@@ -57485,6 +57887,7 @@ is_a: UBERON:0002049 ! vasculature
 intersection_of: UBERON:0002049 ! vasculature
 intersection_of: RO:0002473 UBERON:0001981 ! blood vessel
 relationship: RO:0002473 UBERON:0001981 ! blood vessel
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0004548
@@ -57537,6 +57940,7 @@ xref: SCTID:362030008
 xref: VHOG:0000273
 is_a: UBERON:0007798 ! vascular system
 relationship: RO:0002351 UBERON:0001637 ! artery
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0004573
@@ -57548,6 +57952,7 @@ is_a: UBERON:0001637 ! artery
 intersection_of: UBERON:0001637 ! artery
 intersection_of: BFO:0000050 UBERON:0004571 ! part of systemic arterial system
 relationship: BFO:0000050 UBERON:0004571 ! part of systemic arterial system
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0004581
@@ -57572,6 +57977,7 @@ xref: SCTID:362060003
 xref: VHOG:0000277
 is_a: UBERON:0007798 ! vascular system
 relationship: RO:0002473 UBERON:0001638 ! vein
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0004590
@@ -57597,6 +58003,7 @@ is_a: UBERON:0004852 ! cardiovascular system endothelium
 intersection_of: UBERON:0001986 ! endothelium
 intersection_of: BFO:0000050 UBERON:0001981 ! part of blood vessel
 relationship: BFO:0000050 UBERON:0001981 ! part of blood vessel
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0004647
@@ -57613,6 +58020,7 @@ is_a: UBERON:0004119 ! endoderm-derived structure
 relationship: BFO:0000050 UBERON:0001280 ! part of liver parenchyma
 relationship: BFO:0000051 CL:0000182 ! has part hepatocyte
 relationship: RO:0002433 UBERON:0001280 ! liver parenchyma
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0004663
@@ -57706,6 +58114,7 @@ xref: SCTID:244225009
 xref: Wikipedia:Costocervical_trunk
 is_a: UBERON:0001637 ! artery
 relationship: RO:0002170 UBERON:0001533 ! subclavian artery
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0004695
@@ -57966,6 +58375,7 @@ is_a: UBERON:0004121 ! ectoderm-derived structure
 intersection_of: UBERON:0002530 ! gland
 intersection_of: BFO:0000050 UBERON:0000159 ! part of anal canal
 relationship: BFO:0000050 UBERON:0000159 ! part of anal canal
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0004761
@@ -58018,6 +58428,7 @@ is_a: UBERON:0001474 ! bone element
 intersection_of: UBERON:0001474 ! bone element
 intersection_of: BFO:0000050 UBERON:0003128 ! part of cranium
 relationship: BFO:0000050 UBERON:0003128 ! part of cranium
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0004768
@@ -58403,6 +58814,7 @@ is_a: UBERON:0004702 ! respiratory system blood vessel endothelium
 intersection_of: UBERON:0001917 ! endothelium of artery
 intersection_of: BFO:0000050 UBERON:0001004 ! part of respiratory system
 relationship: BFO:0000050 UBERON:0003469 ! part of respiratory system artery
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0004849
@@ -58414,6 +58826,7 @@ is_a: UBERON:0004702 ! respiratory system blood vessel endothelium
 intersection_of: UBERON:0001919 ! endothelium of vein
 intersection_of: BFO:0000050 UBERON:0001004 ! part of respiratory system
 relationship: BFO:0000050 UBERON:0003476 ! part of respiratory system venous blood vessel
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0004851
@@ -58517,6 +58930,7 @@ is_a: UBERON:0036302 ! vasculature of central nervous system plus retina
 intersection_of: UBERON:0002049 ! vasculature
 intersection_of: BFO:0000050 UBERON:0000966 ! part of retina
 relationship: BFO:0000050 UBERON:0000966 ! part of retina
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0004867
@@ -58597,6 +59011,7 @@ intersection_of: UBERON:0003104 ! mesenchyme
 intersection_of: BFO:0000050 UBERON:0002048 ! part of lung
 relationship: BFO:0000050 UBERON:0002048 ! part of lung
 relationship: RO:0002202 UBERON:0003081 ! lateral plate mesoderm
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0004893
@@ -58657,6 +59072,7 @@ intersection_of: extends_fibers_into UBERON:0005388 ! photoreceptor array
 relationship: BFO:0000050 UBERON:0002104 ! part of visual system
 relationship: extends_fibers_into UBERON:0000955 ! brain
 relationship: extends_fibers_into UBERON:0005388 ! photoreceptor array
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0004905
@@ -58757,6 +59173,7 @@ intersection_of: BFO:0000050 UBERON:0001174 ! part of common bile duct
 intersection_of: BFO:0000050 UBERON:0004914 ! part of duodenal papilla
 relationship: BFO:0000050 UBERON:0001174 ! part of common bile duct
 relationship: BFO:0000050 UBERON:0004914 ! part of duodenal papilla
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0004914
@@ -58786,6 +59203,7 @@ is_a: UBERON:0011185 ! gastrointestinal sphincter
 intersection_of: UBERON:0004590 ! sphincter muscle
 intersection_of: BFO:0000050 UBERON:0004913 ! part of hepatopancreatic ampulla
 relationship: BFO:0000050 UBERON:0004913 ! part of hepatopancreatic ampulla
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0004916
@@ -58808,6 +59226,7 @@ intersection_of: UBERON:0013522 ! subdivision of tube
 intersection_of: subdivision_of UBERON:0001555 ! digestive tract
 relationship: BFO:0000050 UBERON:0001555 ! part of digestive tract
 relationship: subdivision_of UBERON:0001555 ! digestive tract
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0004923
@@ -59132,6 +59551,8 @@ is_a: UBERON:0004176 ! external genitalia
 intersection_of: UBERON:0004176 ! external genitalia
 intersection_of: BFO:0000050 UBERON:0000474 ! part of female reproductive system
 disjoint_from: UBERON:0009196 ! indifferent external genitalia
+property_value: RO:0002175 NCBITaxon:50557
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0005057
@@ -59318,6 +59739,7 @@ def: "Connective tissue between the cellular elements of a structure." [http://m
 xref: FMA:86301
 xref: SCTID:85293002
 is_a: UBERON:0003891 ! stroma
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0005171
@@ -59423,6 +59845,7 @@ intersection_of: UBERON:0011148 ! submucosal gland
 intersection_of: BFO:0000050 UBERON:0003126 ! part of trachea
 intersection_of: BFO:0000051 CL:0000159 ! has part seromucus secreting cell
 relationship: BFO:0000050 UBERON:0003126 ! part of trachea
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0005221
@@ -59801,6 +60224,9 @@ xref: FMA:292313
 xref: MIAA:0000019
 is_a: UBERON:0000465 ! material anatomical entity
 relationship: RO:0002215 GO:0032502 ! capable of developmental process
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0005425
@@ -59897,6 +60323,7 @@ xref: SCTID:244263001
 xref: Wikipedia:Common_hepatic_artery
 is_a: UBERON:0004573 ! systemic artery
 relationship: RO:0002252 UBERON:0001640 ! celiac artery
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0005446
@@ -60507,6 +60934,7 @@ xref: SCTID:30180000
 xref: Wikipedia:Adventitia
 is_a: UBERON:0004923 ! organ component layer
 relationship: RO:0002473 UBERON:0002384 ! connective tissue
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0005744
@@ -60530,6 +60958,9 @@ is_a: UBERON:0000476 ! acellular anatomical structure
 intersection_of: UBERON:0000476 ! acellular anatomical structure
 intersection_of: RO:0002007 UBERON:0000061 ! bounding layer of anatomical structure
 relationship: RO:0002007 UBERON:0000061 ! bounding layer of anatomical structure
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0005769
@@ -60742,6 +61173,7 @@ relationship: BFO:0000050 UBERON:0011137 ! part of axial skeletal system
 relationship: RO:0002170 UBERON:0002091 {gci_filler="NCBITaxon:7776", gci_relation="BFO:0000050"} ! appendicular skeleton
 relationship: RO:0002202 UBERON:0003089 ! sclerotome
 relationship: RO:0002433 UBERON:0001434 ! skeletal system
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0005945
@@ -61455,6 +61887,7 @@ intersection_of: UBERON:0001083 ! myocardium of ventricle
 intersection_of: BFO:0000050 UBERON:0002084 ! part of heart left ventricle
 relationship: BFO:0000050 UBERON:0002084 ! part of heart left ventricle
 relationship: RO:0002150 UBERON:0003618 ! aorta tunica media
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0006567
@@ -61468,6 +61901,7 @@ intersection_of: UBERON:0001083 ! myocardium of ventricle
 intersection_of: BFO:0000050 UBERON:0002080 ! part of heart right ventricle
 relationship: BFO:0000050 UBERON:0002080 ! part of heart right ventricle
 relationship: RO:0002150 UBERON:0006563 ! tunica media of pulmonary trunk
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0006570
@@ -61655,6 +62089,7 @@ intersection_of: RO:0002176 UBERON:0001773 ! sclera
 relationship: BFO:0000050 UBERON:0000019 ! part of camera-type eye
 relationship: RO:0002176 UBERON:0000964 ! cornea
 relationship: RO:0002176 UBERON:0001773 ! sclera
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0006799
@@ -61728,6 +62163,7 @@ xref: ZFA:0005168
 is_a: UBERON:0013126 ! vein of abdomen
 is_a: UBERON:0015796 ! liver blood vessel
 relationship: BFO:0000050 UBERON:0004647 ! part of liver lobule
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0006846
@@ -61967,6 +62403,7 @@ intersection_of: UBERON:0003891 ! stroma
 intersection_of: BFO:0000050 UBERON:0000992 ! part of ovary
 relationship: BFO:0000050 UBERON:0000992 ! part of ovary
 relationship: BFO:0000051 CL:0002095 ! has part hilus cell of ovary
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0006965
@@ -62175,6 +62612,7 @@ is_a: UBERON:0011189 ! lamina propria of large intestine
 intersection_of: UBERON:0000030 ! lamina propria
 intersection_of: BFO:0000050 UBERON:0000317 ! part of colonic mucosa
 relationship: BFO:0000050 UBERON:0000317 ! part of colonic mucosa
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0007188
@@ -62219,6 +62657,7 @@ relationship: BFO:0000050 UBERON:0001558 ! part of lower respiratory tract
 relationship: BFO:0000051 UBERON:0002185 ! has part bronchus
 relationship: BFO:0000051 UBERON:0003126 ! has part trachea
 relationship: BFO:0000051 UBERON:0007592 ! has part ciliated columnar epithelium
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0007204
@@ -62579,6 +63018,7 @@ is_a: UBERON:0004119 ! endoderm-derived structure
 relationship: BFO:0000050 UBERON:0000017 ! part of exocrine pancreas
 relationship: BFO:0000051 UBERON:0001263 ! has part pancreatic acinus
 relationship: BFO:0000051 UBERON:0014719 ! has part intralobular duct
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0007329
@@ -62602,6 +63042,7 @@ relationship: BFO:0000050 UBERON:0000017 ! part of exocrine pancreas
 relationship: RO:0002170 UBERON:0000160 ! intestine
 relationship: RO:0002202 UBERON:0003922 ! pancreatic epithelial bud
 relationship: RO:0002433 UBERON:0000017 ! exocrine pancreas
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0007375
@@ -62862,6 +63303,9 @@ xref: FMA:5898
 xref: SCTID:91833003
 is_a: UBERON:0000061 ! anatomical structure
 relationship: RO:0002176 UBERON:0000061 {minCardinality="2"} ! anatomical structure
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0007652
@@ -62957,6 +63401,7 @@ xref: MA:0002718
 xref: NCIT:C33854
 is_a: UBERON:0000467 ! anatomical system
 relationship: BFO:0000050 UBERON:0004535 ! part of cardiovascular system
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0007808
@@ -63055,6 +63500,7 @@ is_a: UBERON:0010741 ! bone of pectoral complex
 intersection_of: UBERON:0001474 ! bone element
 intersection_of: BFO:0000050 UBERON:0001421 ! part of pectoral girdle region
 relationship: BFO:0000050 UBERON:0007831 ! part of pectoral girdle skeleton
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0007831
@@ -63281,6 +63727,7 @@ is_a: UBERON:0013636 ! epithelium of intestinal villus
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: BFO:0000050 UBERON:0002114 ! part of duodenum
 relationship: BFO:0000050 UBERON:0008342 ! part of intestinal villus of duodenum
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0008397
@@ -63454,6 +63901,7 @@ relationship: BFO:0000051 CL:0002062 ! has part pulmonary alveolar type 1 cell
 relationship: BFO:0000051 CL:0002063 ! has part pulmonary alveolar type 2 cell
 relationship: BFO:0000051 CL:0009089 ! has part lung pericyte
 relationship: RO:0002433 UBERON:0006524 ! alveolar system
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0008874
@@ -63467,6 +63915,7 @@ is_a: BFO:0000004
 is_a: UBERON:0001062 ! anatomical entity
 relationship: BFO:0000050 UBERON:0010369 ! part of secondary pulmonary lobule
 relationship: RO:0002170 UBERON:0002187 ! terminal bronchiole
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0008876
@@ -63494,6 +63943,7 @@ xref: Wikipedia:Pulmonary_circulation
 is_a: UBERON:0007798 ! vascular system
 relationship: BFO:0000051 UBERON:0002012 ! has part pulmonary artery
 relationship: BFO:0000051 UBERON:0002016 ! has part pulmonary vein
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0008895
@@ -63511,6 +63961,7 @@ disjoint_from: UBERON:0011156 ! facial skeleton
 relationship: RO:0002131 UBERON:0011156 {gci_filler="NCBITaxon:89593", gci_relation="BFO:0000050"} ! overlaps facial skeleton
 relationship: RO:0002202 UBERON:0002539 ! pharyngeal arch
 relationship: RO:0002254 UBERON:0003099 ! cranial neural crest
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0008907
@@ -63667,6 +64118,7 @@ is_a: UBERON:0004121 ! ectoderm-derived structure
 intersection_of: UBERON:0001714 ! cranial ganglion
 intersection_of: RO:0002202 UBERON:0003078 ! epibranchial placode
 relationship: RO:0002202 UBERON:0003078 ! epibranchial placode
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0009129
@@ -64183,6 +64635,7 @@ name: trachea non-cartilage connective tissue
 xref: EMAPA:35878
 xref: MA:0001859
 is_a: UBERON:0003571 ! trachea connective tissue
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0009652
@@ -64289,6 +64742,7 @@ is_a: UBERON:0005177 ! trunk region element
 relationship: BFO:0000050 UBERON:0001264 ! part of pancreas
 relationship: RO:0002202 UBERON:0010375 ! pancreas dorsal primordium
 relationship: RO:0002254 UBERON:0003923 ! dorsal pancreatic bud
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0009709
@@ -64300,6 +64754,7 @@ is_a: UBERON:0005177 ! trunk region element
 relationship: BFO:0000050 UBERON:0001264 ! part of pancreas
 relationship: RO:0002202 UBERON:0010376 ! pancreas ventral primordium
 relationship: RO:0002254 UBERON:0003924 ! ventral pancreatic bud
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0009712
@@ -64376,6 +64831,7 @@ is_a: UBERON:0003104 ! mesenchyme
 intersection_of: UBERON:0003104 ! mesenchyme
 intersection_of: BFO:0000050 UBERON:0001264 ! part of pancreas
 relationship: BFO:0000050 UBERON:0001264 ! part of pancreas
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0009758
@@ -64580,6 +65036,9 @@ intersection_of: UBERON:0000061 ! anatomical structure
 intersection_of: RO:0000086 PATO:0001993
 relationship: BFO:0000051 CL:0000000 ! has part cell
 relationship: RO:0000086 PATO:0001993
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0010009
@@ -65335,6 +65794,7 @@ def: "A unit of lung supplied by three to five terminal bronchioles and containe
 xref: FMA:7414
 is_a: UBERON:0010368 ! pulmonary lobule
 relationship: BFO:0000050 UBERON:0008946 ! part of lung parenchyma
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0010371
@@ -65413,6 +65873,7 @@ intersection_of: BFO:0000050 UBERON:0001265 ! part of trabecula of spleen
 relationship: BFO:0000050 UBERON:0001265 ! part of trabecula of spleen
 relationship: RO:0002252 UBERON:0001194 ! splenic artery
 relationship: RO:0002433 UBERON:0002106 ! spleen
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0010400
@@ -65427,6 +65888,7 @@ intersection_of: BFO:0000050 UBERON:0001265 ! part of trabecula of spleen
 relationship: BFO:0000050 UBERON:0001265 ! part of trabecula of spleen
 relationship: RO:0002170 UBERON:0003713 ! splenic vein
 relationship: RO:0002433 UBERON:0002106 ! spleen
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0010409
@@ -65800,6 +66262,7 @@ is_a: UBERON:0004780 ! gastrointestinal system lamina propria
 intersection_of: UBERON:0000030 ! lamina propria
 intersection_of: BFO:0000050 UBERON:0000059 ! part of large intestine
 relationship: BFO:0000050 UBERON:0001207 ! part of mucosa of large intestine
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0011198
@@ -65843,6 +66306,10 @@ xref: FMA:67509
 xref: SCTID:91690000
 is_a: UBERON:0010000 ! multicellular anatomical structure
 relationship: BFO:0000050 UBERON:0000467 ! part of anatomical system
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0011222
@@ -66129,6 +66596,7 @@ intersection_of: RO:0002176 UBERON:0002082 ! cardiac ventricle
 relationship: BFO:0000050 UBERON:0000948 ! part of heart
 relationship: RO:0002176 UBERON:0002081 ! cardiac atrium
 relationship: RO:0002176 UBERON:0002082 ! cardiac ventricle
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0011821
@@ -66326,6 +66794,7 @@ is_a: UBERON:0001143 ! hepatic vein
 intersection_of: UBERON:0001143 ! hepatic vein
 intersection_of: BFO:0000050 UBERON:0001115 ! part of left lobe of liver
 relationship: BFO:0000050 UBERON:0001115 ! part of left lobe of liver
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0011956
@@ -66338,6 +66807,7 @@ is_a: UBERON:0001143 ! hepatic vein
 intersection_of: UBERON:0001143 ! hepatic vein
 intersection_of: BFO:0000050 UBERON:0001114 ! part of right lobe of liver
 relationship: BFO:0000050 UBERON:0001114 ! part of right lobe of liver
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0011997
@@ -66491,6 +66961,7 @@ intersection_of: UBERON:0012320 ! cervical artery
 intersection_of: BFO:0000050 UBERON:0035551 ! part of deep vasculature
 relationship: BFO:0000050 UBERON:0035551 ! part of deep vasculature
 relationship: RO:0002252 UBERON:0004688 ! costo-cervical trunk
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0012324
@@ -66501,6 +66972,7 @@ xref: MA:0001936
 xref: SCTID:244224008
 xref: Wikipedia:Transverse_cervical_artery
 is_a: UBERON:0012320 ! cervical artery
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0012360
@@ -66548,6 +67020,7 @@ intersection_of: RO:0002473 UBERON:0006815 ! areolar connective tissue
 relationship: RO:0002160 NCBITaxon:7742 ! Vertebrata <vertebrates>
 relationship: RO:0002220 UBERON:0000042 ! adjacent to serous membrane
 relationship: RO:0002473 UBERON:0006815 ! areolar connective tissue
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0012416
@@ -66558,6 +67031,7 @@ is_a: UBERON:0004695 ! arterial system smooth muscle
 intersection_of: UBERON:0001135 ! smooth muscle tissue
 intersection_of: BFO:0000050 UBERON:0003643 ! part of respiratory system arterial blood vessel
 relationship: BFO:0000050 UBERON:0003643 ! part of respiratory system arterial blood vessel
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0012418
@@ -66568,6 +67042,7 @@ is_a: UBERON:0004696 ! venous system smooth muscle
 intersection_of: UBERON:0001135 ! smooth muscle tissue
 intersection_of: BFO:0000050 UBERON:0003476 ! part of respiratory system venous blood vessel
 relationship: BFO:0000050 UBERON:0003476 ! part of respiratory system venous blood vessel
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0012423
@@ -66790,6 +67265,7 @@ is_a: UBERON:0011198 ! muscle layer of large intestine
 intersection_of: UBERON:0006660 ! muscular coat
 intersection_of: BFO:0000050 UBERON:0001155 ! part of colon
 relationship: BFO:0000050 UBERON:0001155 ! part of colon
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0012490
@@ -66900,6 +67376,9 @@ is_a: UBERON:0000456 ! secretion of exocrine gland
 intersection_of: UBERON:0000456 ! secretion of exocrine gland
 intersection_of: RO:0003001 UBERON:0004760 ! produced by gland of anal canal
 relationship: RO:0003001 UBERON:0004760 ! produced by gland of anal canal
+property_value: RO:0002175 NCBITaxon:119825
+property_value: RO:0002175 NCBITaxon:30533
+property_value: RO:0002175 NCBITaxon:9673
 
 [Term]
 id: UBERON:0013232
@@ -67081,6 +67560,9 @@ xref: FMA:9338
 is_a: UBERON:0000464 ! anatomical space
 relationship: RO:0002176 UBERON:0000464 {cardinality="2"} ! anatomical space
 relationship: RO:0002572 UBERON:0004111 ! anatomical conduit
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0013694
@@ -67328,6 +67810,7 @@ xref: Wikipedia:Thoracic_skeleton
 is_a: UBERON:0010912 ! subdivision of skeleton
 relationship: BFO:0000050 UBERON:0000915 ! part of thoracic segment of trunk
 relationship: BFO:0000050 UBERON:0002090 ! part of postcranial axial skeleton
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0014610
@@ -67339,6 +67822,7 @@ is_a: UBERON:0002257 ! ventral horn of spinal cord
 intersection_of: UBERON:0002257 ! ventral horn of spinal cord
 intersection_of: BFO:0000050 UBERON:0003038 ! part of thoracic spinal cord
 relationship: BFO:0000050 UBERON:0003038 ! part of thoracic spinal cord
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0014613
@@ -67350,6 +67834,7 @@ is_a: UBERON:0002315 ! gray matter of spinal cord
 intersection_of: UBERON:0002315 ! gray matter of spinal cord
 intersection_of: BFO:0000050 UBERON:0002726 ! part of cervical spinal cord
 relationship: BFO:0000050 UBERON:0002726 ! part of cervical spinal cord
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0014621
@@ -67361,6 +67846,7 @@ is_a: UBERON:0002257 ! ventral horn of spinal cord
 intersection_of: UBERON:0002257 ! ventral horn of spinal cord
 intersection_of: BFO:0000050 UBERON:0002726 ! part of cervical spinal cord
 relationship: BFO:0000050 UBERON:0002726 ! part of cervical spinal cord
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0014636
@@ -67372,6 +67858,7 @@ is_a: UBERON:0002315 ! gray matter of spinal cord
 intersection_of: UBERON:0002315 ! gray matter of spinal cord
 intersection_of: BFO:0000050 UBERON:0003038 ! part of thoracic spinal cord
 relationship: BFO:0000050 UBERON:0003038 ! part of thoracic spinal cord
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0014702
@@ -67425,6 +67912,7 @@ intersection_of: BFO:0000050 UBERON:0002384 ! part of connective tissue
 intersection_of: RO:0002170 UBERON:0009911 ! lobule
 relationship: BFO:0000050 UBERON:0002384 ! part of connective tissue
 relationship: RO:0002170 UBERON:0009911 ! lobule
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0014717
@@ -67446,6 +67934,7 @@ is_a: UBERON:0000058 ! duct
 intersection_of: UBERON:0000058 ! duct
 intersection_of: BFO:0000050 UBERON:0009911 ! part of lobule
 relationship: BFO:0000050 UBERON:0009911 ! part of lobule
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0014720
@@ -67544,6 +68033,7 @@ relationship: RO:0002160 NCBITaxon:7742 ! Vertebrata <vertebrates>
 relationship: RO:0002202 UBERON:0003082 ! myotome
 relationship: RO:0002219 UBERON:0011899 ! epimysium
 relationship: RO:0002473 UBERON:0001134 ! skeletal muscle tissue
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0014903
@@ -67746,6 +68236,7 @@ name: heart plus pericardium
 xref: MA:0002449
 is_a: UBERON:0005178 ! thoracic cavity element
 relationship: BFO:0000050 UBERON:0004535 ! part of cardiovascular system
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0015480
@@ -67757,6 +68248,7 @@ xref: SCTID:244262006
 xref: Wikipedia:Hepatic_artery_proper
 is_a: UBERON:0001193 ! hepatic artery
 relationship: RO:0002252 UBERON:0005436 ! common hepatic artery
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0015481
@@ -67770,6 +68262,7 @@ intersection_of: UBERON:0001193 ! hepatic artery
 intersection_of: BFO:0000050 UBERON:0001115 ! part of left lobe of liver
 relationship: BFO:0000050 UBERON:0001115 ! part of left lobe of liver
 relationship: RO:0002170 UBERON:0015480 ! proper hepatic artery
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0015482
@@ -67783,6 +68276,7 @@ intersection_of: UBERON:0001193 ! hepatic artery
 intersection_of: BFO:0000050 UBERON:0001114 ! part of right lobe of liver
 relationship: BFO:0000050 UBERON:0001114 ! part of right lobe of liver
 relationship: RO:0002170 UBERON:0015480 ! proper hepatic artery
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0015485
@@ -67807,6 +68301,7 @@ is_a: UBERON:0014703 ! anal membrane ectodermal component
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: BFO:0000050 UBERON:0000159 ! part of anal canal
 relationship: BFO:0000050 UBERON:0000159 ! part of anal canal
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0015757
@@ -67870,6 +68365,7 @@ is_a: UBERON:0001238 ! lamina propria of small intestine
 intersection_of: UBERON:0000030 ! lamina propria
 intersection_of: BFO:0000050 UBERON:0002114 ! part of duodenum
 relationship: BFO:0000050 UBERON:0008342 ! part of intestinal villus of duodenum
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0016405
@@ -67880,6 +68376,7 @@ is_a: UBERON:0003512 ! lung blood vessel
 is_a: UBERON:0003526 ! respiratory system capillary
 intersection_of: UBERON:0001982 ! capillary
 intersection_of: BFO:0000050 UBERON:0002048 ! part of lung
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0016458
@@ -67903,6 +68400,7 @@ is_a: UBERON:0004119 ! endoderm-derived structure
 intersection_of: UBERON:0003891 ! stroma
 intersection_of: BFO:0000050 UBERON:0002107 ! part of liver
 relationship: BFO:0000050 UBERON:0002107 ! part of liver
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0016490
@@ -68214,6 +68712,7 @@ is_a: UBERON:0003891 ! stroma
 intersection_of: UBERON:0003891 ! stroma
 intersection_of: BFO:0000050 UBERON:0001264 ! part of pancreas
 relationship: BFO:0000050 UBERON:0001264 ! part of pancreas
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0018239
@@ -68234,6 +68733,7 @@ xref: EMAPA:35578
 is_a: UBERON:0000061 ! anatomical structure
 relationship: BFO:0000050 UBERON:0000383 ! part of musculature of body
 relationship: RO:0002473 UBERON:0014892 ! skeletal muscle organ, vertebrate
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0018257
@@ -68416,6 +68916,7 @@ is_a: UBERON:0003528 ! brain gray matter
 intersection_of: UBERON:0002020 ! gray matter
 intersection_of: BFO:0000050 UBERON:0002028 ! part of hindbrain
 relationship: BFO:0000050 UBERON:0002028 ! part of hindbrain
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0019267
@@ -68426,6 +68927,7 @@ is_a: UBERON:0003528 ! brain gray matter
 intersection_of: UBERON:0002020 ! gray matter
 intersection_of: BFO:0000050 UBERON:0001891 ! part of midbrain
 relationship: BFO:0000050 UBERON:0001891 ! part of midbrain
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0019304
@@ -68583,6 +69085,7 @@ is_a: UBERON:0015212 ! lateral structure
 relationship: BSPO:0000126 UBERON:0000033 ! head
 relationship: extends_fibers_into UBERON:0000955 ! brain
 relationship: RO:0002160 NCBITaxon:89593 ! Craniata <chordates>
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0034728
@@ -68596,6 +69099,7 @@ is_a: UBERON:0011779 ! nerve of head region
 relationship: BFO:0000050 UBERON:0002410 ! part of autonomic nervous system
 relationship: extends_fibers_into UBERON:0001805 ! autonomic ganglion
 relationship: RO:0002380 UBERON:0036264 ! zygomaticotemporal nerve
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0034729
@@ -68606,6 +69110,7 @@ intersection_of: UBERON:0001021 ! nerve
 intersection_of: BFO:0000050 UBERON:0000013 ! part of sympathetic nervous system
 relationship: BFO:0000050 UBERON:0000013 ! part of sympathetic nervous system
 relationship: extends_fibers_into UBERON:0001806 ! sympathetic ganglion
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0034769
@@ -68673,6 +69178,9 @@ def: "An multicellular anatomical structure that has subparts of multiple organs
 xref: CARO:0020001
 is_a: UBERON:0010000 ! multicellular anatomical structure
 relationship: RO:0002473 UBERON:0000064 ! organ part
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0034922
@@ -68682,6 +69190,9 @@ xref: CARO:0020002
 xref: FMA:62807
 is_a: UBERON:0010000 ! multicellular anatomical structure
 relationship: RO:0002219 UBERON:0000015 ! non-material anatomical boundary
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0034923
@@ -68692,6 +69203,9 @@ is_a: UBERON:0000465 ! material anatomical entity
 relationship: RO:0000086 PATO:0010001
 relationship: RO:0002180 UBERON:0000061 {minCardinality="2"} ! has component anatomical structure
 relationship: RO:0002473 UBERON:0000061 ! anatomical structure
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0034925
@@ -68699,6 +69213,9 @@ name: anatomical collection
 def: "A collection of anatomical structures that are alike in terms of their morphology or developmental origin." [http://orcid.org/0000-0002-6601-2165]
 is_a: UBERON:0000465 ! material anatomical entity
 relationship: RO:0002351 UBERON:0000061 ! anatomical structure
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0034929
@@ -68859,6 +69376,7 @@ intersection_of: RO:0002178 UBERON:0001043 ! esophagus
 relationship: RO:0002170 UBERON:0002345 ! descending thoracic aorta
 relationship: RO:0002178 UBERON:0001043 ! esophagus
 relationship: RO:0002380 UBERON:0001515 ! thoracic aorta
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0035546
@@ -68889,6 +69407,7 @@ intersection_of: UBERON:0002049 ! vasculature
 intersection_of: RO:0001025 UBERON:0002199 ! integument
 relationship: RO:0001025 UBERON:0002199 ! integument
 relationship: RO:0002216 GO:0001659 ! capable of part of temperature homeostasis
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0035550
@@ -69146,6 +69665,9 @@ xref: AAO:0010270
 xref: ZFA:0005594
 is_a: UBERON:0000465 ! material anatomical entity
 relationship: RO:0002007 UBERON:0000061 ! bounding layer of anatomical structure
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:33208
+property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: UBERON:0036217
@@ -69174,6 +69696,11 @@ is_a: UBERON:0002328 ! notochord
 intersection_of: UBERON:0002328 ! notochord
 intersection_of: BFO:0000050 UBERON:0009953 ! part of post-embryonic organism
 relationship: BFO:0000050 UBERON:0009953 ! part of post-embryonic organism
+property_value: RO:0002175 NCBITaxon:118072
+property_value: RO:0002175 NCBITaxon:7737
+property_value: RO:0002175 NCBITaxon:7746
+property_value: RO:0002175 NCBITaxon:7878
+property_value: RO:0002175 NCBITaxon:8292
 
 [Term]
 id: UBERON:0036244
@@ -69698,6 +70225,7 @@ is_a: UBERON:8410077 ! airway submucosal gland
 intersection_of: UBERON:0011148 ! submucosal gland
 intersection_of: BFO:0000050 UBERON:0002185 ! part of bronchus
 relationship: BFO:0000050 UBERON:0002185 ! part of bronchus
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:8410048
@@ -69721,6 +70249,7 @@ relationship: BFO:0000050 UBERON:0000059 ! part of large intestine
 relationship: BFO:0000051 UBERON:0000159 ! has part anal canal
 relationship: BFO:0000051 UBERON:0001052 ! has part rectum
 relationship: BFO:0000051 UBERON:0001245 ! has part anus
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:8410056
@@ -69783,6 +70312,7 @@ is_a: UBERON:0000467 ! anatomical system
 intersection_of: UBERON:0000467 ! anatomical system
 intersection_of: RO:0002215 GO:0046903 ! capable of secretion
 relationship: RO:0002215 GO:0046903 ! capable of secretion
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:8480001
@@ -69854,6 +70384,7 @@ is_a: UBERON:0014717 ! mucous acinus
 intersection_of: UBERON:0009842 ! glandular acinus
 intersection_of: BFO:0000050 UBERON:0011148 ! part of submucosal gland
 relationship: BFO:0000050 UBERON:0011148 ! part of submucosal gland
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:8600017
@@ -69864,6 +70395,7 @@ is_a: UBERON:0000063 ! organ subunit
 is_a: UBERON:0004119 ! endoderm-derived structure
 relationship: BFO:0000050 UBERON:0000101 ! part of lobe of lung
 relationship: RO:0002433 UBERON:0000101 ! lobe of lung
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:8600024

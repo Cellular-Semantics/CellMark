@@ -16,9 +16,9 @@
         "val" : "Cell Markers Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2024-07-30"
+        "val" : "2024-07-31"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/clm/releases/2024-07-30/clm-base.json"
+      "version" : "http://purl.obolibrary.org/obo/clm/releases/2024-07-31/clm-base.json"
     },
     "nodes" : [ {
       "id" : "http://identifiers.org/ensembl/ENSG00000038945",
@@ -57,31 +57,51 @@
       "id" : "http://purl.obolibrary.org/obo/CL_0000583",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "A alveolar macrophage in the Human Lung has the gene markers MSR1, FABP4 with a NS-Forest FBeta value of 0.8." ]
+        "comments" : [ "A alveolar macrophage in the Human Lung has the gene markers MSR1, FABP4 with a NS-Forest FBeta value of 0.8." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_4028004",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "A alveolar type 1 fibroblast cell in the Human Lung has the gene markers AOC3, LUM with a NS-Forest FBeta value of 0.7." ]
+        "comments" : [ "A alveolar type 1 fibroblast cell in the Human Lung has the gene markers AOC3, LUM with a NS-Forest FBeta value of 0.7." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_4028006",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "A alveolar adventitial fibroblast in the Human Lung has the gene markers SCARA5, CD248 with a NS-Forest FBeta value of 0.85." ]
+        "comments" : [ "A alveolar adventitial fibroblast in the Human Lung has the gene markers SCARA5, CD248 with a NS-Forest FBeta value of 0.85." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_4033041",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "A CCL3-positive alveolar macrophage in the Human Lung has the gene markers TNIP3, CXCL5 with a NS-Forest FBeta value of 0.67." ]
+        "comments" : [ "A CCL3-positive alveolar macrophage in the Human Lung has the gene markers TNIP3, CXCL5 with a NS-Forest FBeta value of 0.67." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_4033042",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "A metallothionein-positive alveolar macrophage in the Human Lung has the gene markers HMOX1, HPGD with a NS-Forest FBeta value of 0.41." ]
+        "comments" : [ "A metallothionein-positive alveolar macrophage in the Human Lung has the gene markers HMOX1, HPGD with a NS-Forest FBeta value of 0.41." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_4037001",
@@ -145,6 +165,10 @@
       "lbl" : "has characterizing marker set",
       "type" : "PROPERTY",
       "propertyType" : "OBJECT"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002175",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://purl.obolibrary.org/obo/STATO_0000663",
       "type" : "PROPERTY",
