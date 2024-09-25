@@ -1,7 +1,23 @@
 class	Cell_type	Marker_set	Minimal_markers	Minimal_markers_label	Organ	Species	Species_abbv	Organ_region	Parent	FBeta_confidence_score	Marker_set_xref	CL_agreed
-CL:4028006	alveolar type 2 fibroblast cell	CL:4037001	ensembl:ENSG00000168079|ensembl:ENSG00000174807	SCARA5|CD248	Lung	NCBITaxon:9606	Human	UBERON:0002048	SO:0001260	0.85    	https://doi.org/10.5281/zenodo.11165918	True
-CL:4028004	alveolar type 1 fibroblast cell	CL:4037002	ensembl:ENSG00000131471|ensembl:ENSG00000139329	AOC3|LUM	Lung	NCBITaxon:9606	Human	UBERON:0002048	SO:0001260	0.7 	https://doi.org/10.5281/zenodo.11165918	True
-CL:0000583	alveolar macrophage	CL:4037003	ensembl:ENSG00000038945|ensembl:ENSG00000170323	MSR1|FABP4	Lung	NCBITaxon:9606	Human	UBERON:0002048	SO:0001260	0.8 	https://doi.org/10.5281/zenodo.11165918	True
-CL:4033041	CCL3-positive alveolar macrophage	CL:4037004	ensembl:ENSG00000050730|ensembl:ENSG00000163735	TNIP3|CXCL5	Lung	NCBITaxon:9606	Human	UBERON:0002048	SO:0001260	0.67    	https://doi.org/10.5281/zenodo.11165918	True
-CL:4033042	metallothionein-positive alveolar macrophage	CL:4037005	ensembl:ENSG00000100292|ensembl:ENSG00000164120	HMOX1|HPGD	Lung	NCBITaxon:9606	Human	UBERON:0002048	SO:0001260	0.41    	https://doi.org/10.5281/zenodo.11165918	True
-CL:0000000	cell	CL:4037006	ensembl:ENSG00000166803|ensembl:ENSG00000171848|ensembl:ENSG00000175063|ensembl:ENSG00000137804	PCLAF|RRM2|UBE2C|NUSAP1	Lung	NCBITaxon:9606	Human	UBERON:0002048	SO:0001260	0.26    	https://doi.org/10.5281/zenodo.11165918	False
+CL:4028006	alveolar type 2 fibroblast cell	CL:4037001	ensembl:ENSG00000168079|ensembl:ENSG00000174807	SCARA5|CD248	Lung	NCBITaxon:9606	Human	UBERON:0002048	SO:0001260	0.85	https://doi.org/10.5281/zenodo.11165918	TRUE
+CL:4028004	alveolar type 1 fibroblast cell	CL:4037002	ensembl:ENSG00000131471|ensembl:ENSG00000139329	AOC3|LUM	Lung	NCBITaxon:9606	Human	UBERON:0002048	SO:0001260	0.7	https://doi.org/10.5281/zenodo.11165918	TRUE
+CL:0000583	alveolar macrophage	CL:4037003	ensembl:ENSG00000038945|ensembl:ENSG00000170323	MSR1|FABP4	Lung	NCBITaxon:9606	Human	UBERON:0002048	SO:0001260	0.8	https://doi.org/10.5281/zenodo.11165918	TRUE
+CL:4033041	CCL3-positive alveolar macrophage	CL:4037004	ensembl:ENSG00000050730|ensembl:ENSG00000163735	TNIP3|CXCL5	Lung	NCBITaxon:9606	Human	UBERON:0002048	SO:0001260	0.67	https://doi.org/10.5281/zenodo.11165918	TRUE
+CL:4033042	metallothionein-positive alveolar macrophage	CL:4037005	ensembl:ENSG00000100292|ensembl:ENSG00000164120	HMOX1|HPGD	Lung	NCBITaxon:9606	Human	UBERON:0002048	SO:0001260	0.41	https://doi.org/10.5281/zenodo.11165918	TRUE
+CL:0000000	cell	CL:4037006	ensembl:ENSG00000166803|ensembl:ENSG00000171848|ensembl:ENSG00000175063|ensembl:ENSG00000137804	PCLAF|RRM2|UBE2C|NUSAP1	Lung	NCBITaxon:9606	Human	UBERON:0002048	SO:0001260	0.26	https://doi.org/10.5281/zenodo.11165918	FALSE
+CL:0002605	astrocyte of the cerebral cortex	CL:4037007		OBI1-AS1	Brain	NCBITaxon:9606	Human	UBERON:0000956		0.95	https://doi.org/10.5281/zenodo.11165918	TRUE
+CL:4023036	chandelier pvalb GABAergic cortical interneuron	CL:4037008		GPR149|CA8	Brain	NCBITaxon:9606	Human	UBERON:0000956		0.79	https://doi.org/10.5281/zenodo.11165918	TRUE
+CL:0000115	endothelial cell	CL:4037009		FLT1|ABCG2	Brain	NCBITaxon:9606	Human	UBERON:0000956		0.92	https://doi.org/10.5281/zenodo.11165918	TRUE
+CL:4030059	L2/3 intratelencephalic projecting glutamatergic neuron	CL:4037010		ONECUT2|COL5A2	Brain	NCBITaxon:9606	Human	UBERON:0000956		0.67	https://doi.org/10.5281/zenodo.11165918	TRUE
+CL:4030063	L4 intratelencephalic projecting glutamatergic neuron	CL:4037011		RORB|ST8SIA4	Brain	NCBITaxon:9606	Human	UBERON:0000956		0.72	https://doi.org/10.5281/zenodo.11165918	TRUE
+CL:4023041	L5 extratelencephalic projecting glutamatergic cortical neuron	CL:4037012		CHST8|POU3F1	Brain	NCBITaxon:9606	Human	UBERON:0000956		0.81	https://doi.org/10.5281/zenodo.11165918	TRUE
+CL:4030064	L5 intratelencephalic projecting glutamatergic neuron	CL:4037013		ARSJ|RORB|KCNK2	Brain	NCBITaxon:9606	Human	UBERON:0000956		0.76	https://doi.org/10.5281/zenodo.11165918	TRUE
+CL:4030067	L5/6 near-projecting glutamatergic neuron	CL:4037014		NPSR1-AS1|TLL1	Brain	NCBITaxon:9606	Human	UBERON:0000956		0.89	https://doi.org/10.5281/zenodo.11165918	TRUE
+CL:4023042	L6 corticothalamic-projecting glutamatergic cortical neuron	CL:4037015		SEMA5B|ADAMTSL1|SULF1	Brain	NCBITaxon:9606	Human	UBERON:0000956		0.63	https://doi.org/10.5281/zenodo.11165918	TRUE
+CL:4030065	L6 intratelencephalic projecting glutamatergic neuron	CL:4037016		LINC00507|THEMIS	Brain	NCBITaxon:9606	Human	UBERON:0000956		0.64	https://doi.org/10.5281/zenodo.11165918	TRUE
+CL:4030068	L6 intratelencephalic projecting Car3 glutamatergic neuron	CL:4037017		SMYD1|THEMIS	Brain	NCBITaxon:9606	Human	UBERON:0000956		0.87	https://doi.org/10.5281/zenodo.11165918	TRUE
+CL:4023046	L6b glutamatergic neuron of the primary motor cortex	CL:4037018		CCN2|ROS1	Brain	NCBITaxon:9606	Human	UBERON:0000956		0.81	https://doi.org/10.5281/zenodo.11165918	TRUE
+CL:4023011	lamp5 GABAergic cortical interneuron	CL:4037019		LINC00298|KIT	Brain	NCBITaxon:9606	Human	UBERON:0000956		0.81	https://doi.org/10.5281/zenodo.11165918	TRUE
+CL:4042013	Lamp5 Lhx6 neuron	CL:4037020		CHST9|LAMP5	Brain	NCBITaxon:9606	Human	UBERON:0000956		0.82	https://doi.org/10.5281/zenodo.11165918	TRUE
+CL:0000881 | CL:0000129	perivascular macrophage |microglial cell	CL:4037021		APBB1IP|DOCK8	Brain	NCBITaxon:9606	Human	UBERON:0000956		0.95	https://doi.org/10.5281/zenodo.11165918	TRUE
+CL:0002453	oligodendrocyte precursor cell	CL:4037022		FERMT1	Brain	NCBITaxon:9606	Human	UBERON:0000956		0.74	https://doi.org/10.5281/zenodo.11165918	TRUE
