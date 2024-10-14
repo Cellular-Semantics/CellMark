@@ -34,7 +34,7 @@ def generate_nsforest_markers_template(agreed: bool, output_filepath: str):
             raise ValueError(f"Agreed marker '{row['class']}' is not a CL term.")
         class_template.append({
             "defined_class": row["Marker_set"],
-            "Marker_set_of": get_cl_label(cl_ontology, row["class"], row["Cell_type"]),
+            "Marker_set_of": get_cl_label(cl_ontology, row["cl_class"], row["Cell_type"]),
             "Minimal_markers": row["Minimal_markers"],
             "Minimal_markers_label": row["Minimal_markers_label"],
             "Organ": row["Organ"],
@@ -186,7 +186,6 @@ def generate_kg_indvs_robot_template():
     CK_KG Cluster individuals has auto-generated IDs. So this template should be regenerated with
     each CL_KG update.
     """
-    delete_file(CL_KG_TEMPLATE_PATH)
     neo_client = None
     try:
         neo_client = Neo4jClient("neo4j://172.27.24.69:7687", "", "")
