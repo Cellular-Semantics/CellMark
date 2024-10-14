@@ -1,6 +1,6 @@
 defined_class	Marker_set_of	Minimal_markers	Minimal_markers_label	Organ	Species_abbv	Organ_region	Parent	FBeta_confidence_score
-CL:4037001	alveolar adventitial fibroblast	ensembl:ENSG00000168079|ensembl:ENSG00000174807	SCARA5|CD248	Lung	Human	UBERON:0002048	SO:0001260	0.85    
-CL:4037002	alveolar type 1 fibroblast cell	ensembl:ENSG00000131471|ensembl:ENSG00000139329	AOC3|LUM	Lung	Human	UBERON:0002048	SO:0001260	0.7 
-CL:4037003	alveolar macrophage	ensembl:ENSG00000038945|ensembl:ENSG00000170323	MSR1|FABP4	Lung	Human	UBERON:0002048	SO:0001260	0.8 
-CL:4037004	CCL3-positive alveolar macrophage	ensembl:ENSG00000050730|ensembl:ENSG00000163735	TNIP3|CXCL5	Lung	Human	UBERON:0002048	SO:0001260	0.67    
-CL:4037005	metallothionein-positive alveolar macrophage	ensembl:ENSG00000100292|ensembl:ENSG00000164120	HMOX1|HPGD	Lung	Human	UBERON:0002048	SO:0001260	0.41    
+CLM:1000001	alveolar adventitial fibroblast	ensembl:ENSG00000168079|ensembl:ENSG00000174807	SCARA5|CD248	Lung	Human	UBERON:0002048	SO:0001260	0.85
+CLM:1000002	alveolar type 1 fibroblast cell	ensembl:ENSG00000131471|ensembl:ENSG00000139329	AOC3|LUM	Lung	Human	UBERON:0002048	SO:0001260	0.70
+CLM:1000003	alveolar macrophage	ensembl:ENSG00000038945|ensembl:ENSG00000170323	MSR1|FABP4	Lung	Human	UBERON:0002048	SO:0001260	0.80
+CLM:1000004	CCL3-positive alveolar macrophage	ensembl:ENSG00000050730|ensembl:ENSG00000163735	TNIP3|CXCL5	Lung	Human	UBERON:0002048	SO:0001260	0.67
+CLM:1000005	metallothionein-positive alveolar macrophage	ensembl:ENSG00000100292|ensembl:ENSG00000164120	HMOX1|HPGD	Lung	Human	UBERON:0002048	SO:0001260	0.41

@@ -1,4 +1,6 @@
 import os
+import csv
+import yaml
 
 
 def read_table_to_dict(path: str):
@@ -8,15 +10,24 @@ def read_table_to_dict(path: str):
     Returns: list of dictionaries
     """
     _, file_extension = os.path.splitext(path)
-    separator = "," if file_extension == ".csv" else "\t"
+    delimiter = "," if file_extension == ".csv" else "\t"
 
-    with open(path) as f:
-        lines = f.readlines()
-    header = lines[0].strip().split(separator)
-    data = []
-    for line in lines[1:]:
-        row = line.strip().split(separator)
-        data.append(dict(zip(header, row)))
+    with open(path, encoding='utf-8-sig') as f:
+        reader = csv.reader(f, delimiter=delimiter)
+        header = next(reader)
+        data = [dict(zip(header, row)) for row in reader]
     return data
 
+
+def read_yaml(file_path: str) -> dict:
+    """
+    Reads a YAML file and creates a dictionary from its values.
+    Args:
+        file_path: Path to the YAML file.
+    Returns:
+        dict: Dictionary with YAML file contents.
+    """
+    with open(file_path, 'r') as file:
+        data = yaml.safe_load(file)
+    return data
 

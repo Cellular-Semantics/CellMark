@@ -1,6 +1,7 @@
 {
   "@context": {
     "ensembl": "http://identifiers.org/ensembl/",
-    "ncbigene": "http://identifiers.org/ncbigene/"
+    "ncbigene": "http://identifiers.org/ncbigene/",
+    "CLM": "http://purl.obolibrary.org/obo/CLM_"
   }
 }

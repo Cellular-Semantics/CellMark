@@ -9,9 +9,9 @@
 MARKERSDIR = ../markers
 TEMPLATESDIR = ../templates
 
-SOURCE_TABLE = $(MARKERSDIR)/NSForestMarkersSource.tsv
+#SOURCE_TABLE = $(MARKERSDIR)/NSForestMarkersSource.tsv
 
-GENE_LIST = LungMAP LungCellAtlas
+GENE_LIST = LungMAP LungCellAtlas Neocortex
 GENE_TABLES = $(patsubst %, $(TEMPLATESDIR)/%.tsv, $(GENE_LIST))
 GENE_TEMPLATE = $(TEMPLATESDIR)/genes.tsv
 
@@ -59,18 +59,16 @@ $(ONT)-base.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC)
 		--output $@.tmp.owl && mv $@.tmp.owl $@
 
 # Release additional artifacts
-$(ONT).owl: $(ONT)-full.owl $(ONT)-kg.owl $(ONT)-kg.obo $(ONT)-kg.json
+$(ONT).owl: $(ONT)-full.owl $(ONT)-kg.owl $(ONT)-kg.obo $(ONT)-kg.json $(ONT)-cl.owl $(ONT)-cl.obo $(ONT)-cl.json
 	$(ROBOT) annotate --input $< --ontology-iri $(URIBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
 		convert -o $@.tmp.owl && mv $@.tmp.owl $@
 
 # Artifact for KG that host not validated gene annotations as well
 $(ONT)-kg.owl:  $(ONT)-base.owl $(MIRRORDIR)/genes.owl
 	python $(SCRIPTSDIR)/dosdp_template_generator.py generate --template NSForestMarkers --out $(PATTERNDIR)/data/default/NSForestMarkers_all.tsv
-	python $(SCRIPTSDIR)/dosdp_template_generator.py generate --template MarkersToCells --out $(PATTERNDIR)/data/default/MarkersToCells_all.tsv
 	$(DOSDPT) generate --catalog=$(CATALOG) --infile=$(PATTERNDIR)/data/default/NSForestMarkers_all.tsv --template=$(PATTERNDIR)/dosdp-patterns/NSForestMarkers.yaml \
 		--ontology=$(EDIT_PREPROCESSED) --obo-prefixes=true --prefixes=template_prefixes.yaml --outfile=$(COMPONENTSDIR)/NSForestMarkers_all.owl
-	$(DOSDPT) generate --catalog=$(CATALOG) --infile=$(PATTERNDIR)/data/default/MarkersToCells_all.tsv --template=$(PATTERNDIR)/dosdp-patterns/MarkersToCells.yaml \
-		--ontology=$(EDIT_PREPROCESSED) --obo-prefixes=true --prefixes=template_prefixes.yaml --outfile=$(COMPONENTSDIR)/MarkersToCells_all.owl
+	$(ROBOT) template --input $(SRC) --template $(TEMPLATEDIR)/cl_kg/Clusters.tsv --add-prefixes template_prefixes.json --output $(COMPONENTSDIR)/MarkersToCells_all.owl
 	$(ROBOT) merge -i $< -i $(MIRRORDIR)/genes.owl -i $(COMPONENTSDIR)/NSForestMarkers_all.owl -i $(COMPONENTSDIR)/MarkersToCells_all.owl \
 	 	annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
 		--output $(RELEASEDIR)/$@
@@ -83,3 +81,14 @@ $(ONT)-kg.json: $(RELEASEDIR)/$(ONT)-kg.owl
 	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
 		convert --check false -f json -o $@.tmp.json &&\
 	jq -S 'walk(if type == "array" then sort else . end)' $@.tmp.json > $(RELEASEDIR)/$@ && rm $@.tmp.json
+
+
+# Artifact for CL that hosts only the validated gene annotations
+$(ONT)-cl.owl: $(ONT)-base.owl
+	cp $< $@ && mv $@ $(RELEASEDIR)/$@
+
+$(ONT)-cl.obo: $(ONT)-base.obo
+	cp $< $@ && mv $@ $(RELEASEDIR)/$@
+
+$(ONT)-cl.json: $(ONT)-base.json
+	cp $< $@ && mv $@ $(RELEASEDIR)/$@
