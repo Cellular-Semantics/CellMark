@@ -1,6 +1,8 @@
 import os
 import argparse
+import ssl
 
+import urllib.request
 import pandas as pd
 from rdflib import Graph
 from file_utils import read_table_to_dict, read_yaml
@@ -16,6 +18,9 @@ MARKERS_SOURCE_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)), 
 CL_KG_TEMPLATE_PATH = os.path.join(TEMPLATES_FOLDER_PATH, "cl_kg/Clusters.tsv")
 CL_URL = "https://raw.githubusercontent.com/obophenotype/cell-ontology/master/cl-base.owl"
 
+# Create an unverified SSL context
+ssl_context = ssl._create_unverified_context()
+
 
 def generate_nsforest_markers_template(agreed: bool, output_filepath: str):
     """
@@ -30,8 +35,8 @@ def generate_nsforest_markers_template(agreed: bool, output_filepath: str):
     for row in source:
         if agreed and str(row.get("CL_agreed", "false")).strip().lower() != "true":
             continue
-        if agreed and str(row.get("CL_agreed", "false")).strip().lower() == "true" and not str(row["class"]).startswith("CL:"):
-            raise ValueError(f"Agreed marker '{row['class']}' is not a CL term.")
+        if agreed and str(row.get("CL_agreed", "false")).strip().lower() == "true" and not str(row["cl_class"]).startswith("CL:"):
+            raise ValueError(f"Agreed marker '{row['cl_class']}' is not a CL term.")
         class_template.append({
             "defined_class": row["Marker_set"],
             "Marker_set_of": get_cl_label(cl_ontology, row["cl_class"], row["Cell_type"]),
@@ -62,8 +67,8 @@ def generate_markers_to_cells_template(agreed: bool, output_filepath: str):
         if agreed and str(row.get("CL_agreed", "false")).strip().lower() != "true":
             continue
         class_template.append({
-            "defined_class": row["class"],
-            "Cell_type": row["class"],
+            "defined_class": row["cl_class"],
+            "Cell_type": row["cl_class"],
             "has_characterization_set": row["Marker_set"],
             "Marker_set": row["Minimal_markers_label"],
             "Organ": row["Organ"],
@@ -87,8 +92,16 @@ def _init_graph(ontology_path):
     Returns:
         rdflib.Graph: The loaded ontology graph.
     """
+    temp_file = "cl-base.owl"
+    response = urllib.request.urlopen(ontology_path, context=ssl_context)
+    data = response.read()
+    with open(temp_file, 'wb') as file:
+        file.write(data)
+
     g = Graph()
-    g.parse(ontology_path, format="xml")
+    g.parse(temp_file, format="xml")
+
+    delete_file(temp_file)
     return g
 
 

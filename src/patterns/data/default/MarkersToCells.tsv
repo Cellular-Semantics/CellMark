@@ -1,6 +1,1 @@
-defined_class	Cell_type	has_characterization_set	Marker_set	Organ	Species_abbv	Species	FBeta_confidence_score	Marker_set_xref
-CL:4028006	CL:4028006	CLM:1000001	SCARA5|CD248	Lung	Human	NCBITaxon:9606	0.85	https://doi.org/10.5281/zenodo.11165918
-CL:4028004	CL:4028004	CLM:1000002	AOC3|LUM	Lung	Human	NCBITaxon:9606	0.70	https://doi.org/10.5281/zenodo.11165918
-CL:0000583	CL:0000583	CLM:1000003	MSR1|FABP4	Lung	Human	NCBITaxon:9606	0.80	https://doi.org/10.5281/zenodo.11165918
-CL:4033041	CL:4033041	CLM:1000004	TNIP3|CXCL5	Lung	Human	NCBITaxon:9606	0.67	https://doi.org/10.5281/zenodo.11165918
-CL:4033042	CL:4033042	CLM:1000005	HMOX1|HPGD	Lung	Human	NCBITaxon:9606	0.41	https://doi.org/10.5281/zenodo.11165918
+
