@@ -1,0 +1,384 @@
+{
+  "graphs": [
+    {
+      "edges": [
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLM_1000001",
+          "pred": "http://purl.obolibrary.org/obo/RO_0015004",
+          "sub": "http://purl.obolibrary.org/obo/CL_4028006"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLM_1000002",
+          "pred": "http://purl.obolibrary.org/obo/RO_0015004",
+          "sub": "http://purl.obolibrary.org/obo/CL_4028004"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLM_1000003",
+          "pred": "http://purl.obolibrary.org/obo/RO_0015004",
+          "sub": "http://purl.obolibrary.org/obo/CL_0000583"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLM_1000004",
+          "pred": "http://purl.obolibrary.org/obo/RO_0015004",
+          "sub": "http://purl.obolibrary.org/obo/CL_4033041"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CLM_1000005",
+          "pred": "http://purl.obolibrary.org/obo/RO_0015004",
+          "sub": "http://purl.obolibrary.org/obo/CL_4033042"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/SO_0000704",
+          "pred": "is_a",
+          "sub": "http://identifiers.org/ensembl/ENSG00000038945"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/SO_0000704",
+          "pred": "is_a",
+          "sub": "http://identifiers.org/ensembl/ENSG00000050730"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/SO_0000704",
+          "pred": "is_a",
+          "sub": "http://identifiers.org/ensembl/ENSG00000100292"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/SO_0000704",
+          "pred": "is_a",
+          "sub": "http://identifiers.org/ensembl/ENSG00000131471"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/SO_0000704",
+          "pred": "is_a",
+          "sub": "http://identifiers.org/ensembl/ENSG00000139329"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/SO_0000704",
+          "pred": "is_a",
+          "sub": "http://identifiers.org/ensembl/ENSG00000163735"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/SO_0000704",
+          "pred": "is_a",
+          "sub": "http://identifiers.org/ensembl/ENSG00000164120"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/SO_0000704",
+          "pred": "is_a",
+          "sub": "http://identifiers.org/ensembl/ENSG00000168079"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/SO_0000704",
+          "pred": "is_a",
+          "sub": "http://identifiers.org/ensembl/ENSG00000170323"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/SO_0000704",
+          "pred": "is_a",
+          "sub": "http://identifiers.org/ensembl/ENSG00000174807"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/SO_0001260",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CLM_1000001"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/SO_0001260",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CLM_1000002"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/SO_0001260",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CLM_1000003"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/SO_0001260",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CLM_1000004"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/SO_0001260",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CLM_1000005"
+        }
+      ],
+      "id": "http://purl.obolibrary.org/obo/clm/clm-cl.json",
+      "meta": {
+        "basicPropertyValues": [
+          {
+            "pred": "http://purl.org/dc/elements/1.1/type",
+            "val": "http://purl.obolibrary.org/obo/IAO_8000001"
+          },
+          {
+            "pred": "http://purl.org/dc/terms/description",
+            "val": "None"
+          },
+          {
+            "pred": "http://purl.org/dc/terms/license",
+            "val": "https://creativecommons.org/licenses/unspecified"
+          },
+          {
+            "pred": "http://purl.org/dc/terms/title",
+            "val": "Cell Markers Ontology"
+          },
+          {
+            "pred": "http://www.w3.org/2002/07/owl#versionInfo",
+            "val": "2024-10-15"
+          }
+        ],
+        "version": "http://purl.obolibrary.org/obo/clm/releases/2024-10-15/clm-cl.json"
+      },
+      "nodes": [
+        {
+          "id": "http://purl.obolibrary.org/obo/CLM_1000001",
+          "lbl": "NS forest marker set of alveolar adventitial fibroblast (Human Lung).",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/PCL_0010062",
+                "val": "0.85"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CLM_1000002",
+          "lbl": "NS forest marker set of alveolar type 1 fibroblast cell (Human Lung).",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/PCL_0010062",
+                "val": "0.70"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CLM_1000003",
+          "lbl": "NS forest marker set of alveolar macrophage (Human Lung).",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/PCL_0010062",
+                "val": "0.80"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CLM_1000004",
+          "lbl": "NS forest marker set of CCL3-positive alveolar macrophage (Human Lung).",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/PCL_0010062",
+                "val": "0.67"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CLM_1000005",
+          "lbl": "NS forest marker set of metallothionein-positive alveolar macrophage (Human Lung).",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/PCL_0010062",
+                "val": "0.41"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/RO_0015004",
+          "lbl": "has characterizing marker set",
+          "propertyType": "OBJECT",
+          "type": "PROPERTY"
+        },
+        {
+          "id": "http://purl.org/dc/terms/description",
+          "lbl": "description",
+          "propertyType": "ANNOTATION",
+          "type": "PROPERTY"
+        },
+        {
+          "id": "http://purl.org/dc/terms/license",
+          "lbl": "license",
+          "propertyType": "ANNOTATION",
+          "type": "PROPERTY"
+        },
+        {
+          "id": "http://purl.org/dc/terms/title",
+          "lbl": "title",
+          "propertyType": "ANNOTATION",
+          "type": "PROPERTY"
+        },
+        {
+          "id": "http://identifiers.org/ensembl/ENSG00000038945",
+          "lbl": "MSR1",
+          "type": "CLASS"
+        },
+        {
+          "id": "http://identifiers.org/ensembl/ENSG00000050730",
+          "lbl": "TNIP3",
+          "type": "CLASS"
+        },
+        {
+          "id": "http://identifiers.org/ensembl/ENSG00000100292",
+          "lbl": "HMOX1",
+          "type": "CLASS"
+        },
+        {
+          "id": "http://identifiers.org/ensembl/ENSG00000131471",
+          "lbl": "AOC3",
+          "type": "CLASS"
+        },
+        {
+          "id": "http://identifiers.org/ensembl/ENSG00000139329",
+          "lbl": "LUM",
+          "type": "CLASS"
+        },
+        {
+          "id": "http://identifiers.org/ensembl/ENSG00000163735",
+          "lbl": "CXCL5",
+          "type": "CLASS"
+        },
+        {
+          "id": "http://identifiers.org/ensembl/ENSG00000164120",
+          "lbl": "HPGD",
+          "type": "CLASS"
+        },
+        {
+          "id": "http://identifiers.org/ensembl/ENSG00000168079",
+          "lbl": "SCARA5",
+          "type": "CLASS"
+        },
+        {
+          "id": "http://identifiers.org/ensembl/ENSG00000170323",
+          "lbl": "FABP4",
+          "type": "CLASS"
+        },
+        {
+          "id": "http://identifiers.org/ensembl/ENSG00000174807",
+          "lbl": "CD248",
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/SO_0001260",
+          "lbl": "sequence_collection",
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CL_0000583",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/RO_0002175",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+              }
+            ],
+            "comments": [
+              "A alveolar macrophage in the Human Lung has the gene markers MSR1, FABP4 with a NS-Forest FBeta value of 0.80."
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CL_4028004",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/RO_0002175",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+              }
+            ],
+            "comments": [
+              "A alveolar type 1 fibroblast cell in the Human Lung has the gene markers AOC3, LUM with a NS-Forest FBeta value of 0.70."
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CL_4028006",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/RO_0002175",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+              }
+            ],
+            "comments": [
+              "A alveolar adventitial fibroblast in the Human Lung has the gene markers SCARA5, CD248 with a NS-Forest FBeta value of 0.85."
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CL_4033041",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/RO_0002175",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+              }
+            ],
+            "comments": [
+              "A CCL3-positive alveolar macrophage in the Human Lung has the gene markers TNIP3, CXCL5 with a NS-Forest FBeta value of 0.67."
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CL_4033042",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/RO_0002175",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+              }
+            ],
+            "comments": [
+              "A metallothionein-positive alveolar macrophage in the Human Lung has the gene markers HMOX1, HPGD with a NS-Forest FBeta value of 0.41."
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/BFO_0000051",
+          "propertyType": "OBJECT",
+          "type": "PROPERTY"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/PCL_0010062",
+          "propertyType": "ANNOTATION",
+          "type": "PROPERTY"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/RO_0002175",
+          "propertyType": "ANNOTATION",
+          "type": "PROPERTY"
+        },
+        {
+          "id": "http://purl.org/dc/elements/1.1/type",
+          "propertyType": "ANNOTATION",
+          "type": "PROPERTY"
+        },
+        {
+          "id": "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "propertyType": "ANNOTATION",
+          "type": "PROPERTY"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/SO_0000704",
+          "type": "CLASS"
+        }
+      ]
+    }
+  ]
+}

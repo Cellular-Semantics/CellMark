@@ -1,0 +1,140 @@
+format-version: 1.2
+data-version: clm/releases/2024-10-15/clm-cl.owl
+idspace: dce http://purl.org/dc/elements/1.1/ 
+idspace: dcterms http://purl.org/dc/terms/ 
+idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
+ontology: clm/clm-cl
+property_value: dce:type IAO:8000001
+property_value: dcterms:description "None" xsd:string
+property_value: dcterms:license https://creativecommons.org/licenses/unspecified
+property_value: dcterms:title "Cell Markers Ontology" xsd:string
+property_value: owl:versionInfo "2024-10-15" xsd:string
+
+[Term]
+id: CL:0000583
+comment: A alveolar macrophage in the Human Lung has the gene markers MSR1, FABP4 with a NS-Forest FBeta value of 0.80. {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000003 ! has characterizing marker set NS forest marker set of alveolar macrophage (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4028004
+comment: A alveolar type 1 fibroblast cell in the Human Lung has the gene markers AOC3, LUM with a NS-Forest FBeta value of 0.70. {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000002 ! has characterizing marker set NS forest marker set of alveolar type 1 fibroblast cell (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4028006
+comment: A alveolar adventitial fibroblast in the Human Lung has the gene markers SCARA5, CD248 with a NS-Forest FBeta value of 0.85. {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000001 ! has characterizing marker set NS forest marker set of alveolar adventitial fibroblast (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4033041
+comment: A CCL3-positive alveolar macrophage in the Human Lung has the gene markers TNIP3, CXCL5 with a NS-Forest FBeta value of 0.67. {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000004 ! has characterizing marker set NS forest marker set of CCL3-positive alveolar macrophage (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4033042
+comment: A metallothionein-positive alveolar macrophage in the Human Lung has the gene markers HMOX1, HPGD with a NS-Forest FBeta value of 0.41. {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000005 ! has characterizing marker set NS forest marker set of metallothionein-positive alveolar macrophage (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CLM:1000001
+name: NS forest marker set of alveolar adventitial fibroblast (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000168079 ! SCARA5
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000174807 ! CD248
+property_value: PCL:0010062 "0.85" xsd:string
+
+[Term]
+id: CLM:1000002
+name: NS forest marker set of alveolar type 1 fibroblast cell (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000131471 ! AOC3
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000139329 ! LUM
+property_value: PCL:0010062 "0.70" xsd:string
+
+[Term]
+id: CLM:1000003
+name: NS forest marker set of alveolar macrophage (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000038945 ! MSR1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000170323 ! FABP4
+property_value: PCL:0010062 "0.80" xsd:string
+
+[Term]
+id: CLM:1000004
+name: NS forest marker set of CCL3-positive alveolar macrophage (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000050730 ! TNIP3
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000163735 ! CXCL5
+property_value: PCL:0010062 "0.67" xsd:string
+
+[Term]
+id: CLM:1000005
+name: NS forest marker set of metallothionein-positive alveolar macrophage (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000100292 ! HMOX1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000164120 ! HPGD
+property_value: PCL:0010062 "0.41" xsd:string
+
+[Term]
+id: SO:0001260
+name: sequence_collection
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000038945
+name: MSR1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000050730
+name: TNIP3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000100292
+name: HMOX1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000131471
+name: AOC3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000139329
+name: LUM
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000163735
+name: CXCL5
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000164120
+name: HPGD
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000168079
+name: SCARA5
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000170323
+name: FABP4
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000174807
+name: CD248
+is_a: SO:0000704
+
+[Typedef]
+id: RO:0015004
+name: has characterizing marker set
+

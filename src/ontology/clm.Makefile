@@ -14,8 +14,9 @@ TEMPLATESDIR = ../templates
 GENE_LIST = LungMAP LungCellAtlas Neocortex
 GENE_TABLES = $(patsubst %, $(TEMPLATESDIR)/%.tsv, $(GENE_LIST))
 GENE_TEMPLATE = $(TEMPLATESDIR)/genes.tsv
+GENE_TEMPLATE_CL = $(TEMPLATESDIR)/genes_cl.tsv
 
-LOCAL_CLEAN_FILES = $(GENE_TEMPLATE) $(PATTERNDIR)/data/default/NSForestMarkers_all.tsv $(PATTERNDIR)/data/default/MarkersToCells_all.tsv
+LOCAL_CLEAN_FILES = $(GENE_TEMPLATE) $(GENE_TEMPLATE_CL) $(PATTERNDIR)/data/default/NSForestMarkers_all.tsv $(PATTERNDIR)/data/default/MarkersToCells_all.tsv
 
 # clean previous build files
 .PHONY: clean_files
@@ -25,7 +26,13 @@ clean_files:
 $(GENE_TEMPLATE): $(GENE_TABLES)
 	python $(SCRIPTSDIR)/robot_template_generator.py genes $(patsubst %, -i %, $^) --out $@
 
+$(GENE_TEMPLATE_CL): $(GENE_TABLES)
+	python $(SCRIPTSDIR)/robot_template_generator.py genes_cl $(patsubst %, -i %, $^) --out $@
+
 $(MIRRORDIR)/genes.owl: $(GENE_TEMPLATE)
+	$(ROBOT) template --input $(SRC) --template $< --add-prefixes template_prefixes.json --output $@
+
+$(MIRRORDIR)/genes_cl.owl: $(GENE_TEMPLATE_CL)
 	$(ROBOT) template --input $(SRC) --template $< --add-prefixes template_prefixes.json --output $@
 
 $(COMPONENTSDIR)/all_templates.owl: clean_files
@@ -62,6 +69,7 @@ $(ONT)-base.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC)
 $(ONT).owl: $(ONT)-full.owl $(ONT)-kg.owl $(ONT)-kg.obo $(ONT)-kg.json $(ONT)-cl.owl $(ONT)-cl.obo $(ONT)-cl.json
 	$(ROBOT) annotate --input $< --ontology-iri $(URIBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
 		convert -o $@.tmp.owl && mv $@.tmp.owl $@
+	rm -f $(LOCAL_CLEAN_FILES)
 
 # Artifact for KG that host not validated gene annotations as well
 $(ONT)-kg.owl:  $(ONT)-base.owl $(MIRRORDIR)/genes.owl
@@ -69,10 +77,9 @@ $(ONT)-kg.owl:  $(ONT)-base.owl $(MIRRORDIR)/genes.owl
 	$(DOSDPT) generate --catalog=$(CATALOG) --infile=$(PATTERNDIR)/data/default/NSForestMarkers_all.tsv --template=$(PATTERNDIR)/dosdp-patterns/NSForestMarkers.yaml \
 		--ontology=$(EDIT_PREPROCESSED) --obo-prefixes=true --prefixes=template_prefixes.yaml --outfile=$(COMPONENTSDIR)/NSForestMarkers_all.owl
 	$(ROBOT) template --input $(SRC) --template $(TEMPLATEDIR)/cl_kg/Clusters.tsv --add-prefixes template_prefixes.json --output $(COMPONENTSDIR)/MarkersToCells_all.owl
-	$(ROBOT) merge -i $< -i $(MIRRORDIR)/genes.owl -i $(COMPONENTSDIR)/NSForestMarkers_all.owl -i $(COMPONENTSDIR)/MarkersToCells_all.owl \
+	$(ROBOT) merge -i $< -i $(ONT)-kg-edit.$(EDIT_FORMAT) -i $(MIRRORDIR)/genes.owl -i $(COMPONENTSDIR)/NSForestMarkers_all.owl -i $(COMPONENTSDIR)/MarkersToCells_all.owl \
 	 	annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
 		--output $(RELEASEDIR)/$@
-	rm -f $(LOCAL_CLEAN_FILES)
 
 $(ONT)-kg.obo: $(RELEASEDIR)/$(ONT)-kg.owl
 	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $(RELEASEDIR)/$@ && rm $@.tmp.obo
@@ -84,11 +91,15 @@ $(ONT)-kg.json: $(RELEASEDIR)/$(ONT)-kg.owl
 
 
 # Artifact for CL that hosts only the validated gene annotations
-$(ONT)-cl.owl: $(ONT)-base.owl
-	cp $< $@ && mv $@ $(RELEASEDIR)/$@
+$(ONT)-cl.owl: $(ONT)-base.owl $(MIRRORDIR)/genes_cl.owl
+	$(ROBOT) merge -i $< -i $(MIRRORDIR)/genes_cl.owl \
+	 	annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
+		--output $(RELEASEDIR)/$@
 
-$(ONT)-cl.obo: $(ONT)-base.obo
-	cp $< $@ && mv $@ $(RELEASEDIR)/$@
+$(ONT)-cl.obo: $(RELEASEDIR)/$(ONT)-cl.owl
+	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $(RELEASEDIR)/$@ && rm $@.tmp.obo
 
-$(ONT)-cl.json: $(ONT)-base.json
-	cp $< $@ && mv $@ $(RELEASEDIR)/$@
+$(ONT)-cl.json: $(RELEASEDIR)/$(ONT)-cl.owl
+	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
+		convert --check false -f json -o $@.tmp.json &&\
+	jq -S 'walk(if type == "array" then sort else . end)' $@.tmp.json > $(RELEASEDIR)/$@ && rm $@.tmp.json

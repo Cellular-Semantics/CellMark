@@ -19,7 +19,6 @@ Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "Cell Markers Ontology")
 
 
-Declaration(Class(<http://purl.obolibrary.org/obo/CLM_0000000>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
@@ -33,6 +32,10 @@ AnnotationAssertion(rdfs:label dcterms:description "description")
 AnnotationAssertion(rdfs:label dcterms:license "license")
 AnnotationAssertion(rdfs:label dcterms:title "title")
 
+############################
+#   Object Properties
+############################
+
 # Object Property: <http://purl.obolibrary.org/obo/RO_0015004> (has characterizing marker set)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0015004> "has characterizing marker set")
 
@@ -40,6 +43,8 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0015004> "has 
 #   Classes
 ############################
 
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001260>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001260> "sequence_collection")
 
 )
 

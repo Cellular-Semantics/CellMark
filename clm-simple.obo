@@ -1,12 +1,37 @@
 format-version: 1.2
-data-version: clm/releases/2024-07-31/clm-simple.owl
+data-version: clm/releases/2024-10-15/clm-simple.owl
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 idspace: terms http://purl.org/dc/terms/ 
 ontology: clm/clm-simple
-property_value: owl:versionInfo "2024-07-31" xsd:string
+property_value: owl:versionInfo "2024-10-15" xsd:string
 property_value: terms:description "None" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/unspecified
 property_value: terms:title "Cell Markers Ontology" xsd:string
+
+[Term]
+id: CLM:1000001
+name: NS forest marker set of alveolar adventitial fibroblast (Human Lung).
+property_value: PCL:0010062 "0.85" xsd:string
+
+[Term]
+id: CLM:1000002
+name: NS forest marker set of alveolar type 1 fibroblast cell (Human Lung).
+property_value: PCL:0010062 "0.70" xsd:string
+
+[Term]
+id: CLM:1000003
+name: NS forest marker set of alveolar macrophage (Human Lung).
+property_value: PCL:0010062 "0.80" xsd:string
+
+[Term]
+id: CLM:1000004
+name: NS forest marker set of CCL3-positive alveolar macrophage (Human Lung).
+property_value: PCL:0010062 "0.67" xsd:string
+
+[Term]
+id: CLM:1000005
+name: NS forest marker set of metallothionein-positive alveolar macrophage (Human Lung).
+property_value: PCL:0010062 "0.41" xsd:string
 
 [Typedef]
 id: BFO:0000051

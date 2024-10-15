@@ -1,104 +1,2013 @@
 format-version: 1.2
-data-version: clm/releases/2024-07-31/clm-kg.owl
+data-version: clm/releases/2024-10-15/clm-kg.owl
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
+idspace: skos http://www.w3.org/2004/02/skos/core# 
 ontology: clm/clm-kg
 property_value: dce:type IAO:8000001
 property_value: dcterms:description "None" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/unspecified
 property_value: dcterms:title "Cell Markers Ontology" xsd:string
-property_value: owl:versionInfo "2024-07-31" xsd:string
-
-[Term]
-id: CL:0000000
-comment: A cell in the Human Lung has the gene markers PCLAF, RRM2, UBE2C, NUSAP1 with a NS-Forest FBeta value of 0.26. {xref="https://doi.org/10.5281/zenodo.11165918"}
-relationship: RO:0015004 CL:4037006 ! has characterizing marker set NS forest marker set of cell (Human Lung).
-property_value: RO:0002175 NCBITaxon:9606
+property_value: owl:versionInfo "2024-10-15" xsd:string
 
 [Term]
 id: CL:0000583
-comment: A alveolar macrophage in the Human Lung has the gene markers MSR1, FABP4 with a NS-Forest FBeta value of 0.8. {xref="https://doi.org/10.5281/zenodo.11165918"}
-relationship: RO:0015004 CL:4037003 ! has characterizing marker set NS forest marker set of alveolar macrophage (Human Lung).
+comment: A alveolar macrophage in the Human Lung has the gene markers MSR1, FABP4 with a NS-Forest FBeta value of 0.80. {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000003 ! has characterizing marker set NS forest marker set of alveolar macrophage (Human Lung).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4028004
-comment: A alveolar type 1 fibroblast cell in the Human Lung has the gene markers AOC3, LUM with a NS-Forest FBeta value of 0.7. {xref="https://doi.org/10.5281/zenodo.11165918"}
-relationship: RO:0015004 CL:4037002 ! has characterizing marker set NS forest marker set of alveolar type 1 fibroblast cell (Human Lung).
+comment: A alveolar type 1 fibroblast cell in the Human Lung has the gene markers AOC3, LUM with a NS-Forest FBeta value of 0.70. {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000002 ! has characterizing marker set NS forest marker set of alveolar type 1 fibroblast cell (Human Lung).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4028006
 comment: A alveolar adventitial fibroblast in the Human Lung has the gene markers SCARA5, CD248 with a NS-Forest FBeta value of 0.85. {xref="https://doi.org/10.5281/zenodo.11165918"}
-relationship: RO:0015004 CL:4037001 ! has characterizing marker set NS forest marker set of alveolar adventitial fibroblast (Human Lung).
+relationship: RO:0015004 CLM:1000001 ! has characterizing marker set NS forest marker set of alveolar adventitial fibroblast (Human Lung).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4033041
 comment: A CCL3-positive alveolar macrophage in the Human Lung has the gene markers TNIP3, CXCL5 with a NS-Forest FBeta value of 0.67. {xref="https://doi.org/10.5281/zenodo.11165918"}
-relationship: RO:0015004 CL:4037004 ! has characterizing marker set NS forest marker set of CCL3-positive alveolar macrophage (Human Lung).
+relationship: RO:0015004 CLM:1000004 ! has characterizing marker set NS forest marker set of CCL3-positive alveolar macrophage (Human Lung).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4033042
 comment: A metallothionein-positive alveolar macrophage in the Human Lung has the gene markers HMOX1, HPGD with a NS-Forest FBeta value of 0.41. {xref="https://doi.org/10.5281/zenodo.11165918"}
-relationship: RO:0015004 CL:4037005 ! has characterizing marker set NS forest marker set of metallothionein-positive alveolar macrophage (Human Lung).
+relationship: RO:0015004 CLM:1000005 ! has characterizing marker set NS forest marker set of metallothionein-positive alveolar macrophage (Human Lung).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
-id: CL:4037001
+id: CLM:1000001
 name: NS forest marker set of alveolar adventitial fibroblast (Human Lung).
-is_a: SO:0001260
+is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000168079 ! SCARA5
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000174807 ! CD248
-property_value: STATO:0000663 "0.85" xsd:string
+property_value: PCL:0010062 "0.85" xsd:string
 
 [Term]
-id: CL:4037002
+id: CLM:1000002
 name: NS forest marker set of alveolar type 1 fibroblast cell (Human Lung).
-is_a: SO:0001260
+is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000131471 ! AOC3
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000139329 ! LUM
-property_value: STATO:0000663 "0.7" xsd:string
+property_value: PCL:0010062 "0.70" xsd:string
 
 [Term]
-id: CL:4037003
+id: CLM:1000003
 name: NS forest marker set of alveolar macrophage (Human Lung).
-is_a: SO:0001260
+is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000038945 ! MSR1
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000170323 ! FABP4
-property_value: STATO:0000663 "0.8" xsd:string
+property_value: PCL:0010062 "0.80" xsd:string
 
 [Term]
-id: CL:4037004
+id: CLM:1000004
 name: NS forest marker set of CCL3-positive alveolar macrophage (Human Lung).
-is_a: SO:0001260
+is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000050730 ! TNIP3
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000163735 ! CXCL5
-property_value: STATO:0000663 "0.67" xsd:string
+property_value: PCL:0010062 "0.67" xsd:string
 
 [Term]
-id: CL:4037005
+id: CLM:1000005
 name: NS forest marker set of metallothionein-positive alveolar macrophage (Human Lung).
-is_a: SO:0001260
+is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000100292 ! HMOX1
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000164120 ! HPGD
-property_value: STATO:0000663 "0.41" xsd:string
+property_value: PCL:0010062 "0.41" xsd:string
 
 [Term]
-id: CL:4037006
-name: NS forest marker set of cell (Human Lung).
-is_a: SO:0001260
+id: CLM:1000006
+name: NS forest marker set of Alveolar Mph proliferating (Human Lung).
+is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137804 ! NUSAP1
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000166803 ! PCLAF
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000171848 ! RRM2
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000175063 ! UBE2C
-property_value: STATO:0000663 "0.26" xsd:string
+property_value: PCL:0010062 "0.26" xsd:string
+
+[Term]
+id: CLM:1000007
+name: NS forest marker set of AT0 (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000025423 ! HSD17B6
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000164265 ! SCGB3A2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000229807 ! XIST
+property_value: PCL:0010062 "0.28" xsd:string
+
+[Term]
+id: CLM:1000008
+name: NS forest marker set of AT1 (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000204305 ! AGER
+property_value: PCL:0010062 "0.85" xsd:string
+
+[Term]
+id: CLM:1000009
+name: NS forest marker set of AT2 (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000122852 ! SFTPA1
+property_value: PCL:0010062 "0.95" xsd:string
+
+[Term]
+id: CLM:1000010
+name: NS forest marker set of AT2 proliferating (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000131747 ! TOP2A
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000198901 ! PRC1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000242265 ! PEG10
+property_value: PCL:0010062 "0.61" xsd:string
+
+[Term]
+id: CLM:1000011
+name: NS forest marker set of B cells (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000105369 ! CD79A
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000156738 ! MS4A1
+property_value: PCL:0010062 "0.86" xsd:string
+
+[Term]
+id: CLM:1000012
+name: NS forest marker set of Basal resting (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000128422 ! KRT17
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000171346 ! KRT15
+property_value: PCL:0010062 "0.75" xsd:string
+
+[Term]
+id: CLM:1000013
+name: NS forest marker set of CD4 T cells (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000167286 ! CD3D
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000227507 ! LTB
+property_value: PCL:0010062 "0.59" xsd:string
+
+[Term]
+id: CLM:1000014
+name: NS forest marker set of CD8 T cells (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000167286 ! CD3D
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000271503 ! CCL5
+property_value: PCL:0010062 "0.76" xsd:string
+
+[Term]
+id: CLM:1000015
+name: NS forest marker set of Classical monocytes (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000085265 ! FCN1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000163221 ! S100A12
+property_value: PCL:0010062 "0.77" xsd:string
+
+[Term]
+id: CLM:1000016
+name: NS forest marker set of Club (nasal) (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000115112 ! TFCP2L1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000167653 ! PSCA
+property_value: PCL:0010062 "0.43" xsd:string
+
+[Term]
+id: CLM:1000017
+name: NS forest marker set of Club (non-nasal) (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000149021 ! SCGB1A1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000197446 ! CYP2F1
+property_value: PCL:0010062 "0.68" xsd:string
+
+[Term]
+id: CLM:1000018
+name: NS forest marker set of DC1 (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000163687 ! DNASE1L3
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000197992 ! CLEC9A
+property_value: PCL:0010062 "0.77" xsd:string
+
+[Term]
+id: CLM:1000019
+name: NS forest marker set of DC2 (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000132514 ! CLEC10A
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000196735 ! HLA-DQA1
+property_value: PCL:0010062 "0.53" xsd:string
+
+[Term]
+id: CLM:1000020
+name: NS forest marker set of Deuterosomal (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000148019 ! CEP78
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000164287 ! CDC20B
+property_value: PCL:0010062 "0.71" xsd:string
+
+[Term]
+id: CLM:1000021
+name: NS forest marker set of EC aerocyte capillary (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000136160 ! EDNRB
+property_value: PCL:0010062 "0.83" xsd:string
+
+[Term]
+id: CLM:1000022
+name: NS forest marker set of EC arterial (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000155011 ! DKK2
+property_value: PCL:0010062 "0.71" xsd:string
+
+[Term]
+id: CLM:1000023
+name: NS forest marker set of EC general capillary (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000142748 ! FCN3
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000167434 ! CA4
+property_value: PCL:0010062 "0.78" xsd:string
+
+[Term]
+id: CLM:1000024
+name: NS forest marker set of EC venous pulmonary (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000101955 ! SRPX
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000213088 ! ACKR1
+property_value: PCL:0010062 "0.74" xsd:string
+
+[Term]
+id: CLM:1000025
+name: NS forest marker set of EC venous systemic (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000130300 ! PLVAP
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000164035 ! EMCN
+property_value: PCL:0010062 "0.63" xsd:string
+
+[Term]
+id: CLM:1000026
+name: NS forest marker set of Goblet (bronchial) (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000174501 ! ANKRD36C
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000197943 ! PLCG2
+property_value: PCL:0010062 "0.55" xsd:string
+
+[Term]
+id: CLM:1000027
+name: NS forest marker set of Goblet (nasal) (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000197353 ! LYPD2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000215182 ! MUC5AC
+property_value: PCL:0010062 "0.81" xsd:string
+
+[Term]
+id: CLM:1000028
+name: NS forest marker set of Goblet (subsegmental) (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000149021 ! SCGB1A1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000255823 ! MTRNR2L8
+property_value: PCL:0010062 "0.61" xsd:string
+
+[Term]
+id: CLM:1000029
+name: NS forest marker set of Hematopoietic stem cells (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000170891 ! CYTL1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000226777 ! FAM30A;KIAA0125
+property_value: PCL:0010062 "0.66" xsd:string
+
+[Term]
+id: CLM:1000030
+name: NS forest marker set of Hillock-like (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000186847 ! KRT14
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000205420 ! KRT6A
+property_value: PCL:0010062 "0.66" xsd:string
+
+[Term]
+id: CLM:1000031
+name: NS forest marker set of Interstitial Mph perivascular (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000010327 ! STAB1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000072694 ! FCGR2B
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000124491 ! F13A1
+property_value: PCL:0010062 "0.46" xsd:string
+
+[Term]
+id: CLM:1000032
+name: NS forest marker set of Ionocyte (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000162399 ! BSND
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000176009 ! ASCL3
+property_value: PCL:0010062 "0.82" xsd:string
+
+[Term]
+id: CLM:1000033
+name: NS forest marker set of Lymphatic EC differentiating (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000153993 ! SEMA3D
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000160145 ! KALRN
+property_value: PCL:0010062 "0.42" xsd:string
+
+[Term]
+id: CLM:1000034
+name: NS forest marker set of Lymphatic EC mature (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137077 ! CCL21
+property_value: PCL:0010062 "0.88" xsd:string
+
+[Term]
+id: CLM:1000035
+name: NS forest marker set of Lymphatic EC proliferating (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000117724 ! CENPF
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137077 ! CCL21
+property_value: PCL:0010062 "0.73" xsd:string
+
+[Term]
+id: CLM:1000036
+name: NS forest marker set of Mast cells (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000172236 ! TPSAB1
+property_value: PCL:0010062 "0.96" xsd:string
+
+[Term]
+id: CLM:1000037
+name: NS forest marker set of Mesothelium (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000116690 ! PRG4
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000172137 ! CALB2
+property_value: PCL:0010062 "0.89" xsd:string
+
+[Term]
+id: CLM:1000038
+name: NS forest marker set of Migratory DCs (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000102962 ! CCL22
+property_value: PCL:0010062 "0.50" xsd:string
+
+[Term]
+id: CLM:1000039
+name: NS forest marker set of Monocyte-derived Mph (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000129226 ! CD68
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000166920 ! C15orf48
+property_value: PCL:0010062 "0.37" xsd:string
+
+[Term]
+id: CLM:1000040
+name: NS forest marker set of Multiciliated (nasal) (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000007933 ! FMO3
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000126861 ! OMG
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000227877 ! MRLN
+property_value: PCL:0010062 "0.59" xsd:string
+
+[Term]
+id: CLM:1000041
+name: NS forest marker set of Multiciliated (non-nasal) (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000166959 ! MS4A8
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000179902 ! C1orf194
+property_value: PCL:0010062 "0.86" xsd:string
+
+[Term]
+id: CLM:1000042
+name: NS forest marker set of Myofibroblasts (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000050165 ! DKK3
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000106819 ! ASPN
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000114200 ! BCHE
+property_value: PCL:0010062 "0.48" xsd:string
+
+[Term]
+id: CLM:1000043
+name: NS forest marker set of Neuroendocrine (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000100604 ! CHGA
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000134443 ! GRP
+property_value: PCL:0010062 "0.94" xsd:string
+
+[Term]
+id: CLM:1000044
+name: NS forest marker set of NK cells (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000150045 ! KLRF1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000180644 ! PRF1
+property_value: PCL:0010062 "0.79" xsd:string
+
+[Term]
+id: CLM:1000045
+name: NS forest marker set of Non-classical monocytes (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000104972 ! LILRB1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000131042 ! LILRB2
+property_value: PCL:0010062 "0.46" xsd:string
+
+[Term]
+id: CLM:1000046
+name: NS forest marker set of Peribronchial fibroblasts (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000143196 ! DPT
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000189058 ! APOD
+property_value: PCL:0010062 "0.58" xsd:string
+
+[Term]
+id: CLM:1000047
+name: NS forest marker set of Pericytes (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000131097 ! HIGD1B
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000171303 ! KCNK3
+property_value: PCL:0010062 "0.84" xsd:string
+
+[Term]
+id: CLM:1000048
+name: NS forest marker set of Plasma cells (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000132465 ! JCHAIN
+property_value: PCL:0010062 "0.91" xsd:string
+
+[Term]
+id: CLM:1000049
+name: NS forest marker set of Plasmacytoid DCs (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000132465 ! JCHAIN
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000239961 ! LILRA4
+property_value: PCL:0010062 "0.79" xsd:string
+
+[Term]
+id: CLM:1000050
+name: NS forest marker set of pre-TB secretory (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000149021 ! SCGB1A1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000168878 ! SFTPB
+property_value: PCL:0010062 "0.73" xsd:string
+
+[Term]
+id: CLM:1000051
+name: NS forest marker set of SM activated stress response (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000111404 ! RERGL
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000187479 ! C11orf96
+property_value: PCL:0010062 "0.58" xsd:string
+
+[Term]
+id: CLM:1000052
+name: NS forest marker set of SMG duct (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000156689 ! GLYATL2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000187908 ! DMBT1
+property_value: PCL:0010062 "0.46" xsd:string
+
+[Term]
+id: CLM:1000053
+name: NS forest marker set of SMG mucous (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000078898 ! BPIFB2
+property_value: PCL:0010062 "0.93" xsd:string
+
+[Term]
+id: CLM:1000054
+name: NS forest marker set of SMG serous (bronchial) (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000111215 ! PRR4
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000184530 ! C6orf58
+property_value: PCL:0010062 "0.75" xsd:string
+
+[Term]
+id: CLM:1000055
+name: NS forest marker set of SMG serous (nasal) (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000126549 ! STATH
+property_value: PCL:0010062 "0.92" xsd:string
+
+[Term]
+id: CLM:1000056
+name: NS forest marker set of Smooth muscle (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000107796 ! ACTA2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000149591 ! TAGLN
+property_value: PCL:0010062 "0.69" xsd:string
+
+[Term]
+id: CLM:1000057
+name: NS forest marker set of Smooth muscle FAM83D+ (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000163017 ! ACTG2
+property_value: PCL:0010062 "0.77" xsd:string
+
+[Term]
+id: CLM:1000058
+name: NS forest marker set of Subpleural fibroblasts (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000107562 ! CXCL12
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000184937 ! WT1
+property_value: PCL:0010062 "0.60" xsd:string
+
+[Term]
+id: CLM:1000059
+name: NS forest marker set of Suprabasal (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000041982 ! TNC
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000171346 ! KRT15
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000206073 ! SERPINB4
+property_value: PCL:0010062 "0.62" xsd:string
+
+[Term]
+id: CLM:1000060
+name: NS forest marker set of T cells proliferating (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000148773 ! MKI67
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000160654 ! CD3G
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000166803 ! PCLAF
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000198851 ! CD3E
+property_value: PCL:0010062 "0.71" xsd:string
+
+[Term]
+id: CLM:1000061
+name: NS forest marker set of Tuft (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000051128 ! HOMER3
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000118513 ! MYB
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137709 ! POU2F3
+property_value: PCL:0010062 "0.56" xsd:string
+
+[Term]
+id: CLM:1001062
+name: NS forest marker set of Astro_1 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000079215 ! SLC1A3
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000172987 ! HPSE2
+property_value: PCL:0010062 "0.6796875" xsd:string
+
+[Term]
+id: CLM:1001063
+name: NS forest marker set of Astro_2 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000234377 ! OBI1-AS1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000249306 ! LINC01411
+property_value: PCL:0010062 "0.5566801619433198" xsd:string
+
+[Term]
+id: CLM:1001064
+name: NS forest marker set of Astro_3 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000117525 ! F3
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000135744 ! AGT
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000152661 ! GJA1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000171885 ! AQP4
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000221932 ! HEPN1
+property_value: PCL:0010062 "0.5711722488038278" xsd:string
+
+[Term]
+id: CLM:1001065
+name: NS forest marker set of Astro_4 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000119938 ! PPP1R3C
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000164089 ! ETNPPL
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000172201 ! ID4
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000234377 ! OBI1-AS1
+property_value: PCL:0010062 "0.47279792746113986" xsd:string
+
+[Term]
+id: CLM:1001066
+name: NS forest marker set of Astro_5 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000026508 ! CD44
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000041982 ! TNC
+property_value: PCL:0010062 "0.7512626262626262" xsd:string
+
+[Term]
+id: CLM:1001067
+name: NS forest marker set of Chandelier_1 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000174948 ! GPR149
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000178538 ! CA8
+property_value: PCL:0010062 "0.7997481108312343" xsd:string
+
+[Term]
+id: CLM:1001068
+name: NS forest marker set of Endo_1 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000102755 ! FLT1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000110799 ! VWF
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000118777 ! ABCG2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000158270 ! COLEC12
+property_value: PCL:0010062 "0.831353919239905" xsd:string
+
+[Term]
+id: CLM:1001069
+name: NS forest marker set of Endo_2 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000027075 ! PRKCH
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000180229 ! HERC2P3
+property_value: PCL:0010062 "0.8270877944325483" xsd:string
+
+[Term]
+id: CLM:1001070
+name: NS forest marker set of L2/3 IT_1 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000047936 ! ROS1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000164099 ! PRSS12
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000169507 ! SLC38A11
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000204262 ! COL5A2
+property_value: PCL:0010062 "0.5517711171662125" xsd:string
+
+[Term]
+id: CLM:1001071
+name: NS forest marker set of L2/3 IT_2 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000135426 ! TESPA1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000138741 ! TRPC3
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000187720 ! THSD4
+property_value: PCL:0010062 "0.6621140142517815" xsd:string
+
+[Term]
+id: CLM:1001072
+name: NS forest marker set of L2/3 IT_3 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000079931 ! MOXD1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000119547 ! ONECUT2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000138696 ! BMPR1B
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000196739 ! COL27A1
+property_value: PCL:0010062 "0.675117924528302" xsd:string
+
+[Term]
+id: CLM:1001073
+name: NS forest marker set of L2/3 IT_4 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000078098 ! FAP
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000119547 ! ONECUT2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000146242 ! TPBG
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000204262 ! COL5A2
+property_value: PCL:0010062 "0.6337047353760445" xsd:string
+
+[Term]
+id: CLM:1001074
+name: NS forest marker set of L2/3 IT_5 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000141433 ! ADCYAP1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000211445 ! GPX3
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000255794 ! RMST
+property_value: PCL:0010062 "0.5061141304347826" xsd:string
+
+[Term]
+id: CLM:1001075
+name: NS forest marker set of L2/3 IT_6 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000156140 ! ADAMTS3
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000216863 ! LY86-AS1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000256193 ! LINC00507
+property_value: PCL:0010062 "0.5509868421052632" xsd:string
+
+[Term]
+id: CLM:1001076
+name: NS forest marker set of L4 IT_1 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000113532 ! ST8SIA4
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000146242 ! TPBG
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000223812 ! AC073365.1
+property_value: PCL:0010062 "0.6129032258064517" xsd:string
+
+[Term]
+id: CLM:1001077
+name: NS forest marker set of L4 IT_2 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000113532 ! ST8SIA4
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000197261 ! C6orf141
+property_value: PCL:0010062 "0.7738095238095238" xsd:string
+
+[Term]
+id: CLM:1001078
+name: NS forest marker set of L4 IT_3 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000183960 ! KCNH8
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000188133 ! TMEM215
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000198963 ! RORB
+property_value: PCL:0010062 "0.6151315789473684" xsd:string
+
+[Term]
+id: CLM:1001079
+name: NS forest marker set of L4 IT_4 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000143858 ! SYT2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000144681 ! STAC
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000183960 ! KCNH8
+property_value: PCL:0010062 "0.6526243093922651" xsd:string
+
+[Term]
+id: CLM:1001080
+name: NS forest marker set of L4 IT_5 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000168405 ! ENSG00000235733;RP3-522P13.3;CMAHP
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000169436 ! COL22A1
+property_value: PCL:0010062 "0.6576797385620915" xsd:string
+
+[Term]
+id: CLM:1001081
+name: NS forest marker set of L4 IT_6 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000113532 ! ST8SIA4
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000152527 ! PLEKHH2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000165959 ! CLMN
+property_value: PCL:0010062 "0.6703910614525139" xsd:string
+
+[Term]
+id: CLM:1001082
+name: NS forest marker set of L5 ET_1 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000185668 ! POU3F1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000261742 ! LINC00922
+property_value: PCL:0010062 "0.728891820580475" xsd:string
+
+[Term]
+id: CLM:1001083
+name: NS forest marker set of L5 ET_2 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000081479 ! LRP2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000140557 ! ST8SIA2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000143882 ! ATP6V1C2
+property_value: PCL:0010062 "0.7593749999999999" xsd:string
+
+[Term]
+id: CLM:1001084
+name: NS forest marker set of L5 ET_3 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000135063 ! FAM189A2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000139865 ! TTC6
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000153993 ! SEMA3D
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000169856 ! ONECUT1
+property_value: PCL:0010062 "0.8891454965357967" xsd:string
+
+[Term]
+id: CLM:1001085
+name: NS forest marker set of L5 ET_4 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000135373 ! EHF
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000161958 ! FGF11
+property_value: PCL:0010062 "0.7297605473204105" xsd:string
+
+[Term]
+id: CLM:1001086
+name: NS forest marker set of L5 IT_1 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000038295 ! TLL1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000175040 ! CHST2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000198963 ! RORB
+property_value: PCL:0010062 "0.6250000000000001" xsd:string
+
+[Term]
+id: CLM:1001087
+name: NS forest marker set of L5 IT_2 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000038295 ! TLL1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000179715 ! PCED1B
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000185149 ! NPY2R
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000198963 ! RORB
+property_value: PCL:0010062 "0.5685240963855422" xsd:string
+
+[Term]
+id: CLM:1001088
+name: NS forest marker set of L5 IT_3 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000121905 ! HPCA
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000177519 ! RPRM
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000198963 ! RORB
+property_value: PCL:0010062 "0.49479166666666663" xsd:string
+
+[Term]
+id: CLM:1001089
+name: NS forest marker set of L5 IT_4 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000082482 ! KCNK2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000179241 ! LDLRAD3
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000188511 ! C22orf34
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000198963 ! RORB
+property_value: PCL:0010062 "0.44211195928753183" xsd:string
+
+[Term]
+id: CLM:1001090
+name: NS forest marker set of L5 IT_5 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000082482 ! KCNK2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000154975 ! CA10
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000168743 ! NPNT
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000198963 ! RORB
+property_value: PCL:0010062 "0.5813953488372092" xsd:string
+
+[Term]
+id: CLM:1001091
+name: NS forest marker set of L5 IT_6 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000056291 ! NPFFR2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000196562 ! SULF2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000198963 ! RORB
+property_value: PCL:0010062 "0.6619822485207101" xsd:string
+
+[Term]
+id: CLM:1001092
+name: NS forest marker set of L5/6 NP_1 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000043039 ! BARX2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000135218 ! CD36
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000197085 ! NPSR1-AS1
+property_value: PCL:0010062 "0.49025974025974034" xsd:string
+
+[Term]
+id: CLM:1001093
+name: NS forest marker set of L5/6 NP_2 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000091664 ! SLC17A6
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000103316 ! CRYM
+property_value: PCL:0010062 "0.4607508532423208" xsd:string
+
+[Term]
+id: CLM:1001094
+name: NS forest marker set of L5/6 NP_3 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000157404 ! KIT
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000162407 ! PLPP3
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000197085 ! NPSR1-AS1
+property_value: PCL:0010062 "0.5273892773892773" xsd:string
+
+[Term]
+id: CLM:1001095
+name: NS forest marker set of L5/6 NP_4 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000038295 ! TLL1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000165959 ! CLMN
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000170820 ! FSHR
+property_value: PCL:0010062 "0.740632318501171" xsd:string
+
+[Term]
+id: CLM:1001096
+name: NS forest marker set of L5/6 NP_5 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000038295 ! TLL1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000112280 ! COL9A1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000187258 ! NPSR1
+property_value: PCL:0010062 "0.5373831775700935" xsd:string
+
+[Term]
+id: CLM:1001097
+name: NS forest marker set of L5/6 NP_6 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000165895 ! ARHGAP42
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000197085 ! NPSR1-AS1
+property_value: PCL:0010062 "0.7685614849187936" xsd:string
+
+[Term]
+id: CLM:1001098
+name: NS forest marker set of L6 CT_1 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000133067 ! LGR6
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137573 ! SULF1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000165202 ! OR1Q1
+property_value: PCL:0010062 "0.665374677002584" xsd:string
+
+[Term]
+id: CLM:1001099
+name: NS forest marker set of L6 CT_2 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000082684 ! SEMA5B
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000134207 ! SYT6
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137809 ! ITGA11
+property_value: PCL:0010062 "0.791868932038835" xsd:string
+
+[Term]
+id: CLM:1001100
+name: NS forest marker set of L6 CT_3 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000134138 ! MEIS2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137573 ! SULF1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000140015 ! KCNH5
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000178031 ! ADAMTSL1
+property_value: PCL:0010062 "0.632267441860465" xsd:string
+
+[Term]
+id: CLM:1001101
+name: NS forest marker set of L6 IT Car3_1 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000226846 ! LINC00348
+property_value: PCL:0010062 "0.665" xsd:string
+
+[Term]
+id: CLM:1001102
+name: NS forest marker set of L6 IT Car3_2 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000105855 ! ITGB8
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000115593 ! SMYD1
+property_value: PCL:0010062 "0.6594036697247707" xsd:string
+
+[Term]
+id: CLM:1001103
+name: NS forest marker set of L6 IT_1 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000150051 ! MKX
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000171476 ! HOPX
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000172673 ! THEMIS
+property_value: PCL:0010062 "0.6710122699386504" xsd:string
+
+[Term]
+id: CLM:1001104
+name: NS forest marker set of L6 IT_2 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000130508 ! PXDN
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000156140 ! ADAMTS3
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000226620 ! LINC00343
+property_value: PCL:0010062 "0.5810546875" xsd:string
+
+[Term]
+id: CLM:1001105
+name: NS forest marker set of L6b_1 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137809 ! ITGA11
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000153993 ! SEMA3D
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000164142 ! FAM160A1
+property_value: PCL:0010062 "0.5724637681159421" xsd:string
+
+[Term]
+id: CLM:1001106
+name: NS forest marker set of L6b_2 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000047936 ! ROS1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000056291 ! NPFFR2
+property_value: PCL:0010062 "0.565711462450593" xsd:string
+
+[Term]
+id: CLM:1001107
+name: NS forest marker set of L6b_3 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000188991 ! SLC15A5
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000206190 ! ATP10A
+property_value: PCL:0010062 "0.6928969359331476" xsd:string
+
+[Term]
+id: CLM:1001108
+name: NS forest marker set of L6b_4 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000104043 ! ATP8B4
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000153234 ! NR4A2
+property_value: PCL:0010062 "0.5812101910828025" xsd:string
+
+[Term]
+id: CLM:1001109
+name: NS forest marker set of L6b_5 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000153234 ! NR4A2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000170381 ! SEMA3E
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000182379 ! NXPH4
+property_value: PCL:0010062 "0.5693519079345852" xsd:string
+
+[Term]
+id: CLM:1001110
+name: NS forest marker set of L6b_6 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137573 ! SULF1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000163710 ! PCOLCE2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000164142 ! FAM160A1
+property_value: PCL:0010062 "0.570388349514563" xsd:string
+
+[Term]
+id: CLM:1001111
+name: NS forest marker set of Lamp5 Lhx6_1 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000125869 ! LAMP5
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000154080 ! CHST9
+property_value: PCL:0010062 "0.8216783216783217" xsd:string
+
+[Term]
+id: CLM:1001112
+name: NS forest marker set of Lamp5_1 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000157404 ! KIT
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000164946 ! FREM1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000173157 ! ADAMTS20
+property_value: PCL:0010062 "0.48856548856548865" xsd:string
+
+[Term]
+id: CLM:1001113
+name: NS forest marker set of Lamp5_2 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000157404 ! KIT
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000167081 ! PBX3
+property_value: PCL:0010062 "0.7316272965879266" xsd:string
+
+[Term]
+id: CLM:1001114
+name: NS forest marker set of Lamp5_3 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000104267 ! CA2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000125869 ! LAMP5
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000213578 ! CPLX3
+property_value: PCL:0010062 "0.6311576354679802" xsd:string
+
+[Term]
+id: CLM:1001115
+name: NS forest marker set of Lamp5_4 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000138741 ! TRPC3
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000169071 ! ROR2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000183580 ! FBXL7
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000235665 ! LINC00298
+property_value: PCL:0010062 "0.40425531914893614" xsd:string
+
+[Term]
+id: CLM:1001116
+name: NS forest marker set of Lamp5_5 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000125869 ! LAMP5
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000168743 ! NPNT
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000173376 ! NDNF
+property_value: PCL:0010062 "0.6249999999999999" xsd:string
+
+[Term]
+id: CLM:1001117
+name: NS forest marker set of Lamp5_6 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000138741 ! TRPC3
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000157404 ! KIT
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000173376 ! NDNF
+property_value: PCL:0010062 "0.6357493857493858" xsd:string
+
+[Term]
+id: CLM:1001118
+name: NS forest marker set of Lamp5_7 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000133392 ! MYH11
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000157404 ! KIT
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000212907 ! MT-ND4L
+property_value: PCL:0010062 "0.42241379310344834" xsd:string
+
+[Term]
+id: CLM:1001119
+name: NS forest marker set of Micro/PVM_1 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000077420 ! APBB1IP
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000107099 ! DOCK8
+property_value: PCL:0010062 "0.9551056338028168" xsd:string
+
+[Term]
+id: CLM:1001120
+name: NS forest marker set of OPC_1 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000134853 ! PDGFRA
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000205927 ! OLIG2
+property_value: PCL:0010062 "0.807799442896936" xsd:string
+
+[Term]
+id: CLM:1001121
+name: NS forest marker set of Oligo_1 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000147459 ! DOCK5
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000167123 ! CERCAM
+property_value: PCL:0010062 "0.24613623354321695" xsd:string
+
+[Term]
+id: CLM:1001122
+name: NS forest marker set of Oligo_2 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000123560 ! PLP1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000172197 ! MBOAT1
+property_value: PCL:0010062 "0.8189655172413793" xsd:string
+
+[Term]
+id: CLM:1001123
+name: NS forest marker set of Oligo_3 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000197430 ! OPALIN
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000253807 ! LINC01170
+property_value: PCL:0010062 "0.713610586011342" xsd:string
+
+[Term]
+id: CLM:1001124
+name: NS forest marker set of Oligo_4 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000167123 ! CERCAM
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000197430 ! OPALIN
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000213186 ! TRIM59
+property_value: PCL:0010062 "0.5434782608695652" xsd:string
+
+[Term]
+id: CLM:1001125
+name: NS forest marker set of Pax6_1 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137252 ! HCRTR2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000151491 ! EPS8
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000163453 ! IGFBP7
+property_value: PCL:0010062 "0.767426273458445" xsd:string
+
+[Term]
+id: CLM:1001126
+name: NS forest marker set of Pax6_2 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000114200 ! BCHE
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000163513 ! TGFBR2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000189056 ! RELN
+property_value: PCL:0010062 "0.7676056338028169" xsd:string
+
+[Term]
+id: CLM:1001127
+name: NS forest marker set of Pax6_3 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000138829 ! FBN2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000163110 ! PDLIM5
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000167081 ! PBX3
+property_value: PCL:0010062 "0.7090163934426228" xsd:string
+
+[Term]
+id: CLM:1001128
+name: NS forest marker set of Pax6_4 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000099260 ! PALMD
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000189056 ! RELN
+property_value: PCL:0010062 "0.8731422505307855" xsd:string
+
+[Term]
+id: CLM:1001129
+name: NS forest marker set of Pvalb_1 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000174948 ! GPR149
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000196091 ! MYBPC1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000197321 ! SVIL
+property_value: PCL:0010062 "0.6944444444444444" xsd:string
+
+[Term]
+id: CLM:1001130
+name: NS forest marker set of Pvalb_2 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000075223 ! SEMA3C
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000114200 ! BCHE
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000179399 ! GPC5
+property_value: PCL:0010062 "0.7717391304347827" xsd:string
+
+[Term]
+id: CLM:1001131
+name: NS forest marker set of Pvalb_3 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000011201 ! ANOS1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000110975 ! SYT10
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000163377 ! TAFA4
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000164270 ! HTR4
+property_value: PCL:0010062 "0.635593220338983" xsd:string
+
+[Term]
+id: CLM:1001132
+name: NS forest marker set of Pvalb_4 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000006128 ! TAC1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000143248 ! RGS5
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000156076 ! WIF1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000212907 ! MT-ND4L
+property_value: PCL:0010062 "0.4390934844192635" xsd:string
+
+[Term]
+id: CLM:1001133
+name: NS forest marker set of Pvalb_5 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000006128 ! TAC1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000082438 ! COBLL1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000172164 ! SNTB1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000174948 ! GPR149
+property_value: PCL:0010062 "0.6364329268292682" xsd:string
+
+[Term]
+id: CLM:1001134
+name: NS forest marker set of Pvalb_6 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000103888 ! CEMIP
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000133110 ! POSTN
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137393 ! RNF144B
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137573 ! SULF1
+property_value: PCL:0010062 "0.29255319148936176" xsd:string
+
+[Term]
+id: CLM:1001135
+name: NS forest marker set of Pvalb_7 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137573 ! SULF1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000223351 ! ZNF385D-AS2
+property_value: PCL:0010062 "0.5650087260034904" xsd:string
+
+[Term]
+id: CLM:1001136
+name: NS forest marker set of Pvalb_8 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000006128 ! TAC1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000066468 ! FGFR2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000178538 ! CA8
+property_value: PCL:0010062 "0.5676733780760627" xsd:string
+
+[Term]
+id: CLM:1001137
+name: NS forest marker set of Pvalb_9 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000100362 ! PVALB
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000133110 ! POSTN
+property_value: PCL:0010062 "0.5845323741007195" xsd:string
+
+[Term]
+id: CLM:1001138
+name: NS forest marker set of Sncg_1 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000107731 ! UNC5B
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000144229 ! THSD7B
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000163377 ! TAFA4
+property_value: PCL:0010062 "0.5883947939262474" xsd:string
+
+[Term]
+id: CLM:1001139
+name: NS forest marker set of Sncg_2 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000144229 ! THSD7B
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000150907 ! FOXO1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000154975 ! CA10
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000186314 ! PRELID2
+property_value: PCL:0010062 "0.7396788990825688" xsd:string
+
+[Term]
+id: CLM:1001140
+name: NS forest marker set of Sncg_3 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000075223 ! SEMA3C
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000128641 ! MYO1B
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000134215 ! VAV3
+property_value: PCL:0010062 "0.4528985507246377" xsd:string
+
+[Term]
+id: CLM:1001141
+name: NS forest marker set of Sncg_4 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000011465 ! DCN
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000144229 ! THSD7B
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000267712 ! LINC01539
+property_value: PCL:0010062 "0.6752411575562701" xsd:string
+
+[Term]
+id: CLM:1001142
+name: NS forest marker set of Sncg_5 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000147027 ! TMEM47
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000157890 ! MEGF11
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000204262 ! COL5A2
+property_value: PCL:0010062 "0.5214285714285715" xsd:string
+
+[Term]
+id: CLM:1001143
+name: NS forest marker set of Sncg_6 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000144229 ! THSD7B
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000178031 ! ADAMTSL1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000189056 ! RELN
+property_value: PCL:0010062 "0.5738434163701067" xsd:string
+
+[Term]
+id: CLM:1001144
+name: NS forest marker set of Sncg_7 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000140563 ! MCTP2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000166736 ! HTR3A
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000170743 ! SYT9
+property_value: PCL:0010062 "0.7097791798107256" xsd:string
+
+[Term]
+id: CLM:1001145
+name: NS forest marker set of Sncg_8 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000138653 ! NDST4
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000147246 ! HTR2C
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000186314 ! PRELID2
+property_value: PCL:0010062 "0.49476135040745045" xsd:string
+
+[Term]
+id: CLM:1001146
+name: NS forest marker set of Sst Chodl_1 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000122585 ! NPY
+property_value: PCL:0010062 "0.894026186579378" xsd:string
+
+[Term]
+id: CLM:1001147
+name: NS forest marker set of Sst_1 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000129595 ! EPB41L4A
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000138653 ! NDST4
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000154188 ! ANGPT1
+property_value: PCL:0010062 "0.5104166666666666" xsd:string
+
+[Term]
+id: CLM:1001148
+name: NS forest marker set of Sst_2 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000143248 ! RGS5
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000164120 ! HPGD
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000262655 ! SPON1
+property_value: PCL:0010062 "0.5613577023498695" xsd:string
+
+[Term]
+id: CLM:1001149
+name: NS forest marker set of Sst_3 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000141668 ! CBLN2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000152284 ! TCF7L1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000183580 ! FBXL7
+property_value: PCL:0010062 "0.6936997319034853" xsd:string
+
+[Term]
+id: CLM:1001150
+name: NS forest marker set of Sst_4 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000080200 ! CRYBG3
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000114805 ! PLCH1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000154864 ! PIEZO2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000168079 ! SCARA5
+property_value: PCL:0010062 "0.5479002624671917" xsd:string
+
+[Term]
+id: CLM:1001151
+name: NS forest marker set of Sst_5 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000104327 ! CALB1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000122585 ! NPY
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000156463 ! SH3RF2
+property_value: PCL:0010062 "0.5248833592534992" xsd:string
+
+[Term]
+id: CLM:1001152
+name: NS forest marker set of Sst_6 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000197635 ! DPP4
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000204103 ! MAFB
+property_value: PCL:0010062 "0.38520801232665647" xsd:string
+
+[Term]
+id: CLM:1001153
+name: NS forest marker set of Sst_7 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000114805 ! PLCH1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000133106 ! EPSTI1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000154864 ! PIEZO2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000172987 ! HPSE2
+property_value: PCL:0010062 "0.4469696969696969" xsd:string
+
+[Term]
+id: CLM:1001154
+name: NS forest marker set of Sst_8 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000169302 ! STK32A
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000170743 ! SYT9
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000189056 ! RELN
+property_value: PCL:0010062 "0.5061619718309859" xsd:string
+
+[Term]
+id: CLM:1001155
+name: NS forest marker set of Sst_9 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000047648 ! ARHGAP6
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000145555 ! MYO10
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000164946 ! FREM1
+property_value: PCL:0010062 "0.3506097560975609" xsd:string
+
+[Term]
+id: CLM:1001156
+name: NS forest marker set of Sst_10 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000112319 ! EYA4
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000114805 ! PLCH1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000157005 ! SST
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000172987 ! HPSE2
+property_value: PCL:0010062 "0.3615384615384615" xsd:string
+
+[Term]
+id: CLM:1001157
+name: NS forest marker set of Sst_11 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000007062 ! PROM1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000112414 ! ADGRG6
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000170743 ! SYT9
+property_value: PCL:0010062 "0.34898477157360397" xsd:string
+
+[Term]
+id: CLM:1001158
+name: NS forest marker set of Sst_12 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000054803 ! CBLN4
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000114805 ! PLCH1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000140090 ! SLC24A4
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000188107 ! EYS
+property_value: PCL:0010062 "0.34348441926345613" xsd:string
+
+[Term]
+id: CLM:1001159
+name: NS forest marker set of Sst_13 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000129595 ! EPB41L4A
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137672 ! TRPC6
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000138829 ! FBN2
+property_value: PCL:0010062 "0.5461876832844575" xsd:string
+
+[Term]
+id: CLM:1001160
+name: NS forest marker set of Sst_14 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000112319 ! EYA4
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000115616 ! SLC9A2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000185483 ! ROR1
+property_value: PCL:0010062 "0.46314741035856577" xsd:string
+
+[Term]
+id: CLM:1001161
+name: NS forest marker set of Sst_15 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000114805 ! PLCH1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000129595 ! EPB41L4A
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000164946 ! FREM1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000197635 ! DPP4
+property_value: PCL:0010062 "0.45995670995671" xsd:string
+
+[Term]
+id: CLM:1001162
+name: NS forest marker set of Sst_16 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000134215 ! VAV3
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000227115 ! LINC01630
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000276644 ! DACH1
+property_value: PCL:0010062 "0.6000000000000001" xsd:string
+
+[Term]
+id: CLM:1001163
+name: NS forest marker set of Sst_17 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000007062 ! PROM1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000064655 ! EYA2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000114805 ! PLCH1
+property_value: PCL:0010062 "0.40226063829787234" xsd:string
+
+[Term]
+id: CLM:1001164
+name: NS forest marker set of Sst_18 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000157005 ! SST
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000165675 ! ENOX2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000168081 ! PNOC
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000189056 ! RELN
+property_value: PCL:0010062 "0.34307875894988066" xsd:string
+
+[Term]
+id: CLM:1001165
+name: NS forest marker set of Sst_19 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000114805 ! PLCH1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000129595 ! EPB41L4A
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000179399 ! GPC5
+property_value: PCL:0010062 "0.7339449541284404" xsd:string
+
+[Term]
+id: CLM:1001166
+name: NS forest marker set of Sst_20 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000019991 ! HGF
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000186867 ! QRFPR
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000189056 ! RELN
+property_value: PCL:0010062 "0.4671717171717172" xsd:string
+
+[Term]
+id: CLM:1001167
+name: NS forest marker set of Sst_21 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000138829 ! FBN2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000154188 ! ANGPT1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000171502 ! COL24A1
+property_value: PCL:0010062 "0.48315602836879434" xsd:string
+
+[Term]
+id: CLM:1001168
+name: NS forest marker set of Sst_22 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000077943 ! ITGA8
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000129595 ! EPB41L4A
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000157005 ! SST
+property_value: PCL:0010062 "0.4351032448377581" xsd:string
+
+[Term]
+id: CLM:1001169
+name: NS forest marker set of Sst_23 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000007062 ! PROM1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000135842 ! NIBAN1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000144229 ! THSD7B
+property_value: PCL:0010062 "0.6134686346863469" xsd:string
+
+[Term]
+id: CLM:1001170
+name: NS forest marker set of Sst_24 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000138653 ! NDST4
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000153162 ! BMP6
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000167306 ! MYO5B
+property_value: PCL:0010062 "0.37790697674418605" xsd:string
+
+[Term]
+id: CLM:1001171
+name: NS forest marker set of Sst_25 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000104327 ! CALB1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000152953 ! STK32B
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000197299 ! BLM
+property_value: PCL:0010062 "0.45689655172413796" xsd:string
+
+[Term]
+id: CLM:1001172
+name: NS forest marker set of Sst_26 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000005059 ! MCUB
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000138829 ! FBN2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000196549 ! MME
+property_value: PCL:0010062 "0.2326233183856502" xsd:string
+
+[Term]
+id: CLM:1001173
+name: NS forest marker set of Sst_27 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000151617 ! EDNRA
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000157005 ! SST
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000164946 ! FREM1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000198786 ! MT-ND5
+property_value: PCL:0010062 "0.39168937329700276" xsd:string
+
+[Term]
+id: CLM:1001174
+name: NS forest marker set of Sst_28 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000007062 ! PROM1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137672 ! TRPC6
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000138653 ! NDST4
+property_value: PCL:0010062 "0.5884615384615385" xsd:string
+
+[Term]
+id: CLM:1001175
+name: NS forest marker set of Sst_29 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000154864 ! PIEZO2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000186867 ! QRFPR
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000197594 ! ENPP1
+property_value: PCL:0010062 "0.41353383458646614" xsd:string
+
+[Term]
+id: CLM:1001176
+name: NS forest marker set of Sst_30 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000134250 ! NOTCH2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000138829 ! FBN2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000147246 ! HTR2C
+property_value: PCL:0010062 "0.4063786008230453" xsd:string
+
+[Term]
+id: CLM:1001177
+name: NS forest marker set of Sst_31 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000054803 ! CBLN4
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000071205 ! ARHGAP10
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000143248 ! RGS5
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000162998 ! FRZB
+property_value: PCL:0010062 "0.4743083003952569" xsd:string
+
+[Term]
+id: CLM:1001178
+name: NS forest marker set of Sst_32 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000064655 ! EYA2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000164120 ! HPGD
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000181195 ! PENK
+property_value: PCL:0010062 "0.40567282321899734" xsd:string
+
+[Term]
+id: CLM:1001179
+name: NS forest marker set of Sst_33 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000080200 ! CRYBG3
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000147246 ! HTR2C
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000153162 ! BMP6
+property_value: PCL:0010062 "0.39086687306501544" xsd:string
+
+[Term]
+id: CLM:1001180
+name: NS forest marker set of Sst_34 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137473 ! TTC29
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000152284 ! TCF7L1
+property_value: PCL:0010062 "0.565749235474006" xsd:string
+
+[Term]
+id: CLM:1001181
+name: NS forest marker set of Sst_35 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000064655 ! EYA2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000119283 ! TRIM67
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000123612 ! ACVR1C
+property_value: PCL:0010062 "0.5226480836236933" xsd:string
+
+[Term]
+id: CLM:1001182
+name: NS forest marker set of Sst_36 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000114805 ! PLCH1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000116117 ! PARD3B
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000186439 ! TRDN
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000213949 ! ITGA1
+property_value: PCL:0010062 "0.6381381381381382" xsd:string
+
+[Term]
+id: CLM:1001183
+name: NS forest marker set of Sst_37 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000007062 ! PROM1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000145708 ! CRHBP
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000157005 ! SST
+property_value: PCL:0010062 "0.5" xsd:string
+
+[Term]
+id: CLM:1001184
+name: NS forest marker set of VLMC_1 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000107796 ! ACTA2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000149591 ! TAGLN
+property_value: PCL:0010062 "0.8559498956158662" xsd:string
+
+[Term]
+id: CLM:1001185
+name: NS forest marker set of VLMC_2 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000158270 ! COLEC12
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000173638 ! SLC19A1
+property_value: PCL:0010062 "0.876753507014028" xsd:string
+
+[Term]
+id: CLM:1001186
+name: NS forest marker set of Vip_1 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000102755 ! FLT1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137269 ! LRRC1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000234965 ! SHISA8
+property_value: PCL:0010062 "0.400763358778626" xsd:string
+
+[Term]
+id: CLM:1001187
+name: NS forest marker set of Vip_2 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000107317 ! PTGDS
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000115461 ! IGFBP5
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000146469 ! VIP
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000146477 ! SLC22A3
+property_value: PCL:0010062 "0.4741379310344827" xsd:string
+
+[Term]
+id: CLM:1001188
+name: NS forest marker set of Vip_3 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137672 ! TRPC6
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000146469 ! VIP
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000172987 ! HPSE2
+property_value: PCL:0010062 "0.40249999999999997" xsd:string
+
+[Term]
+id: CLM:1001189
+name: NS forest marker set of Vip_4 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000038427 ! VCAN
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000114251 ! WNT5A
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000154175 ! ABI3BP
+property_value: PCL:0010062 "0.546875" xsd:string
+
+[Term]
+id: CLM:1001190
+name: NS forest marker set of Vip_5 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000145703 ! IQGAP2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000187720 ! THSD4
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000227115 ! LINC01630
+property_value: PCL:0010062 "0.4801324503311257" xsd:string
+
+[Term]
+id: CLM:1001191
+name: NS forest marker set of Vip_6 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000116117 ! PARD3B
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000145703 ! IQGAP2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000198732 ! SMOC1
+property_value: PCL:0010062 "0.5082179930795848" xsd:string
+
+[Term]
+id: CLM:1001192
+name: NS forest marker set of Vip_7 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000075223 ! SEMA3C
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000118523 ! CCN2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000172987 ! HPSE2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000189184 ! PCDH18
+property_value: PCL:0010062 "0.40059347181008903" xsd:string
+
+[Term]
+id: CLM:1001193
+name: NS forest marker set of Vip_8 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000126733 ! DACH2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000146530 ! VWDE
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000179314 ! WSCD1
+property_value: PCL:0010062 "0.3183962264150943" xsd:string
+
+[Term]
+id: CLM:1001194
+name: NS forest marker set of Vip_9 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000082438 ! COBLL1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000136205 ! TNS3
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000150722 ! PPP1R1C
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000151012 ! SLC7A11
+property_value: PCL:0010062 "0.48302107728337235" xsd:string
+
+[Term]
+id: CLM:1001195
+name: NS forest marker set of Vip_10 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000116117 ! PARD3B
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000154175 ! ABI3BP
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000178342 ! KCNG2
+property_value: PCL:0010062 "0.5405405405405405" xsd:string
+
+[Term]
+id: CLM:1001196
+name: NS forest marker set of Vip_11 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000140563 ! MCTP2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000146477 ! SLC22A3
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000154175 ! ABI3BP
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000184500 ! PROS1
+property_value: PCL:0010062 "0.43523676880222845" xsd:string
+
+[Term]
+id: CLM:1001197
+name: NS forest marker set of Vip_12 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137252 ! HCRTR2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000151012 ! SLC7A11
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000151491 ! EPS8
+property_value: PCL:0010062 "0.5889057750759878" xsd:string
+
+[Term]
+id: CLM:1001198
+name: NS forest marker set of Vip_13 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000107317 ! PTGDS
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000146469 ! VIP
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000147488 ! ST18
+property_value: PCL:0010062 "0.42776639344262285" xsd:string
+
+[Term]
+id: CLM:1001199
+name: NS forest marker set of Vip_14 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000146469 ! VIP
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000147488 ! ST18
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000154975 ! CA10
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000183960 ! KCNH8
+property_value: PCL:0010062 "0.5968468468468467" xsd:string
+
+[Term]
+id: CLM:1001200
+name: NS forest marker set of Vip_15 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000146469 ! VIP
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000197321 ! SVIL
+property_value: PCL:0010062 "0.6172360248447205" xsd:string
+
+[Term]
+id: CLM:1001201
+name: NS forest marker set of Vip_16 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000075223 ! SEMA3C
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000138653 ! NDST4
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000146469 ! VIP
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000147246 ! HTR2C
+property_value: PCL:0010062 "0.38" xsd:string
+
+[Term]
+id: CLM:1001202
+name: NS forest marker set of Vip_17 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000116117 ! PARD3B
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000181195 ! PENK
+property_value: PCL:0010062 "0.6040502793296089" xsd:string
+
+[Term]
+id: CLM:1001203
+name: NS forest marker set of Vip_18 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000086991 ! NOX4
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000138653 ! NDST4
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000143171 ! RXRG
+property_value: PCL:0010062 "0.38953488372093026" xsd:string
+
+[Term]
+id: CLM:1001204
+name: NS forest marker set of Vip_19 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000102924 ! CBLN1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000146469 ! VIP
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000147246 ! HTR2C
+property_value: PCL:0010062 "0.5353075170842825" xsd:string
+
+[Term]
+id: CLM:1001205
+name: NS forest marker set of Vip_20 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000102924 ! CBLN1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000106018 ! VIPR2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000146469 ! VIP
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000150722 ! PPP1R1C
+property_value: PCL:0010062 "0.3658536585365853" xsd:string
+
+[Term]
+id: CLM:1001206
+name: NS forest marker set of Vip_21 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000128918 ! ALDH1A2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000169071 ! ROR2
+property_value: PCL:0010062 "0.6180811808118081" xsd:string
+
+[Term]
+id: CLM:1001207
+name: NS forest marker set of Vip_22 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000151012 ! SLC7A11
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000151617 ! EDNRA
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000154175 ! ABI3BP
+property_value: PCL:0010062 "0.5279126213592233" xsd:string
+
+[Term]
+id: CLM:1001208
+name: NS forest marker set of Vip_23 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000117009 ! KMO
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000151617 ! EDNRA
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000183960 ! KCNH8
+property_value: PCL:0010062 "0.54251269035533" xsd:string
+
+[Term]
+id: CLM:1001209
+name: NS forest marker set of Vip_24 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000120903 ! CHRNA2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000150551 ! LYPD1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000168913 ! ENHO
+property_value: PCL:0010062 "0.36276223776223776" xsd:string
+
+[Term]
+id: CLM:1001210
+name: NS forest marker set of Vip_25 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000054803 ! CBLN4
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000086991 ! NOX4
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000145703 ! IQGAP2
+property_value: PCL:0010062 "0.5275229357798166" xsd:string
+
+[Term]
+id: CLM:1001211
+name: NS forest marker set of Vip_26 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000075223 ! SEMA3C
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000166863 ! TAC3
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000172987 ! HPSE2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000227115 ! LINC01630
+property_value: PCL:0010062 "0.5947955390334573" xsd:string
+
+[Term]
+id: CLM:1001212
+name: NS forest marker set of Vip_27 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000126733 ! DACH2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000146469 ! VIP
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000175344 ! CHRNA7
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000228824 ! MIR4500HG
+property_value: PCL:0010062 "0.5466778805719091" xsd:string
+
+[Term]
+id: CLM:1001213
+name: NS forest marker set of Vip_28 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000011465 ! DCN
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000147246 ! HTR2C
+property_value: PCL:0010062 "0.3763440860215054" xsd:string
+
+[Term]
+id: CLM:1001214
+name: NS forest marker set of Vip_29 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000006128 ! TAC1
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000123700 ! KCNJ2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000145703 ! IQGAP2
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000146469 ! VIP
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000167306 ! MYO5B
+property_value: PCL:0010062 "0.49180327868852464" xsd:string
+
+[Term]
+id: NCBITaxon:9606
+name: Homo sapiens
+
+[Term]
+id: SO:0001260
+name: sequence_collection
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000005059
+name: MCUB
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000006128
+name: TAC1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000007062
+name: PROM1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000007933
+name: FMO3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000010327
+name: STAB1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000011201
+name: ANOS1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000011465
+name: DCN
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000019991
+name: HGF
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000025423
+name: HSD17B6
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000026508
+name: CD44
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000027075
+name: PRKCH
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000038295
+name: TLL1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000038427
+name: VCAN
+is_a: SO:0000704
 
 [Term]
 id: http://identifiers.org/ensembl/ENSG00000038945
 name: MSR1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000041982
+name: TNC
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000043039
+name: BARX2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000047648
+name: ARHGAP6
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000047936
+name: ROS1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000050165
+name: DKK3
 is_a: SO:0000704
 
 [Term]
@@ -107,8 +2016,463 @@ name: TNIP3
 is_a: SO:0000704
 
 [Term]
+id: http://identifiers.org/ensembl/ENSG00000051128
+name: HOMER3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000054803
+name: CBLN4
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000056291
+name: NPFFR2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000064655
+name: EYA2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000066468
+name: FGFR2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000071205
+name: ARHGAP10
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000072694
+name: FCGR2B
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000075223
+name: SEMA3C
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000077420
+name: APBB1IP
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000077943
+name: ITGA8
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000078098
+name: FAP
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000078898
+name: BPIFB2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000079215
+name: SLC1A3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000079931
+name: MOXD1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000080200
+name: CRYBG3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000081479
+name: LRP2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000082438
+name: COBLL1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000082482
+name: KCNK2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000082684
+name: SEMA5B
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000085265
+name: FCN1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000086991
+name: NOX4
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000091664
+name: SLC17A6
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000099260
+name: PALMD
+is_a: SO:0000704
+
+[Term]
 id: http://identifiers.org/ensembl/ENSG00000100292
 name: HMOX1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000100362
+name: PVALB
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000100604
+name: CHGA
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000101955
+name: SRPX
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000102755
+name: FLT1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000102924
+name: CBLN1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000102962
+name: CCL22
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000103316
+name: CRYM
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000103888
+name: CEMIP
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000104043
+name: ATP8B4
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000104267
+name: CA2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000104327
+name: CALB1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000104972
+name: LILRB1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000105369
+name: CD79A
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000105855
+name: ITGB8
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000106018
+name: VIPR2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000106819
+name: ASPN
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000107099
+name: DOCK8
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000107317
+name: PTGDS
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000107562
+name: CXCL12
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000107731
+name: UNC5B
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000107796
+name: ACTA2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000110799
+name: VWF
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000110975
+name: SYT10
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000111215
+name: PRR4
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000111404
+name: RERGL
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000112280
+name: COL9A1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000112319
+name: EYA4
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000112414
+name: ADGRG6
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000113532
+name: ST8SIA4
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000114200
+name: BCHE
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000114251
+name: WNT5A
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000114805
+name: PLCH1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000115112
+name: TFCP2L1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000115461
+name: IGFBP5
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000115593
+name: SMYD1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000115616
+name: SLC9A2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000116117
+name: PARD3B
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000116690
+name: PRG4
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000117009
+name: KMO
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000117525
+name: F3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000117724
+name: CENPF
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000118513
+name: MYB
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000118523
+name: CCN2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000118777
+name: ABCG2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000119283
+name: TRIM67
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000119547
+name: ONECUT2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000119938
+name: PPP1R3C
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000120903
+name: CHRNA2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000121905
+name: HPCA
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000122585
+name: NPY
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000122852
+name: SFTPA1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000123560
+name: PLP1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000123612
+name: ACVR1C
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000123700
+name: KCNJ2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000124491
+name: F13A1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000125869
+name: LAMP5
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000126549
+name: STATH
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000126733
+name: DACH2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000126861
+name: OMG
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000128422
+name: KRT17
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000128641
+name: MYO1B
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000128918
+name: ALDH1A2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000129226
+name: CD68
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000129595
+name: EPB41L4A
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000130300
+name: PLVAP
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000130508
+name: PXDN
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000131042
+name: LILRB2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000131097
+name: HIGD1B
 is_a: SO:0000704
 
 [Term]
@@ -117,8 +2481,178 @@ name: AOC3
 is_a: SO:0000704
 
 [Term]
+id: http://identifiers.org/ensembl/ENSG00000131747
+name: TOP2A
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000132465
+name: JCHAIN
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000132514
+name: CLEC10A
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000133067
+name: LGR6
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000133106
+name: EPSTI1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000133110
+name: POSTN
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000133392
+name: MYH11
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000134138
+name: MEIS2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000134207
+name: SYT6
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000134215
+name: VAV3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000134250
+name: NOTCH2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000134443
+name: GRP
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000134853
+name: PDGFRA
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000135063
+name: FAM189A2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000135218
+name: CD36
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000135373
+name: EHF
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000135426
+name: TESPA1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000135744
+name: AGT
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000135842
+name: NIBAN1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000136160
+name: EDNRB
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000136205
+name: TNS3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000137077
+name: CCL21
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000137252
+name: HCRTR2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000137269
+name: LRRC1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000137393
+name: RNF144B
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000137473
+name: TTC29
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000137573
+name: SULF1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000137672
+name: TRPC6
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000137709
+name: POU2F3
+is_a: SO:0000704
+
+[Term]
 id: http://identifiers.org/ensembl/ENSG00000137804
 name: NUSAP1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000137809
+name: ITGA11
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000138653
+name: NDST4
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000138696
+name: BMPR1B
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000138741
+name: TRPC3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000138829
+name: FBN2
 is_a: SO:0000704
 
 [Term]
@@ -127,8 +2661,393 @@ name: LUM
 is_a: SO:0000704
 
 [Term]
+id: http://identifiers.org/ensembl/ENSG00000139865
+name: TTC6
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000140015
+name: KCNH5
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000140090
+name: SLC24A4
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000140557
+name: ST8SIA2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000140563
+name: MCTP2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000141433
+name: ADCYAP1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000141668
+name: CBLN2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000142748
+name: FCN3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000143171
+name: RXRG
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000143196
+name: DPT
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000143248
+name: RGS5
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000143858
+name: SYT2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000143882
+name: ATP6V1C2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000144229
+name: THSD7B
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000144681
+name: STAC
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000145555
+name: MYO10
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000145703
+name: IQGAP2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000145708
+name: CRHBP
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000146242
+name: TPBG
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000146469
+name: VIP
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000146477
+name: SLC22A3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000146530
+name: VWDE
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000147027
+name: TMEM47
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000147246
+name: HTR2C
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000147459
+name: DOCK5
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000147488
+name: ST18
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000148019
+name: CEP78
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000148773
+name: MKI67
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000149021
+name: SCGB1A1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000149591
+name: TAGLN
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000150045
+name: KLRF1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000150051
+name: MKX
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000150551
+name: LYPD1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000150722
+name: PPP1R1C
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000150907
+name: FOXO1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000151012
+name: SLC7A11
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000151491
+name: EPS8
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000151617
+name: EDNRA
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000152284
+name: TCF7L1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000152527
+name: PLEKHH2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000152661
+name: GJA1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000152953
+name: STK32B
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000153162
+name: BMP6
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000153234
+name: NR4A2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000153993
+name: SEMA3D
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000154080
+name: CHST9
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000154175
+name: ABI3BP
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000154188
+name: ANGPT1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000154864
+name: PIEZO2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000154975
+name: CA10
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000155011
+name: DKK2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000156076
+name: WIF1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000156140
+name: ADAMTS3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000156463
+name: SH3RF2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000156689
+name: GLYATL2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000156738
+name: MS4A1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000157005
+name: SST
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000157404
+name: KIT
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000157890
+name: MEGF11
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000158270
+name: COLEC12
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000160145
+name: KALRN
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000160654
+name: CD3G
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000161958
+name: FGF11
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000162399
+name: BSND
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000162407
+name: PLPP3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000162998
+name: FRZB
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000163017
+name: ACTG2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000163110
+name: PDLIM5
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000163221
+name: S100A12
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000163377
+name: TAFA4
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000163453
+name: IGFBP7
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000163513
+name: TGFBR2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000163687
+name: DNASE1L3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000163710
+name: PCOLCE2
+is_a: SO:0000704
+
+[Term]
 id: http://identifiers.org/ensembl/ENSG00000163735
 name: CXCL5
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000164035
+name: EMCN
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000164089
+name: ETNPPL
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000164099
+name: PRSS12
 is_a: SO:0000704
 
 [Term]
@@ -137,8 +3056,103 @@ name: HPGD
 is_a: SO:0000704
 
 [Term]
+id: http://identifiers.org/ensembl/ENSG00000164142
+name: FAM160A1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000164265
+name: SCGB3A2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000164270
+name: HTR4
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000164287
+name: CDC20B
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000164946
+name: FREM1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000165202
+name: OR1Q1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000165675
+name: ENOX2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000165895
+name: ARHGAP42
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000165959
+name: CLMN
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000166736
+name: HTR3A
+is_a: SO:0000704
+
+[Term]
 id: http://identifiers.org/ensembl/ENSG00000166803
 name: PCLAF
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000166863
+name: TAC3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000166920
+name: C15orf48
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000166959
+name: MS4A8
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000167081
+name: PBX3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000167123
+name: CERCAM
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000167286
+name: CD3D
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000167306
+name: MYO5B
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000167434
+name: CA4
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000167653
+name: PSCA
 is_a: SO:0000704
 
 [Term]
@@ -147,8 +3161,98 @@ name: SCARA5
 is_a: SO:0000704
 
 [Term]
+id: http://identifiers.org/ensembl/ENSG00000168081
+name: PNOC
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000168405
+name: ENSG00000235733;RP3-522P13.3;CMAHP
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000168743
+name: NPNT
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000168878
+name: SFTPB
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000168913
+name: ENHO
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000169071
+name: ROR2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000169302
+name: STK32A
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000169436
+name: COL22A1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000169507
+name: SLC38A11
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000169856
+name: ONECUT1
+is_a: SO:0000704
+
+[Term]
 id: http://identifiers.org/ensembl/ENSG00000170323
 name: FABP4
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000170381
+name: SEMA3E
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000170743
+name: SYT9
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000170820
+name: FSHR
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000170891
+name: CYTL1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000171303
+name: KCNK3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000171346
+name: KRT15
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000171476
+name: HOPX
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000171502
+name: COL24A1
 is_a: SO:0000704
 
 [Term]
@@ -157,13 +3261,583 @@ name: RRM2
 is_a: SO:0000704
 
 [Term]
+id: http://identifiers.org/ensembl/ENSG00000171885
+name: AQP4
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000172137
+name: CALB2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000172164
+name: SNTB1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000172197
+name: MBOAT1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000172201
+name: ID4
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000172236
+name: TPSAB1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000172673
+name: THEMIS
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000172987
+name: HPSE2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000173157
+name: ADAMTS20
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000173376
+name: NDNF
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000173638
+name: SLC19A1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000174501
+name: ANKRD36C
+is_a: SO:0000704
+
+[Term]
 id: http://identifiers.org/ensembl/ENSG00000174807
 name: CD248
 is_a: SO:0000704
 
 [Term]
+id: http://identifiers.org/ensembl/ENSG00000174948
+name: GPR149
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000175040
+name: CHST2
+is_a: SO:0000704
+
+[Term]
 id: http://identifiers.org/ensembl/ENSG00000175063
 name: UBE2C
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000175344
+name: CHRNA7
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000176009
+name: ASCL3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000177519
+name: RPRM
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000178031
+name: ADAMTSL1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000178342
+name: KCNG2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000178538
+name: CA8
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000179241
+name: LDLRAD3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000179314
+name: WSCD1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000179399
+name: GPC5
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000179715
+name: PCED1B
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000179902
+name: C1orf194
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000180229
+name: HERC2P3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000180644
+name: PRF1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000181195
+name: PENK
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000182379
+name: NXPH4
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000183580
+name: FBXL7
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000183960
+name: KCNH8
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000184500
+name: PROS1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000184530
+name: C6orf58
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000184937
+name: WT1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000185149
+name: NPY2R
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000185483
+name: ROR1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000185668
+name: POU3F1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000186314
+name: PRELID2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000186439
+name: TRDN
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000186847
+name: KRT14
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000186867
+name: QRFPR
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000187258
+name: NPSR1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000187479
+name: C11orf96
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000187720
+name: THSD4
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000187908
+name: DMBT1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000188107
+name: EYS
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000188133
+name: TMEM215
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000188511
+name: C22orf34
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000188991
+name: SLC15A5
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000189056
+name: RELN
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000189058
+name: APOD
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000189184
+name: PCDH18
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000196091
+name: MYBPC1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000196549
+name: MME
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000196562
+name: SULF2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000196735
+name: HLA-DQA1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000196739
+name: COL27A1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000197085
+name: NPSR1-AS1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000197261
+name: C6orf141
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000197299
+name: BLM
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000197321
+name: SVIL
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000197353
+name: LYPD2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000197430
+name: OPALIN
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000197446
+name: CYP2F1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000197594
+name: ENPP1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000197635
+name: DPP4
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000197943
+name: PLCG2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000197992
+name: CLEC9A
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000198732
+name: SMOC1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000198786
+name: MT-ND5
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000198851
+name: CD3E
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000198901
+name: PRC1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000198963
+name: RORB
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000204103
+name: MAFB
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000204262
+name: COL5A2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000204305
+name: AGER
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000205420
+name: KRT6A
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000205927
+name: OLIG2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000206073
+name: SERPINB4
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000206190
+name: ATP10A
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000211445
+name: GPX3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000212907
+name: MT-ND4L
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000213088
+name: ACKR1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000213186
+name: TRIM59
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000213578
+name: CPLX3
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000213949
+name: ITGA1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000215182
+name: MUC5AC
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000216863
+name: LY86-AS1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000221932
+name: HEPN1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000223351
+name: ZNF385D-AS2
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000223812
+name: AC073365.1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000226620
+name: LINC00343
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000226777
+name: FAM30A;KIAA0125
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000226846
+name: LINC00348
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000227115
+name: LINC01630
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000227507
+name: LTB
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000227877
+name: MRLN
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000228824
+name: MIR4500HG
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000229807
+name: XIST
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000234377
+name: OBI1-AS1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000234965
+name: SHISA8
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000235665
+name: LINC00298
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000239961
+name: LILRA4
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000242265
+name: PEG10
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000249306
+name: LINC01411
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000253807
+name: LINC01170
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000255794
+name: RMST
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000255823
+name: MTRNR2L8
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000256193
+name: LINC00507
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000261742
+name: LINC00922
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000262655
+name: SPON1
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000267712
+name: LINC01539
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000271503
+name: CCL5
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ensembl/ENSG00000276644
+name: DACH1
 is_a: SO:0000704
 
 [Typedef]

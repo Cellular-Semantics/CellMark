@@ -24,7 +24,7 @@ data_vars:
   FBeta_confidence_score: "xsd:double"
 
 annotationProperties:
-  fbetaConfidenceScore: "STATO:0000663"
+  fbetaConfidenceScore: "PCL:0010062"
 
 name:
    text: "NS forest marker set of %s (%s %s)."

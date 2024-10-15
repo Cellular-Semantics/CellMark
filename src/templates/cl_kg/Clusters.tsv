@@ -1,5 +1,5 @@
 ID	TYPE	Cell_type	Marker_set	Comment	Species
-ID	TYPE	A skos:prefLabel	I RO:0015004	A rdfs:comment	AI RO:0002175 SPLIT=|
+ID	TYPE	A skos:prefLabel	AI CLM:0010000	A rdfs:comment	AI RO:0002175 SPLIT=|
 http://example.org/51915dea-bf5d-4f94-b815-17d278624f43	owl:NamedIndividual	Adventitial fibroblasts	CLM:1000001	A Adventitial fibroblasts in the Human Lung has the gene markers SCARA5, CD248 with a NS-Forest FBeta value of 0.85s.	NCBITaxon:9606
 http://example.org/5a00c58e-24db-48f5-beab-db654b778265	owl:NamedIndividual	Alveolar fibroblasts	CLM:1000002	A Alveolar fibroblasts in the Human Lung has the gene markers AOC3, LUM with a NS-Forest FBeta value of 0.70s.	NCBITaxon:9606
 http://example.org/2d448eff-9ef8-451a-adec-6df983d69ca2	owl:NamedIndividual	Alveolar macrophages	CLM:1000003	A Alveolar macrophages in the Human Lung has the gene markers MSR1, FABP4 with a NS-Forest FBeta value of 0.80s.	NCBITaxon:9606

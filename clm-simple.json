@@ -13,13 +13,60 @@
         "val" : "Cell Markers Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2024-07-31"
+        "val" : "2024-10-15"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/clm/releases/2024-07-31/clm-simple.json"
+      "version" : "http://purl.obolibrary.org/obo/clm/releases/2024-10-15/clm-simple.json"
     },
     "nodes" : [ {
-      "id" : "http://purl.obolibrary.org/obo/CLM_0000000",
-      "type" : "CLASS"
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000001",
+      "lbl" : "NS forest marker set of alveolar adventitial fibroblast (Human Lung).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.85"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000002",
+      "lbl" : "NS forest marker set of alveolar type 1 fibroblast cell (Human Lung).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.70"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000003",
+      "lbl" : "NS forest marker set of alveolar macrophage (Human Lung).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.80"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000004",
+      "lbl" : "NS forest marker set of CCL3-positive alveolar macrophage (Human Lung).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.67"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000005",
+      "lbl" : "NS forest marker set of metallothionein-positive alveolar macrophage (Human Lung).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.41"
+        } ]
+      }
     }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000051",
       "lbl" : "has part",
@@ -36,11 +83,11 @@
       "type" : "PROPERTY",
       "propertyType" : "OBJECT"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0002175",
+      "id" : "http://purl.obolibrary.org/obo/PCL_0010062",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/STATO_0000663",
+      "id" : "http://purl.obolibrary.org/obo/RO_0002175",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {

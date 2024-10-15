@@ -47,10 +47,19 @@ Neo4j client cannot be run inside ODK, so we need to prepare the templates sourc
 
 Source files will only be created if it does not exist. If you want to regenerate the source file, you should delete the existing source file.
 
-Curators should add their CL annotations to the source files (`cl_term` column).
+Curators should add their CL annotations to the source files (`cl_term` column) and add `True` to the `CL_agreed` column. These rows will be used to generate `clm-cl.owl` product.
 
 Run the following script to generate the source files:
 
 ```bash
 pyton src/scripts/dosdp_template_generator.py
+```
+
+## 4- Run the ODK pipeline
+
+Run the ODK pipeline as usual
+
+```bash
+cd src/onotology
+sh run.sh make prepare_release
 ```

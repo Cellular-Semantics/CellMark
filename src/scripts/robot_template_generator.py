@@ -1,12 +1,15 @@
 import os
 import argparse
-
 import pandas as pd
 
-from dosdp_template_generator import extract_gene_terms
+from neo4j_client import Neo4jClient
+
 from file_utils import read_table_to_dict
+from template_utils import TEMPLATES_FOLDER_PATH, MARKERS_SOURCE_PATH, extract_gene_terms
 
 SHARED_DRIVE = "/Volumes/osumi-sutherland/development"
+
+CL_KG_TEMPLATE_PATH = os.path.join(TEMPLATES_FOLDER_PATH, "cl_kg/Clusters.tsv")
 
 
 def extract_genes_from_anndata(anndata_path, gene_name_column, prefix, output_path):
@@ -37,7 +40,7 @@ def extract_genes_from_anndata(anndata_path, gene_name_column, prefix, output_pa
     df.to_csv(output_path, sep="\t", index=False)
 
 
-def generate_genes_robot_template(input_files: list, output_filepath: str):
+def generate_genes_robot_template(input_files: list, output_filepath: str, agreed: bool = False):
     robot_template_seed = {'ID': 'ID',
                            'TYPE': 'SC %',
                            'NAME': 'A rdfs:label',
@@ -45,7 +48,7 @@ def generate_genes_robot_template(input_files: list, output_filepath: str):
                            }
     dl = [robot_template_seed]
 
-    used_genes = extract_gene_terms()
+    used_genes = extract_gene_terms(agreed=agreed)
     found_genes = []
     for input_file in input_files:
         records = read_table_to_dict(input_file)
@@ -61,19 +64,88 @@ def generate_genes_robot_template(input_files: list, output_filepath: str):
     df.to_csv(output_filepath, sep="\t", index=False)
 
 
+def generate_kg_indvs_robot_template():
+    """
+    Generates the CL_KG Cluster individuals robot template. Dosdp doesn't support ontology
+    individuals creation. This template is counterpart of the `MarkersToCells.tsv` dosdp template.
+
+    CK_KG Cluster individuals has auto-generated IDs. So this template should be regenerated with
+    each CL_KG update.
+    """
+    neo_client = None
+    try:
+        neo_client = Neo4jClient("neo4j://172.27.24.69:7687", "", "")
+        source_table = read_table_to_dict(MARKERS_SOURCE_PATH)
+
+        robot_template_seed = {'ID': 'ID',
+                               'TYPE': 'TYPE',
+                               'Cell_type': 'A skos:prefLabel',
+                               'Marker_set': "AI CLM:0010000",
+                               'Comment': 'A rdfs:comment',
+                               'Species': 'AI RO:0002175 SPLIT=|',
+                               }
+        dl = [robot_template_seed]
+
+        for row in source_table:
+            if row.get("cxg_dataset_title"):
+                cluster_ids = get_cluster_ids(neo_client, row["Cell_type"].strip(), row.get("cxg_dataset_title"))
+                for cluster_id in cluster_ids:
+                    dl.append({
+                        "ID": cluster_id,
+                        "TYPE": "owl:NamedIndividual",
+                        "Cell_type": row["Cell_type"],
+                        "Marker_set": row["Marker_set"],
+                        "Comment": "A {} in the {} {} has the gene markers {} with a NS-Forest FBeta value of {}s.".format(row["Cell_type"], row["Species_abbv"], row["Organ"], ', '.join(row["Minimal_markers_label"].split("|")), row["FBeta_confidence_score"]),
+                        "Species": row["Species"],
+                    })
+
+        class_robot_template = pd.DataFrame.from_records(dl)
+        class_robot_template.to_csv(CL_KG_TEMPLATE_PATH, sep="\t", index=False)
+        print("CL clusters Robot template generated: " + CL_KG_TEMPLATE_PATH)
+    except Exception as e:
+        import traceback
+        print(f"An error occurred: {e}")
+        print(traceback.format_exc())
+    finally:
+        if neo_client:
+            neo_client.close()
+
+
+def get_cluster_ids(neo_client, cluster_name, cxg_dataset):
+    """
+    Get the cluster ID from the neo4j.
+    :param neo_client: neo4j client
+    :param cluster_name: name of the cluster
+    :param cxg_dataset: name of the CellxGene dataset
+    :return: iris of the cluster. Returns a list with an empty string if cannot find the cluster.
+    """
+    cluster_iris = [""]
+    if cxg_dataset:
+        cluster_iris = neo_client.get_cell_cluster_iri(cluster_name, cxg_dataset)
+        if not cluster_iris:
+            print(f"!!! Cluster '{cluster_name}' not found in the database.")
+            cluster_iris = [""]
+
+    return cluster_iris
+
+
 if __name__ == "__main__":
     cli = argparse.ArgumentParser()
     subparsers = cli.add_subparsers(help="Available actions", dest="action")
 
-    parser_generate = subparsers.add_parser("anndata", description="Anndata gene extractor")
-    parser_generate.add_argument("-a", "--anndata", type=str, help="AnnData file path")
-    parser_generate.add_argument("-n", "--namecolumn", type=str, help="AnnData var column name containing gene names")
-    parser_generate.add_argument("-p", "--prefix", type=str, help="Gene ID prefix (such as ensembl or ncbigene)")
-    parser_generate.add_argument("-o", "--out", type=str, help="Output file path")
+    parser_anndata = subparsers.add_parser("anndata", description="Anndata gene extractor")
+    parser_anndata.add_argument("-a", "--anndata", type=str, help="AnnData file path")
+    parser_anndata.add_argument("-n", "--namecolumn", type=str, help="AnnData var column name containing gene names")
+    parser_anndata.add_argument("-p", "--prefix", type=str, help="Gene ID prefix (such as ensembl or ncbigene)")
+    parser_anndata.add_argument("-o", "--out", type=str, help="Output file path")
 
-    parser_terms = subparsers.add_parser("genes", description="Genes template extractor")
-    parser_terms.add_argument("-i", "--input", action='append', type=str, help="list of input file paths")
-    parser_terms.add_argument("-o", "--out", type=str, help="Output file path")
+    parser_genes = subparsers.add_parser("genes", description="Genes template extractor")
+    parser_genes.add_argument("-i", "--input", action='append', type=str, help="list of input file paths")
+    parser_genes.add_argument("-o", "--out", type=str, help="Output file path")
+
+    parser_cl_genes = subparsers.add_parser("genes_cl", description="Genes used by the CL template extractor")
+    parser_cl_genes.add_argument("-i", "--input", action='append', type=str, help="list of input file paths")
+    parser_cl_genes.add_argument("-o", "--out", type=str, help="Output file path")
 
     args = cli.parse_args()
 
@@ -81,6 +153,8 @@ if __name__ == "__main__":
         extract_genes_from_anndata(args.anndata, args.namecolumn, args.prefix, args.out)
     elif args.action == "genes":
         generate_genes_robot_template(args.input, args.out)
+    elif args.action == "genes_cl":
+        generate_genes_robot_template(args.input, args.out, agreed=True)
     else:
         print("Invalid action: {}".format(args.action))
         exit(1)

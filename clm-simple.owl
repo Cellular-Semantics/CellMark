@@ -10,11 +10,11 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/clm/clm-simple.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/clm/releases/2024-07-31/clm-simple.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/clm/releases/2024-10-15/clm-simple.owl"/>
         <terms:description>None</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <terms:title>Cell Markers Ontology</terms:title>
-        <owl:versionInfo>2024-07-31</owl:versionInfo>
+        <owl:versionInfo>2024-10-15</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -30,15 +30,15 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RO_0002175 -->
+    <!-- http://purl.obolibrary.org/obo/PCL_0010062 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002175"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/PCL_0010062"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/STATO_0000663 -->
+    <!-- http://purl.obolibrary.org/obo/RO_0002175 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/STATO_0000663"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002175"/>
     
 
 
@@ -114,9 +114,48 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CLM_0000000 -->
+    <!-- http://purl.obolibrary.org/obo/CLM_1000001 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_0000000"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000001">
+        <obo:PCL_0010062>0.85</obo:PCL_0010062>
+        <rdfs:label>NS forest marker set of alveolar adventitial fibroblast (Human Lung).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000002">
+        <obo:PCL_0010062>0.70</obo:PCL_0010062>
+        <rdfs:label>NS forest marker set of alveolar type 1 fibroblast cell (Human Lung).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000003">
+        <obo:PCL_0010062>0.80</obo:PCL_0010062>
+        <rdfs:label>NS forest marker set of alveolar macrophage (Human Lung).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000004">
+        <obo:PCL_0010062>0.67</obo:PCL_0010062>
+        <rdfs:label>NS forest marker set of CCL3-positive alveolar macrophage (Human Lung).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000005">
+        <obo:PCL_0010062>0.41</obo:PCL_0010062>
+        <rdfs:label>NS forest marker set of metallothionein-positive alveolar macrophage (Human Lung).</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
