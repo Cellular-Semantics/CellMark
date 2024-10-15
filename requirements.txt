@@ -1,5 +1,5 @@
 pandas
 rdflib
-# anndata
+anndata
 neo4j
 pyyaml

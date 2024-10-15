@@ -9,14 +9,14 @@
 MARKERSDIR = ../markers
 TEMPLATESDIR = ../templates
 
-#SOURCE_TABLE = $(MARKERSDIR)/NSForestMarkersSource.tsv
+SOURCE_TABLE = $(MARKERSDIR)/NSForestMarkersSource.tsv
 
 GENE_LIST = LungMAP LungCellAtlas Neocortex
 GENE_TABLES = $(patsubst %, $(TEMPLATESDIR)/%.tsv, $(GENE_LIST))
 GENE_TEMPLATE = $(TEMPLATESDIR)/genes.tsv
 GENE_TEMPLATE_CL = $(TEMPLATESDIR)/genes_cl.tsv
 
-LOCAL_CLEAN_FILES = $(GENE_TEMPLATE) $(GENE_TEMPLATE_CL) $(PATTERNDIR)/data/default/NSForestMarkers_all.tsv $(PATTERNDIR)/data/default/MarkersToCells_all.tsv
+LOCAL_CLEAN_FILES = $(GENE_TEMPLATE) $(GENE_TEMPLATE_CL) $(PATTERNDIR)/data/default/NSForestMarkers_all.tsv $(PATTERNDIR)/data/default/MarkersToCells_all.tsv $(SOURCE_TABLE)
 
 # clean previous build files
 .PHONY: clean_files

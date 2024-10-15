@@ -3,6 +3,7 @@ import os
 import pandas as pd
 from file_utils import read_table_to_dict, read_yaml
 from id_manager import IDManager
+from neo4j_client import Neo4jClient
 
 
 TEMPLATES_FOLDER_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../templates/")
@@ -16,45 +17,60 @@ def process_input_files():
     """
     Process the files in the input folder and generates related Source files.
     """
-    id_manager = IDManager(MARKERS_FOLDER_PATH)
-    gene_db = read_gene_dbs(TEMPLATES_FOLDER_PATH)
-    files = os.listdir(INPUT_FOLDER_PATH)
-    for file in files:
-        full_path = os.path.join(INPUT_FOLDER_PATH, file)
-        file_name, file_extension = os.path.splitext(file)
-        source_file_path = os.path.join(MARKERS_FOLDER_PATH, f"{file_name}Source{file_extension}")
-        if file_extension in [".csv", ".tsv"] and not os.path.exists(source_file_path):
-            print("Processing: " + file)
-            input_data = read_table_to_dict(full_path)
-            metadata = read_metadata_file(file_name)
-            source_data = []
-            for row in input_data:
-                if row["clusterName"]:
-                    markers_list = row["NSForest_markers"].replace("[", "").replace("]", "").replace("'", "").replace("\"", "").split(",")
-                    markers_list = [str(marker).strip() for marker in markers_list]
-                    marker_ids_list = [get_gene_id(gene_db, marker) for marker in markers_list]
-                    marker_set = id_manager.get_new_id()
-                    source_data.append({
-                        "cl_class": "",
-                        "Cell_type": row["clusterName"],
-                        "Marker_set": marker_set,
-                        "Minimal_markers": "|".join(marker_ids_list),
-                        "Minimal_markers_label": "|".join(markers_list),
-                        "Organ": metadata.get("Organ", ""),
-                        "Species": metadata.get("Species", ""),
-                        "Species_abbv": metadata.get("Species_abbreviation", ""),
-                        "Organ_region": metadata.get("Organ_region", ""),
-                        "Parent": "SO:0001260",
-                        "FBeta_confidence_score": row["f_score"],
-                        "Marker_set_xref": metadata.get("Marker_set_xref", ""),
-                        "cxg_dataset_title": metadata.get("CxG_dataset", row.get("cxg_dataset_title", "")),
-                        "CL_agreed": "False",
-                    })
+    neo_client = None
+    try:
+        neo_client = Neo4jClient("neo4j://172.27.24.69:7687", "", "")
 
-            class_robot_template = pd.DataFrame.from_records(source_data)
-            class_robot_template.to_csv(source_file_path, sep="\t", index=False)
-            print("Processed: " + file)
-            id_manager.skip_ids(1000)
+        id_manager = IDManager(MARKERS_FOLDER_PATH)
+        gene_db = read_gene_dbs(TEMPLATES_FOLDER_PATH)
+        files = os.listdir(INPUT_FOLDER_PATH)
+        for file in files:
+            full_path = os.path.join(INPUT_FOLDER_PATH, file)
+            file_name, file_extension = os.path.splitext(file)
+            source_file_path = os.path.join(MARKERS_FOLDER_PATH, f"{file_name}Source{file_extension}")
+            if file_extension in [".csv", ".tsv"] and not os.path.exists(source_file_path):
+                print("Processing: " + file)
+                input_data = read_table_to_dict(full_path)
+                metadata = read_metadata_file(file_name)
+                source_data = []
+                for row in input_data:
+                    if row["clusterName"]:
+                        markers_list = row["NSForest_markers"].replace("[", "").replace("]", "").replace("'", "").replace("\"", "").split(",")
+                        markers_list = [str(marker).strip() for marker in markers_list]
+                        marker_ids_list = [get_gene_id(gene_db, marker) for marker in markers_list]
+                        marker_set = id_manager.get_new_id()
+
+                        dataset_name = metadata.get("CxG_dataset", row.get("cxg_dataset_title", ""))
+                        cl_info = neo_client.get_cell_info(row["clusterName"], dataset_name)
+                        source_data.append({
+                            "cl_class": cl_info.get("curie", ""),
+                            "cl_label": cl_info.get("label", ""),
+                            "Cell_type": row["clusterName"],
+                            "Marker_set": marker_set,
+                            "Minimal_markers": "|".join(marker_ids_list),
+                            "Minimal_markers_label": "|".join(markers_list),
+                            "Organ": metadata.get("Organ", ""),
+                            "Species": metadata.get("Species", ""),
+                            "Species_abbv": metadata.get("Species_abbreviation", ""),
+                            "Organ_region": metadata.get("Organ_region", ""),
+                            "Parent": "SO:0001260",
+                            "FBeta_confidence_score": row["f_score"],
+                            "Marker_set_xref": metadata.get("Marker_set_xref", ""),
+                            "cxg_dataset_title": dataset_name,
+                            "CL_agreed": "False",
+                        })
+
+                class_robot_template = pd.DataFrame.from_records(source_data)
+                class_robot_template.to_csv(source_file_path, sep="\t", index=False)
+                print("Processed: " + file)
+                id_manager.skip_ids(1000)
+    except Exception as e:
+        import traceback
+        print(f"An error occurred: {e}")
+        print(traceback.format_exc())
+    finally:
+        if neo_client:
+            neo_client.close()
 
 
 def read_gene_dbs(folder_path: str):
@@ -87,7 +103,7 @@ def merge_source_files(folder_path, output_path):
         output_path: Path to the output CSV file.
     """
     all_files = [os.path.join(folder_path, f) for f in os.listdir(folder_path) if f.endswith('Source.csv')]
-    combined_df = pd.concat((pd.read_csv(f) for f in all_files), ignore_index=True)
+    combined_df = pd.concat((pd.read_csv(f, engine='python') for f in all_files), ignore_index=True)
     combined_df.to_csv(output_path, index=False)
 
 

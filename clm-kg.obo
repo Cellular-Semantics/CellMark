@@ -102,14 +102,14 @@ property_value: PCL:0010062 "0.28" xsd:string
 
 [Term]
 id: CLM:1000008
-name: NS forest marker set of AT1 (Human Lung).
+name: NS forest marker set of pulmonary alveolar type 1 cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000204305 ! AGER
 property_value: PCL:0010062 "0.85" xsd:string
 
 [Term]
 id: CLM:1000009
-name: NS forest marker set of AT2 (Human Lung).
+name: NS forest marker set of pulmonary alveolar type 2 cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000122852 ! SFTPA1
 property_value: PCL:0010062 "0.95" xsd:string
@@ -125,7 +125,7 @@ property_value: PCL:0010062 "0.61" xsd:string
 
 [Term]
 id: CLM:1000011
-name: NS forest marker set of B cells (Human Lung).
+name: NS forest marker set of B cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000105369 ! CD79A
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000156738 ! MS4A1
@@ -141,7 +141,7 @@ property_value: PCL:0010062 "0.75" xsd:string
 
 [Term]
 id: CLM:1000013
-name: NS forest marker set of CD4 T cells (Human Lung).
+name: NS forest marker set of CD4-positive, alpha-beta T cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000167286 ! CD3D
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000227507 ! LTB
@@ -149,7 +149,7 @@ property_value: PCL:0010062 "0.59" xsd:string
 
 [Term]
 id: CLM:1000014
-name: NS forest marker set of CD8 T cells (Human Lung).
+name: NS forest marker set of CD8-positive, alpha-beta T cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000167286 ! CD3D
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000271503 ! CCL5
@@ -157,7 +157,7 @@ property_value: PCL:0010062 "0.76" xsd:string
 
 [Term]
 id: CLM:1000015
-name: NS forest marker set of Classical monocytes (Human Lung).
+name: NS forest marker set of classical monocyte (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000085265 ! FCN1
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000163221 ! S100A12
@@ -181,7 +181,7 @@ property_value: PCL:0010062 "0.68" xsd:string
 
 [Term]
 id: CLM:1000018
-name: NS forest marker set of DC1 (Human Lung).
+name: NS forest marker set of conventional dendritic cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000163687 ! DNASE1L3
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000197992 ! CLEC9A
@@ -189,7 +189,7 @@ property_value: PCL:0010062 "0.77" xsd:string
 
 [Term]
 id: CLM:1000019
-name: NS forest marker set of DC2 (Human Lung).
+name: NS forest marker set of CD1c-positive myeloid dendritic cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000132514 ! CLEC10A
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000196735 ! HLA-DQA1
@@ -212,7 +212,7 @@ property_value: PCL:0010062 "0.83" xsd:string
 
 [Term]
 id: CLM:1000022
-name: NS forest marker set of EC arterial (Human Lung).
+name: NS forest marker set of pulmonary artery endothelial cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000155011 ! DKK2
 property_value: PCL:0010062 "0.71" xsd:string
@@ -243,7 +243,7 @@ property_value: PCL:0010062 "0.63" xsd:string
 
 [Term]
 id: CLM:1000026
-name: NS forest marker set of Goblet (bronchial) (Human Lung).
+name: NS forest marker set of bronchial goblet cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000174501 ! ANKRD36C
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000197943 ! PLCG2
@@ -251,7 +251,7 @@ property_value: PCL:0010062 "0.55" xsd:string
 
 [Term]
 id: CLM:1000027
-name: NS forest marker set of Goblet (nasal) (Human Lung).
+name: NS forest marker set of nasal mucosa goblet cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000197353 ! LYPD2
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000215182 ! MUC5AC
@@ -259,7 +259,7 @@ property_value: PCL:0010062 "0.81" xsd:string
 
 [Term]
 id: CLM:1000028
-name: NS forest marker set of Goblet (subsegmental) (Human Lung).
+name: NS forest marker set of tracheobronchial goblet cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000149021 ! SCGB1A1
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000255823 ! MTRNR2L8
@@ -267,7 +267,7 @@ property_value: PCL:0010062 "0.61" xsd:string
 
 [Term]
 id: CLM:1000029
-name: NS forest marker set of Hematopoietic stem cells (Human Lung).
+name: NS forest marker set of hematopoietic stem cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000170891 ! CYTL1
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000226777 ! FAM30A;KIAA0125
@@ -275,7 +275,7 @@ property_value: PCL:0010062 "0.66" xsd:string
 
 [Term]
 id: CLM:1000030
-name: NS forest marker set of Hillock-like (Human Lung).
+name: NS forest marker set of respiratory hillock cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000186847 ! KRT14
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000205420 ! KRT6A
@@ -283,7 +283,7 @@ property_value: PCL:0010062 "0.66" xsd:string
 
 [Term]
 id: CLM:1000031
-name: NS forest marker set of Interstitial Mph perivascular (Human Lung).
+name: NS forest marker set of lung macrophage (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000010327 ! STAB1
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000072694 ! FCGR2B
@@ -292,7 +292,7 @@ property_value: PCL:0010062 "0.46" xsd:string
 
 [Term]
 id: CLM:1000032
-name: NS forest marker set of Ionocyte (Human Lung).
+name: NS forest marker set of ionocyte (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000162399 ! BSND
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000176009 ! ASCL3
@@ -323,14 +323,14 @@ property_value: PCL:0010062 "0.73" xsd:string
 
 [Term]
 id: CLM:1000036
-name: NS forest marker set of Mast cells (Human Lung).
+name: NS forest marker set of mast cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000172236 ! TPSAB1
 property_value: PCL:0010062 "0.96" xsd:string
 
 [Term]
 id: CLM:1000037
-name: NS forest marker set of Mesothelium (Human Lung).
+name: NS forest marker set of mesothelial cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000116690 ! PRG4
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000172137 ! CALB2
@@ -338,14 +338,14 @@ property_value: PCL:0010062 "0.89" xsd:string
 
 [Term]
 id: CLM:1000038
-name: NS forest marker set of Migratory DCs (Human Lung).
+name: NS forest marker set of dendritic cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000102962 ! CCL22
 property_value: PCL:0010062 "0.50" xsd:string
 
 [Term]
 id: CLM:1000039
-name: NS forest marker set of Monocyte-derived Mph (Human Lung).
+name: NS forest marker set of elicited macrophage (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000129226 ! CD68
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000166920 ! C15orf48
@@ -362,7 +362,7 @@ property_value: PCL:0010062 "0.59" xsd:string
 
 [Term]
 id: CLM:1000041
-name: NS forest marker set of Multiciliated (non-nasal) (Human Lung).
+name: NS forest marker set of ciliated columnar cell of tracheobronchial tree (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000166959 ! MS4A8
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000179902 ! C1orf194
@@ -370,7 +370,7 @@ property_value: PCL:0010062 "0.86" xsd:string
 
 [Term]
 id: CLM:1000042
-name: NS forest marker set of Myofibroblasts (Human Lung).
+name: NS forest marker set of myofibroblast cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000050165 ! DKK3
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000106819 ! ASPN
@@ -379,7 +379,7 @@ property_value: PCL:0010062 "0.48" xsd:string
 
 [Term]
 id: CLM:1000043
-name: NS forest marker set of Neuroendocrine (Human Lung).
+name: NS forest marker set of lung neuroendocrine cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000100604 ! CHGA
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000134443 ! GRP
@@ -387,7 +387,7 @@ property_value: PCL:0010062 "0.94" xsd:string
 
 [Term]
 id: CLM:1000044
-name: NS forest marker set of NK cells (Human Lung).
+name: NS forest marker set of natural killer cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000150045 ! KLRF1
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000180644 ! PRF1
@@ -395,7 +395,7 @@ property_value: PCL:0010062 "0.79" xsd:string
 
 [Term]
 id: CLM:1000045
-name: NS forest marker set of Non-classical monocytes (Human Lung).
+name: NS forest marker set of non-classical monocyte (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000104972 ! LILRB1
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000131042 ! LILRB2
@@ -403,7 +403,7 @@ property_value: PCL:0010062 "0.46" xsd:string
 
 [Term]
 id: CLM:1000046
-name: NS forest marker set of Peribronchial fibroblasts (Human Lung).
+name: NS forest marker set of bronchus fibroblast of lung (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000143196 ! DPT
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000189058 ! APOD
@@ -411,7 +411,7 @@ property_value: PCL:0010062 "0.58" xsd:string
 
 [Term]
 id: CLM:1000047
-name: NS forest marker set of Pericytes (Human Lung).
+name: NS forest marker set of lung pericyte (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000131097 ! HIGD1B
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000171303 ! KCNK3
@@ -419,14 +419,14 @@ property_value: PCL:0010062 "0.84" xsd:string
 
 [Term]
 id: CLM:1000048
-name: NS forest marker set of Plasma cells (Human Lung).
+name: NS forest marker set of plasma cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000132465 ! JCHAIN
 property_value: PCL:0010062 "0.91" xsd:string
 
 [Term]
 id: CLM:1000049
-name: NS forest marker set of Plasmacytoid DCs (Human Lung).
+name: NS forest marker set of plasmacytoid dendritic cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000132465 ! JCHAIN
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000239961 ! LILRA4
@@ -434,7 +434,7 @@ property_value: PCL:0010062 "0.79" xsd:string
 
 [Term]
 id: CLM:1000050
-name: NS forest marker set of pre-TB secretory (Human Lung).
+name: NS forest marker set of epithelial cell of lower respiratory tract (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000149021 ! SCGB1A1
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000168878 ! SFTPB
@@ -442,7 +442,7 @@ property_value: PCL:0010062 "0.73" xsd:string
 
 [Term]
 id: CLM:1000051
-name: NS forest marker set of SM activated stress response (Human Lung).
+name: NS forest marker set of smooth muscle cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000111404 ! RERGL
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000187479 ! C11orf96
@@ -450,7 +450,7 @@ property_value: PCL:0010062 "0.58" xsd:string
 
 [Term]
 id: CLM:1000052
-name: NS forest marker set of SMG duct (Human Lung).
+name: NS forest marker set of acinar cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000156689 ! GLYATL2
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000187908 ! DMBT1
@@ -458,14 +458,14 @@ property_value: PCL:0010062 "0.46" xsd:string
 
 [Term]
 id: CLM:1000053
-name: NS forest marker set of SMG mucous (Human Lung).
+name: NS forest marker set of mucus secreting cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000078898 ! BPIFB2
 property_value: PCL:0010062 "0.93" xsd:string
 
 [Term]
 id: CLM:1000054
-name: NS forest marker set of SMG serous (bronchial) (Human Lung).
+name: NS forest marker set of tracheobronchial serous cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000111215 ! PRR4
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000184530 ! C6orf58
@@ -473,14 +473,14 @@ property_value: PCL:0010062 "0.75" xsd:string
 
 [Term]
 id: CLM:1000055
-name: NS forest marker set of SMG serous (nasal) (Human Lung).
+name: NS forest marker set of serous secreting cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000126549 ! STATH
 property_value: PCL:0010062 "0.92" xsd:string
 
 [Term]
 id: CLM:1000056
-name: NS forest marker set of Smooth muscle (Human Lung).
+name: NS forest marker set of tracheobronchial smooth muscle cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000107796 ! ACTA2
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000149591 ! TAGLN
@@ -488,14 +488,14 @@ property_value: PCL:0010062 "0.69" xsd:string
 
 [Term]
 id: CLM:1000057
-name: NS forest marker set of Smooth muscle FAM83D+ (Human Lung).
+name: NS forest marker set of stromal cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000163017 ! ACTG2
 property_value: PCL:0010062 "0.77" xsd:string
 
 [Term]
 id: CLM:1000058
-name: NS forest marker set of Subpleural fibroblasts (Human Lung).
+name: NS forest marker set of fibroblast (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000107562 ! CXCL12
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000184937 ! WT1
@@ -512,7 +512,7 @@ property_value: PCL:0010062 "0.62" xsd:string
 
 [Term]
 id: CLM:1000060
-name: NS forest marker set of T cells proliferating (Human Lung).
+name: NS forest marker set of T cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000148773 ! MKI67
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000160654 ! CD3G
@@ -522,7 +522,7 @@ property_value: PCL:0010062 "0.71" xsd:string
 
 [Term]
 id: CLM:1000061
-name: NS forest marker set of Tuft (Human Lung).
+name: NS forest marker set of brush cell of tracheobronchial tree (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000051128 ! HOMER3
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000118513 ! MYB

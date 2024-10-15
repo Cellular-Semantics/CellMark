@@ -3208,7 +3208,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000008",
-          "lbl": "NS forest marker set of AT1 (Human Lung).",
+          "lbl": "NS forest marker set of pulmonary alveolar type 1 cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3221,7 +3221,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000009",
-          "lbl": "NS forest marker set of AT2 (Human Lung).",
+          "lbl": "NS forest marker set of pulmonary alveolar type 2 cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3247,7 +3247,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000011",
-          "lbl": "NS forest marker set of B cells (Human Lung).",
+          "lbl": "NS forest marker set of B cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3273,7 +3273,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000013",
-          "lbl": "NS forest marker set of CD4 T cells (Human Lung).",
+          "lbl": "NS forest marker set of CD4-positive, alpha-beta T cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3286,7 +3286,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000014",
-          "lbl": "NS forest marker set of CD8 T cells (Human Lung).",
+          "lbl": "NS forest marker set of CD8-positive, alpha-beta T cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3299,7 +3299,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000015",
-          "lbl": "NS forest marker set of Classical monocytes (Human Lung).",
+          "lbl": "NS forest marker set of classical monocyte (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3338,7 +3338,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000018",
-          "lbl": "NS forest marker set of DC1 (Human Lung).",
+          "lbl": "NS forest marker set of conventional dendritic cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3351,7 +3351,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000019",
-          "lbl": "NS forest marker set of DC2 (Human Lung).",
+          "lbl": "NS forest marker set of CD1c-positive myeloid dendritic cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3390,7 +3390,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000022",
-          "lbl": "NS forest marker set of EC arterial (Human Lung).",
+          "lbl": "NS forest marker set of pulmonary artery endothelial cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3442,7 +3442,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000026",
-          "lbl": "NS forest marker set of Goblet (bronchial) (Human Lung).",
+          "lbl": "NS forest marker set of bronchial goblet cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3455,7 +3455,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000027",
-          "lbl": "NS forest marker set of Goblet (nasal) (Human Lung).",
+          "lbl": "NS forest marker set of nasal mucosa goblet cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3468,7 +3468,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000028",
-          "lbl": "NS forest marker set of Goblet (subsegmental) (Human Lung).",
+          "lbl": "NS forest marker set of tracheobronchial goblet cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3481,7 +3481,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000029",
-          "lbl": "NS forest marker set of Hematopoietic stem cells (Human Lung).",
+          "lbl": "NS forest marker set of hematopoietic stem cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3494,7 +3494,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000030",
-          "lbl": "NS forest marker set of Hillock-like (Human Lung).",
+          "lbl": "NS forest marker set of respiratory hillock cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3507,7 +3507,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000031",
-          "lbl": "NS forest marker set of Interstitial Mph perivascular (Human Lung).",
+          "lbl": "NS forest marker set of lung macrophage (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3520,7 +3520,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000032",
-          "lbl": "NS forest marker set of Ionocyte (Human Lung).",
+          "lbl": "NS forest marker set of ionocyte (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3572,7 +3572,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000036",
-          "lbl": "NS forest marker set of Mast cells (Human Lung).",
+          "lbl": "NS forest marker set of mast cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3585,7 +3585,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000037",
-          "lbl": "NS forest marker set of Mesothelium (Human Lung).",
+          "lbl": "NS forest marker set of mesothelial cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3598,7 +3598,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000038",
-          "lbl": "NS forest marker set of Migratory DCs (Human Lung).",
+          "lbl": "NS forest marker set of dendritic cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3611,7 +3611,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000039",
-          "lbl": "NS forest marker set of Monocyte-derived Mph (Human Lung).",
+          "lbl": "NS forest marker set of elicited macrophage (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3637,7 +3637,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000041",
-          "lbl": "NS forest marker set of Multiciliated (non-nasal) (Human Lung).",
+          "lbl": "NS forest marker set of ciliated columnar cell of tracheobronchial tree (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3650,7 +3650,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000042",
-          "lbl": "NS forest marker set of Myofibroblasts (Human Lung).",
+          "lbl": "NS forest marker set of myofibroblast cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3663,7 +3663,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000043",
-          "lbl": "NS forest marker set of Neuroendocrine (Human Lung).",
+          "lbl": "NS forest marker set of lung neuroendocrine cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3676,7 +3676,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000044",
-          "lbl": "NS forest marker set of NK cells (Human Lung).",
+          "lbl": "NS forest marker set of natural killer cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3689,7 +3689,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000045",
-          "lbl": "NS forest marker set of Non-classical monocytes (Human Lung).",
+          "lbl": "NS forest marker set of non-classical monocyte (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3702,7 +3702,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000046",
-          "lbl": "NS forest marker set of Peribronchial fibroblasts (Human Lung).",
+          "lbl": "NS forest marker set of bronchus fibroblast of lung (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3715,7 +3715,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000047",
-          "lbl": "NS forest marker set of Pericytes (Human Lung).",
+          "lbl": "NS forest marker set of lung pericyte (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3728,7 +3728,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000048",
-          "lbl": "NS forest marker set of Plasma cells (Human Lung).",
+          "lbl": "NS forest marker set of plasma cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3741,7 +3741,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000049",
-          "lbl": "NS forest marker set of Plasmacytoid DCs (Human Lung).",
+          "lbl": "NS forest marker set of plasmacytoid dendritic cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3754,7 +3754,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000050",
-          "lbl": "NS forest marker set of pre-TB secretory (Human Lung).",
+          "lbl": "NS forest marker set of epithelial cell of lower respiratory tract (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3767,7 +3767,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000051",
-          "lbl": "NS forest marker set of SM activated stress response (Human Lung).",
+          "lbl": "NS forest marker set of smooth muscle cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3780,7 +3780,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000052",
-          "lbl": "NS forest marker set of SMG duct (Human Lung).",
+          "lbl": "NS forest marker set of acinar cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3793,7 +3793,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000053",
-          "lbl": "NS forest marker set of SMG mucous (Human Lung).",
+          "lbl": "NS forest marker set of mucus secreting cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3806,7 +3806,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000054",
-          "lbl": "NS forest marker set of SMG serous (bronchial) (Human Lung).",
+          "lbl": "NS forest marker set of tracheobronchial serous cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3819,7 +3819,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000055",
-          "lbl": "NS forest marker set of SMG serous (nasal) (Human Lung).",
+          "lbl": "NS forest marker set of serous secreting cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3832,7 +3832,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000056",
-          "lbl": "NS forest marker set of Smooth muscle (Human Lung).",
+          "lbl": "NS forest marker set of tracheobronchial smooth muscle cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3845,7 +3845,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000057",
-          "lbl": "NS forest marker set of Smooth muscle FAM83D+ (Human Lung).",
+          "lbl": "NS forest marker set of stromal cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3858,7 +3858,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000058",
-          "lbl": "NS forest marker set of Subpleural fibroblasts (Human Lung).",
+          "lbl": "NS forest marker set of fibroblast (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3884,7 +3884,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000060",
-          "lbl": "NS forest marker set of T cells proliferating (Human Lung).",
+          "lbl": "NS forest marker set of T cell (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3897,7 +3897,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CLM_1000061",
-          "lbl": "NS forest marker set of Tuft (Human Lung).",
+          "lbl": "NS forest marker set of brush cell of tracheobronchial tree (Human Lung).",
           "meta": {
             "basicPropertyValues": [
               {

@@ -3791,7 +3791,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.85</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of AT1 (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of pulmonary alveolar type 1 cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -3807,7 +3807,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.95</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of AT2 (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of pulmonary alveolar type 2 cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -3859,7 +3859,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.86</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of B cells (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of B cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -3907,7 +3907,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.59</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of CD4 T cells (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of CD4-positive, alpha-beta T cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -3931,7 +3931,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.76</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of CD8 T cells (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of CD8-positive, alpha-beta T cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -3955,7 +3955,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.77</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of Classical monocytes (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of classical monocyte (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4027,7 +4027,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.77</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of DC1 (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of conventional dendritic cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4051,7 +4051,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.53</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of DC2 (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of CD1c-positive myeloid dendritic cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4107,7 +4107,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.71</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of EC arterial (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of pulmonary artery endothelial cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4203,7 +4203,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.55</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of Goblet (bronchial) (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of bronchial goblet cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4227,7 +4227,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.81</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of Goblet (nasal) (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of nasal mucosa goblet cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4251,7 +4251,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.61</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of Goblet (subsegmental) (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of tracheobronchial goblet cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4275,7 +4275,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.66</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of Hematopoietic stem cells (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of hematopoietic stem cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4299,7 +4299,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.66</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of Hillock-like (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of respiratory hillock cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4327,7 +4327,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.46</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of Interstitial Mph perivascular (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of lung macrophage (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4351,7 +4351,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.82</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of Ionocyte (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of ionocyte (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4431,7 +4431,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.96</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of Mast cells (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of mast cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4455,7 +4455,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.89</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of Mesothelium (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of mesothelial cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4471,7 +4471,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.50</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of Migratory DCs (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of dendritic cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4495,7 +4495,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.37</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of Monocyte-derived Mph (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of elicited macrophage (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4547,7 +4547,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.86</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of Multiciliated (non-nasal) (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of ciliated columnar cell of tracheobronchial tree (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4575,7 +4575,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.48</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of Myofibroblasts (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of myofibroblast cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4599,7 +4599,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.94</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of Neuroendocrine (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of lung neuroendocrine cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4623,7 +4623,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.79</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of NK cells (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of natural killer cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4647,7 +4647,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.46</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of Non-classical monocytes (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of non-classical monocyte (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4671,7 +4671,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.58</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of Peribronchial fibroblasts (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of bronchus fibroblast of lung (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4695,7 +4695,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.84</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of Pericytes (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of lung pericyte (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4711,7 +4711,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.91</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of Plasma cells (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of plasma cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4735,7 +4735,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.79</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of Plasmacytoid DCs (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of plasmacytoid dendritic cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4759,7 +4759,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.73</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of pre-TB secretory (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of epithelial cell of lower respiratory tract (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4783,7 +4783,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.58</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of SM activated stress response (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of smooth muscle cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4807,7 +4807,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.46</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of SMG duct (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of acinar cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4823,7 +4823,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.93</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of SMG mucous (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of mucus secreting cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4847,7 +4847,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.75</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of SMG serous (bronchial) (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of tracheobronchial serous cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4863,7 +4863,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.92</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of SMG serous (nasal) (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of serous secreting cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4887,7 +4887,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.69</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of Smooth muscle (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of tracheobronchial smooth muscle cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4903,7 +4903,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.77</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of Smooth muscle FAM83D+ (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of stromal cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4927,7 +4927,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.60</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of Subpleural fibroblasts (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of fibroblast (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -4987,7 +4987,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.71</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of T cells proliferating (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of T cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -5015,7 +5015,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.56</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of Tuft (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of brush cell of tracheobronchial tree (Human Lung).</rdfs:label>
     </owl:Class>
     
 
