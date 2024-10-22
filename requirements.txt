@@ -3,3 +3,5 @@ rdflib
 anndata
 neo4j
 pyyaml
+requests
+urllib3<2
