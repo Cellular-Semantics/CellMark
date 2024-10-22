@@ -2,6 +2,7 @@
   "@context": {
     "ensembl": "http://identifiers.org/ensembl/",
     "ncbigene": "http://identifiers.org/ncbigene/",
-    "CLM": "http://purl.obolibrary.org/obo/CLM_"
+    "CLM": "http://purl.obolibrary.org/obo/CLM_",
+    "PMID": "https://pubmed.ncbi.nlm.nih.gov/"
   }
 }
