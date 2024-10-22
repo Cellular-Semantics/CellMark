@@ -15,6 +15,10 @@ GENE_LIST = LungMAP LungCellAtlas Neocortex
 GENE_TABLES = $(patsubst %, $(TEMPLATESDIR)/%.tsv, $(GENE_LIST))
 GENE_TEMPLATE = $(TEMPLATESDIR)/genes.tsv
 GENE_TEMPLATE_CL = $(TEMPLATESDIR)/genes_cl.tsv
+# Find all the template files in the templates directory
+GO_TEMPLATES := $(wildcard $(TEMPLATESDIR)/*_quick_go_template.tsv)
+# Pattern to generate OWL files from each template
+GO_TEMPLATE_OWL_FILES := $(patsubst $(TEMPLATESDIR)/%_template.tsv,$(COMPONENTSDIR)/%.owl,$(GO_TEMPLATES))
 
 LOCAL_CLEAN_FILES = $(GENE_TEMPLATE) $(GENE_TEMPLATE_CL) $(PATTERNDIR)/data/default/NSForestMarkers_all.tsv $(PATTERNDIR)/data/default/MarkersToCells_all.tsv $(SOURCE_TABLE)
 
@@ -22,6 +26,22 @@ LOCAL_CLEAN_FILES = $(GENE_TEMPLATE) $(GENE_TEMPLATE_CL) $(PATTERNDIR)/data/defa
 .PHONY: clean_files
 clean_files:
 	rm -f $(LOCAL_CLEAN_FILES)
+
+# Rule to generate all TSV templates
+$(GO_TEMPLATES):
+	python $(SCRIPTSDIR)/go_term_template_generator.py
+
+# Rule to process quick_go OWL files
+quick_go: $(GO_TEMPLATES) $(GO_TEMPLATE_OWL_FILES)
+
+# Rule to generate OWL file from each TSV template and write to TMPDIR
+$(TMPDIR)/%.owl: $(TEMPLATESDIR)/%_quick_go_template.tsv
+	$(ROBOT) template --input https://purl.obolibrary.org/obo/go/go-base.owl --template $< \
+		--add-prefixes template_prefixes.json --output $@
+
+# Rule to merge all OWL files into a single quick_go_terms.owl
+$(COMPONENTSDIR)/quick_go_terms.owl: $(GO_TEMPLATE_OWL_FILES)
+	$(ROBOT) merge $(patsubst %, -i %, $(GO_TEMPLATE_OWL_FILES)) -o $@
 
 $(GENE_TEMPLATE): $(GENE_TABLES)
 	python $(SCRIPTSDIR)/robot_template_generator.py genes $(patsubst %, -i %, $^) --out $@
