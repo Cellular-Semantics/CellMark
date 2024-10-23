@@ -55,7 +55,23 @@ Run the following script to generate the source files:
 pyton src/scripts/dosdp_template_generator.py
 ```
 
-## 4- Run the ODK pipeline
+## 4- Prepare QuickGo Templates
+
+The `go_term_template_generator.py` script retrieves Gene Ontology (GO) terms from a Neo4j database, fetches additional data from the QuickGO API, and converts the data into ROBOT templates for use in the CLM ontology pipeline. The script is located in the `src/scripts/` folder, and the output templates are saved in the `src/templates/cl_kg/` folder. It takes approximately 60 minutes to run and should only be executed on demand, as it is not required every time the CLM pipeline is run.
+
+#### How to Run:
+1. Navigate to the script folder:
+   ```bash
+   cd src/scripts/
+   ```
+2. Run the script:
+   ```bash
+   python go_term_template_generator.py
+   ```
+The templates generated will be saved in the `src/templates/cl_kg/` folder, and any existing 
+template files will be removed at the start of the run.
+
+## 5- Run the ODK pipeline
 
 Run the ODK pipeline as usual
 

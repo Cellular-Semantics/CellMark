@@ -15,6 +15,10 @@ GENE_LIST = LungMAP LungCellAtlas Neocortex
 GENE_TABLES = $(patsubst %, $(TEMPLATESDIR)/%.tsv, $(GENE_LIST))
 GENE_TEMPLATE = $(TEMPLATESDIR)/genes.tsv
 GENE_TEMPLATE_CL = $(TEMPLATESDIR)/genes_cl.tsv
+# Find all the template files in the templates directory
+GO_TEMPLATES := $(wildcard $(TEMPLATESDIR)/cl_kg/*_quick_go_template.tsv)
+# Pattern to generate OWL files from each template
+GO_TEMPLATE_OWL_FILES := $(patsubst $(TEMPLATESDIR)/cl_kg/%_quick_go_template.tsv,$(TMPDIR)/%_quick_go.owl,$(GO_TEMPLATES))
 
 LOCAL_CLEAN_FILES = $(GENE_TEMPLATE) $(GENE_TEMPLATE_CL) $(PATTERNDIR)/data/default/NSForestMarkers_all.tsv $(PATTERNDIR)/data/default/MarkersToCells_all.tsv $(SOURCE_TABLE)
 
@@ -22,6 +26,18 @@ LOCAL_CLEAN_FILES = $(GENE_TEMPLATE) $(GENE_TEMPLATE_CL) $(PATTERNDIR)/data/defa
 .PHONY: clean_files
 clean_files:
 	rm -f $(LOCAL_CLEAN_FILES)
+
+# Rule to process quick_go OWL files
+quick_go: $(COMPONENTSDIR)/quick_go_terms.owl
+
+# Rule to generate OWL file from each TSV template and write to TMPDIR
+$(TMPDIR)/%_quick_go.owl: $(TEMPLATESDIR)/cl_kg/%_quick_go_template.tsv
+	$(ROBOT) template --input https://purl.obolibrary.org/obo/go/go-base.owl --template $< \
+		--add-prefixes template_prefixes.json --output $@
+
+# Rule to merge all OWL files into a single quick_go_terms.owl
+$(COMPONENTSDIR)/quick_go_terms.owl: $(GO_TEMPLATE_OWL_FILES)
+	$(ROBOT) merge $(foreach file, $(GO_TEMPLATE_OWL_FILES), -i $(file)) -o $@
 
 $(GENE_TEMPLATE): $(GENE_TABLES)
 	python $(SCRIPTSDIR)/robot_template_generator.py genes $(patsubst %, -i %, $^) --out $@
@@ -71,15 +87,19 @@ $(ONT).owl: $(ONT)-full.owl $(ONT)-kg.owl $(ONT)-kg.obo $(ONT)-kg.json $(ONT)-cl
 		convert -o $@.tmp.owl && mv $@.tmp.owl $@
 	rm -f $(LOCAL_CLEAN_FILES)
 
-# Artifact for KG that host not validated gene annotations as well
-$(ONT)-kg.owl:  $(ONT)-base.owl $(MIRRORDIR)/genes.owl
+# Artifact for KG that hosts non-validated gene annotations
+$(ONT)-kg.owl: $(ONT)-base.owl $(MIRRORDIR)/genes.owl $(COMPONENTSDIR)/quick_go_terms.owl
 	python $(SCRIPTSDIR)/dosdp_template_generator.py generate --template NSForestMarkers --out $(PATTERNDIR)/data/default/NSForestMarkers_all.tsv
-	$(DOSDPT) generate --catalog=$(CATALOG) --infile=$(PATTERNDIR)/data/default/NSForestMarkers_all.tsv --template=$(PATTERNDIR)/dosdp-patterns/NSForestMarkers.yaml \
-		--ontology=$(EDIT_PREPROCESSED) --obo-prefixes=true --prefixes=template_prefixes.yaml --outfile=$(COMPONENTSDIR)/NSForestMarkers_all.owl
-	$(ROBOT) template --input $(SRC) --template $(TEMPLATEDIR)/cl_kg/Clusters.tsv --add-prefixes template_prefixes.json --output $(COMPONENTSDIR)/MarkersToCells_all.owl
-	$(ROBOT) merge -i $< -i $(ONT)-kg-edit.$(EDIT_FORMAT) -i $(MIRRORDIR)/genes.owl -i $(COMPONENTSDIR)/NSForestMarkers_all.owl -i $(COMPONENTSDIR)/MarkersToCells_all.owl \
-	 	annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
-		--output $(RELEASEDIR)/$@
+	$(DOSDPT) generate --catalog=$(CATALOG) --infile=$(PATTERNDIR)/data/default/NSForestMarkers_all.tsv \
+		--template=$(PATTERNDIR)/dosdp-patterns/NSForestMarkers.yaml --ontology=$(EDIT_PREPROCESSED) \
+		--obo-prefixes=true --prefixes=template_prefixes.yaml --outfile=$(COMPONENTSDIR)/NSForestMarkers_all.owl
+	$(ROBOT) template --input $(SRC) --template $(TEMPLATEDIR)/cl_kg/Clusters.tsv \
+		--add-prefixes template_prefixes.json --output $(COMPONENTSDIR)/MarkersToCells_all.owl
+	$(ROBOT) merge -i $< -i $(ONT)-kg-edit.$(EDIT_FORMAT) -i $(MIRRORDIR)/genes.owl \
+		-i $(COMPONENTSDIR)/NSForestMarkers_all.owl -i $(COMPONENTSDIR)/MarkersToCells_all.owl \
+		-i $(COMPONENTSDIR)/quick_go_terms.owl \
+		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $(RELEASEDIR)/$@
+
 
 $(ONT)-kg.obo: $(RELEASEDIR)/$(ONT)-kg.owl
 	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $(RELEASEDIR)/$@ && rm $@.tmp.obo

@@ -1,0 +1,14 @@
+ID	GENE PRODUCT ID	GO EVIDENCE CODE	REFERENCE	TAXON ID
+ID	AI RO:0004035	>A oboInOwl:evidence	>A oboInOwl:hasDbXref	AI RO:0002162
+GO:0070269	https://identifiers.org/uniprot:Q86TI2	IDA	PMID:33731929	http://purl.obolibrary.org/obo/NCBITaxon_9606
+GO:0070269	https://identifiers.org/uniprot:Q86TI2	IDA	PMID:34019797	http://purl.obolibrary.org/obo/NCBITaxon_9606
+GO:0050728	https://identifiers.org/uniprot:Q9C0K1	IMP	PMID:23403290	http://purl.obolibrary.org/obo/NCBITaxon_9606
+GO:0035162	https://identifiers.org/uniprot:O09039	IMP	PMID:14612394	http://purl.obolibrary.org/obo/NCBITaxon_10090
+GO:0141068	https://identifiers.org/uniprot:P42337	IDA	PMID:21047779	http://purl.obolibrary.org/obo/NCBITaxon_10090
+GO:0006904	https://identifiers.org/uniprot:P18872	IMP	PMID:20622165	http://purl.obolibrary.org/obo/NCBITaxon_10090
+GO:0002224	https://identifiers.org/uniprot:Q8JZM6	IMP	PMID:26458771	http://purl.obolibrary.org/obo/NCBITaxon_10090
+GO:0070314	https://identifiers.org/uniprot:Q13105	IDA	PMID:19160485	http://purl.obolibrary.org/obo/NCBITaxon_9606
+GO:0070314	https://identifiers.org/uniprot:Q15831	IPI	PMID:12805220	http://purl.obolibrary.org/obo/NCBITaxon_9606
+GO:0070314	https://identifiers.org/uniprot:Q15831	IDA	PMID:17216128	http://purl.obolibrary.org/obo/NCBITaxon_9606
+GO:0070314	https://identifiers.org/uniprot:Q7RTN6	IPI	PMID:12805220	http://purl.obolibrary.org/obo/NCBITaxon_9606
+GO:0070314	https://identifiers.org/uniprot:Q9NNW5	IPI	PMID:17216128	http://purl.obolibrary.org/obo/NCBITaxon_9606

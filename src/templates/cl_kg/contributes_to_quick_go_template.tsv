@@ -1,0 +1,26 @@
+ID	GENE PRODUCT ID	GO EVIDENCE CODE	REFERENCE	TAXON ID
+ID	AI RO:0002326	>A oboInOwl:evidence	>A oboInOwl:hasDbXref	AI RO:0002162
+GO:0033040	https://identifiers.org/uniprot:A2A259	IDA	PMID:16891422	http://purl.obolibrary.org/obo/NCBITaxon_10090
+GO:0033040	https://identifiers.org/uniprot:Q2EG98	IDA	PMID:16891422	http://purl.obolibrary.org/obo/NCBITaxon_10090
+GO:0008527	https://identifiers.org/uniprot:Q7RTX0	IDA	PMID:16720576	http://purl.obolibrary.org/obo/NCBITaxon_9606
+GO:0033041	https://identifiers.org/uniprot:Q7RTX0	IDA	PMID:16720576	http://purl.obolibrary.org/obo/NCBITaxon_9606
+GO:0008527	https://identifiers.org/uniprot:Q8TE23	IDA	PMID:16720576	http://purl.obolibrary.org/obo/NCBITaxon_9606
+GO:0033041	https://identifiers.org/uniprot:Q8TE23	IDA	PMID:16720576	http://purl.obolibrary.org/obo/NCBITaxon_9606
+GO:1902282	https://identifiers.org/uniprot:P15382	IMP	PMID:9354802	http://purl.obolibrary.org/obo/NCBITaxon_9606
+GO:1902282	https://identifiers.org/uniprot:Q9UK17	IMP	PMID:21349352	http://purl.obolibrary.org/obo/NCBITaxon_9606
+GO:0086008	https://identifiers.org/uniprot:P15382	IDA	PMID:10400998	http://purl.obolibrary.org/obo/NCBITaxon_9606
+GO:0086057	https://identifiers.org/uniprot:P54289	IMP	PMID:21383000	http://purl.obolibrary.org/obo/NCBITaxon_9606
+GO:0086007	https://identifiers.org/uniprot:Q08289	IMP	PMID:17224476	http://purl.obolibrary.org/obo/NCBITaxon_9606
+GO:0086056	https://identifiers.org/uniprot:Q08289	IMP	PMID:17224476	http://purl.obolibrary.org/obo/NCBITaxon_9606
+GO:0086007	https://identifiers.org/uniprot:Q13936	IMP	PMID:17224476	http://purl.obolibrary.org/obo/NCBITaxon_9606
+GO:0015464	https://identifiers.org/uniprot:O70174	IDA	PMID:12871652	http://purl.obolibrary.org/obo/NCBITaxon_10090
+GO:0022848	https://identifiers.org/uniprot:P02716	IGI	PMID:2383398	http://purl.obolibrary.org/obo/NCBITaxon_10090
+GO:0015464	https://identifiers.org/uniprot:P04756	IDA	PMID:8872460	http://purl.obolibrary.org/obo/NCBITaxon_10090
+GO:0022848	https://identifiers.org/uniprot:P04756	IGI	PMID:2383398	http://purl.obolibrary.org/obo/NCBITaxon_10090
+GO:0022848	https://identifiers.org/uniprot:P09690	IGI	PMID:2383398	http://purl.obolibrary.org/obo/NCBITaxon_10090
+GO:0015464	https://identifiers.org/uniprot:P11230	IMP	PMID:8651643	http://purl.obolibrary.org/obo/NCBITaxon_9606
+GO:0015464	https://identifiers.org/uniprot:P11230	IMP	PMID:8872460	http://purl.obolibrary.org/obo/NCBITaxon_9606
+GO:0022848	https://identifiers.org/uniprot:P20782	IGI	PMID:2383398	http://purl.obolibrary.org/obo/NCBITaxon_10090
+GO:0016934	https://identifiers.org/uniprot:P48167	IDA	PMID:8717357	http://purl.obolibrary.org/obo/NCBITaxon_9606
+GO:0004601	https://identifiers.org/uniprot:P68871	IDA	PMID:19740759	http://purl.obolibrary.org/obo/NCBITaxon_9606
+GO:0004601	https://identifiers.org/uniprot:P69905	IDA	PMID:19740759	http://purl.obolibrary.org/obo/NCBITaxon_9606
