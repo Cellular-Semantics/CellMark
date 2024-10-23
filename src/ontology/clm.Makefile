@@ -37,7 +37,6 @@ $(TMPDIR)/%_quick_go.owl: $(TEMPLATESDIR)/cl_kg/%_quick_go_template.tsv
 
 # Rule to merge all OWL files into a single quick_go_terms.owl
 $(COMPONENTSDIR)/quick_go_terms.owl: $(GO_TEMPLATE_OWL_FILES)
-	@echo "$(GO_TEMPLATE_OWL_FILES)"
 	$(ROBOT) merge $(foreach file, $(GO_TEMPLATE_OWL_FILES), -i $(file)) -o $@
 
 $(GENE_TEMPLATE): $(GENE_TABLES)
