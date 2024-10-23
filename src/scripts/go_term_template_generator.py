@@ -1,11 +1,12 @@
+import glob
 import os
 import requests
 import pandas as pd
 from neo4j import GraphDatabase
 from io import StringIO
 
-# Directory for saving the output files
-output_dir = "src/templates/cl_kg"
+script_dir = os.path.dirname(os.path.abspath(__file__))
+output_dir = os.path.join(script_dir, "../templates/cl_kg/")
 
 # Neo4j connection details
 neo4j_uri = "bolt://172.27.24.69:7687"
@@ -109,6 +110,14 @@ def process_qualifier_subset(df, qualifier, curie_mapping, base_first_row):
 
 
 def main():
+    files_to_delete = glob.glob(os.path.join(output_dir, "*_quick_go_template.tsv"))
+    for file in files_to_delete:
+        try:
+            os.remove(file)
+            print(f"Deleted: {file}")
+        except OSError as e:
+            print(f"Error deleting file {file}: {e}")
+
     # Fetch data from Neo4j and QuickGO API
     go_curies = get_curies()
     combined_df = pd.DataFrame()
@@ -198,7 +207,7 @@ def main():
         df.to_csv(file_name, sep="\t", index=False)
 
     quick_go_protein_template.to_csv(
-        os.path.join(output_dir, "quick_go_protein_template.tsv"), sep="\t", index=False
+        os.path.join(output_dir, "protein_quick_go_template.tsv"), sep="\t", index=False
     )
 
 
