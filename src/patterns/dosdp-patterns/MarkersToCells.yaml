@@ -47,12 +47,12 @@ logical_axioms:
       - has_characterization_set
 
 comment:
-  text: "A %s in the %s %s has the gene markers %s with a NS-Forest FBeta value of %s."
+  text: "The marker set %s can identify the %s cell type %s in the %s with a confidence of %s (NS-Forest FBeta value)."
   vars:
-    - Cell_type
-    - Species_abbv
-    - Organ
     - Minimal_markers_cat
+    - Species_abbv
+    - Cell_type
+    - Organ
     - FBeta_confidence_score
   xrefs: Marker_set_xref
 
