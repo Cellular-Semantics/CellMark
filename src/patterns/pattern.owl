@@ -26,7 +26,7 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 # Class: <http://purl.obolibrary.org/obo/cl/MarkersToCells.yaml> (<http://purl.obolibrary.org/obo/cl/MarkersToCells.yaml>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/cl/MarkersToCells.yaml> "NSForestMarkers"^^xsd:string)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "xsd:string"^^xsd:string) rdfs:comment <http://purl.obolibrary.org/obo/cl/MarkersToCells.yaml> "A 'cell' in the xsd:string xsd:string has the gene markers 'sequence_feature' with a NS-Forest FBeta value of xsd:string."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "xsd:string"^^xsd:string) rdfs:comment <http://purl.obolibrary.org/obo/cl/MarkersToCells.yaml> "The marker set 'sequence_feature' can identify the xsd:string cell type 'cell' in the xsd:string with a confidence of xsd:string (NS-Forest FBeta value)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/cl/MarkersToCells.yaml> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> owl:Thing))
 
 # Class: <http://purl.obolibrary.org/obo/cl/NSForestMarkers.yaml> (NS forest marker set of xsd:string (xsd:string xsd:string).)

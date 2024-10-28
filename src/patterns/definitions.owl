@@ -7,29 +7,150 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/clm/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/clm/releases/2024-10-15/patterns/definitions.owl>
-Annotation(owl:versionInfo "2024-10-15")
+<http://purl.obolibrary.org/obo/clm/releases/2024-10-28/patterns/definitions.owl>
+Annotation(owl:versionInfo "2024-10-28")
 
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000010327>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000038295>))
 Declaration(Class(<http://identifiers.org/ensembl/ENSG00000038945>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000041982>))
 Declaration(Class(<http://identifiers.org/ensembl/ENSG00000050730>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000051128>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000072694>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000078898>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000082482>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000082684>))
 Declaration(Class(<http://identifiers.org/ensembl/ENSG00000100292>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000100604>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000102755>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000107796>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000111215>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000113532>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000115593>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000118513>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000118777>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000119547>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000122852>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000124302>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000124491>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000131097>))
 Declaration(Class(<http://identifiers.org/ensembl/ENSG00000131471>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000131747>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000134443>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000137573>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000137709>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000137804>))
 Declaration(Class(<http://identifiers.org/ensembl/ENSG00000139329>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000143196>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000149021>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000149591>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000156689>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000162399>))
 Declaration(Class(<http://identifiers.org/ensembl/ENSG00000163735>))
 Declaration(Class(<http://identifiers.org/ensembl/ENSG00000164120>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000166803>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000166959>))
 Declaration(Class(<http://identifiers.org/ensembl/ENSG00000168079>))
 Declaration(Class(<http://identifiers.org/ensembl/ENSG00000170323>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000171303>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000171346>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000171848>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000172673>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000174501>))
 Declaration(Class(<http://identifiers.org/ensembl/ENSG00000174807>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000174948>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000175063>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000176009>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000178031>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000178538>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000179902>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000180801>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000184530>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000185668>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000187908>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000189058>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000197085>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000197353>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000197943>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000198901>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000198963>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000204262>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000204305>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000206073>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000215182>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000234377>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000242265>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000255823>))
+Declaration(Class(<http://identifiers.org/ensembl/ENSG00000256193>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000032>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000041>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000043>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000046>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000052>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000053>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000054>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000056>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000059>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000061>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000062>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000063>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000064>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000065>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000066>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000067>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000068>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000069>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000070>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000071>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLM_1000072>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000115>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000583>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002062>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002063>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002075>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002145>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002241>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002480>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002605>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0009089>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0017000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0019019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_1000223>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_1000312>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_4023036>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_4023041>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_4023042>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_4028004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_4028006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_4030059>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_4030063>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_4030064>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_4030065>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_4030067>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_4030068>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_4033005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_4033022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_4033023>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_4033041>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_4033042>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_4033043>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_4033048>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_4033077>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_4033080>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001260>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0015004>))
@@ -78,35 +199,421 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000005> "NS 
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000005> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000005> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000100292>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000164120>)))
 
+# Class: <http://purl.obolibrary.org/obo/CLM_1000006> (NS forest marker set of cycling alveolar macrophage (Human Lung).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000006> "0.26")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000006> "NS forest marker set of cycling alveolar macrophage (Human Lung).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000006> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000006> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000137804>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000166803>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000171848>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000175063>)))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000008> (NS forest marker set of pulmonary alveolar type 1 cell (Human Lung).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000008> "0.85")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000008> "NS forest marker set of pulmonary alveolar type 1 cell (Human Lung).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000008> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000204305>))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000009> (NS forest marker set of pulmonary alveolar type 2 cell (Human Lung).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000009> "0.95")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000009> "NS forest marker set of pulmonary alveolar type 2 cell (Human Lung).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000009> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000122852>))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000010> (NS forest marker set of cycling pulmonary alveolar type 2 cell (Human Lung).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000010> "0.61")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000010> "NS forest marker set of cycling pulmonary alveolar type 2 cell (Human Lung).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000010> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000010> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000131747>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000198901>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000242265>)))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000026> (NS forest marker set of bronchial goblet cell (Human Lung).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000026> "0.55")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000026> "NS forest marker set of bronchial goblet cell (Human Lung).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000026> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000026> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000174501>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000197943>)))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000027> (NS forest marker set of nasal mucosa goblet cell (Human Lung).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000027> "0.81")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000027> "NS forest marker set of nasal mucosa goblet cell (Human Lung).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000027> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000027> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000197353>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000215182>)))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000028> (NS forest marker set of bronchial goblet cell (Human Lung).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000028> "0.61")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000028> "NS forest marker set of bronchial goblet cell (Human Lung).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000028> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000028> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000149021>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000255823>)))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000031> (NS forest marker set of lung interstitial macrophage (Human Lung).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000031> "0.46")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000031> "NS forest marker set of lung interstitial macrophage (Human Lung).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000031> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000031> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000010327>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000072694>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000124491>)))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000032> (NS forest marker set of pulmonary ionocyte (Human Lung).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000032> "0.82")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000032> "NS forest marker set of pulmonary ionocyte (Human Lung).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000032> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000032> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000162399>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000176009>)))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000041> (NS forest marker set of ciliated columnar cell of tracheobronchial tree (Human Lung).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000041> "0.86")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000041> "NS forest marker set of ciliated columnar cell of tracheobronchial tree (Human Lung).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000041> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000041> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000166959>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000179902>)))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000043> (NS forest marker set of lung neuroendocrine cell (Human Lung).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000043> "0.94")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000043> "NS forest marker set of lung neuroendocrine cell (Human Lung).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000043> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000043> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000100604>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000134443>)))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000046> (NS forest marker set of pulmonary interstitial fibroblast (Human Lung).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000046> "0.58")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000046> "NS forest marker set of pulmonary interstitial fibroblast (Human Lung).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000046> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000046> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000143196>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000189058>)))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000047> (NS forest marker set of lung pericyte (Human Lung).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000047> "0.84")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000047> "NS forest marker set of lung pericyte (Human Lung).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000047> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000047> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000131097>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000171303>)))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000052> (NS forest marker set of airway submucosal gland collecting duct epithelial cell (Human Lung).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000052> "0.46")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000052> "NS forest marker set of airway submucosal gland collecting duct epithelial cell (Human Lung).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000052> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000052> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000156689>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000187908>)))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000053> (NS forest marker set of mucus secreting cell of bronchus submucosal gland (Human Lung).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000053> "0.93")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000053> "NS forest marker set of mucus secreting cell of bronchus submucosal gland (Human Lung).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000053> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000053> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000078898>))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000054> (NS forest marker set of serous secreting cell of bronchus submucosal gland (Human Lung).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000054> "0.75")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000054> "NS forest marker set of serous secreting cell of bronchus submucosal gland (Human Lung).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000054> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000054> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000111215>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000184530>)))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000056> (NS forest marker set of tracheobronchial smooth muscle cell (Human Lung).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000056> "0.69")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000056> "NS forest marker set of tracheobronchial smooth muscle cell (Human Lung).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000056> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000056> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000107796>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000149591>)))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000059> (NS forest marker set of respiratory suprabasal cell (Human Lung).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000059> "0.62")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000059> "NS forest marker set of respiratory suprabasal cell (Human Lung).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000059> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000059> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000041982>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000171346>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000206073>)))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000061> (NS forest marker set of brush cell of tracheobronchial tree (Human Lung).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000061> "0.56")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000061> "NS forest marker set of brush cell of tracheobronchial tree (Human Lung).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000061> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000061> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000051128>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000118513>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000137709>)))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000062> (NS forest marker set of astrocyte of the cerebral cortex (Human Brain).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000062> "0.957043843")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000062> "NS forest marker set of astrocyte of the cerebral cortex (Human Brain).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000062> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000062> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000234377>))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000063> (NS forest marker set of chandelier pvalb GABAergic cortical interneuron (Human Brain).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000063> "0.799748111")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000063> "NS forest marker set of chandelier pvalb GABAergic cortical interneuron (Human Brain).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000063> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000063> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000174948>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000178538>)))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000064> (NS forest marker set of endothelial cell (Human Brain).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000064> "0.923892465")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000064> "NS forest marker set of endothelial cell (Human Brain).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000064> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000064> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000102755>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000118777>)))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000065> (NS forest marker set of L2/3 intratelencephalic projecting glutamatergic neuron (Human Brain).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000065> "0.670149932")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000065> "NS forest marker set of L2/3 intratelencephalic projecting glutamatergic neuron (Human Brain).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000065> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000065> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000119547>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000204262>)))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000066> (NS forest marker set of L4 intratelencephalic projecting glutamatergic neuron (Human Brain).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000066> "0.720108696")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000066> "NS forest marker set of L4 intratelencephalic projecting glutamatergic neuron (Human Brain).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000066> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000066> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000113532>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000198963>)))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000067> (NS forest marker set of L5 extratelencephalic projecting glutamatergic cortical neuron (Human Brain).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000067> "0.815891473")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000067> "NS forest marker set of L5 extratelencephalic projecting glutamatergic cortical neuron (Human Brain).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000067> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000067> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000124302>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000185668>)))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000068> (NS forest marker set of L5 intratelencephalic projecting glutamatergic neuron (Human Brain).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000068> "0.764261336")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000068> "NS forest marker set of L5 intratelencephalic projecting glutamatergic neuron (Human Brain).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000068> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000068> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000082482>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000180801>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000198963>)))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000069> (NS forest marker set of L5/6 near-projecting glutamatergic neuron (Human Brain).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000069> "0.899288218")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000069> "NS forest marker set of L5/6 near-projecting glutamatergic neuron (Human Brain).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000069> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000069> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000038295>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000197085>)))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000070> (NS forest marker set of L6 corticothalamic-projecting glutamatergic cortical neuron (Human Brain).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000070> "0.631898455")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000070> "NS forest marker set of L6 corticothalamic-projecting glutamatergic cortical neuron (Human Brain).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000070> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000070> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000082684>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000137573>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000178031>)))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000071> (NS forest marker set of L6 intratelencephalic projecting glutamatergic neuron (Human Brain).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000071> "0.641695703")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000071> "NS forest marker set of L6 intratelencephalic projecting glutamatergic neuron (Human Brain).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000071> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000071> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000172673>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000256193>)))
+
+# Class: <http://purl.obolibrary.org/obo/CLM_1000072> (NS forest marker set of L6 intratelencephalic projecting Car3 glutamatergic neuron (Human Brain).)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/CLM_1000072> "0.877752028")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000072> "NS forest marker set of L6 intratelencephalic projecting Car3 glutamatergic neuron (Human Brain).")
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000072> <http://purl.obolibrary.org/obo/SO_0001260>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000072> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000115593>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000172673>)))
+
+# Class: <http://purl.obolibrary.org/obo/CL_0000115> (<http://purl.obolibrary.org/obo/CL_0000115>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_0000115> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_0000115> "The marker set FLT1, ABCG2 can identify the Human cell type endothelial cell in the Brain with a confidence of 0.923892465 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000115> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000064>))
+
 # Class: <http://purl.obolibrary.org/obo/CL_0000583> (<http://purl.obolibrary.org/obo/CL_0000583>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_0000583> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_0000583> "A alveolar macrophage in the Human Lung has the gene markers MSR1, FABP4 with a NS-Forest FBeta value of 0.80.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_0000583> "The marker set MSR1, FABP4 can identify the Human cell type alveolar macrophage in the Lung with a confidence of 0.80 (NS-Forest FBeta value).")
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0000583> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000003>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_0002062> (<http://purl.obolibrary.org/obo/CL_0002062>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_0002062> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_0002062> "The marker set AGER can identify the Human cell type pulmonary alveolar type 1 cell in the Lung with a confidence of 0.85 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0002062> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000008>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_0002063> (<http://purl.obolibrary.org/obo/CL_0002063>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_0002063> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_0002063> "The marker set SFTPA1 can identify the Human cell type pulmonary alveolar type 2 cell in the Lung with a confidence of 0.95 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0002063> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000009>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_0002075> (<http://purl.obolibrary.org/obo/CL_0002075>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_0002075> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_0002075> "The marker set POU2F3, HOMER3, MYB can identify the Human cell type http://purl.obolibrary.org/obo/CL_0002075 in the Lung with a confidence of 0.56 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0002075> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000061>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_0002145> (<http://purl.obolibrary.org/obo/CL_0002145>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_0002145> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_0002145> "The marker set C1orf194, MS4A8 can identify the Human cell type ciliated columnar cell of tracheobronchial tree in the Lung with a confidence of 0.86 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0002145> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000041>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_0002241> (<http://purl.obolibrary.org/obo/CL_0002241>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_0002241> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_0002241> "The marker set DPT, APOD can identify the Human cell type pulmonary interstitial fibroblast in the Lung with a confidence of 0.58 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0002241> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000046>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_0002480> (<http://purl.obolibrary.org/obo/CL_0002480>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_0002480> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_0002480> "The marker set LYPD2, MUC5AC can identify the Human cell type http://purl.obolibrary.org/obo/CL_0002480 in the Lung with a confidence of 0.81 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0002480> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000027>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_0002605> (<http://purl.obolibrary.org/obo/CL_0002605>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_0002605> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_0002605> "The marker set OBI1-AS1 can identify the Human cell type astrocyte of the cerebral cortex in the Brain with a confidence of 0.957043843 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0002605> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000062>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_0009089> (<http://purl.obolibrary.org/obo/CL_0009089>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_0009089> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_0009089> "The marker set HIGD1B, KCNK3 can identify the Human cell type lung pericyte in the Lung with a confidence of 0.84 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0009089> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000047>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_0017000> (<http://purl.obolibrary.org/obo/CL_0017000>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_0017000> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_0017000> "The marker set ASCL3, BSND can identify the Human cell type http://purl.obolibrary.org/obo/CL_0017000 in the Lung with a confidence of 0.82 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0017000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000032>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_0019019> (<http://purl.obolibrary.org/obo/CL_0019019>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_0019019> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_0019019> "The marker set ACTA2, TAGLN can identify the Human cell type tracheobronchial smooth muscle cell in the Lung with a confidence of 0.69 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0019019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000056>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_1000223> (<http://purl.obolibrary.org/obo/CL_1000223>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_1000223> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_1000223> "The marker set CHGA, GRP can identify the Human cell type lung neuroendocrine cell in the Lung with a confidence of 0.94 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_1000223> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000043>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_1000312> (<http://purl.obolibrary.org/obo/CL_1000312>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_1000312> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_1000312> "The marker set MTRNR2L8, SCGB1A1 can identify the Human cell type http://purl.obolibrary.org/obo/CL_1000312 in the Lung with a confidence of 0.61 (NS-Forest FBeta value).")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_1000312> "The marker set PLCG2, ANKRD36C can identify the Human cell type http://purl.obolibrary.org/obo/CL_1000312 in the Lung with a confidence of 0.55 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_1000312> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000026>))
+SubClassOf(<http://purl.obolibrary.org/obo/CL_1000312> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000028>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_4023036> (<http://purl.obolibrary.org/obo/CL_4023036>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_4023036> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4023036> "The marker set GPR149, CA8 can identify the Human cell type chandelier pvalb GABAergic cortical interneuron in the Brain with a confidence of 0.799748111 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_4023036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000063>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_4023041> (<http://purl.obolibrary.org/obo/CL_4023041>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_4023041> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4023041> "The marker set CHST8, POU3F1 can identify the Human cell type L5 extratelencephalic projecting glutamatergic cortical neuron in the Brain with a confidence of 0.815891473 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_4023041> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000067>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_4023042> (<http://purl.obolibrary.org/obo/CL_4023042>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_4023042> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4023042> "The marker set SEMA5B, ADAMTSL1, SULF1 can identify the Human cell type L6 corticothalamic-projecting glutamatergic cortical neuron in the Brain with a confidence of 0.631898455 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_4023042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000070>))
 
 # Class: <http://purl.obolibrary.org/obo/CL_4028004> (<http://purl.obolibrary.org/obo/CL_4028004>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_4028004> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4028004> "A alveolar type 1 fibroblast cell in the Human Lung has the gene markers AOC3, LUM with a NS-Forest FBeta value of 0.70.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4028004> "The marker set AOC3, LUM can identify the Human cell type alveolar type 1 fibroblast cell in the Lung with a confidence of 0.70 (NS-Forest FBeta value).")
 SubClassOf(<http://purl.obolibrary.org/obo/CL_4028004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000002>))
 
 # Class: <http://purl.obolibrary.org/obo/CL_4028006> (<http://purl.obolibrary.org/obo/CL_4028006>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_4028006> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4028006> "A alveolar adventitial fibroblast in the Human Lung has the gene markers SCARA5, CD248 with a NS-Forest FBeta value of 0.85.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4028006> "The marker set SCARA5, CD248 can identify the Human cell type alveolar adventitial fibroblast in the Lung with a confidence of 0.85 (NS-Forest FBeta value).")
 SubClassOf(<http://purl.obolibrary.org/obo/CL_4028006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000001>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_4030059> (<http://purl.obolibrary.org/obo/CL_4030059>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_4030059> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4030059> "The marker set ONECUT2, COL5A2 can identify the Human cell type L2/3 intratelencephalic projecting glutamatergic neuron in the Brain with a confidence of 0.670149932 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_4030059> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000065>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_4030063> (<http://purl.obolibrary.org/obo/CL_4030063>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_4030063> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4030063> "The marker set RORB, ST8SIA4 can identify the Human cell type L4 intratelencephalic projecting glutamatergic neuron in the Brain with a confidence of 0.720108696 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_4030063> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000066>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_4030064> (<http://purl.obolibrary.org/obo/CL_4030064>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_4030064> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4030064> "The marker set ARSJ, RORB, KCNK2 can identify the Human cell type L5 intratelencephalic projecting glutamatergic neuron in the Brain with a confidence of 0.764261336 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_4030064> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000068>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_4030065> (<http://purl.obolibrary.org/obo/CL_4030065>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_4030065> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4030065> "The marker set LINC00507, THEMIS can identify the Human cell type L6 intratelencephalic projecting glutamatergic neuron in the Brain with a confidence of 0.641695703 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_4030065> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000071>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_4030067> (<http://purl.obolibrary.org/obo/CL_4030067>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_4030067> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4030067> "The marker set NPSR1-AS1, TLL1 can identify the Human cell type L5/6 near-projecting glutamatergic neuron in the Brain with a confidence of 0.899288218 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_4030067> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000069>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_4030068> (<http://purl.obolibrary.org/obo/CL_4030068>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_4030068> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4030068> "The marker set SMYD1, THEMIS can identify the Human cell type L6 intratelencephalic projecting Car3 glutamatergic neuron in the Brain with a confidence of 0.877752028 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_4030068> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000072>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_4033005> (<http://purl.obolibrary.org/obo/CL_4033005>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_4033005> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4033005> "The marker set PRR4, C6orf58 can identify the Human cell type serous secreting cell of bronchus submucosal gland in the Lung with a confidence of 0.75 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_4033005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000054>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_4033022> (<http://purl.obolibrary.org/obo/CL_4033022>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_4033022> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4033022> "The marker set BPIFB2 can identify the Human cell type mucus secreting cell of bronchus submucosal gland in the Lung with a confidence of 0.93 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_4033022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000053>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_4033023> (<http://purl.obolibrary.org/obo/CL_4033023>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_4033023> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4033023> "The marker set GLYATL2, DMBT1 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033023 in the Lung with a confidence of 0.46 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_4033023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000052>))
 
 # Class: <http://purl.obolibrary.org/obo/CL_4033041> (<http://purl.obolibrary.org/obo/CL_4033041>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_4033041> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4033041> "A CCL3-positive alveolar macrophage in the Human Lung has the gene markers TNIP3, CXCL5 with a NS-Forest FBeta value of 0.67.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4033041> "The marker set TNIP3, CXCL5 can identify the Human cell type CCL3-positive alveolar macrophage in the Lung with a confidence of 0.67 (NS-Forest FBeta value).")
 SubClassOf(<http://purl.obolibrary.org/obo/CL_4033041> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000004>))
 
 # Class: <http://purl.obolibrary.org/obo/CL_4033042> (<http://purl.obolibrary.org/obo/CL_4033042>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_4033042> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4033042> "A metallothionein-positive alveolar macrophage in the Human Lung has the gene markers HMOX1, HPGD with a NS-Forest FBeta value of 0.41.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4033042> "The marker set HMOX1, HPGD can identify the Human cell type metallothionein-positive alveolar macrophage in the Lung with a confidence of 0.41 (NS-Forest FBeta value).")
 SubClassOf(<http://purl.obolibrary.org/obo/CL_4033042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000005>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_4033043> (<http://purl.obolibrary.org/obo/CL_4033043>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_4033043> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4033043> "The marker set F13A1, STAB1, FCGR2B can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033043 in the Lung with a confidence of 0.46 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_4033043> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000031>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_4033048> (<http://purl.obolibrary.org/obo/CL_4033048>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_4033048> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4033048> "The marker set TNC, KRT15, SERPINB4 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033048 in the Lung with a confidence of 0.62 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_4033048> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000059>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_4033077> (<http://purl.obolibrary.org/obo/CL_4033077>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_4033077> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4033077> "The marker set PCLAF, RRM2, UBE2C, NUSAP1 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033077 in the Lung with a confidence of 0.26 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_4033077> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000006>))
+
+# Class: <http://purl.obolibrary.org/obo/CL_4033080> (<http://purl.obolibrary.org/obo/CL_4033080>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/CL_4033080> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.5281/zenodo.11165918") rdfs:comment <http://purl.obolibrary.org/obo/CL_4033080> "The marker set PEG10, PRC1, TOP2A can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033080 in the Lung with a confidence of 0.61 (NS-Forest FBeta value).")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_4033080> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> <http://purl.obolibrary.org/obo/CLM_1000010>))
 
 
 )

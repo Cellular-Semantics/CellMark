@@ -27,7 +27,7 @@ def process_input_files():
         for file in files:
             full_path = os.path.join(INPUT_FOLDER_PATH, file)
             file_name, file_extension = os.path.splitext(file)
-            source_file_path = os.path.join(MARKERS_FOLDER_PATH, f"{file_name}Source{file_extension}")
+            source_file_path = os.path.join(MARKERS_FOLDER_PATH, f"{file_name}Source.tsv")
             if file_extension in [".csv", ".tsv"] and not os.path.exists(source_file_path):
                 print("Processing: " + file)
                 input_data = read_table_to_dict(full_path)
@@ -102,7 +102,7 @@ def merge_source_files(folder_path, output_path):
         folder_path: Path to the folder containing the source CSV files.
         output_path: Path to the output CSV file.
     """
-    all_files = [os.path.join(folder_path, f) for f in os.listdir(folder_path) if f.endswith('Source.csv')]
+    all_files = [os.path.join(folder_path, f) for f in os.listdir(folder_path) if f.endswith('Source.tsv')]
     combined_df = pd.concat((pd.read_csv(f, engine='python') for f in all_files), ignore_index=True)
     combined_df.to_csv(output_path, index=False)
 

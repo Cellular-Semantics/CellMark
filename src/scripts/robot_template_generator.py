@@ -90,14 +90,15 @@ def generate_kg_indvs_robot_template():
             if row.get("cxg_dataset_title"):
                 cluster_ids = get_cluster_ids(neo_client, row["Cell_type"].strip(), row.get("cxg_dataset_title"))
                 for cluster_id in cluster_ids:
-                    dl.append({
-                        "ID": cluster_id,
-                        "TYPE": "owl:NamedIndividual",
-                        "Cell_type": row["Cell_type"],
-                        "Marker_set": row["Marker_set"],
-                        "Comment": "A {} in the {} {} has the gene markers {} with a NS-Forest FBeta value of {}s.".format(row["Cell_type"], row["Species_abbv"], row["Organ"], ', '.join(row["Minimal_markers_label"].split("|")), row["FBeta_confidence_score"]),
-                        "Species": row["Species"],
-                    })
+                    if cluster_id:
+                        dl.append({
+                            "ID": cluster_id,
+                            "TYPE": "owl:NamedIndividual",
+                            "Cell_type": row["Cell_type"],
+                            "Marker_set": row["Marker_set"],
+                            "Comment": "A {} in the {} {} has the gene markers {} with a NS-Forest FBeta value of {}s.".format(row["Cell_type"], row["Species_abbv"], row["Organ"], ', '.join(row["Minimal_markers_label"].split("|")), row["FBeta_confidence_score"]),
+                            "Species": row["Species"],
+                        })
 
         class_robot_template = pd.DataFrame.from_records(dl)
         class_robot_template.to_csv(CL_KG_TEMPLATE_PATH, sep="\t", index=False)

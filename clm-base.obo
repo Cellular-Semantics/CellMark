@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: clm/releases/2024-10-15/clm-base.owl
+data-version: clm/releases/2024-10-28/clm-base.owl
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
@@ -8,36 +8,212 @@ property_value: dce:type IAO:8000001
 property_value: dcterms:description "None" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/unspecified
 property_value: dcterms:title "Cell Markers Ontology" xsd:string
-property_value: owl:versionInfo "2024-10-15" xsd:string
+property_value: owl:versionInfo "2024-10-28" xsd:string
+
+[Term]
+id: CL:0000115
+comment: The marker set FLT1, ABCG2 can identify the Human cell type endothelial cell in the Brain with a confidence of 0.923892465 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000064 ! has characterizing marker set NS forest marker set of endothelial cell (Human Brain).
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0000583
-comment: A alveolar macrophage in the Human Lung has the gene markers MSR1, FABP4 with a NS-Forest FBeta value of 0.80. {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set MSR1, FABP4 can identify the Human cell type alveolar macrophage in the Lung with a confidence of 0.80 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CLM:1000003 ! has characterizing marker set NS forest marker set of alveolar macrophage (Human Lung).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
+id: CL:0002062
+comment: The marker set AGER can identify the Human cell type pulmonary alveolar type 1 cell in the Lung with a confidence of 0.85 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000008 ! has characterizing marker set NS forest marker set of pulmonary alveolar type 1 cell (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:0002063
+comment: The marker set SFTPA1 can identify the Human cell type pulmonary alveolar type 2 cell in the Lung with a confidence of 0.95 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000009 ! has characterizing marker set NS forest marker set of pulmonary alveolar type 2 cell (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:0002075
+comment: The marker set POU2F3, HOMER3, MYB can identify the Human cell type http://purl.obolibrary.org/obo/CL_0002075 in the Lung with a confidence of 0.56 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000061 ! has characterizing marker set NS forest marker set of brush cell of tracheobronchial tree (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:0002145
+comment: The marker set C1orf194, MS4A8 can identify the Human cell type ciliated columnar cell of tracheobronchial tree in the Lung with a confidence of 0.86 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000041 ! has characterizing marker set NS forest marker set of ciliated columnar cell of tracheobronchial tree (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:0002241
+comment: The marker set DPT, APOD can identify the Human cell type pulmonary interstitial fibroblast in the Lung with a confidence of 0.58 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000046 ! has characterizing marker set NS forest marker set of pulmonary interstitial fibroblast (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:0002480
+comment: The marker set LYPD2, MUC5AC can identify the Human cell type http://purl.obolibrary.org/obo/CL_0002480 in the Lung with a confidence of 0.81 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000027 ! has characterizing marker set NS forest marker set of nasal mucosa goblet cell (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:0002605
+comment: The marker set OBI1-AS1 can identify the Human cell type astrocyte of the cerebral cortex in the Brain with a confidence of 0.957043843 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000062 ! has characterizing marker set NS forest marker set of astrocyte of the cerebral cortex (Human Brain).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:0009089
+comment: The marker set HIGD1B, KCNK3 can identify the Human cell type lung pericyte in the Lung with a confidence of 0.84 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000047 ! has characterizing marker set NS forest marker set of lung pericyte (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:0017000
+comment: The marker set ASCL3, BSND can identify the Human cell type http://purl.obolibrary.org/obo/CL_0017000 in the Lung with a confidence of 0.82 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000032 ! has characterizing marker set NS forest marker set of pulmonary ionocyte (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:0019019
+comment: The marker set ACTA2, TAGLN can identify the Human cell type tracheobronchial smooth muscle cell in the Lung with a confidence of 0.69 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000056 ! has characterizing marker set NS forest marker set of tracheobronchial smooth muscle cell (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:1000223
+comment: The marker set CHGA, GRP can identify the Human cell type lung neuroendocrine cell in the Lung with a confidence of 0.94 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000043 ! has characterizing marker set NS forest marker set of lung neuroendocrine cell (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:1000312
+comment: The marker set MTRNR2L8, SCGB1A1 can identify the Human cell type http://purl.obolibrary.org/obo/CL_1000312 in the Lung with a confidence of 0.61 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set PLCG2, ANKRD36C can identify the Human cell type http://purl.obolibrary.org/obo/CL_1000312 in the Lung with a confidence of 0.55 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000026 ! has characterizing marker set NS forest marker set of bronchial goblet cell (Human Lung).
+relationship: RO:0015004 CLM:1000028 ! has characterizing marker set NS forest marker set of bronchial goblet cell (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4023036
+comment: The marker set GPR149, CA8 can identify the Human cell type chandelier pvalb GABAergic cortical interneuron in the Brain with a confidence of 0.799748111 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000063 ! has characterizing marker set NS forest marker set of chandelier pvalb GABAergic cortical interneuron (Human Brain).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4023041
+comment: The marker set CHST8, POU3F1 can identify the Human cell type L5 extratelencephalic projecting glutamatergic cortical neuron in the Brain with a confidence of 0.815891473 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000067 ! has characterizing marker set NS forest marker set of L5 extratelencephalic projecting glutamatergic cortical neuron (Human Brain).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4023042
+comment: The marker set SEMA5B, ADAMTSL1, SULF1 can identify the Human cell type L6 corticothalamic-projecting glutamatergic cortical neuron in the Brain with a confidence of 0.631898455 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000070 ! has characterizing marker set NS forest marker set of L6 corticothalamic-projecting glutamatergic cortical neuron (Human Brain).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
 id: CL:4028004
-comment: A alveolar type 1 fibroblast cell in the Human Lung has the gene markers AOC3, LUM with a NS-Forest FBeta value of 0.70. {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set AOC3, LUM can identify the Human cell type alveolar type 1 fibroblast cell in the Lung with a confidence of 0.70 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CLM:1000002 ! has characterizing marker set NS forest marker set of alveolar type 1 fibroblast cell (Human Lung).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4028006
-comment: A alveolar adventitial fibroblast in the Human Lung has the gene markers SCARA5, CD248 with a NS-Forest FBeta value of 0.85. {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set SCARA5, CD248 can identify the Human cell type alveolar adventitial fibroblast in the Lung with a confidence of 0.85 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CLM:1000001 ! has characterizing marker set NS forest marker set of alveolar adventitial fibroblast (Human Lung).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
+id: CL:4030059
+comment: The marker set ONECUT2, COL5A2 can identify the Human cell type L2/3 intratelencephalic projecting glutamatergic neuron in the Brain with a confidence of 0.670149932 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000065 ! has characterizing marker set NS forest marker set of L2/3 intratelencephalic projecting glutamatergic neuron (Human Brain).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4030063
+comment: The marker set RORB, ST8SIA4 can identify the Human cell type L4 intratelencephalic projecting glutamatergic neuron in the Brain with a confidence of 0.720108696 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000066 ! has characterizing marker set NS forest marker set of L4 intratelencephalic projecting glutamatergic neuron (Human Brain).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4030064
+comment: The marker set ARSJ, RORB, KCNK2 can identify the Human cell type L5 intratelencephalic projecting glutamatergic neuron in the Brain with a confidence of 0.764261336 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000068 ! has characterizing marker set NS forest marker set of L5 intratelencephalic projecting glutamatergic neuron (Human Brain).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4030065
+comment: The marker set LINC00507, THEMIS can identify the Human cell type L6 intratelencephalic projecting glutamatergic neuron in the Brain with a confidence of 0.641695703 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000071 ! has characterizing marker set NS forest marker set of L6 intratelencephalic projecting glutamatergic neuron (Human Brain).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4030067
+comment: The marker set NPSR1-AS1, TLL1 can identify the Human cell type L5/6 near-projecting glutamatergic neuron in the Brain with a confidence of 0.899288218 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000069 ! has characterizing marker set NS forest marker set of L5/6 near-projecting glutamatergic neuron (Human Brain).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4030068
+comment: The marker set SMYD1, THEMIS can identify the Human cell type L6 intratelencephalic projecting Car3 glutamatergic neuron in the Brain with a confidence of 0.877752028 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000072 ! has characterizing marker set NS forest marker set of L6 intratelencephalic projecting Car3 glutamatergic neuron (Human Brain).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4033005
+comment: The marker set PRR4, C6orf58 can identify the Human cell type serous secreting cell of bronchus submucosal gland in the Lung with a confidence of 0.75 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000054 ! has characterizing marker set NS forest marker set of serous secreting cell of bronchus submucosal gland (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4033022
+comment: The marker set BPIFB2 can identify the Human cell type mucus secreting cell of bronchus submucosal gland in the Lung with a confidence of 0.93 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000053 ! has characterizing marker set NS forest marker set of mucus secreting cell of bronchus submucosal gland (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4033023
+comment: The marker set GLYATL2, DMBT1 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033023 in the Lung with a confidence of 0.46 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000052 ! has characterizing marker set NS forest marker set of airway submucosal gland collecting duct epithelial cell (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
 id: CL:4033041
-comment: A CCL3-positive alveolar macrophage in the Human Lung has the gene markers TNIP3, CXCL5 with a NS-Forest FBeta value of 0.67. {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set TNIP3, CXCL5 can identify the Human cell type CCL3-positive alveolar macrophage in the Lung with a confidence of 0.67 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CLM:1000004 ! has characterizing marker set NS forest marker set of CCL3-positive alveolar macrophage (Human Lung).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4033042
-comment: A metallothionein-positive alveolar macrophage in the Human Lung has the gene markers HMOX1, HPGD with a NS-Forest FBeta value of 0.41. {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set HMOX1, HPGD can identify the Human cell type metallothionein-positive alveolar macrophage in the Lung with a confidence of 0.41 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CLM:1000005 ! has characterizing marker set NS forest marker set of metallothionein-positive alveolar macrophage (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4033043
+comment: The marker set F13A1, STAB1, FCGR2B can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033043 in the Lung with a confidence of 0.46 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000031 ! has characterizing marker set NS forest marker set of lung interstitial macrophage (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4033048
+comment: The marker set TNC, KRT15, SERPINB4 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033048 in the Lung with a confidence of 0.62 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000059 ! has characterizing marker set NS forest marker set of respiratory suprabasal cell (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4033077
+comment: The marker set PCLAF, RRM2, UBE2C, NUSAP1 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033077 in the Lung with a confidence of 0.26 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000006 ! has characterizing marker set NS forest marker set of cycling alveolar macrophage (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4033080
+comment: The marker set PEG10, PRC1, TOP2A can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033080 in the Lung with a confidence of 0.61 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000010 ! has characterizing marker set NS forest marker set of cycling pulmonary alveolar type 2 cell (Human Lung).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
@@ -79,6 +255,250 @@ is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000100292
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000164120
 property_value: PCL:0010062 "0.41" xsd:string
+
+[Term]
+id: CLM:1000006
+name: NS forest marker set of cycling alveolar macrophage (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137804
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000166803
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000171848
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000175063
+property_value: PCL:0010062 "0.26" xsd:string
+
+[Term]
+id: CLM:1000008
+name: NS forest marker set of pulmonary alveolar type 1 cell (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000204305
+property_value: PCL:0010062 "0.85" xsd:string
+
+[Term]
+id: CLM:1000009
+name: NS forest marker set of pulmonary alveolar type 2 cell (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000122852
+property_value: PCL:0010062 "0.95" xsd:string
+
+[Term]
+id: CLM:1000010
+name: NS forest marker set of cycling pulmonary alveolar type 2 cell (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000131747
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000198901
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000242265
+property_value: PCL:0010062 "0.61" xsd:string
+
+[Term]
+id: CLM:1000026
+name: NS forest marker set of bronchial goblet cell (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000174501
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000197943
+property_value: PCL:0010062 "0.55" xsd:string
+
+[Term]
+id: CLM:1000027
+name: NS forest marker set of nasal mucosa goblet cell (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000197353
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000215182
+property_value: PCL:0010062 "0.81" xsd:string
+
+[Term]
+id: CLM:1000028
+name: NS forest marker set of bronchial goblet cell (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000149021
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000255823
+property_value: PCL:0010062 "0.61" xsd:string
+
+[Term]
+id: CLM:1000031
+name: NS forest marker set of lung interstitial macrophage (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000010327
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000072694
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000124491
+property_value: PCL:0010062 "0.46" xsd:string
+
+[Term]
+id: CLM:1000032
+name: NS forest marker set of pulmonary ionocyte (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000162399
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000176009
+property_value: PCL:0010062 "0.82" xsd:string
+
+[Term]
+id: CLM:1000041
+name: NS forest marker set of ciliated columnar cell of tracheobronchial tree (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000166959
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000179902
+property_value: PCL:0010062 "0.86" xsd:string
+
+[Term]
+id: CLM:1000043
+name: NS forest marker set of lung neuroendocrine cell (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000100604
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000134443
+property_value: PCL:0010062 "0.94" xsd:string
+
+[Term]
+id: CLM:1000046
+name: NS forest marker set of pulmonary interstitial fibroblast (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000143196
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000189058
+property_value: PCL:0010062 "0.58" xsd:string
+
+[Term]
+id: CLM:1000047
+name: NS forest marker set of lung pericyte (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000131097
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000171303
+property_value: PCL:0010062 "0.84" xsd:string
+
+[Term]
+id: CLM:1000052
+name: NS forest marker set of airway submucosal gland collecting duct epithelial cell (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000156689
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000187908
+property_value: PCL:0010062 "0.46" xsd:string
+
+[Term]
+id: CLM:1000053
+name: NS forest marker set of mucus secreting cell of bronchus submucosal gland (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000078898
+property_value: PCL:0010062 "0.93" xsd:string
+
+[Term]
+id: CLM:1000054
+name: NS forest marker set of serous secreting cell of bronchus submucosal gland (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000111215
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000184530
+property_value: PCL:0010062 "0.75" xsd:string
+
+[Term]
+id: CLM:1000056
+name: NS forest marker set of tracheobronchial smooth muscle cell (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000107796
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000149591
+property_value: PCL:0010062 "0.69" xsd:string
+
+[Term]
+id: CLM:1000059
+name: NS forest marker set of respiratory suprabasal cell (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000041982
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000171346
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000206073
+property_value: PCL:0010062 "0.62" xsd:string
+
+[Term]
+id: CLM:1000061
+name: NS forest marker set of brush cell of tracheobronchial tree (Human Lung).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000051128
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000118513
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137709
+property_value: PCL:0010062 "0.56" xsd:string
+
+[Term]
+id: CLM:1000062
+name: NS forest marker set of astrocyte of the cerebral cortex (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000234377
+property_value: PCL:0010062 "0.957043843" xsd:string
+
+[Term]
+id: CLM:1000063
+name: NS forest marker set of chandelier pvalb GABAergic cortical interneuron (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000174948
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000178538
+property_value: PCL:0010062 "0.799748111" xsd:string
+
+[Term]
+id: CLM:1000064
+name: NS forest marker set of endothelial cell (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000102755
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000118777
+property_value: PCL:0010062 "0.923892465" xsd:string
+
+[Term]
+id: CLM:1000065
+name: NS forest marker set of L2/3 intratelencephalic projecting glutamatergic neuron (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000119547
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000204262
+property_value: PCL:0010062 "0.670149932" xsd:string
+
+[Term]
+id: CLM:1000066
+name: NS forest marker set of L4 intratelencephalic projecting glutamatergic neuron (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000113532
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000198963
+property_value: PCL:0010062 "0.720108696" xsd:string
+
+[Term]
+id: CLM:1000067
+name: NS forest marker set of L5 extratelencephalic projecting glutamatergic cortical neuron (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000124302
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000185668
+property_value: PCL:0010062 "0.815891473" xsd:string
+
+[Term]
+id: CLM:1000068
+name: NS forest marker set of L5 intratelencephalic projecting glutamatergic neuron (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000082482
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000180801
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000198963
+property_value: PCL:0010062 "0.764261336" xsd:string
+
+[Term]
+id: CLM:1000069
+name: NS forest marker set of L5/6 near-projecting glutamatergic neuron (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000038295
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000197085
+property_value: PCL:0010062 "0.899288218" xsd:string
+
+[Term]
+id: CLM:1000070
+name: NS forest marker set of L6 corticothalamic-projecting glutamatergic cortical neuron (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000082684
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137573
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000178031
+property_value: PCL:0010062 "0.631898455" xsd:string
+
+[Term]
+id: CLM:1000071
+name: NS forest marker set of L6 intratelencephalic projecting glutamatergic neuron (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000172673
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000256193
+property_value: PCL:0010062 "0.641695703" xsd:string
+
+[Term]
+id: CLM:1000072
+name: NS forest marker set of L6 intratelencephalic projecting Car3 glutamatergic neuron (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000115593
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000172673
+property_value: PCL:0010062 "0.877752028" xsd:string
 
 [Term]
 id: SO:0001260
