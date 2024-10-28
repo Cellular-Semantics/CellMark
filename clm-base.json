@@ -16,24 +16,117 @@
         "val" : "Cell Markers Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2024-10-15"
+        "val" : "2024-10-28"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/clm/releases/2024-10-15/clm-base.json"
+      "version" : "http://purl.obolibrary.org/obo/clm/releases/2024-10-28/clm-base.json"
     },
     "nodes" : [ {
+      "id" : "http://identifiers.org/ensembl/ENSG00000010327",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000038295",
+      "type" : "CLASS"
+    }, {
       "id" : "http://identifiers.org/ensembl/ENSG00000038945",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000041982",
       "type" : "CLASS"
     }, {
       "id" : "http://identifiers.org/ensembl/ENSG00000050730",
       "type" : "CLASS"
     }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000051128",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000072694",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000078898",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000082482",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000082684",
+      "type" : "CLASS"
+    }, {
       "id" : "http://identifiers.org/ensembl/ENSG00000100292",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000100604",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000102755",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000107796",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000111215",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000113532",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000115593",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000118513",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000118777",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000119547",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000122852",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000124302",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000124491",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000131097",
       "type" : "CLASS"
     }, {
       "id" : "http://identifiers.org/ensembl/ENSG00000131471",
       "type" : "CLASS"
     }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000131747",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000134443",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000137573",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000137709",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000137804",
+      "type" : "CLASS"
+    }, {
       "id" : "http://identifiers.org/ensembl/ENSG00000139329",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000143196",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000149021",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000149591",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000156689",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000162399",
       "type" : "CLASS"
     }, {
       "id" : "http://identifiers.org/ensembl/ENSG00000163735",
@@ -42,13 +135,106 @@
       "id" : "http://identifiers.org/ensembl/ENSG00000164120",
       "type" : "CLASS"
     }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000166803",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000166959",
+      "type" : "CLASS"
+    }, {
       "id" : "http://identifiers.org/ensembl/ENSG00000168079",
       "type" : "CLASS"
     }, {
       "id" : "http://identifiers.org/ensembl/ENSG00000170323",
       "type" : "CLASS"
     }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000171303",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000171346",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000171848",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000172673",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000174501",
+      "type" : "CLASS"
+    }, {
       "id" : "http://identifiers.org/ensembl/ENSG00000174807",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000174948",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000175063",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000176009",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000178031",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000178538",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000179902",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000180801",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000184530",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000185668",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000187908",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000189058",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000197085",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000197353",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000197943",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000198901",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000198963",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000204262",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000204305",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000206073",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000215182",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000234377",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000242265",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000255823",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ensembl/ENSG00000256193",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000001",
@@ -101,10 +287,470 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000006",
+      "lbl" : "NS forest marker set of cycling alveolar macrophage (Human Lung).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.26"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000008",
+      "lbl" : "NS forest marker set of pulmonary alveolar type 1 cell (Human Lung).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.85"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000009",
+      "lbl" : "NS forest marker set of pulmonary alveolar type 2 cell (Human Lung).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.95"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000010",
+      "lbl" : "NS forest marker set of cycling pulmonary alveolar type 2 cell (Human Lung).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.61"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000026",
+      "lbl" : "NS forest marker set of bronchial goblet cell (Human Lung).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.55"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000027",
+      "lbl" : "NS forest marker set of nasal mucosa goblet cell (Human Lung).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.81"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000028",
+      "lbl" : "NS forest marker set of bronchial goblet cell (Human Lung).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.61"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000031",
+      "lbl" : "NS forest marker set of lung interstitial macrophage (Human Lung).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.46"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000032",
+      "lbl" : "NS forest marker set of pulmonary ionocyte (Human Lung).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.82"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000041",
+      "lbl" : "NS forest marker set of ciliated columnar cell of tracheobronchial tree (Human Lung).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.86"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000043",
+      "lbl" : "NS forest marker set of lung neuroendocrine cell (Human Lung).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.94"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000046",
+      "lbl" : "NS forest marker set of pulmonary interstitial fibroblast (Human Lung).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.58"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000047",
+      "lbl" : "NS forest marker set of lung pericyte (Human Lung).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.84"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000052",
+      "lbl" : "NS forest marker set of airway submucosal gland collecting duct epithelial cell (Human Lung).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.46"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000053",
+      "lbl" : "NS forest marker set of mucus secreting cell of bronchus submucosal gland (Human Lung).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.93"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000054",
+      "lbl" : "NS forest marker set of serous secreting cell of bronchus submucosal gland (Human Lung).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.75"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000056",
+      "lbl" : "NS forest marker set of tracheobronchial smooth muscle cell (Human Lung).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.69"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000059",
+      "lbl" : "NS forest marker set of respiratory suprabasal cell (Human Lung).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.62"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000061",
+      "lbl" : "NS forest marker set of brush cell of tracheobronchial tree (Human Lung).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.56"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000062",
+      "lbl" : "NS forest marker set of astrocyte of the cerebral cortex (Human Brain).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.957043843"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000063",
+      "lbl" : "NS forest marker set of chandelier pvalb GABAergic cortical interneuron (Human Brain).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.799748111"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000064",
+      "lbl" : "NS forest marker set of endothelial cell (Human Brain).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.923892465"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000065",
+      "lbl" : "NS forest marker set of L2/3 intratelencephalic projecting glutamatergic neuron (Human Brain).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.670149932"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000066",
+      "lbl" : "NS forest marker set of L4 intratelencephalic projecting glutamatergic neuron (Human Brain).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.720108696"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000067",
+      "lbl" : "NS forest marker set of L5 extratelencephalic projecting glutamatergic cortical neuron (Human Brain).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.815891473"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000068",
+      "lbl" : "NS forest marker set of L5 intratelencephalic projecting glutamatergic neuron (Human Brain).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.764261336"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000069",
+      "lbl" : "NS forest marker set of L5/6 near-projecting glutamatergic neuron (Human Brain).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.899288218"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000070",
+      "lbl" : "NS forest marker set of L6 corticothalamic-projecting glutamatergic cortical neuron (Human Brain).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.631898455"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000071",
+      "lbl" : "NS forest marker set of L6 intratelencephalic projecting glutamatergic neuron (Human Brain).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.641695703"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1000072",
+      "lbl" : "NS forest marker set of L6 intratelencephalic projecting Car3 glutamatergic neuron (Human Brain).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "val" : "0.877752028"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000115",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set FLT1, ABCG2 can identify the Human cell type endothelial cell in the Brain with a confidence of 0.923892465 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CL_0000583",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "A alveolar macrophage in the Human Lung has the gene markers MSR1, FABP4 with a NS-Forest FBeta value of 0.80." ],
+        "comments" : [ "The marker set MSR1, FABP4 can identify the Human cell type alveolar macrophage in the Lung with a confidence of 0.80 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0002062",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set AGER can identify the Human cell type pulmonary alveolar type 1 cell in the Lung with a confidence of 0.85 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0002063",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set SFTPA1 can identify the Human cell type pulmonary alveolar type 2 cell in the Lung with a confidence of 0.95 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0002075",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set POU2F3, HOMER3, MYB can identify the Human cell type http://purl.obolibrary.org/obo/CL_0002075 in the Lung with a confidence of 0.56 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0002145",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set C1orf194, MS4A8 can identify the Human cell type ciliated columnar cell of tracheobronchial tree in the Lung with a confidence of 0.86 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0002241",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set DPT, APOD can identify the Human cell type pulmonary interstitial fibroblast in the Lung with a confidence of 0.58 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0002480",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set LYPD2, MUC5AC can identify the Human cell type http://purl.obolibrary.org/obo/CL_0002480 in the Lung with a confidence of 0.81 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0002605",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set OBI1-AS1 can identify the Human cell type astrocyte of the cerebral cortex in the Brain with a confidence of 0.957043843 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0009089",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set HIGD1B, KCNK3 can identify the Human cell type lung pericyte in the Lung with a confidence of 0.84 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0017000",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set ASCL3, BSND can identify the Human cell type http://purl.obolibrary.org/obo/CL_0017000 in the Lung with a confidence of 0.82 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0019019",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set ACTA2, TAGLN can identify the Human cell type tracheobronchial smooth muscle cell in the Lung with a confidence of 0.69 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_1000223",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set CHGA, GRP can identify the Human cell type lung neuroendocrine cell in the Lung with a confidence of 0.94 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_1000312",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set MTRNR2L8, SCGB1A1 can identify the Human cell type http://purl.obolibrary.org/obo/CL_1000312 in the Lung with a confidence of 0.61 (NS-Forest FBeta value).", "The marker set PLCG2, ANKRD36C can identify the Human cell type http://purl.obolibrary.org/obo/CL_1000312 in the Lung with a confidence of 0.55 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_4023036",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set GPR149, CA8 can identify the Human cell type chandelier pvalb GABAergic cortical interneuron in the Brain with a confidence of 0.799748111 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_4023041",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set CHST8, POU3F1 can identify the Human cell type L5 extratelencephalic projecting glutamatergic cortical neuron in the Brain with a confidence of 0.815891473 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_4023042",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set SEMA5B, ADAMTSL1, SULF1 can identify the Human cell type L6 corticothalamic-projecting glutamatergic cortical neuron in the Brain with a confidence of 0.631898455 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -114,7 +760,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4028004",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "A alveolar type 1 fibroblast cell in the Human Lung has the gene markers AOC3, LUM with a NS-Forest FBeta value of 0.70." ],
+        "comments" : [ "The marker set AOC3, LUM can identify the Human cell type alveolar type 1 fibroblast cell in the Lung with a confidence of 0.70 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -124,7 +770,97 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4028006",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "A alveolar adventitial fibroblast in the Human Lung has the gene markers SCARA5, CD248 with a NS-Forest FBeta value of 0.85." ],
+        "comments" : [ "The marker set SCARA5, CD248 can identify the Human cell type alveolar adventitial fibroblast in the Lung with a confidence of 0.85 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_4030059",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set ONECUT2, COL5A2 can identify the Human cell type L2/3 intratelencephalic projecting glutamatergic neuron in the Brain with a confidence of 0.670149932 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_4030063",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set RORB, ST8SIA4 can identify the Human cell type L4 intratelencephalic projecting glutamatergic neuron in the Brain with a confidence of 0.720108696 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_4030064",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set ARSJ, RORB, KCNK2 can identify the Human cell type L5 intratelencephalic projecting glutamatergic neuron in the Brain with a confidence of 0.764261336 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_4030065",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set LINC00507, THEMIS can identify the Human cell type L6 intratelencephalic projecting glutamatergic neuron in the Brain with a confidence of 0.641695703 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_4030067",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set NPSR1-AS1, TLL1 can identify the Human cell type L5/6 near-projecting glutamatergic neuron in the Brain with a confidence of 0.899288218 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_4030068",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set SMYD1, THEMIS can identify the Human cell type L6 intratelencephalic projecting Car3 glutamatergic neuron in the Brain with a confidence of 0.877752028 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_4033005",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set PRR4, C6orf58 can identify the Human cell type serous secreting cell of bronchus submucosal gland in the Lung with a confidence of 0.75 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_4033022",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set BPIFB2 can identify the Human cell type mucus secreting cell of bronchus submucosal gland in the Lung with a confidence of 0.93 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_4033023",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set GLYATL2, DMBT1 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033023 in the Lung with a confidence of 0.46 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -134,7 +870,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4033041",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "A CCL3-positive alveolar macrophage in the Human Lung has the gene markers TNIP3, CXCL5 with a NS-Forest FBeta value of 0.67." ],
+        "comments" : [ "The marker set TNIP3, CXCL5 can identify the Human cell type CCL3-positive alveolar macrophage in the Lung with a confidence of 0.67 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -144,7 +880,47 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4033042",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "A metallothionein-positive alveolar macrophage in the Human Lung has the gene markers HMOX1, HPGD with a NS-Forest FBeta value of 0.41." ],
+        "comments" : [ "The marker set HMOX1, HPGD can identify the Human cell type metallothionein-positive alveolar macrophage in the Lung with a confidence of 0.41 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_4033043",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set F13A1, STAB1, FCGR2B can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033043 in the Lung with a confidence of 0.46 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_4033048",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set TNC, KRT15, SERPINB4 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033048 in the Lung with a confidence of 0.62 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_4033077",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set PCLAF, RRM2, UBE2C, NUSAP1 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033077 in the Lung with a confidence of 0.26 (NS-Forest FBeta value)." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_4033080",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "The marker set PEG10, PRC1, TOP2A can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033080 in the Lung with a confidence of 0.61 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -216,9 +992,213 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000008",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
+      "obj" : "http://identifiers.org/ensembl/ENSG00000204305"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000009",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000009",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
+      "obj" : "http://identifiers.org/ensembl/ENSG00000122852"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000010",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000026",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000027",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000028",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000031",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000032",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000041",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000043",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000046",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000047",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000052",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000053",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000053",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
+      "obj" : "http://identifiers.org/ensembl/ENSG00000078898"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000054",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000056",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000059",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000061",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000062",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000062",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
+      "obj" : "http://identifiers.org/ensembl/ENSG00000234377"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000063",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000064",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000065",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000066",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000067",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000068",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000069",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000070",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000071",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_1000072",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000115",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000064"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_0000583",
       "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
       "obj" : "http://purl.obolibrary.org/obo/CLM_1000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0002062",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000008"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0002063",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0002075",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000061"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0002145",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000041"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0002241",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000046"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0002480",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000027"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0002605",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000062"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0009089",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000047"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0017000",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000032"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0019019",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000056"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_1000223",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000043"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_1000312",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000026"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_1000312",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000028"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_4023036",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000063"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_4023041",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000067"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_4023042",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000070"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_4028004",
       "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
@@ -228,6 +1208,42 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
       "obj" : "http://purl.obolibrary.org/obo/CLM_1000001"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_4030059",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000065"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_4030063",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000066"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_4030064",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000068"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_4030065",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000071"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_4030067",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000069"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_4030068",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000072"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_4033005",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_4033022",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000053"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_4033023",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000052"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_4033041",
       "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
       "obj" : "http://purl.obolibrary.org/obo/CLM_1000004"
@@ -235,6 +1251,22 @@
       "sub" : "http://purl.obolibrary.org/obo/CL_4033042",
       "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
       "obj" : "http://purl.obolibrary.org/obo/CLM_1000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_4033043",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000031"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_4033048",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000059"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_4033077",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_4033080",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "obj" : "http://purl.obolibrary.org/obo/CLM_1000010"
     } ]
   } ]
 }
