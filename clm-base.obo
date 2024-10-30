@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: clm/releases/2024-10-28/clm-base.owl
+data-version: clm/releases/2024-10-30/clm-base.owl
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
@@ -8,7 +8,7 @@ property_value: dce:type IAO:8000001
 property_value: dcterms:description "None" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/unspecified
 property_value: dcterms:title "Cell Markers Ontology" xsd:string
-property_value: owl:versionInfo "2024-10-28" xsd:string
+property_value: owl:versionInfo "2024-10-30" xsd:string
 
 [Term]
 id: CL:0000115
@@ -36,7 +36,7 @@ property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0002075
-comment: The marker set POU2F3, HOMER3, MYB can identify the Human cell type http://purl.obolibrary.org/obo/CL_0002075 in the Lung with a confidence of 0.56 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set POU2F3, HOMER3, MYB can identify the Human cell type brush cell of tracheobronchial tree in the Lung with a confidence of 0.56 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CLM:1000061 ! has characterizing marker set NS forest marker set of brush cell of tracheobronchial tree (Human Lung).
 property_value: RO:0002175 NCBITaxon:9606
 
@@ -54,7 +54,7 @@ property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0002480
-comment: The marker set LYPD2, MUC5AC can identify the Human cell type http://purl.obolibrary.org/obo/CL_0002480 in the Lung with a confidence of 0.81 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set LYPD2, MUC5AC can identify the Human cell type nasal mucosa goblet cell in the Lung with a confidence of 0.81 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CLM:1000027 ! has characterizing marker set NS forest marker set of nasal mucosa goblet cell (Human Lung).
 property_value: RO:0002175 NCBITaxon:9606
 
@@ -72,7 +72,7 @@ property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:0017000
-comment: The marker set ASCL3, BSND can identify the Human cell type http://purl.obolibrary.org/obo/CL_0017000 in the Lung with a confidence of 0.82 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set ASCL3, BSND can identify the Human cell type pulmonary ionocyte in the Lung with a confidence of 0.82 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CLM:1000032 ! has characterizing marker set NS forest marker set of pulmonary ionocyte (Human Lung).
 property_value: RO:0002175 NCBITaxon:9606
 
@@ -90,8 +90,8 @@ property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:1000312
-comment: The marker set MTRNR2L8, SCGB1A1 can identify the Human cell type http://purl.obolibrary.org/obo/CL_1000312 in the Lung with a confidence of 0.61 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
-comment: The marker set PLCG2, ANKRD36C can identify the Human cell type http://purl.obolibrary.org/obo/CL_1000312 in the Lung with a confidence of 0.55 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set MTRNR2L8, SCGB1A1 can identify the Human cell type bronchial goblet cell in the Lung with a confidence of 0.61 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set PLCG2, ANKRD36C can identify the Human cell type bronchial goblet cell in the Lung with a confidence of 0.55 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CLM:1000026 ! has characterizing marker set NS forest marker set of bronchial goblet cell (Human Lung).
 relationship: RO:0015004 CLM:1000028 ! has characterizing marker set NS forest marker set of bronchial goblet cell (Human Lung).
 property_value: RO:0002175 NCBITaxon:9606
@@ -176,7 +176,7 @@ property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4033023
-comment: The marker set GLYATL2, DMBT1 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033023 in the Lung with a confidence of 0.46 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set GLYATL2, DMBT1 can identify the Human cell type airway submucosal gland collecting duct epithelial cell in the Lung with a confidence of 0.46 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CLM:1000052 ! has characterizing marker set NS forest marker set of airway submucosal gland collecting duct epithelial cell (Human Lung).
 property_value: RO:0002175 NCBITaxon:9606
 
@@ -194,25 +194,25 @@ property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4033043
-comment: The marker set F13A1, STAB1, FCGR2B can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033043 in the Lung with a confidence of 0.46 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set F13A1, STAB1, FCGR2B can identify the Human cell type lung interstitial macrophage in the Lung with a confidence of 0.46 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CLM:1000031 ! has characterizing marker set NS forest marker set of lung interstitial macrophage (Human Lung).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4033048
-comment: The marker set TNC, KRT15, SERPINB4 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033048 in the Lung with a confidence of 0.62 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set TNC, KRT15, SERPINB4 can identify the Human cell type respiratory suprabasal cell in the Lung with a confidence of 0.62 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CLM:1000059 ! has characterizing marker set NS forest marker set of respiratory suprabasal cell (Human Lung).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4033077
-comment: The marker set PCLAF, RRM2, UBE2C, NUSAP1 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033077 in the Lung with a confidence of 0.26 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set PCLAF, RRM2, UBE2C, NUSAP1 can identify the Human cell type cycling alveolar macrophage in the Lung with a confidence of 0.26 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CLM:1000006 ! has characterizing marker set NS forest marker set of cycling alveolar macrophage (Human Lung).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4033080
-comment: The marker set PEG10, PRC1, TOP2A can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033080 in the Lung with a confidence of 0.61 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set PEG10, PRC1, TOP2A can identify the Human cell type cycling pulmonary alveolar type 2 cell in the Lung with a confidence of 0.61 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CLM:1000010 ! has characterizing marker set NS forest marker set of cycling pulmonary alveolar type 2 cell (Human Lung).
 property_value: RO:0002175 NCBITaxon:9606
 

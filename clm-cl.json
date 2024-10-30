@@ -754,10 +754,10 @@
           },
           {
             "pred": "http://www.w3.org/2002/07/owl#versionInfo",
-            "val": "2024-10-28"
+            "val": "2024-10-30"
           }
         ],
-        "version": "http://purl.obolibrary.org/obo/clm/releases/2024-10-28/clm-cl.json"
+        "version": "http://purl.obolibrary.org/obo/clm/releases/2024-10-30/clm-cl.json"
       },
       "nodes": [
         {
@@ -1674,7 +1674,7 @@
               }
             ],
             "comments": [
-              "The marker set POU2F3, HOMER3, MYB can identify the Human cell type http://purl.obolibrary.org/obo/CL_0002075 in the Lung with a confidence of 0.56 (NS-Forest FBeta value)."
+              "The marker set POU2F3, HOMER3, MYB can identify the Human cell type brush cell of tracheobronchial tree in the Lung with a confidence of 0.56 (NS-Forest FBeta value)."
             ]
           },
           "type": "CLASS"
@@ -1719,7 +1719,7 @@
               }
             ],
             "comments": [
-              "The marker set LYPD2, MUC5AC can identify the Human cell type http://purl.obolibrary.org/obo/CL_0002480 in the Lung with a confidence of 0.81 (NS-Forest FBeta value)."
+              "The marker set LYPD2, MUC5AC can identify the Human cell type nasal mucosa goblet cell in the Lung with a confidence of 0.81 (NS-Forest FBeta value)."
             ]
           },
           "type": "CLASS"
@@ -1764,7 +1764,7 @@
               }
             ],
             "comments": [
-              "The marker set ASCL3, BSND can identify the Human cell type http://purl.obolibrary.org/obo/CL_0017000 in the Lung with a confidence of 0.82 (NS-Forest FBeta value)."
+              "The marker set ASCL3, BSND can identify the Human cell type pulmonary ionocyte in the Lung with a confidence of 0.82 (NS-Forest FBeta value)."
             ]
           },
           "type": "CLASS"
@@ -1809,8 +1809,8 @@
               }
             ],
             "comments": [
-              "The marker set MTRNR2L8, SCGB1A1 can identify the Human cell type http://purl.obolibrary.org/obo/CL_1000312 in the Lung with a confidence of 0.61 (NS-Forest FBeta value).",
-              "The marker set PLCG2, ANKRD36C can identify the Human cell type http://purl.obolibrary.org/obo/CL_1000312 in the Lung with a confidence of 0.55 (NS-Forest FBeta value)."
+              "The marker set MTRNR2L8, SCGB1A1 can identify the Human cell type bronchial goblet cell in the Lung with a confidence of 0.61 (NS-Forest FBeta value).",
+              "The marker set PLCG2, ANKRD36C can identify the Human cell type bronchial goblet cell in the Lung with a confidence of 0.55 (NS-Forest FBeta value)."
             ]
           },
           "type": "CLASS"
@@ -2020,7 +2020,7 @@
               }
             ],
             "comments": [
-              "The marker set GLYATL2, DMBT1 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033023 in the Lung with a confidence of 0.46 (NS-Forest FBeta value)."
+              "The marker set GLYATL2, DMBT1 can identify the Human cell type airway submucosal gland collecting duct epithelial cell in the Lung with a confidence of 0.46 (NS-Forest FBeta value)."
             ]
           },
           "type": "CLASS"
@@ -2065,7 +2065,7 @@
               }
             ],
             "comments": [
-              "The marker set F13A1, STAB1, FCGR2B can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033043 in the Lung with a confidence of 0.46 (NS-Forest FBeta value)."
+              "The marker set F13A1, STAB1, FCGR2B can identify the Human cell type lung interstitial macrophage in the Lung with a confidence of 0.46 (NS-Forest FBeta value)."
             ]
           },
           "type": "CLASS"
@@ -2080,7 +2080,7 @@
               }
             ],
             "comments": [
-              "The marker set TNC, KRT15, SERPINB4 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033048 in the Lung with a confidence of 0.62 (NS-Forest FBeta value)."
+              "The marker set TNC, KRT15, SERPINB4 can identify the Human cell type respiratory suprabasal cell in the Lung with a confidence of 0.62 (NS-Forest FBeta value)."
             ]
           },
           "type": "CLASS"
@@ -2095,7 +2095,7 @@
               }
             ],
             "comments": [
-              "The marker set PCLAF, RRM2, UBE2C, NUSAP1 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033077 in the Lung with a confidence of 0.26 (NS-Forest FBeta value)."
+              "The marker set PCLAF, RRM2, UBE2C, NUSAP1 can identify the Human cell type cycling alveolar macrophage in the Lung with a confidence of 0.26 (NS-Forest FBeta value)."
             ]
           },
           "type": "CLASS"
@@ -2110,7 +2110,7 @@
               }
             ],
             "comments": [
-              "The marker set PEG10, PRC1, TOP2A can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033080 in the Lung with a confidence of 0.61 (NS-Forest FBeta value)."
+              "The marker set PEG10, PRC1, TOP2A can identify the Human cell type cycling pulmonary alveolar type 2 cell in the Lung with a confidence of 0.61 (NS-Forest FBeta value)."
             ]
           },
           "type": "CLASS"

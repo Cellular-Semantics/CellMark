@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2024-10-28
+data-version: releases/2024-10-30
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
@@ -7,7 +7,7 @@ ontology: clm
 property_value: dcterms:description "None" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/unspecified
 property_value: dcterms:title "Cell Markers Ontology" xsd:string
-property_value: owl:versionInfo "2024-10-28" xsd:string
+property_value: owl:versionInfo "2024-10-30" xsd:string
 
 [Term]
 id: CHEBI:24431
@@ -3967,7 +3967,7 @@ is_a: CL:0002086 ! specialized cardiac myocyte
 id: CL:0002075
 name: brush cell of tracheobronchial tree
 def: "Infrequent type of columnar epithelial cell. This cell is characterized by the presence of a tuft of blunt, squat microvilli (approximately 120-140/cell) on the cell surface. The microvilli contain filaments that stretch into the underlying cytoplasm. They have a distinctive pear shape with a wide base and a narrow microvillous apex. Function not known." [GOC:tfm, ISBN:0517223651, PMID:15817800]
-comment: The marker set POU2F3, HOMER3, MYB can identify the Human cell type http://purl.obolibrary.org/obo/CL_0002075 in the Lung with a confidence of 0.56 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set POU2F3, HOMER3, MYB can identify the Human cell type brush cell of tracheobronchial tree in the Lung with a confidence of 0.56 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 is_a: CL:0002202 ! epithelial cell of tracheobronchial tree
 is_a: CL:0002204 ! brush cell
 intersection_of: CL:0002204 ! brush cell
@@ -4768,7 +4768,7 @@ relationship: RO:0002104 PR:000001012
 id: CL:0002480
 name: nasal mucosa goblet cell
 def: "A goblet cell located in the nasal epithelium." [GOC:cjm, GOC:tfm]
-comment: The marker set LYPD2, MUC5AC can identify the Human cell type http://purl.obolibrary.org/obo/CL_0002480 in the Lung with a confidence of 0.81 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set LYPD2, MUC5AC can identify the Human cell type nasal mucosa goblet cell in the Lung with a confidence of 0.81 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 xref: MP:0002262
 is_a: CL:0002370 ! respiratory goblet cell
 is_a: CL:0002631 ! epithelial cell of upper respiratory tract
@@ -6026,7 +6026,7 @@ property_value: RO:0002175 NCBITaxon:9606
 id: CL:0017000
 name: pulmonary ionocyte
 def: "An ionocyte that is part of the lung epithelium. The cells from this type are major sources of the CFTR protein in human and mice." [PMID:30069044, PMID:30069046]
-comment: The marker set ASCL3, BSND can identify the Human cell type http://purl.obolibrary.org/obo/CL_0017000 in the Lung with a confidence of 0.82 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set ASCL3, BSND can identify the Human cell type pulmonary ionocyte in the Lung with a confidence of 0.82 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 xref: https://cellxgene.cziscience.com/cellguide/CL_0017000
 is_a: CL:0000082 ! epithelial cell of lung
 is_a: CL:0005006 ! ionocyte
@@ -6376,8 +6376,8 @@ relationship: BFO:0000050 UBERON:0002084 ! part of heart left ventricle
 id: CL:1000312
 name: bronchial goblet cell
 def: "A goblet cell that is part of the epithelium of bronchus." [GOC:tfm]
-comment: The marker set MTRNR2L8, SCGB1A1 can identify the Human cell type http://purl.obolibrary.org/obo/CL_1000312 in the Lung with a confidence of 0.61 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
-comment: The marker set PLCG2, ANKRD36C can identify the Human cell type http://purl.obolibrary.org/obo/CL_1000312 in the Lung with a confidence of 0.55 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set MTRNR2L8, SCGB1A1 can identify the Human cell type bronchial goblet cell in the Lung with a confidence of 0.61 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set PLCG2, ANKRD36C can identify the Human cell type bronchial goblet cell in the Lung with a confidence of 0.55 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 xref: FMA:263032
 is_a: CL:0002328 ! bronchial epithelial cell
 is_a: CL:0019003 ! tracheobronchial goblet cell
@@ -7864,7 +7864,7 @@ property_value: RO:0002175 NCBITaxon:9606
 id: CL:4033023
 name: airway submucosal gland collecting duct epithelial cell
 def: "An epithelial cell that is part of a collecting duct of an airway submucosal gland." [PMID:25648514, PMID:29656943]
-comment: The marker set GLYATL2, DMBT1 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033023 in the Lung with a confidence of 0.46 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set GLYATL2, DMBT1 can identify the Human cell type airway submucosal gland collecting duct epithelial cell in the Lung with a confidence of 0.46 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 is_a: CL:0000066 ! epithelial cell
 relationship: BFO:0000050 UBERON:8410077 ! part of airway submucosal gland
 relationship: RO:0015004 CLM:1000052 ! has characterizing marker set NS forest marker set of airway submucosal gland collecting duct epithelial cell (Human Lung).
@@ -7905,7 +7905,7 @@ property_value: RO:0002175 NCBITaxon:9606
 id: CL:4033043
 name: lung interstitial macrophage
 def: "A macrophage that is part of the lung connective tissue (pulmonary interstitium). This cell performs tissue remodeling and contributes to barrier immunity through antigen presentation." [PMID:33382972, PMID:35017701, PMID:36211428]
-comment: The marker set F13A1, STAB1, FCGR2B can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033043 in the Lung with a confidence of 0.46 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set F13A1, STAB1, FCGR2B can identify the Human cell type lung interstitial macrophage in the Lung with a confidence of 0.46 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 is_a: CL:0000864 ! tissue-resident macrophage
 is_a: CL:0002320 ! connective tissue cell
 is_a: CL:1001603 ! lung macrophage
@@ -7918,7 +7918,7 @@ id: CL:4033048
 name: respiratory suprabasal cell
 def: "A respiratory epithelial cell with topographic nuclear position in between the basal and luminal cell of the airway epithelium. This non-basal, intermediate cell has limited proliferative capacity, ultrastructural features of basal cells and no defined features of the typically differentiated cellular phenotypes." [PMID:25564622]
 comment: In humans, respiratory suprabasal cells have been noted to have enriched expression of the following: CK8, KRT13, IVL, and SERPINB3. {xref="PMID:25658372", xref="doi:10.1101/2023.04.20.537495"}
-comment: The marker set TNC, KRT15, SERPINB4 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033048 in the Lung with a confidence of 0.62 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set TNC, KRT15, SERPINB4 can identify the Human cell type respiratory suprabasal cell in the Lung with a confidence of 0.62 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 is_a: CL:0002368 ! respiratory epithelial cell
 is_a: CL:0011026 ! progenitor cell
 relationship: RO:0002202 CL:0002633 ! respiratory basal cell
@@ -8012,7 +8012,7 @@ intersection_of: RO:0000086 PATO:0002354
 id: CL:4033077
 name: cycling alveolar macrophage
 def: "A(n) alveolar macrophage that is cycling." [PMID:37291214]
-comment: The marker set PCLAF, RRM2, UBE2C, NUSAP1 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033077 in the Lung with a confidence of 0.26 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set PCLAF, RRM2, UBE2C, NUSAP1 can identify the Human cell type cycling alveolar macrophage in the Lung with a confidence of 0.26 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 is_a: CL:0000583 ! alveolar macrophage
 is_a: CL:4033076 ! cycling macrophage
 intersection_of: CL:0000583 ! alveolar macrophage
@@ -8036,7 +8036,7 @@ relationship: RO:0000086 PATO:0002354
 id: CL:4033080
 name: cycling pulmonary alveolar type 2 cell
 def: "A(n) pulmonary alveolar type 2 cell that is cycling." [PMID:37291214]
-comment: The marker set PEG10, PRC1, TOP2A can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033080 in the Lung with a confidence of 0.61 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set PEG10, PRC1, TOP2A can identify the Human cell type cycling pulmonary alveolar type 2 cell in the Lung with a confidence of 0.61 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 is_a: CL:0002063 ! pulmonary alveolar type 2 cell
 intersection_of: CL:0002063 ! pulmonary alveolar type 2 cell
 intersection_of: RO:0000056 GO:0022402 ! participates in cell cycle process
