@@ -104,6 +104,7 @@ def get_cl_label(graph, cl_id, alt_label):
     """
     Query the ontology graph to get the label of the CL term.
     """
+    cl_label = alt_label
     if cl_id.startswith("CL:"):
         response = graph.query(f"""
             prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -113,9 +114,9 @@ def get_cl_label(graph, cl_id, alt_label):
                 {cl_id} rdfs:label ?label .
             }}
         """)
-        return response.bindings[0]["label"]
-    else:
-        return alt_label
+        if response.bindings:
+            cl_label = response.bindings[0]["label"]
+    return cl_label
 
 
 def delete_file(path):
