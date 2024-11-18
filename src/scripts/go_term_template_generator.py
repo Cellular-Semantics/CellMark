@@ -103,7 +103,7 @@ def fetch_data_for_go_curie(go_curie):
 def process_qualifier_subset(df, qualifier, curie_mapping, base_first_row):
     subset_df = df[df["QUALIFIER"] == qualifier].copy()
     new_first_row = base_first_row.copy()
-    new_first_row["GENE PRODUCT ID"] = "AI " + curie_mapping.get(qualifier, "")
+    new_first_row["GO_TERM"] = "AI " + curie_mapping.get(qualifier, "")
     new_first_row.drop(columns=["QUALIFIER"], inplace=True)
     subset_df.drop(columns=["QUALIFIER"], inplace=True)
     return pd.concat([new_first_row, subset_df], ignore_index=True)
@@ -135,6 +135,8 @@ def main():
         combined_df["GENE PRODUCT DB"] == "UniProtKB"
     ].loc[~combined_df["QUALIFIER"].str.contains("NOT\|", na=False)]
 
+    # filtered_uniprot_df = pd.read_csv("test.csv")
+
     # ETL transformation
     filtered_uniprot_df["GENE PRODUCT ID"] = (
         "https://identifiers.org/uniprot:" + filtered_uniprot_df["GENE PRODUCT ID"]
@@ -149,21 +151,13 @@ def main():
     quick_go_template = filtered_uniprot_df[
         [
             "ID",
-            "GENE PRODUCT ID",
-            "GO EVIDENCE CODE",
-            "REFERENCE",
             "TAXON ID",
-            "QUALIFIER",
         ]
     ].copy()
 
     first_row_values_template = {
         "ID": "ID",
-        "GENE PRODUCT ID": "AI RO:0002264",
-        "GO EVIDENCE CODE": ">A oboInOwl:evidence",
-        "REFERENCE": ">A oboInOwl:hasDbXref",
         "TAXON ID": "AI RO:0002162",
-        "QUALIFIER": "",
     }
     first_row_df_template = pd.DataFrame([first_row_values_template])
     quick_go_template = pd.concat(
@@ -171,29 +165,51 @@ def main():
     )
 
     # Prepare quick_go_protein_template
+    # add ID as GoTerm and Qualifier
     quick_go_protein_template = filtered_uniprot_df[
-        ["GENE PRODUCT ID", "SYMBOL", "GENE_PRODUCT_NAME"]
+        [
+            "GENE PRODUCT ID",
+            "SYMBOL",
+            "GENE_PRODUCT_NAME",
+            "ID",
+            "GO EVIDENCE CODE",
+            "REFERENCE",
+            "QUALIFIER",
+        ]
     ].copy()
-    quick_go_protein_template.rename(columns={"GENE PRODUCT ID": "ID"}, inplace=True)
+    quick_go_protein_template.rename(
+        columns={"GENE PRODUCT ID": "ID", "ID": "GO_TERM"}, inplace=True
+    )
+    quick_go_protein_template["SUPERCLASS"] = (
+        "http://purl.obolibrary.org/obo/PR_000000001"
+    )
 
     first_row_values_protein = {
         "ID": "ID",
         "SYMBOL": "A IAO:0000028",
         "GENE_PRODUCT_NAME": "A rdfs:label",
+        "GO_TERM": "AI RO:0002264",
+        "GO EVIDENCE CODE": ">A oboInOwl:evidence",
+        "REFERENCE": ">A oboInOwl:hasDbXref",
+        "SUPERCLASS": "SC %",
+        "QUALIFIER": "",
     }
     first_row_df_protein = pd.DataFrame([first_row_values_protein])
     quick_go_protein_template = pd.concat(
         [first_row_df_protein, quick_go_protein_template], ignore_index=True
     )
 
-    # Split the quick_go_template by QUALIFIER
-    base_first_row = quick_go_template.iloc[[0]].copy()
+    # Split the quick_go_protein_template by QUALIFIER
+    base_first_row = quick_go_protein_template.iloc[[0]].copy()
     dataframes_by_qualifier = {}
 
-    for qualifier in quick_go_template["QUALIFIER"].unique():
+    for qualifier in quick_go_protein_template["QUALIFIER"].unique():
         if pd.notna(qualifier) and qualifier != "":
             df_subset = process_qualifier_subset(
-                quick_go_template.iloc[1:], qualifier, relation_to_curie, base_first_row
+                quick_go_protein_template.iloc[1:],
+                qualifier,
+                relation_to_curie,
+                base_first_row,
             )
             dataframes_by_qualifier[qualifier] = df_subset
 
@@ -206,8 +222,8 @@ def main():
         )
         df.to_csv(file_name, sep="\t", index=False)
 
-    quick_go_protein_template.to_csv(
-        os.path.join(output_dir, "protein_quick_go_template.tsv"), sep="\t", index=False
+    quick_go_template.to_csv(
+        os.path.join(output_dir, "gene_quick_go_template.tsv"), sep="\t", index=False
     )
 
 
