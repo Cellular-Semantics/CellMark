@@ -1,14 +1,14 @@
-ID	GENE PRODUCT ID	GO EVIDENCE CODE	REFERENCE	TAXON ID
-ID	AI RO:0004035	>A oboInOwl:evidence	>A oboInOwl:hasDbXref	AI RO:0002162
-GO:0070269	https://identifiers.org/uniprot:Q86TI2	IDA	PMID:33731929	http://purl.obolibrary.org/obo/NCBITaxon_9606
-GO:0070269	https://identifiers.org/uniprot:Q86TI2	IDA	PMID:34019797	http://purl.obolibrary.org/obo/NCBITaxon_9606
-GO:0050728	https://identifiers.org/uniprot:Q9C0K1	IMP	PMID:23403290	http://purl.obolibrary.org/obo/NCBITaxon_9606
-GO:0035162	https://identifiers.org/uniprot:O09039	IMP	PMID:14612394	http://purl.obolibrary.org/obo/NCBITaxon_10090
-GO:0141068	https://identifiers.org/uniprot:P42337	IDA	PMID:21047779	http://purl.obolibrary.org/obo/NCBITaxon_10090
-GO:0006904	https://identifiers.org/uniprot:P18872	IMP	PMID:20622165	http://purl.obolibrary.org/obo/NCBITaxon_10090
-GO:0002224	https://identifiers.org/uniprot:Q8JZM6	IMP	PMID:26458771	http://purl.obolibrary.org/obo/NCBITaxon_10090
-GO:0070314	https://identifiers.org/uniprot:Q13105	IDA	PMID:19160485	http://purl.obolibrary.org/obo/NCBITaxon_9606
-GO:0070314	https://identifiers.org/uniprot:Q15831	IPI	PMID:12805220	http://purl.obolibrary.org/obo/NCBITaxon_9606
-GO:0070314	https://identifiers.org/uniprot:Q15831	IDA	PMID:17216128	http://purl.obolibrary.org/obo/NCBITaxon_9606
-GO:0070314	https://identifiers.org/uniprot:Q7RTN6	IPI	PMID:12805220	http://purl.obolibrary.org/obo/NCBITaxon_9606
-GO:0070314	https://identifiers.org/uniprot:Q9NNW5	IPI	PMID:17216128	http://purl.obolibrary.org/obo/NCBITaxon_9606
+ID	SYMBOL	GENE_PRODUCT_NAME	GO_TERM	GO EVIDENCE CODE	REFERENCE	SUPERCLASS
+ID	A IAO:0000028	A rdfs:label	AI RO:0004035	>A oboInOwl:evidence	>A oboInOwl:hasDbXref	SC %
+https://identifiers.org/uniprot:P42337	Pik3ca	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform	GO:0141068	IDA	PMID:21047779	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot:Q13105	ZBTB17	Zinc finger and BTB domain-containing protein 17	GO:0070314	IDA	PMID:19160485	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot:Q15831	STK11	Serine/threonine-protein kinase STK11	GO:0070314	IPI	PMID:12805220	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot:Q15831	STK11	Serine/threonine-protein kinase STK11	GO:0070314	IDA	PMID:17216128	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot:Q7RTN6	STRADA	STE20-related kinase adapter protein alpha	GO:0070314	IPI	PMID:12805220	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot:Q9NNW5	WDR6	tRNA (34-2'-O)-methyltransferase regulator WDR6	GO:0070314	IPI	PMID:17216128	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot:Q9C0K1	SLC39A8	Metal cation symporter ZIP8	GO:0050728	IMP	PMID:23403290	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot:O09039	Sh2b3	SH2B adapter protein 3	GO:0035162	IMP	PMID:14612394	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot:Q8JZM6	Tifab	TRAF-interacting protein with FHA domain-containing protein B	GO:0002224	IMP	PMID:26458771	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot:Q86TI2	DPP9	Dipeptidyl peptidase 9	GO:0070269	IDA	PMID:33731929	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot:Q86TI2	DPP9	Dipeptidyl peptidase 9	GO:0070269	IDA	PMID:34019797	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot:P18872	Gnao1	Guanine nucleotide-binding protein G(o) subunit alpha	GO:0006904	IMP	PMID:20622165	http://purl.obolibrary.org/obo/PR_000000001
