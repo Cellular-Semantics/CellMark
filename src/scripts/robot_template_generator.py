@@ -105,8 +105,8 @@ def generate_kg_indvs_robot_template():
         print("CL clusters Robot template generated: " + CL_KG_TEMPLATE_PATH)
     except Exception as e:
         import traceback
-        print(f"An error occurred: {e}")
-        print(traceback.format_exc())
+        print(f"An error occurred: {e}. You can ignore this error on ODK prepare_release step.")
+        # print(traceback.format_exc())
     finally:
         if neo_client:
             neo_client.close()

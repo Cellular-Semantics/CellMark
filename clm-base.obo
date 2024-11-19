@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: clm/releases/2024-10-30/clm-base.owl
+data-version: clm/releases/2024-11-19/clm-base.owl
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
@@ -8,13 +8,7 @@ property_value: dce:type IAO:8000001
 property_value: dcterms:description "None" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/unspecified
 property_value: dcterms:title "Cell Markers Ontology" xsd:string
-property_value: owl:versionInfo "2024-10-30" xsd:string
-
-[Term]
-id: CL:0000115
-comment: The marker set FLT1, ABCG2 can identify the Human cell type endothelial cell in the Brain with a confidence of 0.923892465 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
-relationship: RO:0015004 CLM:1000064 ! has characterizing marker set NS forest marker set of endothelial cell (Human Brain).
-property_value: RO:0002175 NCBITaxon:9606
+property_value: owl:versionInfo "2024-11-19" xsd:string
 
 [Term]
 id: CL:0000583
@@ -59,12 +53,6 @@ relationship: RO:0015004 CLM:1000027 ! has characterizing marker set NS forest m
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
-id: CL:0002605
-comment: The marker set OBI1-AS1 can identify the Human cell type astrocyte of the cerebral cortex in the Brain with a confidence of 0.957043843 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
-relationship: RO:0015004 CLM:1000062 ! has characterizing marker set NS forest marker set of astrocyte of the cerebral cortex (Human Brain).
-property_value: RO:0002175 NCBITaxon:9606
-
-[Term]
 id: CL:0009089
 comment: The marker set HIGD1B, KCNK3 can identify the Human cell type lung pericyte in the Lung with a confidence of 0.84 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CLM:1000047 ! has characterizing marker set NS forest marker set of lung pericyte (Human Lung).
@@ -97,6 +85,36 @@ relationship: RO:0015004 CLM:1000028 ! has characterizing marker set NS forest m
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
+id: CL:4023011
+comment: The marker set LINC00298, KIT can identify the Human cell type lamp5 GABAergic cortical interneuron in the Brain with a confidence of 0.814687838 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000074 ! has characterizing marker set NS forest marker set of lamp5 GABAergic cortical interneuron (Human Brain).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4023015
+comment: The marker set RXRG, THSD7B can identify the Human cell type sncg GABAergic cortical interneuron in the Brain with a confidence of 0.628943702 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000081 ! has characterizing marker set NS forest marker set of sncg GABAergic cortical interneuron (Human Brain).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4023016
+comment: The marker set VIP can identify the Human cell type VIP GABAergic cortical interneuron in the Brain with a confidence of 0.855531344 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000085 ! has characterizing marker set NS forest marker set of VIP GABAergic cortical interneuron (Human Brain).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4023017
+comment: The marker set SST, PLCH1 can identify the Human cell type sst GABAergic cortical interneuron in the Brain with a confidence of 0.842367005 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000082 ! has characterizing marker set NS forest marker set of sst GABAergic cortical interneuron (Human Brain).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4023018
+comment: The marker set PVALB, TAC1, MYO5B can identify the Human cell type pvalb GABAergic cortical interneuron in the Brain with a confidence of 0.691998764 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000080 ! has characterizing marker set NS forest marker set of pvalb GABAergic cortical interneuron (Human Brain).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
 id: CL:4023036
 comment: The marker set GPR149, CA8 can identify the Human cell type chandelier pvalb GABAergic cortical interneuron in the Brain with a confidence of 0.799748111 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CLM:1000063 ! has characterizing marker set NS forest marker set of chandelier pvalb GABAergic cortical interneuron (Human Brain).
@@ -112,6 +130,18 @@ property_value: RO:0002175 NCBITaxon:9606
 id: CL:4023042
 comment: The marker set SEMA5B, ADAMTSL1, SULF1 can identify the Human cell type L6 corticothalamic-projecting glutamatergic cortical neuron in the Brain with a confidence of 0.631898455 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CLM:1000070 ! has characterizing marker set NS forest marker set of L6 corticothalamic-projecting glutamatergic cortical neuron (Human Brain).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4023046
+comment: The marker set CCN2, ROS1 can identify the Human cell type L6b glutamatergic neuron of the primary motor cortex in the Brain with a confidence of 0.819940964 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000073 ! has characterizing marker set NS forest marker set of L6b glutamatergic neuron of the primary motor cortex (Human Brain).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4023121
+comment: The marker set NPY can identify the Human cell type sst chodl GABAergic cortical interneuron in the Brain with a confidence of 0.894026187 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000083 ! has characterizing marker set NS forest marker set of sst chodl GABAergic cortical interneuron (Human Brain).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
@@ -214,6 +244,18 @@ property_value: RO:0002175 NCBITaxon:9606
 id: CL:4033080
 comment: The marker set PEG10, PRC1, TOP2A can identify the Human cell type cycling pulmonary alveolar type 2 cell in the Lung with a confidence of 0.61 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CLM:1000010 ! has characterizing marker set NS forest marker set of cycling pulmonary alveolar type 2 cell (Human Lung).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4042013
+comment: The marker set CHST9, LAMP5 can identify the Human cell type Lamp5 Lhx6 neuron in the Brain with a confidence of 0.821678322 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000075 ! has characterizing marker set NS forest marker set of Lamp5 Lhx6 neuron (Human Brain).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4042032
+comment: The marker set RELN, HCRTR2 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4042032 in the Brain with a confidence of 0.724125093 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000079 ! has characterizing marker set NS forest marker set of Pax6 (Human Brain).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
@@ -412,27 +454,12 @@ relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137709
 property_value: PCL:0010062 "0.56" xsd:string
 
 [Term]
-id: CLM:1000062
-name: NS forest marker set of astrocyte of the cerebral cortex (Human Brain).
-is_a: SO:0001260 ! sequence_collection
-relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000234377
-property_value: PCL:0010062 "0.957043843" xsd:string
-
-[Term]
 id: CLM:1000063
 name: NS forest marker set of chandelier pvalb GABAergic cortical interneuron (Human Brain).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000174948
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000178538
 property_value: PCL:0010062 "0.799748111" xsd:string
-
-[Term]
-id: CLM:1000064
-name: NS forest marker set of endothelial cell (Human Brain).
-is_a: SO:0001260 ! sequence_collection
-relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000102755
-relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000118777
-property_value: PCL:0010062 "0.923892465" xsd:string
 
 [Term]
 id: CLM:1000065
@@ -499,6 +526,77 @@ is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000115593
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000172673
 property_value: PCL:0010062 "0.877752028" xsd:string
+
+[Term]
+id: CLM:1000073
+name: NS forest marker set of L6b glutamatergic neuron of the primary motor cortex (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000047936
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000118523
+property_value: PCL:0010062 "0.819940964" xsd:string
+
+[Term]
+id: CLM:1000074
+name: NS forest marker set of lamp5 GABAergic cortical interneuron (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000157404
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000235665
+property_value: PCL:0010062 "0.814687838" xsd:string
+
+[Term]
+id: CLM:1000075
+name: NS forest marker set of Lamp5 Lhx6 neuron (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000125869
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000154080
+property_value: PCL:0010062 "0.821678322" xsd:string
+
+[Term]
+id: CLM:1000079
+name: NS forest marker set of Pax6 (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137252
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000189056
+property_value: PCL:0010062 "0.724125093" xsd:string
+
+[Term]
+id: CLM:1000080
+name: NS forest marker set of pvalb GABAergic cortical interneuron (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000006128
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000100362
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000167306
+property_value: PCL:0010062 "0.691998764" xsd:string
+
+[Term]
+id: CLM:1000081
+name: NS forest marker set of sncg GABAergic cortical interneuron (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000143171
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000144229
+property_value: PCL:0010062 "0.628943702" xsd:string
+
+[Term]
+id: CLM:1000082
+name: NS forest marker set of sst GABAergic cortical interneuron (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000114805
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000157005
+property_value: PCL:0010062 "0.842367005" xsd:string
+
+[Term]
+id: CLM:1000083
+name: NS forest marker set of sst chodl GABAergic cortical interneuron (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000122585
+property_value: PCL:0010062 "0.894026187" xsd:string
+
+[Term]
+id: CLM:1000085
+name: NS forest marker set of VIP GABAergic cortical interneuron (Human Brain).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000146469
+property_value: PCL:0010062 "0.855531344" xsd:string
 
 [Term]
 id: SO:0001260
