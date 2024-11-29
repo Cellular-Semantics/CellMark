@@ -147,23 +147,6 @@ def main():
     )
     filtered_uniprot_df.rename(columns={"GO TERM": "ID"}, inplace=True)
 
-    # Prepare quick_go_template
-    quick_go_template = filtered_uniprot_df[
-        [
-            "ID",
-            "TAXON ID",
-        ]
-    ].copy()
-
-    first_row_values_template = {
-        "ID": "ID",
-        "TAXON ID": "AI RO:0002162",
-    }
-    first_row_df_template = pd.DataFrame([first_row_values_template])
-    quick_go_template = pd.concat(
-        [first_row_df_template, quick_go_template], ignore_index=True
-    )
-
     # Prepare quick_go_protein_template
     # add ID as GoTerm and Qualifier
     quick_go_protein_template = filtered_uniprot_df[
@@ -174,6 +157,7 @@ def main():
             "ID",
             "GO EVIDENCE CODE",
             "REFERENCE",
+            "TAXON ID",
             "QUALIFIER",
         ]
     ].copy()
@@ -191,6 +175,7 @@ def main():
         "GO_TERM": "AI RO:0002264",
         "GO EVIDENCE CODE": ">A oboInOwl:evidence",
         "REFERENCE": ">A oboInOwl:hasDbXref",
+        "TAXON ID": "AI RO:0002162",
         "SUPERCLASS": "SC %",
         "QUALIFIER": "",
     }
@@ -221,10 +206,6 @@ def main():
             + "_quick_go_template.tsv",
         )
         df.to_csv(file_name, sep="\t", index=False)
-
-    quick_go_template.to_csv(
-        os.path.join(output_dir, "gene_quick_go_template.tsv"), sep="\t", index=False
-    )
 
 
 if __name__ == "__main__":

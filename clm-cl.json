@@ -899,10 +899,10 @@
           },
           {
             "pred": "http://www.w3.org/2002/07/owl#versionInfo",
-            "val": "2024-11-19"
+            "val": "2024-11-29"
           }
         ],
-        "version": "http://purl.obolibrary.org/obo/clm/releases/2024-11-19/clm-cl.json"
+        "version": "http://purl.obolibrary.org/obo/clm/releases/2024-11-29/clm-cl.json"
       },
       "nodes": [
         {
