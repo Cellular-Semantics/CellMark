@@ -16,9 +16,9 @@
         "val" : "Cell Markers Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2024-11-29"
+        "val" : "2024-12-02"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/clm/releases/2024-11-29/clm-base.json"
+      "version" : "http://purl.obolibrary.org/obo/clm/releases/2024-12-02/clm-base.json"
     },
     "nodes" : [ {
       "id" : "http://identifiers.org/ensembl/ENSG00000006128",
@@ -142,9 +142,6 @@
       "type" : "CLASS"
     }, {
       "id" : "http://identifiers.org/ensembl/ENSG00000146469",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://identifiers.org/ensembl/ENSG00000149021",
       "type" : "CLASS"
     }, {
       "id" : "http://identifiers.org/ensembl/ENSG00000149591",
@@ -273,9 +270,6 @@
       "id" : "http://identifiers.org/ensembl/ENSG00000242265",
       "type" : "CLASS"
     }, {
-      "id" : "http://identifiers.org/ensembl/ENSG00000255823",
-      "type" : "CLASS"
-    }, {
       "id" : "http://identifiers.org/ensembl/ENSG00000256193",
       "type" : "CLASS"
     }, {
@@ -284,7 +278,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.85"
         } ]
       }
@@ -294,7 +288,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.70"
         } ]
       }
@@ -304,7 +298,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.80"
         } ]
       }
@@ -314,7 +308,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.67"
         } ]
       }
@@ -324,7 +318,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.41"
         } ]
       }
@@ -334,7 +328,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.26"
         } ]
       }
@@ -344,7 +338,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.85"
         } ]
       }
@@ -354,7 +348,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.95"
         } ]
       }
@@ -364,7 +358,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.61"
         } ]
       }
@@ -374,7 +368,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.55"
         } ]
       }
@@ -384,18 +378,8 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.81"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CLM_1000028",
-      "lbl" : "NS forest marker set of bronchial goblet cell (Human Lung).",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
-          "val" : "0.61"
         } ]
       }
     }, {
@@ -404,7 +388,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.46"
         } ]
       }
@@ -414,7 +398,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.82"
         } ]
       }
@@ -424,7 +408,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.86"
         } ]
       }
@@ -434,7 +418,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.94"
         } ]
       }
@@ -444,7 +428,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.58"
         } ]
       }
@@ -454,7 +438,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.84"
         } ]
       }
@@ -464,7 +448,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.46"
         } ]
       }
@@ -474,7 +458,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.93"
         } ]
       }
@@ -484,7 +468,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.75"
         } ]
       }
@@ -494,7 +478,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.69"
         } ]
       }
@@ -504,7 +488,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.62"
         } ]
       }
@@ -514,7 +498,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.56"
         } ]
       }
@@ -524,7 +508,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.799748111"
         } ]
       }
@@ -534,7 +518,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.670149932"
         } ]
       }
@@ -544,7 +528,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.720108696"
         } ]
       }
@@ -554,7 +538,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.815891473"
         } ]
       }
@@ -564,7 +548,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.764261336"
         } ]
       }
@@ -574,7 +558,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.899288218"
         } ]
       }
@@ -584,7 +568,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.631898455"
         } ]
       }
@@ -594,7 +578,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.641695703"
         } ]
       }
@@ -604,7 +588,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.877752028"
         } ]
       }
@@ -614,7 +598,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.819940964"
         } ]
       }
@@ -624,7 +608,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.814687838"
         } ]
       }
@@ -634,7 +618,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.821678322"
         } ]
       }
@@ -644,7 +628,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.724125093"
         } ]
       }
@@ -654,7 +638,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.691998764"
         } ]
       }
@@ -664,7 +648,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.628943702"
         } ]
       }
@@ -674,7 +658,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.842367005"
         } ]
       }
@@ -684,7 +668,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.894026187"
         } ]
       }
@@ -694,7 +678,7 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/PCL_0010062",
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.855531344"
         } ]
       }
@@ -812,7 +796,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_1000312",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set MTRNR2L8, SCGB1A1 can identify the Human cell type bronchial goblet cell in the Lung with a confidence of 0.61 (NS-Forest FBeta value).", "The marker set PLCG2, ANKRD36C can identify the Human cell type bronchial goblet cell in the Lung with a confidence of 0.55 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set PLCG2, ANKRD36C can identify the Human cell type bronchial goblet cell in the Lung with a confidence of 0.55 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -1122,11 +1106,11 @@
       "type" : "PROPERTY",
       "propertyType" : "OBJECT"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PCL_0010062",
+      "id" : "http://purl.obolibrary.org/obo/RO_0002175",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0002175",
+      "id" : "http://purl.obolibrary.org/obo/STATO_0000663",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
@@ -1203,10 +1187,6 @@
       "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CLM_1000027",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CLM_1000028",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
     }, {
@@ -1389,10 +1369,6 @@
       "sub" : "http://purl.obolibrary.org/obo/CL_1000312",
       "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
       "obj" : "http://purl.obolibrary.org/obo/CLM_1000026"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_1000312",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
-      "obj" : "http://purl.obolibrary.org/obo/CLM_1000028"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_4023011",
       "pred" : "http://purl.obolibrary.org/obo/RO_0015004",

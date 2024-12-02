@@ -10,11 +10,11 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/clm/clm-simple.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/clm/releases/2024-11-29/clm-simple.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/clm/releases/2024-12-02/clm-simple.owl"/>
         <terms:description>None</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <terms:title>Cell Markers Ontology</terms:title>
-        <owl:versionInfo>2024-11-29</owl:versionInfo>
+        <owl:versionInfo>2024-12-02</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -30,15 +30,15 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PCL_0010062 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/PCL_0010062"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RO_0002175 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002175"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000663 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/STATO_0000663"/>
     
 
 
@@ -117,7 +117,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000001">
-        <obo:PCL_0010062>0.85</obo:PCL_0010062>
+        <obo:STATO_0000663>0.85</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of alveolar adventitial fibroblast (Human Lung).</rdfs:label>
     </owl:Class>
     
@@ -126,7 +126,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000002">
-        <obo:PCL_0010062>0.70</obo:PCL_0010062>
+        <obo:STATO_0000663>0.70</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of alveolar type 1 fibroblast cell (Human Lung).</rdfs:label>
     </owl:Class>
     
@@ -135,7 +135,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000003">
-        <obo:PCL_0010062>0.80</obo:PCL_0010062>
+        <obo:STATO_0000663>0.80</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of alveolar macrophage (Human Lung).</rdfs:label>
     </owl:Class>
     
@@ -144,7 +144,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000004">
-        <obo:PCL_0010062>0.67</obo:PCL_0010062>
+        <obo:STATO_0000663>0.67</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of CCL3-positive alveolar macrophage (Human Lung).</rdfs:label>
     </owl:Class>
     
@@ -153,7 +153,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000005">
-        <obo:PCL_0010062>0.41</obo:PCL_0010062>
+        <obo:STATO_0000663>0.41</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of metallothionein-positive alveolar macrophage (Human Lung).</rdfs:label>
     </owl:Class>
     
@@ -162,7 +162,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000006">
-        <obo:PCL_0010062>0.26</obo:PCL_0010062>
+        <obo:STATO_0000663>0.26</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of cycling alveolar macrophage (Human Lung).</rdfs:label>
     </owl:Class>
     
@@ -171,7 +171,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000008">
-        <obo:PCL_0010062>0.85</obo:PCL_0010062>
+        <obo:STATO_0000663>0.85</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of pulmonary alveolar type 1 cell (Human Lung).</rdfs:label>
     </owl:Class>
     
@@ -180,7 +180,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000009">
-        <obo:PCL_0010062>0.95</obo:PCL_0010062>
+        <obo:STATO_0000663>0.95</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of pulmonary alveolar type 2 cell (Human Lung).</rdfs:label>
     </owl:Class>
     
@@ -189,7 +189,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000010">
-        <obo:PCL_0010062>0.61</obo:PCL_0010062>
+        <obo:STATO_0000663>0.61</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of cycling pulmonary alveolar type 2 cell (Human Lung).</rdfs:label>
     </owl:Class>
     
@@ -198,7 +198,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000026">
-        <obo:PCL_0010062>0.55</obo:PCL_0010062>
+        <obo:STATO_0000663>0.55</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of bronchial goblet cell (Human Lung).</rdfs:label>
     </owl:Class>
     
@@ -207,17 +207,8 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000027">
-        <obo:PCL_0010062>0.81</obo:PCL_0010062>
+        <obo:STATO_0000663>0.81</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of nasal mucosa goblet cell (Human Lung).</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLM_1000028 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000028">
-        <obo:PCL_0010062>0.61</obo:PCL_0010062>
-        <rdfs:label>NS forest marker set of bronchial goblet cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -225,7 +216,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000031">
-        <obo:PCL_0010062>0.46</obo:PCL_0010062>
+        <obo:STATO_0000663>0.46</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of lung interstitial macrophage (Human Lung).</rdfs:label>
     </owl:Class>
     
@@ -234,7 +225,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000032 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000032">
-        <obo:PCL_0010062>0.82</obo:PCL_0010062>
+        <obo:STATO_0000663>0.82</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of pulmonary ionocyte (Human Lung).</rdfs:label>
     </owl:Class>
     
@@ -243,7 +234,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000041">
-        <obo:PCL_0010062>0.86</obo:PCL_0010062>
+        <obo:STATO_0000663>0.86</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of ciliated columnar cell of tracheobronchial tree (Human Lung).</rdfs:label>
     </owl:Class>
     
@@ -252,7 +243,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000043">
-        <obo:PCL_0010062>0.94</obo:PCL_0010062>
+        <obo:STATO_0000663>0.94</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of lung neuroendocrine cell (Human Lung).</rdfs:label>
     </owl:Class>
     
@@ -261,7 +252,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000046 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000046">
-        <obo:PCL_0010062>0.58</obo:PCL_0010062>
+        <obo:STATO_0000663>0.58</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of pulmonary interstitial fibroblast (Human Lung).</rdfs:label>
     </owl:Class>
     
@@ -270,7 +261,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000047">
-        <obo:PCL_0010062>0.84</obo:PCL_0010062>
+        <obo:STATO_0000663>0.84</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of lung pericyte (Human Lung).</rdfs:label>
     </owl:Class>
     
@@ -279,7 +270,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000052 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000052">
-        <obo:PCL_0010062>0.46</obo:PCL_0010062>
+        <obo:STATO_0000663>0.46</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of airway submucosal gland collecting duct epithelial cell (Human Lung).</rdfs:label>
     </owl:Class>
     
@@ -288,7 +279,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000053 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000053">
-        <obo:PCL_0010062>0.93</obo:PCL_0010062>
+        <obo:STATO_0000663>0.93</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of mucus secreting cell of bronchus submucosal gland (Human Lung).</rdfs:label>
     </owl:Class>
     
@@ -297,7 +288,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000054 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000054">
-        <obo:PCL_0010062>0.75</obo:PCL_0010062>
+        <obo:STATO_0000663>0.75</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of serous secreting cell of bronchus submucosal gland (Human Lung).</rdfs:label>
     </owl:Class>
     
@@ -306,7 +297,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000056">
-        <obo:PCL_0010062>0.69</obo:PCL_0010062>
+        <obo:STATO_0000663>0.69</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of tracheobronchial smooth muscle cell (Human Lung).</rdfs:label>
     </owl:Class>
     
@@ -315,7 +306,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000059 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000059">
-        <obo:PCL_0010062>0.62</obo:PCL_0010062>
+        <obo:STATO_0000663>0.62</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of respiratory suprabasal cell (Human Lung).</rdfs:label>
     </owl:Class>
     
@@ -324,7 +315,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000061 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000061">
-        <obo:PCL_0010062>0.56</obo:PCL_0010062>
+        <obo:STATO_0000663>0.56</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of brush cell of tracheobronchial tree (Human Lung).</rdfs:label>
     </owl:Class>
     
@@ -333,7 +324,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000063 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000063">
-        <obo:PCL_0010062>0.799748111</obo:PCL_0010062>
+        <obo:STATO_0000663>0.799748111</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of chandelier pvalb GABAergic cortical interneuron (Human Brain).</rdfs:label>
     </owl:Class>
     
@@ -342,7 +333,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000065 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000065">
-        <obo:PCL_0010062>0.670149932</obo:PCL_0010062>
+        <obo:STATO_0000663>0.670149932</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of L2/3 intratelencephalic projecting glutamatergic neuron (Human Brain).</rdfs:label>
     </owl:Class>
     
@@ -351,7 +342,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000066 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000066">
-        <obo:PCL_0010062>0.720108696</obo:PCL_0010062>
+        <obo:STATO_0000663>0.720108696</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of L4 intratelencephalic projecting glutamatergic neuron (Human Brain).</rdfs:label>
     </owl:Class>
     
@@ -360,7 +351,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000067 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000067">
-        <obo:PCL_0010062>0.815891473</obo:PCL_0010062>
+        <obo:STATO_0000663>0.815891473</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of L5 extratelencephalic projecting glutamatergic cortical neuron (Human Brain).</rdfs:label>
     </owl:Class>
     
@@ -369,7 +360,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000068 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000068">
-        <obo:PCL_0010062>0.764261336</obo:PCL_0010062>
+        <obo:STATO_0000663>0.764261336</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of L5 intratelencephalic projecting glutamatergic neuron (Human Brain).</rdfs:label>
     </owl:Class>
     
@@ -378,7 +369,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000069 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000069">
-        <obo:PCL_0010062>0.899288218</obo:PCL_0010062>
+        <obo:STATO_0000663>0.899288218</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of L5/6 near-projecting glutamatergic neuron (Human Brain).</rdfs:label>
     </owl:Class>
     
@@ -387,7 +378,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000070 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000070">
-        <obo:PCL_0010062>0.631898455</obo:PCL_0010062>
+        <obo:STATO_0000663>0.631898455</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of L6 corticothalamic-projecting glutamatergic cortical neuron (Human Brain).</rdfs:label>
     </owl:Class>
     
@@ -396,7 +387,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000071 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000071">
-        <obo:PCL_0010062>0.641695703</obo:PCL_0010062>
+        <obo:STATO_0000663>0.641695703</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of L6 intratelencephalic projecting glutamatergic neuron (Human Brain).</rdfs:label>
     </owl:Class>
     
@@ -405,7 +396,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000072 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000072">
-        <obo:PCL_0010062>0.877752028</obo:PCL_0010062>
+        <obo:STATO_0000663>0.877752028</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of L6 intratelencephalic projecting Car3 glutamatergic neuron (Human Brain).</rdfs:label>
     </owl:Class>
     
@@ -414,7 +405,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000073 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000073">
-        <obo:PCL_0010062>0.819940964</obo:PCL_0010062>
+        <obo:STATO_0000663>0.819940964</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of L6b glutamatergic neuron of the primary motor cortex (Human Brain).</rdfs:label>
     </owl:Class>
     
@@ -423,7 +414,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000074 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000074">
-        <obo:PCL_0010062>0.814687838</obo:PCL_0010062>
+        <obo:STATO_0000663>0.814687838</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of lamp5 GABAergic cortical interneuron (Human Brain).</rdfs:label>
     </owl:Class>
     
@@ -432,7 +423,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000075 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000075">
-        <obo:PCL_0010062>0.821678322</obo:PCL_0010062>
+        <obo:STATO_0000663>0.821678322</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of Lamp5 Lhx6 neuron (Human Brain).</rdfs:label>
     </owl:Class>
     
@@ -441,7 +432,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000079 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000079">
-        <obo:PCL_0010062>0.724125093</obo:PCL_0010062>
+        <obo:STATO_0000663>0.724125093</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of Pax6 (Human Brain).</rdfs:label>
     </owl:Class>
     
@@ -450,7 +441,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000080 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000080">
-        <obo:PCL_0010062>0.691998764</obo:PCL_0010062>
+        <obo:STATO_0000663>0.691998764</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of pvalb GABAergic cortical interneuron (Human Brain).</rdfs:label>
     </owl:Class>
     
@@ -459,7 +450,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000081 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000081">
-        <obo:PCL_0010062>0.628943702</obo:PCL_0010062>
+        <obo:STATO_0000663>0.628943702</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of sncg GABAergic cortical interneuron (Human Brain).</rdfs:label>
     </owl:Class>
     
@@ -468,7 +459,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000082 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000082">
-        <obo:PCL_0010062>0.842367005</obo:PCL_0010062>
+        <obo:STATO_0000663>0.842367005</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of sst GABAergic cortical interneuron (Human Brain).</rdfs:label>
     </owl:Class>
     
@@ -477,7 +468,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000083 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000083">
-        <obo:PCL_0010062>0.894026187</obo:PCL_0010062>
+        <obo:STATO_0000663>0.894026187</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of sst chodl GABAergic cortical interneuron (Human Brain).</rdfs:label>
     </owl:Class>
     
@@ -486,7 +477,7 @@
     <!-- http://purl.obolibrary.org/obo/CLM_1000085 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000085">
-        <obo:PCL_0010062>0.855531344</obo:PCL_0010062>
+        <obo:STATO_0000663>0.855531344</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of VIP GABAergic cortical interneuron (Human Brain).</rdfs:label>
     </owl:Class>
 </rdf:RDF>

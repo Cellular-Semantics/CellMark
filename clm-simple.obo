@@ -1,9 +1,9 @@
 format-version: 1.2
-data-version: clm/releases/2024-11-29/clm-simple.owl
+data-version: clm/releases/2024-12-02/clm-simple.owl
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 idspace: terms http://purl.org/dc/terms/ 
 ontology: clm/clm-simple
-property_value: owl:versionInfo "2024-11-29" xsd:string
+property_value: owl:versionInfo "2024-12-02" xsd:string
 property_value: terms:description "None" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/unspecified
 property_value: terms:title "Cell Markers Ontology" xsd:string
@@ -11,212 +11,207 @@ property_value: terms:title "Cell Markers Ontology" xsd:string
 [Term]
 id: CLM:1000001
 name: NS forest marker set of alveolar adventitial fibroblast (Human Lung).
-property_value: PCL:0010062 "0.85" xsd:string
+property_value: STATO:0000663 "0.85" xsd:string
 
 [Term]
 id: CLM:1000002
 name: NS forest marker set of alveolar type 1 fibroblast cell (Human Lung).
-property_value: PCL:0010062 "0.70" xsd:string
+property_value: STATO:0000663 "0.70" xsd:string
 
 [Term]
 id: CLM:1000003
 name: NS forest marker set of alveolar macrophage (Human Lung).
-property_value: PCL:0010062 "0.80" xsd:string
+property_value: STATO:0000663 "0.80" xsd:string
 
 [Term]
 id: CLM:1000004
 name: NS forest marker set of CCL3-positive alveolar macrophage (Human Lung).
-property_value: PCL:0010062 "0.67" xsd:string
+property_value: STATO:0000663 "0.67" xsd:string
 
 [Term]
 id: CLM:1000005
 name: NS forest marker set of metallothionein-positive alveolar macrophage (Human Lung).
-property_value: PCL:0010062 "0.41" xsd:string
+property_value: STATO:0000663 "0.41" xsd:string
 
 [Term]
 id: CLM:1000006
 name: NS forest marker set of cycling alveolar macrophage (Human Lung).
-property_value: PCL:0010062 "0.26" xsd:string
+property_value: STATO:0000663 "0.26" xsd:string
 
 [Term]
 id: CLM:1000008
 name: NS forest marker set of pulmonary alveolar type 1 cell (Human Lung).
-property_value: PCL:0010062 "0.85" xsd:string
+property_value: STATO:0000663 "0.85" xsd:string
 
 [Term]
 id: CLM:1000009
 name: NS forest marker set of pulmonary alveolar type 2 cell (Human Lung).
-property_value: PCL:0010062 "0.95" xsd:string
+property_value: STATO:0000663 "0.95" xsd:string
 
 [Term]
 id: CLM:1000010
 name: NS forest marker set of cycling pulmonary alveolar type 2 cell (Human Lung).
-property_value: PCL:0010062 "0.61" xsd:string
+property_value: STATO:0000663 "0.61" xsd:string
 
 [Term]
 id: CLM:1000026
 name: NS forest marker set of bronchial goblet cell (Human Lung).
-property_value: PCL:0010062 "0.55" xsd:string
+property_value: STATO:0000663 "0.55" xsd:string
 
 [Term]
 id: CLM:1000027
 name: NS forest marker set of nasal mucosa goblet cell (Human Lung).
-property_value: PCL:0010062 "0.81" xsd:string
-
-[Term]
-id: CLM:1000028
-name: NS forest marker set of bronchial goblet cell (Human Lung).
-property_value: PCL:0010062 "0.61" xsd:string
+property_value: STATO:0000663 "0.81" xsd:string
 
 [Term]
 id: CLM:1000031
 name: NS forest marker set of lung interstitial macrophage (Human Lung).
-property_value: PCL:0010062 "0.46" xsd:string
+property_value: STATO:0000663 "0.46" xsd:string
 
 [Term]
 id: CLM:1000032
 name: NS forest marker set of pulmonary ionocyte (Human Lung).
-property_value: PCL:0010062 "0.82" xsd:string
+property_value: STATO:0000663 "0.82" xsd:string
 
 [Term]
 id: CLM:1000041
 name: NS forest marker set of ciliated columnar cell of tracheobronchial tree (Human Lung).
-property_value: PCL:0010062 "0.86" xsd:string
+property_value: STATO:0000663 "0.86" xsd:string
 
 [Term]
 id: CLM:1000043
 name: NS forest marker set of lung neuroendocrine cell (Human Lung).
-property_value: PCL:0010062 "0.94" xsd:string
+property_value: STATO:0000663 "0.94" xsd:string
 
 [Term]
 id: CLM:1000046
 name: NS forest marker set of pulmonary interstitial fibroblast (Human Lung).
-property_value: PCL:0010062 "0.58" xsd:string
+property_value: STATO:0000663 "0.58" xsd:string
 
 [Term]
 id: CLM:1000047
 name: NS forest marker set of lung pericyte (Human Lung).
-property_value: PCL:0010062 "0.84" xsd:string
+property_value: STATO:0000663 "0.84" xsd:string
 
 [Term]
 id: CLM:1000052
 name: NS forest marker set of airway submucosal gland collecting duct epithelial cell (Human Lung).
-property_value: PCL:0010062 "0.46" xsd:string
+property_value: STATO:0000663 "0.46" xsd:string
 
 [Term]
 id: CLM:1000053
 name: NS forest marker set of mucus secreting cell of bronchus submucosal gland (Human Lung).
-property_value: PCL:0010062 "0.93" xsd:string
+property_value: STATO:0000663 "0.93" xsd:string
 
 [Term]
 id: CLM:1000054
 name: NS forest marker set of serous secreting cell of bronchus submucosal gland (Human Lung).
-property_value: PCL:0010062 "0.75" xsd:string
+property_value: STATO:0000663 "0.75" xsd:string
 
 [Term]
 id: CLM:1000056
 name: NS forest marker set of tracheobronchial smooth muscle cell (Human Lung).
-property_value: PCL:0010062 "0.69" xsd:string
+property_value: STATO:0000663 "0.69" xsd:string
 
 [Term]
 id: CLM:1000059
 name: NS forest marker set of respiratory suprabasal cell (Human Lung).
-property_value: PCL:0010062 "0.62" xsd:string
+property_value: STATO:0000663 "0.62" xsd:string
 
 [Term]
 id: CLM:1000061
 name: NS forest marker set of brush cell of tracheobronchial tree (Human Lung).
-property_value: PCL:0010062 "0.56" xsd:string
+property_value: STATO:0000663 "0.56" xsd:string
 
 [Term]
 id: CLM:1000063
 name: NS forest marker set of chandelier pvalb GABAergic cortical interneuron (Human Brain).
-property_value: PCL:0010062 "0.799748111" xsd:string
+property_value: STATO:0000663 "0.799748111" xsd:string
 
 [Term]
 id: CLM:1000065
 name: NS forest marker set of L2/3 intratelencephalic projecting glutamatergic neuron (Human Brain).
-property_value: PCL:0010062 "0.670149932" xsd:string
+property_value: STATO:0000663 "0.670149932" xsd:string
 
 [Term]
 id: CLM:1000066
 name: NS forest marker set of L4 intratelencephalic projecting glutamatergic neuron (Human Brain).
-property_value: PCL:0010062 "0.720108696" xsd:string
+property_value: STATO:0000663 "0.720108696" xsd:string
 
 [Term]
 id: CLM:1000067
 name: NS forest marker set of L5 extratelencephalic projecting glutamatergic cortical neuron (Human Brain).
-property_value: PCL:0010062 "0.815891473" xsd:string
+property_value: STATO:0000663 "0.815891473" xsd:string
 
 [Term]
 id: CLM:1000068
 name: NS forest marker set of L5 intratelencephalic projecting glutamatergic neuron (Human Brain).
-property_value: PCL:0010062 "0.764261336" xsd:string
+property_value: STATO:0000663 "0.764261336" xsd:string
 
 [Term]
 id: CLM:1000069
 name: NS forest marker set of L5/6 near-projecting glutamatergic neuron (Human Brain).
-property_value: PCL:0010062 "0.899288218" xsd:string
+property_value: STATO:0000663 "0.899288218" xsd:string
 
 [Term]
 id: CLM:1000070
 name: NS forest marker set of L6 corticothalamic-projecting glutamatergic cortical neuron (Human Brain).
-property_value: PCL:0010062 "0.631898455" xsd:string
+property_value: STATO:0000663 "0.631898455" xsd:string
 
 [Term]
 id: CLM:1000071
 name: NS forest marker set of L6 intratelencephalic projecting glutamatergic neuron (Human Brain).
-property_value: PCL:0010062 "0.641695703" xsd:string
+property_value: STATO:0000663 "0.641695703" xsd:string
 
 [Term]
 id: CLM:1000072
 name: NS forest marker set of L6 intratelencephalic projecting Car3 glutamatergic neuron (Human Brain).
-property_value: PCL:0010062 "0.877752028" xsd:string
+property_value: STATO:0000663 "0.877752028" xsd:string
 
 [Term]
 id: CLM:1000073
 name: NS forest marker set of L6b glutamatergic neuron of the primary motor cortex (Human Brain).
-property_value: PCL:0010062 "0.819940964" xsd:string
+property_value: STATO:0000663 "0.819940964" xsd:string
 
 [Term]
 id: CLM:1000074
 name: NS forest marker set of lamp5 GABAergic cortical interneuron (Human Brain).
-property_value: PCL:0010062 "0.814687838" xsd:string
+property_value: STATO:0000663 "0.814687838" xsd:string
 
 [Term]
 id: CLM:1000075
 name: NS forest marker set of Lamp5 Lhx6 neuron (Human Brain).
-property_value: PCL:0010062 "0.821678322" xsd:string
+property_value: STATO:0000663 "0.821678322" xsd:string
 
 [Term]
 id: CLM:1000079
 name: NS forest marker set of Pax6 (Human Brain).
-property_value: PCL:0010062 "0.724125093" xsd:string
+property_value: STATO:0000663 "0.724125093" xsd:string
 
 [Term]
 id: CLM:1000080
 name: NS forest marker set of pvalb GABAergic cortical interneuron (Human Brain).
-property_value: PCL:0010062 "0.691998764" xsd:string
+property_value: STATO:0000663 "0.691998764" xsd:string
 
 [Term]
 id: CLM:1000081
 name: NS forest marker set of sncg GABAergic cortical interneuron (Human Brain).
-property_value: PCL:0010062 "0.628943702" xsd:string
+property_value: STATO:0000663 "0.628943702" xsd:string
 
 [Term]
 id: CLM:1000082
 name: NS forest marker set of sst GABAergic cortical interneuron (Human Brain).
-property_value: PCL:0010062 "0.842367005" xsd:string
+property_value: STATO:0000663 "0.842367005" xsd:string
 
 [Term]
 id: CLM:1000083
 name: NS forest marker set of sst chodl GABAergic cortical interneuron (Human Brain).
-property_value: PCL:0010062 "0.894026187" xsd:string
+property_value: STATO:0000663 "0.894026187" xsd:string
 
 [Term]
 id: CLM:1000085
 name: NS forest marker set of VIP GABAergic cortical interneuron (Human Brain).
-property_value: PCL:0010062 "0.855531344" xsd:string
+property_value: STATO:0000663 "0.855531344" xsd:string
 
 [Typedef]
 id: BFO:0000051

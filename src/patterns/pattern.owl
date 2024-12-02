@@ -13,7 +13,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/cl/MarkersToCells.yaml>))
 Declaration(Class(<http://purl.obolibrary.org/obo/cl/NSForestMarkers.yaml>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0015004>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/PCL_0010062>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/STATO_0000663>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
 
@@ -31,7 +31,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/cl/MarkersToCells.yaml> ObjectSomeVal
 
 # Class: <http://purl.obolibrary.org/obo/cl/NSForestMarkers.yaml> (NS forest marker set of xsd:string (xsd:string xsd:string).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010062> <http://purl.obolibrary.org/obo/cl/NSForestMarkers.yaml> "xsd:double"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/cl/NSForestMarkers.yaml> "xsd:double"^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/cl/NSForestMarkers.yaml> "NSForestMarkers"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/cl/NSForestMarkers.yaml> "NS forest marker set of xsd:string (xsd:string xsd:string)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/cl/NSForestMarkers.yaml> owl:Thing)

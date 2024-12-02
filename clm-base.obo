@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: clm/releases/2024-11-29/clm-base.owl
+data-version: clm/releases/2024-12-02/clm-base.owl
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
@@ -8,7 +8,7 @@ property_value: dce:type IAO:8000001
 property_value: dcterms:description "None" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/unspecified
 property_value: dcterms:title "Cell Markers Ontology" xsd:string
-property_value: owl:versionInfo "2024-11-29" xsd:string
+property_value: owl:versionInfo "2024-12-02" xsd:string
 
 [Term]
 id: CL:0000583
@@ -78,10 +78,8 @@ property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:1000312
-comment: The marker set MTRNR2L8, SCGB1A1 can identify the Human cell type bronchial goblet cell in the Lung with a confidence of 0.61 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 comment: The marker set PLCG2, ANKRD36C can identify the Human cell type bronchial goblet cell in the Lung with a confidence of 0.55 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CLM:1000026 ! has characterizing marker set NS forest marker set of bronchial goblet cell (Human Lung).
-relationship: RO:0015004 CLM:1000028 ! has characterizing marker set NS forest marker set of bronchial goblet cell (Human Lung).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
@@ -264,7 +262,7 @@ name: NS forest marker set of alveolar adventitial fibroblast (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000168079
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000174807
-property_value: PCL:0010062 "0.85" xsd:string
+property_value: STATO:0000663 "0.85" xsd:string
 
 [Term]
 id: CLM:1000002
@@ -272,7 +270,7 @@ name: NS forest marker set of alveolar type 1 fibroblast cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000131471
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000139329
-property_value: PCL:0010062 "0.70" xsd:string
+property_value: STATO:0000663 "0.70" xsd:string
 
 [Term]
 id: CLM:1000003
@@ -280,7 +278,7 @@ name: NS forest marker set of alveolar macrophage (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000038945
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000170323
-property_value: PCL:0010062 "0.80" xsd:string
+property_value: STATO:0000663 "0.80" xsd:string
 
 [Term]
 id: CLM:1000004
@@ -288,7 +286,7 @@ name: NS forest marker set of CCL3-positive alveolar macrophage (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000050730
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000163735
-property_value: PCL:0010062 "0.67" xsd:string
+property_value: STATO:0000663 "0.67" xsd:string
 
 [Term]
 id: CLM:1000005
@@ -296,7 +294,7 @@ name: NS forest marker set of metallothionein-positive alveolar macrophage (Huma
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000100292
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000164120
-property_value: PCL:0010062 "0.41" xsd:string
+property_value: STATO:0000663 "0.41" xsd:string
 
 [Term]
 id: CLM:1000006
@@ -306,21 +304,21 @@ relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137804
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000166803
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000171848
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000175063
-property_value: PCL:0010062 "0.26" xsd:string
+property_value: STATO:0000663 "0.26" xsd:string
 
 [Term]
 id: CLM:1000008
 name: NS forest marker set of pulmonary alveolar type 1 cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000204305
-property_value: PCL:0010062 "0.85" xsd:string
+property_value: STATO:0000663 "0.85" xsd:string
 
 [Term]
 id: CLM:1000009
 name: NS forest marker set of pulmonary alveolar type 2 cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000122852
-property_value: PCL:0010062 "0.95" xsd:string
+property_value: STATO:0000663 "0.95" xsd:string
 
 [Term]
 id: CLM:1000010
@@ -329,7 +327,7 @@ is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000131747
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000198901
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000242265
-property_value: PCL:0010062 "0.61" xsd:string
+property_value: STATO:0000663 "0.61" xsd:string
 
 [Term]
 id: CLM:1000026
@@ -337,7 +335,7 @@ name: NS forest marker set of bronchial goblet cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000174501
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000197943
-property_value: PCL:0010062 "0.55" xsd:string
+property_value: STATO:0000663 "0.55" xsd:string
 
 [Term]
 id: CLM:1000027
@@ -345,15 +343,7 @@ name: NS forest marker set of nasal mucosa goblet cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000197353
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000215182
-property_value: PCL:0010062 "0.81" xsd:string
-
-[Term]
-id: CLM:1000028
-name: NS forest marker set of bronchial goblet cell (Human Lung).
-is_a: SO:0001260 ! sequence_collection
-relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000149021
-relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000255823
-property_value: PCL:0010062 "0.61" xsd:string
+property_value: STATO:0000663 "0.81" xsd:string
 
 [Term]
 id: CLM:1000031
@@ -362,7 +352,7 @@ is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000010327
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000072694
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000124491
-property_value: PCL:0010062 "0.46" xsd:string
+property_value: STATO:0000663 "0.46" xsd:string
 
 [Term]
 id: CLM:1000032
@@ -370,7 +360,7 @@ name: NS forest marker set of pulmonary ionocyte (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000162399
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000176009
-property_value: PCL:0010062 "0.82" xsd:string
+property_value: STATO:0000663 "0.82" xsd:string
 
 [Term]
 id: CLM:1000041
@@ -378,7 +368,7 @@ name: NS forest marker set of ciliated columnar cell of tracheobronchial tree (H
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000166959
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000179902
-property_value: PCL:0010062 "0.86" xsd:string
+property_value: STATO:0000663 "0.86" xsd:string
 
 [Term]
 id: CLM:1000043
@@ -386,7 +376,7 @@ name: NS forest marker set of lung neuroendocrine cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000100604
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000134443
-property_value: PCL:0010062 "0.94" xsd:string
+property_value: STATO:0000663 "0.94" xsd:string
 
 [Term]
 id: CLM:1000046
@@ -394,7 +384,7 @@ name: NS forest marker set of pulmonary interstitial fibroblast (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000143196
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000189058
-property_value: PCL:0010062 "0.58" xsd:string
+property_value: STATO:0000663 "0.58" xsd:string
 
 [Term]
 id: CLM:1000047
@@ -402,7 +392,7 @@ name: NS forest marker set of lung pericyte (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000131097
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000171303
-property_value: PCL:0010062 "0.84" xsd:string
+property_value: STATO:0000663 "0.84" xsd:string
 
 [Term]
 id: CLM:1000052
@@ -410,14 +400,14 @@ name: NS forest marker set of airway submucosal gland collecting duct epithelial
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000156689
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000187908
-property_value: PCL:0010062 "0.46" xsd:string
+property_value: STATO:0000663 "0.46" xsd:string
 
 [Term]
 id: CLM:1000053
 name: NS forest marker set of mucus secreting cell of bronchus submucosal gland (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000078898
-property_value: PCL:0010062 "0.93" xsd:string
+property_value: STATO:0000663 "0.93" xsd:string
 
 [Term]
 id: CLM:1000054
@@ -425,7 +415,7 @@ name: NS forest marker set of serous secreting cell of bronchus submucosal gland
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000111215
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000184530
-property_value: PCL:0010062 "0.75" xsd:string
+property_value: STATO:0000663 "0.75" xsd:string
 
 [Term]
 id: CLM:1000056
@@ -433,7 +423,7 @@ name: NS forest marker set of tracheobronchial smooth muscle cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000107796
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000149591
-property_value: PCL:0010062 "0.69" xsd:string
+property_value: STATO:0000663 "0.69" xsd:string
 
 [Term]
 id: CLM:1000059
@@ -442,7 +432,7 @@ is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000041982
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000171346
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000206073
-property_value: PCL:0010062 "0.62" xsd:string
+property_value: STATO:0000663 "0.62" xsd:string
 
 [Term]
 id: CLM:1000061
@@ -451,7 +441,7 @@ is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000051128
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000118513
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137709
-property_value: PCL:0010062 "0.56" xsd:string
+property_value: STATO:0000663 "0.56" xsd:string
 
 [Term]
 id: CLM:1000063
@@ -459,7 +449,7 @@ name: NS forest marker set of chandelier pvalb GABAergic cortical interneuron (H
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000174948
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000178538
-property_value: PCL:0010062 "0.799748111" xsd:string
+property_value: STATO:0000663 "0.799748111" xsd:string
 
 [Term]
 id: CLM:1000065
@@ -467,7 +457,7 @@ name: NS forest marker set of L2/3 intratelencephalic projecting glutamatergic n
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000119547
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000204262
-property_value: PCL:0010062 "0.670149932" xsd:string
+property_value: STATO:0000663 "0.670149932" xsd:string
 
 [Term]
 id: CLM:1000066
@@ -475,7 +465,7 @@ name: NS forest marker set of L4 intratelencephalic projecting glutamatergic neu
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000113532
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000198963
-property_value: PCL:0010062 "0.720108696" xsd:string
+property_value: STATO:0000663 "0.720108696" xsd:string
 
 [Term]
 id: CLM:1000067
@@ -483,7 +473,7 @@ name: NS forest marker set of L5 extratelencephalic projecting glutamatergic cor
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000124302
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000185668
-property_value: PCL:0010062 "0.815891473" xsd:string
+property_value: STATO:0000663 "0.815891473" xsd:string
 
 [Term]
 id: CLM:1000068
@@ -492,7 +482,7 @@ is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000082482
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000180801
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000198963
-property_value: PCL:0010062 "0.764261336" xsd:string
+property_value: STATO:0000663 "0.764261336" xsd:string
 
 [Term]
 id: CLM:1000069
@@ -500,7 +490,7 @@ name: NS forest marker set of L5/6 near-projecting glutamatergic neuron (Human B
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000038295
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000197085
-property_value: PCL:0010062 "0.899288218" xsd:string
+property_value: STATO:0000663 "0.899288218" xsd:string
 
 [Term]
 id: CLM:1000070
@@ -509,7 +499,7 @@ is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000082684
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137573
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000178031
-property_value: PCL:0010062 "0.631898455" xsd:string
+property_value: STATO:0000663 "0.631898455" xsd:string
 
 [Term]
 id: CLM:1000071
@@ -517,7 +507,7 @@ name: NS forest marker set of L6 intratelencephalic projecting glutamatergic neu
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000172673
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000256193
-property_value: PCL:0010062 "0.641695703" xsd:string
+property_value: STATO:0000663 "0.641695703" xsd:string
 
 [Term]
 id: CLM:1000072
@@ -525,7 +515,7 @@ name: NS forest marker set of L6 intratelencephalic projecting Car3 glutamatergi
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000115593
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000172673
-property_value: PCL:0010062 "0.877752028" xsd:string
+property_value: STATO:0000663 "0.877752028" xsd:string
 
 [Term]
 id: CLM:1000073
@@ -533,7 +523,7 @@ name: NS forest marker set of L6b glutamatergic neuron of the primary motor cort
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000047936
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000118523
-property_value: PCL:0010062 "0.819940964" xsd:string
+property_value: STATO:0000663 "0.819940964" xsd:string
 
 [Term]
 id: CLM:1000074
@@ -541,7 +531,7 @@ name: NS forest marker set of lamp5 GABAergic cortical interneuron (Human Brain)
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000157404
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000235665
-property_value: PCL:0010062 "0.814687838" xsd:string
+property_value: STATO:0000663 "0.814687838" xsd:string
 
 [Term]
 id: CLM:1000075
@@ -549,7 +539,7 @@ name: NS forest marker set of Lamp5 Lhx6 neuron (Human Brain).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000125869
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000154080
-property_value: PCL:0010062 "0.821678322" xsd:string
+property_value: STATO:0000663 "0.821678322" xsd:string
 
 [Term]
 id: CLM:1000079
@@ -557,7 +547,7 @@ name: NS forest marker set of Pax6 (Human Brain).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137252
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000189056
-property_value: PCL:0010062 "0.724125093" xsd:string
+property_value: STATO:0000663 "0.724125093" xsd:string
 
 [Term]
 id: CLM:1000080
@@ -566,7 +556,7 @@ is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000006128
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000100362
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000167306
-property_value: PCL:0010062 "0.691998764" xsd:string
+property_value: STATO:0000663 "0.691998764" xsd:string
 
 [Term]
 id: CLM:1000081
@@ -574,7 +564,7 @@ name: NS forest marker set of sncg GABAergic cortical interneuron (Human Brain).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000143171
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000144229
-property_value: PCL:0010062 "0.628943702" xsd:string
+property_value: STATO:0000663 "0.628943702" xsd:string
 
 [Term]
 id: CLM:1000082
@@ -582,21 +572,21 @@ name: NS forest marker set of sst GABAergic cortical interneuron (Human Brain).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000114805
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000157005
-property_value: PCL:0010062 "0.842367005" xsd:string
+property_value: STATO:0000663 "0.842367005" xsd:string
 
 [Term]
 id: CLM:1000083
 name: NS forest marker set of sst chodl GABAergic cortical interneuron (Human Brain).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000122585
-property_value: PCL:0010062 "0.894026187" xsd:string
+property_value: STATO:0000663 "0.894026187" xsd:string
 
 [Term]
 id: CLM:1000085
 name: NS forest marker set of VIP GABAergic cortical interneuron (Human Brain).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000146469
-property_value: PCL:0010062 "0.855531344" xsd:string
+property_value: STATO:0000663 "0.855531344" xsd:string
 
 [Term]
 id: SO:0001260
