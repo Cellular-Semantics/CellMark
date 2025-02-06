@@ -1,9 +1,9 @@
 format-version: 1.2
-data-version: clm/releases/2024-12-12/clm-simple.owl
+data-version: clm/releases/2025-02-06/clm-simple.owl
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 idspace: terms http://purl.org/dc/terms/ 
 ontology: clm/clm-simple
-property_value: owl:versionInfo "2024-12-12" xsd:string
+property_value: owl:versionInfo "2025-02-06" xsd:string
 property_value: terms:description "None" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/unspecified
 property_value: terms:title "Cell Markers Ontology" xsd:string
@@ -75,12 +75,12 @@ property_value: STATO:0000663 "0.82" xsd:string
 
 [Term]
 id: CLM:1000041
-name: NS forest marker set of ciliated columnar cell of tracheobronchial tree (Human Lung).
+name: NS forest marker set of multiciliated columnar cell of tracheobronchial tree (Human Lung).
 property_value: STATO:0000663 "0.86" xsd:string
 
 [Term]
 id: CLM:1000043
-name: NS forest marker set of lung neuroendocrine cell (Human Lung).
+name: NS forest marker set of pulmonary neuroendocrine cell (Human Lung).
 property_value: STATO:0000663 "0.94" xsd:string
 
 [Term]
@@ -115,7 +115,7 @@ property_value: STATO:0000663 "0.69" xsd:string
 
 [Term]
 id: CLM:1000059
-name: NS forest marker set of respiratory suprabasal cell (Human Lung).
+name: NS forest marker set of respiratory tract suprabasal cell (Human Lung).
 property_value: STATO:0000663 "0.62" xsd:string
 
 [Term]
@@ -185,7 +185,7 @@ property_value: STATO:0000663 "0.821678322" xsd:string
 
 [Term]
 id: CLM:1000079
-name: NS forest marker set of Pax6 (Human Brain).
+name: NS forest marker set of PAX6 GABAergic cortical interneuron (Human Brain).
 property_value: STATO:0000663 "0.724125093" xsd:string
 
 [Term]

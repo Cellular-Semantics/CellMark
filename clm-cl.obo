@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: clm/releases/2024-12-12/clm-cl.owl
+data-version: clm/releases/2025-02-06/clm-cl.owl
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
@@ -8,7 +8,7 @@ property_value: dce:type IAO:8000001
 property_value: dcterms:description "None" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/unspecified
 property_value: dcterms:title "Cell Markers Ontology" xsd:string
-property_value: owl:versionInfo "2024-12-12" xsd:string
+property_value: owl:versionInfo "2025-02-06" xsd:string
 
 [Term]
 id: CL:0000583
@@ -37,7 +37,7 @@ property_value: RO:0002175 NCBITaxon:9606
 [Term]
 id: CL:0002145
 comment: The marker set C1orf194, MS4A8 can identify the Human cell type ciliated columnar cell of tracheobronchial tree in the Lung with a confidence of 0.86 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
-relationship: RO:0015004 CLM:1000041 ! has characterizing marker set NS forest marker set of ciliated columnar cell of tracheobronchial tree (Human Lung).
+relationship: RO:0015004 CLM:1000041 ! has characterizing marker set NS forest marker set of multiciliated columnar cell of tracheobronchial tree (Human Lung).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
@@ -73,7 +73,7 @@ property_value: RO:0002175 NCBITaxon:9606
 [Term]
 id: CL:1000223
 comment: The marker set CHGA, GRP can identify the Human cell type lung neuroendocrine cell in the Lung with a confidence of 0.94 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
-relationship: RO:0015004 CLM:1000043 ! has characterizing marker set NS forest marker set of lung neuroendocrine cell (Human Lung).
+relationship: RO:0015004 CLM:1000043 ! has characterizing marker set NS forest marker set of pulmonary neuroendocrine cell (Human Lung).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
@@ -229,7 +229,7 @@ property_value: RO:0002175 NCBITaxon:9606
 [Term]
 id: CL:4033048
 comment: The marker set TNC, KRT15, SERPINB4 can identify the Human cell type respiratory suprabasal cell in the Lung with a confidence of 0.62 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
-relationship: RO:0015004 CLM:1000059 ! has characterizing marker set NS forest marker set of respiratory suprabasal cell (Human Lung).
+relationship: RO:0015004 CLM:1000059 ! has characterizing marker set NS forest marker set of respiratory tract suprabasal cell (Human Lung).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
@@ -253,7 +253,7 @@ property_value: RO:0002175 NCBITaxon:9606
 [Term]
 id: CL:4042032
 comment: The marker set RELN, HCRTR2 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4042032 in the Brain with a confidence of 0.724125093 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
-relationship: RO:0015004 CLM:1000079 ! has characterizing marker set NS forest marker set of Pax6 (Human Brain).
+relationship: RO:0015004 CLM:1000079 ! has characterizing marker set NS forest marker set of PAX6 GABAergic cortical interneuron (Human Brain).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
@@ -364,7 +364,7 @@ property_value: STATO:0000663 "0.82" xsd:string
 
 [Term]
 id: CLM:1000041
-name: NS forest marker set of ciliated columnar cell of tracheobronchial tree (Human Lung).
+name: NS forest marker set of multiciliated columnar cell of tracheobronchial tree (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000166959 ! MS4A8
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000179902 ! C1orf194
@@ -372,7 +372,7 @@ property_value: STATO:0000663 "0.86" xsd:string
 
 [Term]
 id: CLM:1000043
-name: NS forest marker set of lung neuroendocrine cell (Human Lung).
+name: NS forest marker set of pulmonary neuroendocrine cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000100604 ! CHGA
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000134443 ! GRP
@@ -427,7 +427,7 @@ property_value: STATO:0000663 "0.69" xsd:string
 
 [Term]
 id: CLM:1000059
-name: NS forest marker set of respiratory suprabasal cell (Human Lung).
+name: NS forest marker set of respiratory tract suprabasal cell (Human Lung).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000041982 ! TNC
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000171346 ! KRT15
@@ -543,7 +543,7 @@ property_value: STATO:0000663 "0.821678322" xsd:string
 
 [Term]
 id: CLM:1000079
-name: NS forest marker set of Pax6 (Human Brain).
+name: NS forest marker set of PAX6 GABAergic cortical interneuron (Human Brain).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137252 ! HCRTR2
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000189056 ! RELN

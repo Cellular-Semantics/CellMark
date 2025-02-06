@@ -13,9 +13,9 @@
         "val" : "Cell Markers Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2024-12-12"
+        "val" : "2025-02-06"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/clm/releases/2024-12-12/clm-simple.json"
+      "version" : "http://purl.obolibrary.org/obo/clm/releases/2025-02-06/clm-simple.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000001",
@@ -149,7 +149,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000041",
-      "lbl" : "NS forest marker set of ciliated columnar cell of tracheobronchial tree (Human Lung).",
+      "lbl" : "NS forest marker set of multiciliated columnar cell of tracheobronchial tree (Human Lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -159,7 +159,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000043",
-      "lbl" : "NS forest marker set of lung neuroendocrine cell (Human Lung).",
+      "lbl" : "NS forest marker set of pulmonary neuroendocrine cell (Human Lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -229,7 +229,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000059",
-      "lbl" : "NS forest marker set of respiratory suprabasal cell (Human Lung).",
+      "lbl" : "NS forest marker set of respiratory tract suprabasal cell (Human Lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -369,7 +369,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000079",
-      "lbl" : "NS forest marker set of Pax6 (Human Brain).",
+      "lbl" : "NS forest marker set of PAX6 GABAergic cortical interneuron (Human Brain).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
