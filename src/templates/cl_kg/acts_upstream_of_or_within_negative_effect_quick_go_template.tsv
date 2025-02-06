@@ -1,11 +1,11 @@
 ID	SYMBOL	GENE_PRODUCT_NAME	GO_TERM	GO EVIDENCE CODE	REFERENCE	TAXON ID	SUPERCLASS
 ID	A IAO:0000028	A rdfs:label	AI RO:0004033	>A oboInOwl:evidence	>A oboInOwl:hasDbXref	AI RO:0002162	SC %
-https://identifiers.org/uniprot:O70324	Slc16a2	Monocarboxylate transporter 8	GO:0070460	IMP	PMID:24248460	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot:O70324	Slc16a2	Monocarboxylate transporter 8	GO:0070460	IGI	PMID:24248460	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot:Q3U9N9	Slc16a10	Monocarboxylate transporter 10	GO:0070460	IGI	PMID:24248460	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot:G3X8Y1	Trim55	Tripartite motif-containing 55	GO:1905517	IDA	PMID:29435413	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot:Q92908	GATA6	Transcription factor GATA-6	GO:0070315	IDA	PMID:9593712	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot:Q3TPX4	Exoc5	Exocyst complex component 5	GO:1904019	IMP	PMID:26040895	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot:P09055	Itgb1	Integrin beta-1	GO:0150103	IMP	PMID:25716834	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot:P37238	Pparg	Peroxisome proliferator-activated receptor gamma	GO:0002246	IDA	PMID:21880694	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot:Q99NH8	Trem2	Triggering receptor expressed on myeloid cells 2	GO:0070269	IMP	PMID:29887864	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/O70324	Slc16a2	Monocarboxylate transporter 8	GO:0070460	IMP	PMID:24248460	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/O70324	Slc16a2	Monocarboxylate transporter 8	GO:0070460	IGI	PMID:24248460	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q3U9N9	Slc16a10	Monocarboxylate transporter 10	GO:0070460	IGI	PMID:24248460	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/G3X8Y1	Trim55	Tripartite motif-containing 55	GO:1905517	IDA	PMID:29435413	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q92908	GATA6	Transcription factor GATA-6	GO:0070315	IDA	PMID:9593712	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q3TPX4	Exoc5	Exocyst complex component 5	GO:1904019	IMP	PMID:26040895	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P09055	Itgb1	Integrin beta-1	GO:0150103	IMP	PMID:25716834	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P37238	Pparg	Peroxisome proliferator-activated receptor gamma	GO:0002246	IDA	PMID:21880694	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q99NH8	Trem2	Triggering receptor expressed on myeloid cells 2	GO:0070269	IMP	PMID:29887864	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
