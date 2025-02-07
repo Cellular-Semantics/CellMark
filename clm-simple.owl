@@ -10,11 +10,11 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/clm/clm-simple.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/clm/releases/2024-12-12/clm-simple.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/clm/releases/2025-02-06/clm-simple.owl"/>
         <terms:description>None</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <terms:title>Cell Markers Ontology</terms:title>
-        <owl:versionInfo>2024-12-12</owl:versionInfo>
+        <owl:versionInfo>2025-02-06</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -235,7 +235,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000041">
         <obo:STATO_0000663>0.86</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of ciliated columnar cell of tracheobronchial tree (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of multiciliated columnar cell of tracheobronchial tree (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -244,7 +244,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000043">
         <obo:STATO_0000663>0.94</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of lung neuroendocrine cell (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of pulmonary neuroendocrine cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -307,7 +307,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000059">
         <obo:STATO_0000663>0.62</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of respiratory suprabasal cell (Human Lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of respiratory tract suprabasal cell (Human Lung).</rdfs:label>
     </owl:Class>
     
 
@@ -433,7 +433,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000079">
         <obo:STATO_0000663>0.724125093</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of Pax6 (Human Brain).</rdfs:label>
+        <rdfs:label>NS forest marker set of PAX6 GABAergic cortical interneuron (Human Brain).</rdfs:label>
     </owl:Class>
     
 

@@ -5,6 +5,8 @@ import pandas as pd
 from neo4j import GraphDatabase
 from io import StringIO
 
+UNIPROT_PREFIX = "https://identifiers.org/uniprot/"
+
 script_dir = os.path.dirname(os.path.abspath(__file__))
 output_dir = os.path.join(script_dir, "../templates/cl_kg/")
 
@@ -139,7 +141,7 @@ def main():
 
     # ETL transformation
     filtered_uniprot_df["GENE PRODUCT ID"] = (
-        "https://identifiers.org/uniprot:" + filtered_uniprot_df["GENE PRODUCT ID"]
+            UNIPROT_PREFIX + filtered_uniprot_df["GENE PRODUCT ID"]
     )
     filtered_uniprot_df["TAXON ID"] = (
         "http://purl.obolibrary.org/obo/NCBITaxon_"
