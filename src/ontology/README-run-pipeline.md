@@ -38,7 +38,7 @@ $(TEMPLATESDIR)/LungCellAtlas.tsv:
 
 ## 3- Prepare templates source files
 
-Neo4j client cannot be run inside ODK, so we need to prepare the templates source files before running the pipeline. For each input file a source file will be generated in the `src/markers/templates` directory. The source file will be used to generate the final templates.
+Neo4j client cannot be run inside ODK, so we need to prepare the templates source files before running the pipeline. For each input file a source file will be generated in the `src/markers/` directory. The source file will be used to generate the final templates.
 
 Source files will only be created if it does not exist. If you want to regenerate the source file, you should delete the existing source file.
 
