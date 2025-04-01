@@ -1,4 +1,4 @@
-﻿cluzterName,clusterSize,NSForest_markers,marker_count,f_score,HLCAmarkers,HLCAmarkerCount,HLCAmarker_Fbeta,NSforestMarker_Fbeta-HLCAmarker_Fbeta
+﻿clusterName,clusterSize,NSForest_markers,marker_count,f_score,HLCAmarkers,HLCAmarkerCount,HLCAmarker_Fbeta,NSforestMarker_Fbeta-HLCAmarker_Fbeta
 Adventitial fibroblasts,10321,"['SCARA5', 'CD248']",2,0.85,"['MFAP5', 'SCARA5', 'PI16']",3,0.79,0.06
 Alveolar fibroblasts,5182,"['AOC3', 'LUM']",2,0.70,"['SPINT2', 'LIMCH1', 'FGFR4']",3,0.31,0.39
 Alveolar macrophages,68487,"['MSR1', 'FABP4']",2,0.80,"['CYP27A1', 'MARCO', 'FABP4']",3,0.78,0.02
