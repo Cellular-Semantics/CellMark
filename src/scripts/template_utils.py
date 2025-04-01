@@ -121,16 +121,26 @@ def get_gene_id(gene_db, gene_name):
 
 def read_metadata_file(input_file_name):
     """
-    Reads the metadata file for the given input file.
+    Reads the metadata file for the given input file from metadata.csv.
     Args:
         input_file_name: name of the input file
     Returns: metadata dictionary
     """
-    metadata_file_path = os.path.join(INPUT_FOLDER_PATH, f"{input_file_name}.yaml")
-    metadata = {}
+    metadata_file_path = os.path.join(INPUT_FOLDER_PATH, "metadata.csv")
+
     if os.path.exists(metadata_file_path):
-        metadata = read_yaml(metadata_file_path)
-    return metadata
+        df = pd.read_csv(metadata_file_path)
+        input_file_name = input_file_name.strip()
+        file_name_no_ext = os.path.splitext(input_file_name)[0]
+
+        for _, row in df.iterrows():
+            row_file_name = row['file_name'].strip()
+            row_file_name_no_ext = os.path.splitext(row_file_name)[0]
+
+            if file_name_no_ext == row_file_name_no_ext:
+                return row.to_dict()
+
+    raise Exception(f"Metadata not found for file: {input_file_name}")
 
 
 def extract_gene_terms(output_filepath: str = None, agreed: bool = False):

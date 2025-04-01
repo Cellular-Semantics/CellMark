@@ -1,8 +1,0 @@
-Organ: "Lung"
-Species: "NCBITaxon:9606"
-Species_abbreviation: "Human"
-Organ_region: "UBERON:0002048"
-Parent: "SO:0001260"
-Marker_set_xref: "https://doi.org/10.5281/zenodo.11165918"
-CxG_collection: "https://cellxgene.cziscience.com/collections/6f6d381a-7701-4781-935c-db10d30de293"
-CxG_dataset: "An integrated cell atlas of the human lung in health and disease (core)"

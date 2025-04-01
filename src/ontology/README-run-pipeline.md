@@ -11,18 +11,13 @@ Validate user provided data in the `src/markers/input` directory. The data must 
 | clusterName | f_score | NSForest_markers | cxg_dataset_title |
 |-------------|---------|------------------|-------------------|
 
-In addition to the input data files, the user should provide a supplementary metadata file in the same directory with the same name except with `yaml` extension.
+In addition to the input data files, the user should provide a supplementary metadata through adding a record to the `src/markers/input/metadata.csv` file.
 
-```yaml
-Organ: "Lung"
-Species: "NCBITaxon:9606"
-Species_abbreviation: "Human"
-Organ_region: "UBERON:0002048"
-Parent: "SO:0001260"
-Marker_set_xref: "https://doi.org/10.5281/zenodo.11165918"
-CxG_collection: "https://cellxgene.cziscience.com/collections/6f6d381a-7701-4781-935c-db10d30de293"
-CxG_dataset: "An integrated cell atlas of the human lung in health and disease (core)"
-```
+| file_name                                                | Organ | Species       | Species_abbreviation | Organ_region  | Parent    | Marker_set_xref                          | CxG_collection                                                                 | CxG_dataset                                                                                  |
+|----------------------------------------------------------|-------|---------------|----------------------|---------------|-----------|------------------------------------------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| HLCA_CellRef_MarkerPerformance_forDOS.csv                | Lung  | NCBITaxon:9606 | Human               | UBERON:0002048 | SO:0001260 | https://doi.org/10.5281/zenodo.11165918 | https://cellxgene.cziscience.com/collections/6f6d381a-7701-4781-935c-db10d30de293 | An integrated cell atlas of the human lung in health and disease (core)                       |
+| nsforest_human_neocortex_global_cluster_combinatorial_results.csv | Brain | NCBITaxon:9606 | Human               | UBERON:0001950 | SO:0001260 | https://doi.org/10.5281/zenodo.11165918 | https://cellxgene.cziscience.com/collections/d17249d2-0e6e-4500-abb8-e6c93fa1ac6f |                                                                                               |
+| nsforest_human_neocortex_global_subclass_results.csv     | Brain | NCBITaxon:9606 | Human               | UBERON:0001950 | SO:0001260 | https://doi.org/10.5281/zenodo.11165918 | https://cellxgene.cziscience.com/collections/d17249d2-0e6e-4500-abb8-e6c93fa1ac6f |                                                                                               |
 
 `CxG_dataset` and `CxG_collection` are optional fields. If provided, the pipeline will use them to query CL_KG. If `CxG_dataset` is not provided, the pipeline will use the `cxg_dataset_title` column in the input data file. 
 
@@ -43,7 +38,7 @@ $(TEMPLATESDIR)/LungCellAtlas.tsv:
 
 ## 3- Prepare templates source files
 
-Neo4j client cannot be run inside ODK, so we need to prepare the templates source files before running the pipeline. For each input file a source file will be generated in the `src/markers/templates` directory. The source file will be used to generate the final templates.
+Neo4j client cannot be run inside ODK, so we need to prepare the templates source files before running the pipeline. For each input file a source file will be generated in the `src/markers/` directory. The source file will be used to generate the final templates.
 
 Source files will only be created if it does not exist. If you want to regenerate the source file, you should delete the existing source file.
 
