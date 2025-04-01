@@ -5,13 +5,13 @@ import pandas as pd
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 INPUT_FOLDER_PATH = os.path.join(PROJECT_ROOT, "src/markers/input")
 
-REQUIRED_COLUMNS = ["clusterName", "f_score", "NSForest_markers", "cxg_dataset_title"]
+REQUIRED_COLUMNS = ["clusterName", "f_score", "NSForest_markers"]
 
 def validate_file(file_path):
     relative_path = os.path.relpath(file_path, PROJECT_ROOT)
     try:
-        df = pd.read_csv(file_path, sep=None, engine='python')
-        missing_columns = [col for col in REQUIRED_COLUMNS if col not in df.columns]
+        df = pd.read_csv(file_path, sep=None, engine='python', encoding='utf-8-sig')
+        missing_columns = [col for col in REQUIRED_COLUMNS if col not in df.columns.tolist()]
         if missing_columns:
             return f"File {relative_path} is missing columns: {', '.join(missing_columns)}"
         return None
