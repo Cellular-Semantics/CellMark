@@ -15,6 +15,8 @@ def validate_file(file_path):
         if missing_columns:
             return f"File {relative_path} is missing columns: {', '.join(missing_columns)}"
         return None
+    except pd.errors.ParserError as e:
+        return f"Parsing error in {relative_path}: {e}"
     except Exception as e:
         return f"Error reading {relative_path}: {e}"
 
