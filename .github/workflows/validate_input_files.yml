@@ -1,4 +1,4 @@
-name: Validate CSV/TSV Headers
+name: Validate Input Files
 
 on:
   pull_request:
@@ -29,7 +29,7 @@ jobs:
     - name: Run header validation
       id: validate
       run: |
-        python ./src/scripts/validate_headers.py 2>&1 | tee validation_output.txt
+        python ./src/scripts/validate_input_files.py 2>&1 | tee validation_output.txt
         if [ ${PIPESTATUS[0]} -ne 0 ]; then
           echo "## Validation Issues" > validation_comment.txt
           cat validation_output.txt >> validation_comment.txt

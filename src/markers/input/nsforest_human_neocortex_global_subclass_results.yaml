@@ -1,7 +1,0 @@
-Organ: "Brain"
-Species: "NCBITaxon:9606"
-Species_abbreviation: "Human"
-Organ_region: "UBERON:0001950"
-Parent: "SO:0001260"
-Marker_set_xref: "https://doi.org/10.5281/zenodo.11165918"
-CxG_collection: "https://cellxgene.cziscience.com/collections/d17249d2-0e6e-4500-abb8-e6c93fa1ac6f"
