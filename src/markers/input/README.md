@@ -13,7 +13,7 @@ You may include additional columns if needed.
 
 ## 2. Add Metadata
 
-Alongside the input data, include a corresponding metadata entry in the `src/markers/input/metadata.csv` file. Each row should describe one input file and must include the following fields:
+Alongside the input data, include a corresponding metadata entry in the `src/markers/input/metadata.csv` file. Each row should describe one input file and should include the following fields:
 
 | file_name | Organ | Species | Species_abbreviation | Organ_region | Parent | Marker_set_xref | CxG_collection | CxG_dataset |
 |-----------|--------|---------|------------------------|----------------|---------|--------------------|------------------|---------------|
