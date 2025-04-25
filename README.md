@@ -23,6 +23,10 @@ For more details, refer to the [Quick Start Guide](docs/add_new_markers_quick.md
 
 Admins responsible for running the pipeline should follow the instructions provided in the [Pipeline Guide](src/ontology/README-run-pipeline.md).
 
+### Overview:
+
+General workflow can be found at [Workflow Documentation](docs/pipeline_workflow.md).
+
 ### Key Steps:
 - **Prepare Input Data**: Ensure that the input data and metadata in the `src/markers/input` directory are validated and meet the required format.
 - **Prepare Gene Databases**: Generate gene databases from the provided anndata files using the `Makefile` in `src/markers`.
