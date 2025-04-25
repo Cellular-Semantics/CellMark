@@ -29,3 +29,11 @@ Example metadata:
 ### Notes:
 - `CxG_dataset` and `CxG_collection` are optional. If provided, the pipeline will use them to query the CL_KG.
 - If `CxG_dataset` is omitted, the pipeline will default to the `cxg_dataset_title` in the input file.
+
+## 3. GitHub Action: Validate Input
+After adding your files and metadata, create a pull request. This will trigger an automated GitHub Action that validates the metadata and input files. The action will check for:
+
+- Correct column names and types in the input files.
+- Consistency between the input files and the metadata.
+
+<img src="../../../docs/images/github_action_validate_input.png" alt="GitHub Action Validate Input" width="600"/>
