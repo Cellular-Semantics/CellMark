@@ -1,6 +1,6 @@
 # Quick Start Guide: Adding New Marker Files
 
-For detailed instructions, refer to the detailed [README file](src/markers/input/README.md).
+For detailed instructions, refer to the detailed [README file](../src/markers/input/README.md).
 
 ## Steps to Add New Marker Files
 
