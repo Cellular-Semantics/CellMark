@@ -2,7 +2,7 @@
 ![Build Status](https://github.com/Cellular-Semantics/CellMark/actions/workflows/qc.yml/badge.svg)
 # Cell Markers Ontology
 
-Description: An ontology of cell type markers.
+An ontology of cell type markers.
 
 This ontology integrates cell type markers for cells in the [Cell Ontology](https://github.com/obophenotype/cell-ontology) from various sources along with details of marker context (anatomical context, assay), confidence (where available) and provenance.   
 
