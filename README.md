@@ -8,20 +8,30 @@ This ontology integrates cell type markers for cells in the [Cell Ontology](http
 
 This ontology is not currently registered with or approved by the OBO foundry.  It is intended, primarily, as a source for the content for the [CL knowledge graph](https://github.com/Cellular-Semantics/CL_KG/).
 
-## Versions
+## Adding New Marker Files
 
-### Stable release versions
+To add new marker files, follow these steps:
 
-The latest version of the ontology can always be found under the `latest` tag on this repository.  Future versions may be available via the OBO foundry PURL http://purl.obolibrary.org/obo/clm.owl, if approval is sought and granted.
+- **Create a New Branch**: Create a new branch in your repository for your changes.
+- **Prepare Input Data**: Add your marker data file(s) to the `src/markers/input` directory. Ensure the file includes the required columns: `clusterName`, `f_score`, `NSForest_markers`, and `cxg_dataset_title`.
+- **Add Metadata**: Update the `src/markers/input/metadata.csv` file with a new row describing your input file. Include fields like `file_name`, `Organ`, `Species`, and others as specified in the detailed guide.
+- **Create a Pull Request**: Open a pull request to merge your branch into the main repository. This will trigger GitHub Actions to validate your input files and metadata.
 
-### Editors' version
+For more details, refer to the [Quick Start Guide](docs/add_new_markers_quick.md) or the [Detailed Data Upload Guide](src/markers/input/README.md).
 
-This ontology is automatically built from templates and source data files (tsvs). While this repository does contain an editor's file, [src/ontology/clm-edit.owl](src/ontology/clm-edit.owl) content should be added via depositing/editing data files or improvements to templates. 
+## Running the Pipeline (For Admins)
+
+Admins responsible for running the pipeline should follow the instructions provided in the [Pipeline Guide](src/ontology/README-run-pipeline.md).
+
+### Key Steps:
+- **Prepare Input Data**: Ensure that the input data and metadata in the `src/markers/input` directory are validated and meet the required format.
+- **Prepare Gene Databases**: Generate gene databases from the provided anndata files using the `Makefile` in `src/markers`.
+- **Generate Source Files**: Use the `dosdp_template_generator.py` script to create or update source files for input data.
+- **Prepare QuickGO Templates**: Run the `go_term_template_generator.py` script to fetch and prepare Gene Ontology templates.
+- **Run the ODK Pipeline**: Execute the pipeline using the `make prepare_release` command as described in the guide.
+
+Refer to the [Pipeline Guide](src/ontology/README-run-pipeline.md) for detailed instructions and additional context.
 
 ## Contact
 
 Please use this GitHub repository's [Issue tracker](https://github.com/Cellular-Semantics/CellMark/issues) to request new content or report errors or specific concerns related to the ontology.
-
-## Acknowledgements
-
-This ontology repository was created using the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit).
