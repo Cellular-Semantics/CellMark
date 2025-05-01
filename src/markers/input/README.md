@@ -9,7 +9,7 @@ Place your marker data file(s) in the `src/markers/input` directory. Each file m
 | clusterName | f_score | NSForest_markers | cxg_dataset_title |
 |-------------|---------|------------------|-------------------|
 
-You may include additional columns if needed.
+You may include additional columns if needed. See NS-Forest SOP [here](https://docs.google.com/document/d/1gkBGF5EIATI_ki0hRjC99irbr7dsuLFk/edit).
 
 ## 2. Add Metadata
 
