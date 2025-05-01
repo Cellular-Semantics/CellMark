@@ -9,7 +9,7 @@ For detailed instructions, refer to the detailed [README file](../src/markers/in
 
 2. **Prepare Input Data**  
    - Add your marker data file(s) to the `src/markers/input` directory.  
-   - Ensure the file includes the required columns: `clusterName`, `f_score`, `NSForest_markers`, and `cxg_dataset_title`.
+   - Ensure the file includes the required columns: `clusterName`, `f_score`, `NSForest_markers`, and `cxg_dataset_title`. See NS-Forest SOP [here](https://docs.google.com/document/d/1gkBGF5EIATI_ki0hRjC99irbr7dsuLFk/edit).
 
 3. **Add Metadata**  
    - Update the `src/markers/input/metadata.csv` file with a new row describing your input file.  
