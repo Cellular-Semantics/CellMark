@@ -13,7 +13,7 @@ For detailed instructions, refer to the detailed [README file](../src/markers/in
 
 3. **Add Metadata**  
    - Update the `src/markers/input/metadata.csv` file with a new row describing your input file.  
-   - Include fields like `file_name`, `Organ`, `Species`, and others as specified in the detailed guide.
+   - Include fields like `file_name`, `Organ_region`, `Species`, and others as specified in the detailed guide.
 
 4. **Commit and Push Changes**  
    - Commit your changes and push them to your branch.

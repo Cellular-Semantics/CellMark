@@ -1,8 +1,11 @@
 import os
+import ssl
 import argparse
 import pandas as pd
 
 from neo4j_client import Neo4jClient
+from SPARQLWrapper import SPARQLWrapper, JSON
+from cachetools import TTLCache, cached
 
 from file_utils import read_table_to_dict
 from template_utils import TEMPLATES_FOLDER_PATH, MARKERS_SOURCE_PATH, extract_gene_terms
@@ -96,7 +99,7 @@ def generate_kg_indvs_robot_template():
                             "TYPE": "owl:NamedIndividual",
                             "Cell_type": row["Cell_type"],
                             "Marker_set": row["Marker_set"],
-                            "Comment": "A {} in the {} {} has the gene markers {} with a NS-Forest FBeta value of {}s.".format(row["Cell_type"], row["Species_abbv"], row["Organ"], ', '.join(row["Minimal_markers_label"].split("|")), row["FBeta_confidence_score"]),
+                            "Comment": "A {} in the {} {} has the gene markers {} with a NS-Forest FBeta value of {}s.".format(row["Cell_type"], row["Species_abbv"], get_uberon_label(row["Organ_region"]), ', '.join(row["Minimal_markers_label"].split("|")), row["FBeta_confidence_score"]),
                             "Species": row["Species"],
                         })
 
@@ -106,7 +109,7 @@ def generate_kg_indvs_robot_template():
     except Exception as e:
         import traceback
         print(f"An error occurred: {e}. You can ignore this error on ODK prepare_release step.")
-        # print(traceback.format_exc())
+        print(traceback.format_exc())
     finally:
         if neo_client:
             neo_client.close()
@@ -128,6 +131,35 @@ def get_cluster_ids(neo_client, cluster_name, cxg_dataset):
             cluster_iris = [""]
 
     return cluster_iris
+
+# Create a cache with a maximum size of 128 and a TTL of 3600 seconds (1 hour)
+cache = TTLCache(maxsize=128, ttl=3600)
+ssl._create_default_https_context = ssl._create_unverified_context
+
+@cached(cache)
+def get_uberon_label(uberon_curie: str) -> str:
+    uberon_id = uberon_curie.strip().replace(":", "_")
+    sparql = SPARQLWrapper("https://ubergraph.apps.renci.org/sparql")
+    query = """
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    PREFIX obo: <http://purl.obolibrary.org/obo/>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    SELECT DISTINCT *
+    WHERE {{
+      obo:{uberon_id} rdfs:label ?label .
+    }}
+    LIMIT 1
+    """.format(uberon_id=uberon_id)
+    sparql.setQuery(query)
+    sparql.setReturnFormat(JSON)
+    results = sparql.query().convert()
+
+    bindings = results.get("results", {}).get("bindings", [])
+    if not bindings:
+        raise Exception("Uberon term not found: {}".format(uberon_curie))
+
+    label = bindings[0].get("label", {}).get("value")
+    return label
 
 
 if __name__ == "__main__":

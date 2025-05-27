@@ -14,7 +14,7 @@ To add new marker files, follow these steps:
 
 - **Create a New Branch**: Create a new branch in your repository for your changes.
 - **Prepare Input Data**: Add your marker data file(s) to the `src/markers/input` directory. Ensure the file includes the required columns: `clusterName`, `f_score`, `NSForest_markers`, and `cxg_dataset_title`.
-- **Add Metadata**: Update the `src/markers/input/metadata.csv` file with a new row describing your input file. Include fields like `file_name`, `Organ`, `Species`, and others as specified in the detailed guide.
+- **Add Metadata**: Update the `src/markers/input/metadata.csv` file with a new row describing your input file. Include fields like `file_name`, `Organ_region`, `Species`, and others as specified in the detailed guide.
 - **Create a Pull Request**: Open a pull request to merge your branch into the main repository. This will trigger GitHub Actions to validate your input files and metadata.
 
 For more details, refer to the [Quick Start Guide](docs/add_new_markers_quick.md) or the [Detailed Data Upload Guide](src/markers/input/README.md).

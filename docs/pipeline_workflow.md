@@ -17,7 +17,8 @@ Workflow for the Cell Markers Ontology (CLM) pipeline, detailing the steps invol
 
 ### Source Files Generation
 - Neo4j client cannot be run inside ODK, so we need to prepare the templates source files before running the pipeline.
-- Run `pyton src/scripts/dosdp_template_generator.py`
+- _Note: You should be connected to the Sanger intranet to be able to run the Neo4j queries._
+- Run `python src/scripts/dosdp_template_generator.py`
 - For each input file, a source file is generated in the `src/markers/$input_file_name$Source.tsv`.
 - Also, queries the CL_KG to retrieve the auto-generated IDs of the Clusters for each used cxg_dataset. CL_KG Clusters individuals template is generated at `src/templates/cl_kg/Clusters.tsv`. 
 - CK_KG Cluster individuals has auto-generated IDs. So this template should be regenerated with each CL_KG update.
