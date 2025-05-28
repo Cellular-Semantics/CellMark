@@ -16,9 +16,9 @@
         "val" : "Cell Markers Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-02-06"
+        "val" : "2025-05-27"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/clm/releases/2025-02-06/clm-base.json"
+      "version" : "http://purl.obolibrary.org/obo/clm/releases/2025-05-27/clm-base.json"
     },
     "nodes" : [ {
       "id" : "http://identifiers.org/ensembl/ENSG00000006128",
@@ -274,7 +274,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000001",
-      "lbl" : "NS forest marker set of alveolar adventitial fibroblast (Human Lung).",
+      "lbl" : "NS forest marker set of alveolar adventitial fibroblast (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -284,7 +284,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000002",
-      "lbl" : "NS forest marker set of alveolar type 1 fibroblast cell (Human Lung).",
+      "lbl" : "NS forest marker set of alveolar type 1 fibroblast cell (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -294,7 +294,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000003",
-      "lbl" : "NS forest marker set of alveolar macrophage (Human Lung).",
+      "lbl" : "NS forest marker set of alveolar macrophage (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -304,7 +304,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000004",
-      "lbl" : "NS forest marker set of CCL3-positive alveolar macrophage (Human Lung).",
+      "lbl" : "NS forest marker set of CCL3-positive alveolar macrophage (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -314,7 +314,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000005",
-      "lbl" : "NS forest marker set of metallothionein-positive alveolar macrophage (Human Lung).",
+      "lbl" : "NS forest marker set of metallothionein-positive alveolar macrophage (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -324,7 +324,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000006",
-      "lbl" : "NS forest marker set of cycling alveolar macrophage (Human Lung).",
+      "lbl" : "NS forest marker set of cycling alveolar macrophage (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -334,7 +334,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000008",
-      "lbl" : "NS forest marker set of pulmonary alveolar type 1 cell (Human Lung).",
+      "lbl" : "NS forest marker set of pulmonary alveolar type 1 cell (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -344,7 +344,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000009",
-      "lbl" : "NS forest marker set of pulmonary alveolar type 2 cell (Human Lung).",
+      "lbl" : "NS forest marker set of pulmonary alveolar type 2 cell (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -354,7 +354,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000010",
-      "lbl" : "NS forest marker set of cycling pulmonary alveolar type 2 cell (Human Lung).",
+      "lbl" : "NS forest marker set of cycling pulmonary alveolar type 2 cell (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -364,7 +364,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000026",
-      "lbl" : "NS forest marker set of bronchial goblet cell (Human Lung).",
+      "lbl" : "NS forest marker set of bronchial goblet cell (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -374,7 +374,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000027",
-      "lbl" : "NS forest marker set of nasal mucosa goblet cell (Human Lung).",
+      "lbl" : "NS forest marker set of nasal mucosa goblet cell (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -384,7 +384,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000031",
-      "lbl" : "NS forest marker set of lung interstitial macrophage (Human Lung).",
+      "lbl" : "NS forest marker set of lung interstitial macrophage (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -394,7 +394,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000032",
-      "lbl" : "NS forest marker set of pulmonary ionocyte (Human Lung).",
+      "lbl" : "NS forest marker set of pulmonary ionocyte (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -404,7 +404,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000041",
-      "lbl" : "NS forest marker set of multiciliated columnar cell of tracheobronchial tree (Human Lung).",
+      "lbl" : "NS forest marker set of multiciliated columnar cell of tracheobronchial tree (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -414,7 +414,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000043",
-      "lbl" : "NS forest marker set of pulmonary neuroendocrine cell (Human Lung).",
+      "lbl" : "NS forest marker set of pulmonary neuroendocrine cell (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -424,7 +424,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000046",
-      "lbl" : "NS forest marker set of pulmonary interstitial fibroblast (Human Lung).",
+      "lbl" : "NS forest marker set of pulmonary interstitial fibroblast (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -434,7 +434,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000047",
-      "lbl" : "NS forest marker set of lung pericyte (Human Lung).",
+      "lbl" : "NS forest marker set of lung pericyte (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -444,7 +444,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000052",
-      "lbl" : "NS forest marker set of airway submucosal gland collecting duct epithelial cell (Human Lung).",
+      "lbl" : "NS forest marker set of airway submucosal gland collecting duct epithelial cell (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -454,7 +454,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000053",
-      "lbl" : "NS forest marker set of mucus secreting cell of bronchus submucosal gland (Human Lung).",
+      "lbl" : "NS forest marker set of mucus secreting cell of bronchus submucosal gland (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -464,7 +464,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000054",
-      "lbl" : "NS forest marker set of serous secreting cell of bronchus submucosal gland (Human Lung).",
+      "lbl" : "NS forest marker set of serous secreting cell of bronchus submucosal gland (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -474,7 +474,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000056",
-      "lbl" : "NS forest marker set of tracheobronchial smooth muscle cell (Human Lung).",
+      "lbl" : "NS forest marker set of tracheobronchial smooth muscle cell (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -484,7 +484,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000059",
-      "lbl" : "NS forest marker set of respiratory tract suprabasal cell (Human Lung).",
+      "lbl" : "NS forest marker set of respiratory tract suprabasal cell (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -494,7 +494,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000061",
-      "lbl" : "NS forest marker set of brush cell of tracheobronchial tree (Human Lung).",
+      "lbl" : "NS forest marker set of brush cell of tracheobronchial tree (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -504,7 +504,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000063",
-      "lbl" : "NS forest marker set of chandelier pvalb GABAergic cortical interneuron (Human Brain).",
+      "lbl" : "NS forest marker set of chandelier pvalb GABAergic cortical interneuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -514,7 +514,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000065",
-      "lbl" : "NS forest marker set of L2/3 intratelencephalic projecting glutamatergic neuron (Human Brain).",
+      "lbl" : "NS forest marker set of L2/3 intratelencephalic projecting glutamatergic neuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -524,7 +524,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000066",
-      "lbl" : "NS forest marker set of L4 intratelencephalic projecting glutamatergic neuron (Human Brain).",
+      "lbl" : "NS forest marker set of L4 intratelencephalic projecting glutamatergic neuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -534,7 +534,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000067",
-      "lbl" : "NS forest marker set of L5 extratelencephalic projecting glutamatergic cortical neuron (Human Brain).",
+      "lbl" : "NS forest marker set of L5 extratelencephalic projecting glutamatergic cortical neuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -544,7 +544,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000068",
-      "lbl" : "NS forest marker set of L5 intratelencephalic projecting glutamatergic neuron (Human Brain).",
+      "lbl" : "NS forest marker set of L5 intratelencephalic projecting glutamatergic neuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -554,7 +554,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000069",
-      "lbl" : "NS forest marker set of L5/6 near-projecting glutamatergic neuron (Human Brain).",
+      "lbl" : "NS forest marker set of L5/6 near-projecting glutamatergic neuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -564,7 +564,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000070",
-      "lbl" : "NS forest marker set of L6 corticothalamic-projecting glutamatergic cortical neuron (Human Brain).",
+      "lbl" : "NS forest marker set of L6 corticothalamic-projecting glutamatergic cortical neuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -574,7 +574,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000071",
-      "lbl" : "NS forest marker set of L6 intratelencephalic projecting glutamatergic neuron (Human Brain).",
+      "lbl" : "NS forest marker set of L6 intratelencephalic projecting glutamatergic neuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -584,7 +584,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000072",
-      "lbl" : "NS forest marker set of L6 intratelencephalic projecting Car3 glutamatergic neuron (Human Brain).",
+      "lbl" : "NS forest marker set of L6 intratelencephalic projecting Car3 glutamatergic neuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -594,7 +594,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000073",
-      "lbl" : "NS forest marker set of L6b glutamatergic neuron of the primary motor cortex (Human Brain).",
+      "lbl" : "NS forest marker set of L6b glutamatergic neuron of the primary motor cortex (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -604,7 +604,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000074",
-      "lbl" : "NS forest marker set of lamp5 GABAergic cortical interneuron (Human Brain).",
+      "lbl" : "NS forest marker set of lamp5 GABAergic cortical interneuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -614,7 +614,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000075",
-      "lbl" : "NS forest marker set of Lamp5 Lhx6 neuron (Human Brain).",
+      "lbl" : "NS forest marker set of Lamp5 Lhx6 neuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -624,7 +624,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000079",
-      "lbl" : "NS forest marker set of PAX6 GABAergic cortical interneuron (Human Brain).",
+      "lbl" : "NS forest marker set of PAX6 GABAergic cortical interneuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -634,7 +634,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000080",
-      "lbl" : "NS forest marker set of pvalb GABAergic cortical interneuron (Human Brain).",
+      "lbl" : "NS forest marker set of pvalb GABAergic cortical interneuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -644,7 +644,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000081",
-      "lbl" : "NS forest marker set of sncg GABAergic cortical interneuron (Human Brain).",
+      "lbl" : "NS forest marker set of sncg GABAergic cortical interneuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -654,7 +654,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000082",
-      "lbl" : "NS forest marker set of sst GABAergic cortical interneuron (Human Brain).",
+      "lbl" : "NS forest marker set of sst GABAergic cortical interneuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -664,7 +664,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000083",
-      "lbl" : "NS forest marker set of sst chodl GABAergic cortical interneuron (Human Brain).",
+      "lbl" : "NS forest marker set of sst chodl GABAergic cortical interneuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -674,7 +674,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000085",
-      "lbl" : "NS forest marker set of VIP GABAergic cortical interneuron (Human Brain).",
+      "lbl" : "NS forest marker set of VIP GABAergic cortical interneuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -686,7 +686,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_0000583",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set MSR1, FABP4 can identify the Human cell type alveolar macrophage in the Lung with a confidence of 0.80 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set MSR1, FABP4 can identify the Human cell type alveolar macrophage in the lung with a confidence of 0.80 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -696,7 +696,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_0002062",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set AGER can identify the Human cell type pulmonary alveolar type 1 cell in the Lung with a confidence of 0.85 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set AGER can identify the Human cell type pulmonary alveolar type 1 cell in the lung with a confidence of 0.85 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -706,7 +706,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_0002063",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set SFTPA1 can identify the Human cell type pulmonary alveolar type 2 cell in the Lung with a confidence of 0.95 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set SFTPA1 can identify the Human cell type pulmonary alveolar type 2 cell in the lung with a confidence of 0.95 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -716,7 +716,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_0002075",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set POU2F3, HOMER3, MYB can identify the Human cell type brush cell of tracheobronchial tree in the Lung with a confidence of 0.56 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set POU2F3, HOMER3, MYB can identify the Human cell type brush cell of tracheobronchial tree in the lung with a confidence of 0.56 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -726,7 +726,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_0002145",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set C1orf194, MS4A8 can identify the Human cell type ciliated columnar cell of tracheobronchial tree in the Lung with a confidence of 0.86 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set C1orf194, MS4A8 can identify the Human cell type multiciliated columnar cell of tracheobronchial tree in the lung with a confidence of 0.86 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -736,7 +736,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_0002241",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set DPT, APOD can identify the Human cell type pulmonary interstitial fibroblast in the Lung with a confidence of 0.58 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set DPT, APOD can identify the Human cell type pulmonary interstitial fibroblast in the lung with a confidence of 0.58 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -746,7 +746,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_0002480",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set LYPD2, MUC5AC can identify the Human cell type nasal mucosa goblet cell in the Lung with a confidence of 0.81 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set LYPD2, MUC5AC can identify the Human cell type nasal mucosa goblet cell in the lung with a confidence of 0.81 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -756,7 +756,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_0009089",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set HIGD1B, KCNK3 can identify the Human cell type lung pericyte in the Lung with a confidence of 0.84 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set HIGD1B, KCNK3 can identify the Human cell type lung pericyte in the lung with a confidence of 0.84 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -766,7 +766,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_0017000",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set ASCL3, BSND can identify the Human cell type pulmonary ionocyte in the Lung with a confidence of 0.82 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set ASCL3, BSND can identify the Human cell type pulmonary ionocyte in the lung with a confidence of 0.82 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -776,7 +776,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_0019019",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set ACTA2, TAGLN can identify the Human cell type tracheobronchial smooth muscle cell in the Lung with a confidence of 0.69 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set ACTA2, TAGLN can identify the Human cell type tracheobronchial smooth muscle cell in the lung with a confidence of 0.69 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -786,7 +786,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_1000223",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set CHGA, GRP can identify the Human cell type lung neuroendocrine cell in the Lung with a confidence of 0.94 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set CHGA, GRP can identify the Human cell type pulmonary neuroendocrine cell in the lung with a confidence of 0.94 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -796,7 +796,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_1000312",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set PLCG2, ANKRD36C can identify the Human cell type bronchial goblet cell in the Lung with a confidence of 0.55 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set PLCG2, ANKRD36C can identify the Human cell type bronchial goblet cell in the lung with a confidence of 0.55 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -806,7 +806,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4023011",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set LINC00298, KIT can identify the Human cell type lamp5 GABAergic cortical interneuron in the Brain with a confidence of 0.814687838 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set LINC00298, KIT can identify the Human cell type lamp5 GABAergic cortical interneuron in the neocortex with a confidence of 0.814687838 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -816,7 +816,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4023015",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set RXRG, THSD7B can identify the Human cell type sncg GABAergic cortical interneuron in the Brain with a confidence of 0.628943702 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set RXRG, THSD7B can identify the Human cell type sncg GABAergic cortical interneuron in the neocortex with a confidence of 0.628943702 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -826,7 +826,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4023016",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set VIP can identify the Human cell type VIP GABAergic cortical interneuron in the Brain with a confidence of 0.855531344 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set VIP can identify the Human cell type VIP GABAergic cortical interneuron in the neocortex with a confidence of 0.855531344 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -836,7 +836,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4023017",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set SST, PLCH1 can identify the Human cell type sst GABAergic cortical interneuron in the Brain with a confidence of 0.842367005 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set SST, PLCH1 can identify the Human cell type sst GABAergic cortical interneuron in the neocortex with a confidence of 0.842367005 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -846,7 +846,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4023018",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set PVALB, TAC1, MYO5B can identify the Human cell type pvalb GABAergic cortical interneuron in the Brain with a confidence of 0.691998764 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set PVALB, TAC1, MYO5B can identify the Human cell type pvalb GABAergic cortical interneuron in the neocortex with a confidence of 0.691998764 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -856,7 +856,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4023036",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set GPR149, CA8 can identify the Human cell type chandelier pvalb GABAergic cortical interneuron in the Brain with a confidence of 0.799748111 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set GPR149, CA8 can identify the Human cell type chandelier pvalb GABAergic cortical interneuron in the neocortex with a confidence of 0.799748111 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -866,7 +866,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4023041",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set CHST8, POU3F1 can identify the Human cell type L5 extratelencephalic projecting glutamatergic cortical neuron in the Brain with a confidence of 0.815891473 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set CHST8, POU3F1 can identify the Human cell type L5 extratelencephalic projecting glutamatergic cortical neuron in the neocortex with a confidence of 0.815891473 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -876,7 +876,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4023042",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set SEMA5B, ADAMTSL1, SULF1 can identify the Human cell type L6 corticothalamic-projecting glutamatergic cortical neuron in the Brain with a confidence of 0.631898455 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set SEMA5B, ADAMTSL1, SULF1 can identify the Human cell type L6 corticothalamic-projecting glutamatergic cortical neuron in the neocortex with a confidence of 0.631898455 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -886,7 +886,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4023046",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set CCN2, ROS1 can identify the Human cell type L6b glutamatergic neuron of the primary motor cortex in the Brain with a confidence of 0.819940964 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set CCN2, ROS1 can identify the Human cell type L6b glutamatergic neuron of the primary motor cortex in the neocortex with a confidence of 0.819940964 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -896,7 +896,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4023121",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set NPY can identify the Human cell type sst chodl GABAergic cortical interneuron in the Brain with a confidence of 0.894026187 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set NPY can identify the Human cell type sst chodl GABAergic cortical interneuron in the neocortex with a confidence of 0.894026187 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -906,7 +906,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4028004",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set AOC3, LUM can identify the Human cell type alveolar type 1 fibroblast cell in the Lung with a confidence of 0.70 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set AOC3, LUM can identify the Human cell type alveolar type 1 fibroblast cell in the lung with a confidence of 0.70 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -916,7 +916,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4028006",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set SCARA5, CD248 can identify the Human cell type alveolar adventitial fibroblast in the Lung with a confidence of 0.85 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set SCARA5, CD248 can identify the Human cell type alveolar adventitial fibroblast in the lung with a confidence of 0.85 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -926,7 +926,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4030059",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set ONECUT2, COL5A2 can identify the Human cell type L2/3 intratelencephalic projecting glutamatergic neuron in the Brain with a confidence of 0.670149932 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set ONECUT2, COL5A2 can identify the Human cell type L2/3 intratelencephalic projecting glutamatergic neuron in the neocortex with a confidence of 0.670149932 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -936,7 +936,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4030063",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set RORB, ST8SIA4 can identify the Human cell type L4 intratelencephalic projecting glutamatergic neuron in the Brain with a confidence of 0.720108696 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set RORB, ST8SIA4 can identify the Human cell type L4 intratelencephalic projecting glutamatergic neuron in the neocortex with a confidence of 0.720108696 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -946,7 +946,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4030064",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set ARSJ, RORB, KCNK2 can identify the Human cell type L5 intratelencephalic projecting glutamatergic neuron in the Brain with a confidence of 0.764261336 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set ARSJ, RORB, KCNK2 can identify the Human cell type L5 intratelencephalic projecting glutamatergic neuron in the neocortex with a confidence of 0.764261336 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -956,7 +956,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4030065",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set LINC00507, THEMIS can identify the Human cell type L6 intratelencephalic projecting glutamatergic neuron in the Brain with a confidence of 0.641695703 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set LINC00507, THEMIS can identify the Human cell type L6 intratelencephalic projecting glutamatergic neuron in the neocortex with a confidence of 0.641695703 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -966,7 +966,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4030067",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set NPSR1-AS1, TLL1 can identify the Human cell type L5/6 near-projecting glutamatergic neuron in the Brain with a confidence of 0.899288218 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set NPSR1-AS1, TLL1 can identify the Human cell type L5/6 near-projecting glutamatergic neuron in the neocortex with a confidence of 0.899288218 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -976,7 +976,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4030068",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set SMYD1, THEMIS can identify the Human cell type L6 intratelencephalic projecting Car3 glutamatergic neuron in the Brain with a confidence of 0.877752028 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set SMYD1, THEMIS can identify the Human cell type L6 intratelencephalic projecting Car3 glutamatergic neuron in the neocortex with a confidence of 0.877752028 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -986,7 +986,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4033005",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set PRR4, C6orf58 can identify the Human cell type serous secreting cell of bronchus submucosal gland in the Lung with a confidence of 0.75 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set PRR4, C6orf58 can identify the Human cell type serous secreting cell of bronchus submucosal gland in the lung with a confidence of 0.75 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -996,7 +996,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4033022",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set BPIFB2 can identify the Human cell type mucus secreting cell of bronchus submucosal gland in the Lung with a confidence of 0.93 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set BPIFB2 can identify the Human cell type mucus secreting cell of bronchus submucosal gland in the lung with a confidence of 0.93 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -1006,7 +1006,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4033023",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set GLYATL2, DMBT1 can identify the Human cell type airway submucosal gland collecting duct epithelial cell in the Lung with a confidence of 0.46 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set GLYATL2, DMBT1 can identify the Human cell type airway submucosal gland collecting duct epithelial cell in the lung with a confidence of 0.46 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -1016,7 +1016,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4033041",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set TNIP3, CXCL5 can identify the Human cell type CCL3-positive alveolar macrophage in the Lung with a confidence of 0.67 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set TNIP3, CXCL5 can identify the Human cell type CCL3-positive alveolar macrophage in the lung with a confidence of 0.67 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -1026,7 +1026,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4033042",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set HMOX1, HPGD can identify the Human cell type metallothionein-positive alveolar macrophage in the Lung with a confidence of 0.41 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set HMOX1, HPGD can identify the Human cell type metallothionein-positive alveolar macrophage in the lung with a confidence of 0.41 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -1036,7 +1036,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4033043",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set F13A1, STAB1, FCGR2B can identify the Human cell type lung interstitial macrophage in the Lung with a confidence of 0.46 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set F13A1, STAB1, FCGR2B can identify the Human cell type lung interstitial macrophage in the lung with a confidence of 0.46 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -1046,7 +1046,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4033048",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set TNC, KRT15, SERPINB4 can identify the Human cell type respiratory suprabasal cell in the Lung with a confidence of 0.62 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set TNC, KRT15, SERPINB4 can identify the Human cell type respiratory tract suprabasal cell in the lung with a confidence of 0.62 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -1056,7 +1056,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4033077",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set PCLAF, RRM2, UBE2C, NUSAP1 can identify the Human cell type cycling alveolar macrophage in the Lung with a confidence of 0.26 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set PCLAF, RRM2, UBE2C, NUSAP1 can identify the Human cell type cycling alveolar macrophage in the lung with a confidence of 0.26 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -1066,7 +1066,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4033080",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set PEG10, PRC1, TOP2A can identify the Human cell type cycling pulmonary alveolar type 2 cell in the Lung with a confidence of 0.61 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set PEG10, PRC1, TOP2A can identify the Human cell type cycling pulmonary alveolar type 2 cell in the lung with a confidence of 0.61 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -1076,7 +1076,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4042013",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set CHST9, LAMP5 can identify the Human cell type Lamp5 Lhx6 neuron in the Brain with a confidence of 0.821678322 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set CHST9, LAMP5 can identify the Human cell type Lamp5 Lhx6 neuron in the neocortex with a confidence of 0.821678322 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -1086,7 +1086,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_4042032",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "The marker set RELN, HCRTR2 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4042032 in the Brain with a confidence of 0.724125093 (NS-Forest FBeta value)." ],
+        "comments" : [ "The marker set RELN, HCRTR2 can identify the Human cell type PAX6 GABAergic cortical interneuron in the neocortex with a confidence of 0.724125093 (NS-Forest FBeta value)." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"

@@ -13,13 +13,13 @@
         "val" : "Cell Markers Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-02-06"
+        "val" : "2025-05-27"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/clm/releases/2025-02-06/clm-simple.json"
+      "version" : "http://purl.obolibrary.org/obo/clm/releases/2025-05-27/clm-simple.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000001",
-      "lbl" : "NS forest marker set of alveolar adventitial fibroblast (Human Lung).",
+      "lbl" : "NS forest marker set of alveolar adventitial fibroblast (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -29,7 +29,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000002",
-      "lbl" : "NS forest marker set of alveolar type 1 fibroblast cell (Human Lung).",
+      "lbl" : "NS forest marker set of alveolar type 1 fibroblast cell (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -39,7 +39,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000003",
-      "lbl" : "NS forest marker set of alveolar macrophage (Human Lung).",
+      "lbl" : "NS forest marker set of alveolar macrophage (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -49,7 +49,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000004",
-      "lbl" : "NS forest marker set of CCL3-positive alveolar macrophage (Human Lung).",
+      "lbl" : "NS forest marker set of CCL3-positive alveolar macrophage (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -59,7 +59,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000005",
-      "lbl" : "NS forest marker set of metallothionein-positive alveolar macrophage (Human Lung).",
+      "lbl" : "NS forest marker set of metallothionein-positive alveolar macrophage (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -69,7 +69,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000006",
-      "lbl" : "NS forest marker set of cycling alveolar macrophage (Human Lung).",
+      "lbl" : "NS forest marker set of cycling alveolar macrophage (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -79,7 +79,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000008",
-      "lbl" : "NS forest marker set of pulmonary alveolar type 1 cell (Human Lung).",
+      "lbl" : "NS forest marker set of pulmonary alveolar type 1 cell (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -89,7 +89,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000009",
-      "lbl" : "NS forest marker set of pulmonary alveolar type 2 cell (Human Lung).",
+      "lbl" : "NS forest marker set of pulmonary alveolar type 2 cell (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -99,7 +99,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000010",
-      "lbl" : "NS forest marker set of cycling pulmonary alveolar type 2 cell (Human Lung).",
+      "lbl" : "NS forest marker set of cycling pulmonary alveolar type 2 cell (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -109,7 +109,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000026",
-      "lbl" : "NS forest marker set of bronchial goblet cell (Human Lung).",
+      "lbl" : "NS forest marker set of bronchial goblet cell (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -119,7 +119,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000027",
-      "lbl" : "NS forest marker set of nasal mucosa goblet cell (Human Lung).",
+      "lbl" : "NS forest marker set of nasal mucosa goblet cell (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -129,7 +129,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000031",
-      "lbl" : "NS forest marker set of lung interstitial macrophage (Human Lung).",
+      "lbl" : "NS forest marker set of lung interstitial macrophage (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -139,7 +139,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000032",
-      "lbl" : "NS forest marker set of pulmonary ionocyte (Human Lung).",
+      "lbl" : "NS forest marker set of pulmonary ionocyte (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -149,7 +149,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000041",
-      "lbl" : "NS forest marker set of multiciliated columnar cell of tracheobronchial tree (Human Lung).",
+      "lbl" : "NS forest marker set of multiciliated columnar cell of tracheobronchial tree (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -159,7 +159,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000043",
-      "lbl" : "NS forest marker set of pulmonary neuroendocrine cell (Human Lung).",
+      "lbl" : "NS forest marker set of pulmonary neuroendocrine cell (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -169,7 +169,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000046",
-      "lbl" : "NS forest marker set of pulmonary interstitial fibroblast (Human Lung).",
+      "lbl" : "NS forest marker set of pulmonary interstitial fibroblast (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -179,7 +179,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000047",
-      "lbl" : "NS forest marker set of lung pericyte (Human Lung).",
+      "lbl" : "NS forest marker set of lung pericyte (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -189,7 +189,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000052",
-      "lbl" : "NS forest marker set of airway submucosal gland collecting duct epithelial cell (Human Lung).",
+      "lbl" : "NS forest marker set of airway submucosal gland collecting duct epithelial cell (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -199,7 +199,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000053",
-      "lbl" : "NS forest marker set of mucus secreting cell of bronchus submucosal gland (Human Lung).",
+      "lbl" : "NS forest marker set of mucus secreting cell of bronchus submucosal gland (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -209,7 +209,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000054",
-      "lbl" : "NS forest marker set of serous secreting cell of bronchus submucosal gland (Human Lung).",
+      "lbl" : "NS forest marker set of serous secreting cell of bronchus submucosal gland (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -219,7 +219,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000056",
-      "lbl" : "NS forest marker set of tracheobronchial smooth muscle cell (Human Lung).",
+      "lbl" : "NS forest marker set of tracheobronchial smooth muscle cell (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -229,7 +229,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000059",
-      "lbl" : "NS forest marker set of respiratory tract suprabasal cell (Human Lung).",
+      "lbl" : "NS forest marker set of respiratory tract suprabasal cell (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -239,7 +239,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000061",
-      "lbl" : "NS forest marker set of brush cell of tracheobronchial tree (Human Lung).",
+      "lbl" : "NS forest marker set of brush cell of tracheobronchial tree (Human lung).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -249,7 +249,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000063",
-      "lbl" : "NS forest marker set of chandelier pvalb GABAergic cortical interneuron (Human Brain).",
+      "lbl" : "NS forest marker set of chandelier pvalb GABAergic cortical interneuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -259,7 +259,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000065",
-      "lbl" : "NS forest marker set of L2/3 intratelencephalic projecting glutamatergic neuron (Human Brain).",
+      "lbl" : "NS forest marker set of L2/3 intratelencephalic projecting glutamatergic neuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -269,7 +269,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000066",
-      "lbl" : "NS forest marker set of L4 intratelencephalic projecting glutamatergic neuron (Human Brain).",
+      "lbl" : "NS forest marker set of L4 intratelencephalic projecting glutamatergic neuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -279,7 +279,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000067",
-      "lbl" : "NS forest marker set of L5 extratelencephalic projecting glutamatergic cortical neuron (Human Brain).",
+      "lbl" : "NS forest marker set of L5 extratelencephalic projecting glutamatergic cortical neuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -289,7 +289,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000068",
-      "lbl" : "NS forest marker set of L5 intratelencephalic projecting glutamatergic neuron (Human Brain).",
+      "lbl" : "NS forest marker set of L5 intratelencephalic projecting glutamatergic neuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -299,7 +299,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000069",
-      "lbl" : "NS forest marker set of L5/6 near-projecting glutamatergic neuron (Human Brain).",
+      "lbl" : "NS forest marker set of L5/6 near-projecting glutamatergic neuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -309,7 +309,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000070",
-      "lbl" : "NS forest marker set of L6 corticothalamic-projecting glutamatergic cortical neuron (Human Brain).",
+      "lbl" : "NS forest marker set of L6 corticothalamic-projecting glutamatergic cortical neuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -319,7 +319,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000071",
-      "lbl" : "NS forest marker set of L6 intratelencephalic projecting glutamatergic neuron (Human Brain).",
+      "lbl" : "NS forest marker set of L6 intratelencephalic projecting glutamatergic neuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -329,7 +329,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000072",
-      "lbl" : "NS forest marker set of L6 intratelencephalic projecting Car3 glutamatergic neuron (Human Brain).",
+      "lbl" : "NS forest marker set of L6 intratelencephalic projecting Car3 glutamatergic neuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -339,7 +339,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000073",
-      "lbl" : "NS forest marker set of L6b glutamatergic neuron of the primary motor cortex (Human Brain).",
+      "lbl" : "NS forest marker set of L6b glutamatergic neuron of the primary motor cortex (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -349,7 +349,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000074",
-      "lbl" : "NS forest marker set of lamp5 GABAergic cortical interneuron (Human Brain).",
+      "lbl" : "NS forest marker set of lamp5 GABAergic cortical interneuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -359,7 +359,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000075",
-      "lbl" : "NS forest marker set of Lamp5 Lhx6 neuron (Human Brain).",
+      "lbl" : "NS forest marker set of Lamp5 Lhx6 neuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -369,7 +369,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000079",
-      "lbl" : "NS forest marker set of PAX6 GABAergic cortical interneuron (Human Brain).",
+      "lbl" : "NS forest marker set of PAX6 GABAergic cortical interneuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -379,7 +379,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000080",
-      "lbl" : "NS forest marker set of pvalb GABAergic cortical interneuron (Human Brain).",
+      "lbl" : "NS forest marker set of pvalb GABAergic cortical interneuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -389,7 +389,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000081",
-      "lbl" : "NS forest marker set of sncg GABAergic cortical interneuron (Human Brain).",
+      "lbl" : "NS forest marker set of sncg GABAergic cortical interneuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -399,7 +399,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000082",
-      "lbl" : "NS forest marker set of sst GABAergic cortical interneuron (Human Brain).",
+      "lbl" : "NS forest marker set of sst GABAergic cortical interneuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -409,7 +409,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000083",
-      "lbl" : "NS forest marker set of sst chodl GABAergic cortical interneuron (Human Brain).",
+      "lbl" : "NS forest marker set of sst chodl GABAergic cortical interneuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -419,7 +419,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000085",
-      "lbl" : "NS forest marker set of VIP GABAergic cortical interneuron (Human Brain).",
+      "lbl" : "NS forest marker set of VIP GABAergic cortical interneuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -429,14 +429,8 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000051",
-      "lbl" : "has part",
       "type" : "PROPERTY",
-      "propertyType" : "OBJECT",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "BFO:0000051"
-        } ]
-      }
+      "propertyType" : "OBJECT"
     }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0015004",
       "lbl" : "has characterizing marker set",
