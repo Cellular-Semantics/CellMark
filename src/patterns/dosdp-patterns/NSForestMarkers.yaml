@@ -19,7 +19,6 @@ list_vars:
 
 data_vars:
   Marker_set_of: "xsd:string"
-  Organ: "xsd:string"
   Species_abbv: "xsd:string"
   FBeta_confidence_score: "xsd:double"
 
@@ -31,7 +30,7 @@ name:
    vars:
       - Marker_set_of
       - Species_abbv
-      - Organ
+      - Organ_region
 
 logical_axioms:
    - axiom_type: subClassOf

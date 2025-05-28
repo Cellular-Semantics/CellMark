@@ -7,7 +7,7 @@ INPUT_FOLDER_PATH = os.path.join(PROJECT_ROOT, "src/markers/input")
 
 REQUIRED_COLUMNS = ["clusterName", "f_score", "NSForest_markers"]
 METADATA_FILE_PATH = os.path.join(INPUT_FOLDER_PATH, "metadata.csv")
-METADATA_REQUIRED_COLUMNS = ["file_name", "Organ", "Species", "Species_abbreviation", "Organ_region", "Parent", "Marker_set_xref"]
+METADATA_REQUIRED_COLUMNS = ["file_name", "Species", "Species_abbreviation", "Organ_region", "Parent", "Marker_set_xref"]
 
 
 def validate_file_headers(file_path):

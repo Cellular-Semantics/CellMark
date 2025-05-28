@@ -20,6 +20,7 @@ def process_input_files():
     neo_client = None
     try:
         neo_client = Neo4jClient("neo4j://172.27.24.69:7687", "", "")
+        # neo_client = Neo4jClient("neo4j://cl-kg-neo4j-db.cellgeni.sanger.ac.uk", "", "")
 
         id_manager = IDManager(MARKERS_FOLDER_PATH)
         gene_db = read_gene_dbs(TEMPLATES_FOLDER_PATH)
@@ -28,7 +29,7 @@ def process_input_files():
             full_path = os.path.join(INPUT_FOLDER_PATH, file)
             file_name, file_extension = os.path.splitext(file)
             source_file_path = os.path.join(MARKERS_FOLDER_PATH, f"{file_name}Source.tsv")
-            if file_extension in [".csv", ".tsv"] and not os.path.exists(source_file_path):
+            if file_extension in [".csv", ".tsv"] and not os.path.exists(source_file_path) and file_name != "metadata":
                 print("Processing: " + file)
                 input_data = read_table_to_dict(full_path)
                 metadata = read_metadata_file(file_name)
@@ -49,7 +50,6 @@ def process_input_files():
                             "Marker_set": marker_set,
                             "Minimal_markers": "|".join(marker_ids_list),
                             "Minimal_markers_label": "|".join(markers_list),
-                            "Organ": metadata.get("Organ", ""),
                             "Species": metadata.get("Species", ""),
                             "Species_abbv": metadata.get("Species_abbreviation", ""),
                             "Organ_region": metadata.get("Organ_region", ""),
@@ -138,7 +138,9 @@ def read_metadata_file(input_file_name):
             row_file_name_no_ext = os.path.splitext(row_file_name)[0]
 
             if file_name_no_ext == row_file_name_no_ext:
-                return row.to_dict()
+                data = row.to_dict()
+                filtered_data = {key: value for key, value in data.items() if value is not None and not pd.isna(value)}
+                return filtered_data
 
     raise Exception(f"Metadata not found for file: {input_file_name}")
 

@@ -19,13 +19,13 @@ vars:
   Cell_type: "'cell'"
   Species: "'Metazoa'"
   has_characterization_set: "'thing'"
+  Organ_region: "'regional part of brain'"
 
 list_vars:
   Marker_set: "'sequence_feature'"
 
 data_vars:
 #  Marker_set_xref: "xsd:string"
-  Organ: "xsd:string"
   Species_abbv: "xsd:string"
   FBeta_confidence_score: "xsd:string"
 #  Cell_type: "xsd:string"
@@ -52,7 +52,7 @@ comment:
     - Minimal_markers_cat
     - Species_abbv
     - Cell_type
-    - Organ
+    - Organ_region
     - FBeta_confidence_score
   xrefs: Marker_set_xref
 
