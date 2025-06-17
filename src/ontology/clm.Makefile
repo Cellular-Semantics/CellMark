@@ -100,7 +100,7 @@ $(ONT).owl: $(ONT)-full.owl $(ONT)-kg.owl $(ONT)-kg.obo $(ONT)-kg.json $(ONT)-cl
 	rm -f $(LOCAL_CLEAN_FILES)
 
 # Artifact for KG that hosts non-validated gene annotations
-$(ONT)-kg.owl: $(ONT)-base.owl $(MIRRORDIR)/genes.owl $(COMPONENTSDIR)/quick_go_terms.owl
+$(ONT)-kg.owl: $(ONT)-base.owl $(MIRRORDIR)/genes.owl $(COMPONENTSDIR)/quick_go_terms.owl $(COMPONENTSDIR)/cellxgene_markers.owl
 	python $(SCRIPTSDIR)/dosdp_template_generator.py generate --template NSForestMarkers --out $(PATTERNDIR)/data/default/NSForestMarkers_all.tsv
 	$(DOSDPT) generate --catalog=$(CATALOG) --infile=$(PATTERNDIR)/data/default/NSForestMarkers_all.tsv \
 		--template=$(PATTERNDIR)/dosdp-patterns/NSForestMarkers.yaml --ontology=$(EDIT_PREPROCESSED) \
