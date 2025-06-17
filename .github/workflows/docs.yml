@@ -22,9 +22,7 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y \
-            libhdf5-dev \        # HDF5 C library + dev symlinks
-            python3-dev           # Python C-API headers
+          sudo apt-get install -y libhdf5-dev python3-dev
       - name: Upgrade pip tooling
         run: |
           python3 -m pip install --upgrade pip setuptools wheel
