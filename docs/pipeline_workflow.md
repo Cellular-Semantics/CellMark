@@ -31,7 +31,17 @@ Workflow for the Cell Markers Ontology (CLM) pipeline, detailing the steps invol
 - It processes the data into ROBOT templates, which are saved in the `src/templates/cl_kg/` directory.
 - This step is optional and only run when new GO terms are needed.
 
-## 5. Run ODK Pipeline
+## 5. CellxGene Marker Template Generation
+- The `cellxgene_marker_template_generator.py` script downloads and parses marker–gene JSON data from the CxG (cellxgene) service, then:
+  1. Looks up UBERON and NCBITaxon URIs via SPARQL.  
+  2. Resolves gene labels to NCBI Gene URIs via the MyGene.info API (with a simple cache).  
+  3. Filters markers by score threshold and caps at 7 entries per CL term.  
+  4. Writes out a remapped JSON (`new_marker.json`).  
+  5. Generates a ROBOT template TSV (`cellxgene_marker_template.tsv`) in the `src/templates/cl_kg/` directory for OWL template processing.
+- This step is **optional**, and should be run whenever you need to regenerate templates for new or updated CellxGene marker data.
+
+
+## 6. Run ODK Pipeline
 
 - The ODK pipeline is executed to generate the final ontology files.
 - `cd src/onotology & sh run.sh make prepare_release`
@@ -40,7 +50,7 @@ Workflow for the Cell Markers Ontology (CLM) pipeline, detailing the steps invol
 - Merges the Gene DB templates and generates two gene ontologies subsets to be merged into the `cml-kg.owl` and `clm-cl.owl` files.
 - Runs dosdp and robot templates to generate ontologies.
 
-## 6. CLM Ontology in Use
+## 7. CLM Ontology in Use
 - A pipeline in the Cell Ontology repository uses the `clm-cl.owl` ontology to generate the final ontology files.
 - Another pipeline in the CL_KG repository uses the `cml-kg.owl` ontology to generate the knowledge graph.
 

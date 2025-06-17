@@ -32,7 +32,11 @@ General workflow can be found at [Workflow Documentation](docs/pipeline_workflow
 - **Prepare Gene Databases**: Generate gene databases from the provided anndata files using the `Makefile` in `src/markers`.
 - **Generate Source Files**: Use the `dosdp_template_generator.py` script to create or update source files for input data.
 - **Prepare QuickGO Templates**: Run the `go_term_template_generator.py` script to fetch and prepare Gene Ontology templates.
+- **Prepare CellxGene Marker Templates**: Run the `cellxgene_marker_template_generator.py` 
+  script to download marker data, resolve UBERON/NCBITaxon/NCBIgene URIs, filter and cap markers,
+  and prepare a ROBOT TSV (`cellxgene_marker_template.tsv`) in `src/templates/cl_kg/`.
 - **Run the ODK Pipeline**: Execute the pipeline using the `make prepare_release` command as described in the guide.
+
 
 Refer to the [Pipeline Guide](src/ontology/README-run-pipeline.md) for detailed instructions and additional context.
 
