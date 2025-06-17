@@ -25,4 +25,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CONFIG_FILE: mkdocs.yaml
-
+        with:
+          extra_pip_args: "--no-binary=h5py"
