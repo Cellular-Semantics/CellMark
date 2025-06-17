@@ -19,13 +19,10 @@ jobs:
     steps:
       - name: Checkout main
         uses: actions/checkout@v3
-      - name: Install HDF5 C library
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y libhdf5-dev
       - name: Deploy docs
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
         # Or use mhausenblas/mkdocs-deploy-gh-pages@nomaterial to build without the mkdocs-material theme
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CONFIG_FILE: mkdocs.yaml
+          REQUIREMENTS: requirements.txt
