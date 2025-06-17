@@ -27,6 +27,18 @@ LOCAL_CLEAN_FILES = $(GENE_TEMPLATE) $(GENE_TEMPLATE_CL) $(PATTERNDIR)/data/defa
 clean_files:
 	rm -f $(LOCAL_CLEAN_FILES)
 
+.PHONY: cellxgene_markers
+# Rule to process cellxgene_markers OWL file
+cellxgene_markers: $(COMPONENTSDIR)/cellxgene_markers.owl
+
+# Rule to generate the OWL file from the CellxGene marker template TSV
+$(COMPONENTSDIR)/cellxgene_markers.owl: $(TEMPLATESDIR)/cl_kg/cellxgene_marker_template.tsv
+	$(ROBOT) template \
+		--template $< \
+		--prefix "hm: http://example.org/has_marker#" \
+		--output $@
+
+.PHONY: quick_go
 # Rule to process quick_go OWL files
 quick_go: $(COMPONENTSDIR)/quick_go_terms.owl
 
@@ -97,7 +109,7 @@ $(ONT)-kg.owl: $(ONT)-base.owl $(MIRRORDIR)/genes.owl $(COMPONENTSDIR)/quick_go_
 		--add-prefixes template_prefixes.json --output $(COMPONENTSDIR)/MarkersToCells_all.owl
 	$(ROBOT) merge -i $< -i $(ONT)-kg-edit.$(EDIT_FORMAT) -i $(MIRRORDIR)/genes.owl \
 		-i $(COMPONENTSDIR)/NSForestMarkers_all.owl -i $(COMPONENTSDIR)/MarkersToCells_all.owl \
-		-i $(COMPONENTSDIR)/quick_go_terms.owl \
+		-i $(COMPONENTSDIR)/quick_go_terms.owl -i $(COMPONENTSDIR)/cellxgene_markers.owl \
 		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $(RELEASEDIR)/$@
 
 
