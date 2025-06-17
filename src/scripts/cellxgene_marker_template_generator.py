@@ -86,31 +86,24 @@ def get_ncbitaxon_uris(label: str) -> list:
 def get_ncbigene_uri(gene_label: str, taxid: str) -> str:
     """
     Query MyGene.info for the gene_label and taxid, return the identifiers.org NCBIgene URI.
-    Caches results to avoid redundant HTTP calls.
+    Uses 'entrezonly' parameter to ensure only numeric hits are returned,
+    and caches results to avoid redundant HTTP calls.
     """
     key = (gene_label, taxid)
     if key in gene_cache:
         return gene_cache[key]
 
-    params = {"q": gene_label, "species": taxid}
+    params = {"q": gene_label, "species": taxid, "entrezonly": True}
     resp = requests.get(MYGENE_ENDPOINT, params=params, timeout=5)
     data = resp.json()
     hits = data.get('hits', [])
     uri = None
     if hits:
-        # Prefer first hit with numeric _id or entrezgene
-        for idx, hit in enumerate(hits[:2]):
-            candidate = hit.get('_id') or hit.get('entrezgene')
-            # ensure candidate is all digits
-            if candidate and str(candidate).isdigit():
-                uri = f"http://identifiers.org/ncbigene/{candidate}"
-                break
-        # If none numeric in first two, fallback to first hit
-        if uri is None:
-            first = hits[0]
-            candidate = first.get('_id') or first.get('entrezgene')
-            if candidate:
-                uri = f"http://identifiers.org/ncbigene/{candidate}"
+        # Only need to consider the first hit, since 'entrezonly' ensures numeric IDs
+        first = hits[0]
+        candidate = first.get('_id') or first.get('entrezgene')
+        if candidate:
+            uri = f"http://identifiers.org/ncbigene/{candidate}"
     else:
         print(f"Warning: no NCBIgene hit for '{gene_label}' (taxid={taxid})")
 
