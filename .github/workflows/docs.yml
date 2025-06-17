@@ -1,9 +1,6 @@
-# Basic ODK workflow
 name: Docs
 
-# Controls when the action will run. 
 on:
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
   push:
     branches:
@@ -11,19 +8,29 @@ on:
 
 permissions: write-all
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   build:
     name: Deploy docs
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout main
         uses: actions/checkout@v3
-      - name: Check python version
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Confirm Python version
         run: python --version
+
+      - name: Upgrade pip, setuptools & wheel
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+
       - name: Deploy docs
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
-        # Or use mhausenblas/mkdocs-deploy-gh-pages@nomaterial to build without the mkdocs-material theme
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CONFIG_FILE: mkdocs.yaml
