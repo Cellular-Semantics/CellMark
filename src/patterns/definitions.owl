@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/clm/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/clm/releases/2025-05-27/patterns/definitions.owl>
-Annotation(owl:versionInfo "2025-05-27")
+<http://purl.obolibrary.org/obo/clm/releases/2025-06-17/patterns/definitions.owl>
+Annotation(owl:versionInfo "2025-06-17")
 
 Declaration(Class(<http://identifiers.org/ensembl/ENSG00000006128>))
 Declaration(Class(<http://identifiers.org/ensembl/ENSG00000010327>))
