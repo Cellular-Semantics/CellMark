@@ -92,10 +92,14 @@ def get_ncbigene_uri(gene_label: str, taxid: str) -> str:
     key = (gene_label, taxid)
     if key in gene_cache:
         return gene_cache[key]
-
+    if "_ENSMUSG" in gene_label or "ENSG" in gene_label:
+        gene_label = gene_label.split("_ENS")[0]
     params = {"q": gene_label, "species": taxid, "entrezonly": True}
     resp = requests.get(MYGENE_ENDPOINT, params=params, timeout=5)
-    data = resp.json()
+    try:
+        data = resp.json()
+    except json.decoder.JSONDecodeError:
+        print(resp.json())
     hits = data.get('hits', [])
     uri = None
     if hits:
@@ -165,6 +169,8 @@ def write_template(mapping: dict, output: str) -> None:
                 for cl_term, markers in cl_map.items():
                     for m in markers:
                         gene = m.get('gene', '')
+                        if "ncbigene" not in gene:
+                            continue
                         score = m.get('marker_score', '')
                         ratio = m.get('pc', '')
                         # write row
