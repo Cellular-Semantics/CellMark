@@ -26,14 +26,14 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 # Class: <http://purl.obolibrary.org/obo/cl/MarkersToCells.yaml> (<http://purl.obolibrary.org/obo/cl/MarkersToCells.yaml>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/cl/MarkersToCells.yaml> "NSForestMarkers"^^xsd:string)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "xsd:string"^^xsd:string) rdfs:comment <http://purl.obolibrary.org/obo/cl/MarkersToCells.yaml> "The marker set 'sequence_feature' can identify the xsd:string cell type 'cell' in the xsd:string with a confidence of xsd:string (NS-Forest FBeta value)."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "xsd:string"^^xsd:string) rdfs:comment <http://purl.obolibrary.org/obo/cl/MarkersToCells.yaml> "The marker set 'sequence_feature' can identify the xsd:string cell type 'cell' in the 'regional part of brain' with a confidence of xsd:string (NS-Forest FBeta value)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/cl/MarkersToCells.yaml> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0015004> owl:Thing))
 
-# Class: <http://purl.obolibrary.org/obo/cl/NSForestMarkers.yaml> (NS forest marker set of xsd:string (xsd:string xsd:string).)
+# Class: <http://purl.obolibrary.org/obo/cl/NSForestMarkers.yaml> (NS forest marker set of xsd:string (xsd:string 'regional part of brain').)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/cl/NSForestMarkers.yaml> "xsd:double"^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/cl/NSForestMarkers.yaml> "NSForestMarkers"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/cl/NSForestMarkers.yaml> "NS forest marker set of xsd:string (xsd:string xsd:string)."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/cl/NSForestMarkers.yaml> "NS forest marker set of xsd:string (xsd:string 'regional part of brain')."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/cl/NSForestMarkers.yaml> owl:Thing)
 SubClassOf(<http://purl.obolibrary.org/obo/cl/NSForestMarkers.yaml> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/SO_0000110>))
 
