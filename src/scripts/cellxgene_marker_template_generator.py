@@ -29,6 +29,9 @@ MYGENE_ENDPOINT = "http://mygene.info/v3/query"
 # Simple cache for gene lookups to avoid redundant HTTP calls
 gene_cache = {}
 
+script_dir = os.path.dirname(os.path.abspath(__file__))
+output_dir = os.path.join(script_dir, "../templates/cl_kg/")
+
 
 def download_marker_data(url: str, target: str) -> None:
     """
@@ -215,6 +218,6 @@ if __name__ == '__main__':
         print(f"Total gene objects with marker_score >= {THRESHOLD}: {above}")
 
     # generate ROBOT template TSV
-    tsv_file = 'cellxgene_marker_template.tsv.bak'
+    tsv_file = os.path.join(output_dir, "cellxgene_marker_template.tsv")
     write_template(mapping, tsv_file)
     print(f"ROBOT template TSV written to {tsv_file}")
