@@ -19,18 +19,11 @@ jobs:
     steps:
       - name: Checkout main
         uses: actions/checkout@v3
-      - name: Install HDF5 & build h5py
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y libhdf5-dev
-          pip install --upgrade "setuptools>=44.0.0"
-          pip install --upgrade "wheel>=0.37.1"
-          pip install --upgrade Cython
-          pip install h5py
+      - name: Upgrade pip
+        run: pip install --upgrade pip
       - name: Deploy docs
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
         # Or use mhausenblas/mkdocs-deploy-gh-pages@nomaterial to build without the mkdocs-material theme
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CONFIG_FILE: mkdocs.yaml
-          EXTRA_PACKAGES: build-base
