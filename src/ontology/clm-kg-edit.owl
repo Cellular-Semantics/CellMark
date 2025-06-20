@@ -10,33 +10,49 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 Ontology(<http://purl.obolibrary.org/obo/clm.owl>
 
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9606>))
 
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/CLM_0009996>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/CLM_0009997>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/CLM_0009998>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/CLM_0010000>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/CLM_0010001>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/CLM_0010002>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/CLM_0010003>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/CLM_0010004>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/PCL_0010062>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002175>))
+
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/CLM_0009999>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0015004>))
 
 ############################
 #   Annotation Properties
 ############################
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_0009996> "species")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_0009997> "context")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_0009998> "marker score")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_0010000> "has characterizing marker set")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_0010001> "some soma located in")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_0010002> "cell ratio")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_0010003> "has marker set")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_0010004> "recall")
 
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/PCL_0010062>))
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PCL_0010062> "fbeta_confidence_score")
-
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002175>))
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002175> "present in taxon")
 
 ############################
 #   Object Properties
 ############################
 
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0015004>))
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0015004> "has characterizing marker set")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_0009999> "has marker")
 
 ############################
 #   Classes
 ############################
 
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9606>))
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_9606> "Homo sapiens")
 
 )
