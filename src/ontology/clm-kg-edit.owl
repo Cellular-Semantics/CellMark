@@ -23,7 +23,7 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/CLM_0010004>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/PCL_0010062>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002175>))
 
-# Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/CLM_0009999>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/CLM_0009999>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0015004>))
 
 ############################
@@ -47,7 +47,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002175> "pres
 ############################
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0015004> "has characterizing marker set")
-# AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_0009999> "has marker")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_0009999> "has marker")
 
 ############################
 #   Classes
