@@ -163,7 +163,7 @@ def write_template(mapping: dict, output: str) -> None:
     with open(output, 'w', encoding='utf-8') as out:
         # template header
         out.write("ID\tMARKER\tMARKER_SCORE\tCELL_RATIO\tTISSUE\tSPECIES\n")
-        out.write("ID\tA hm:has_marker\t>A hm:marker_score\t>A hm:cell_ratio\t>AI hm:context\t>AI hm:species\n")
+        out.write("ID\tA CLM:0009999\t>A CLM:0009998\t>A CLM:0010002\t>AI CLM:0009997\t>AI CLM:0009996\n")
         for taxon_uri, tissues in mapping.items():
             for uberon_uri, cl_map in tissues.items():
                 for cl_term, markers in cl_map.items():
