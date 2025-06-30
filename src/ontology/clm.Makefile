@@ -35,7 +35,7 @@ cellxgene_markers: $(COMPONENTSDIR)/cellxgene_markers.owl
 $(COMPONENTSDIR)/cellxgene_markers.owl: $(TEMPLATESDIR)/cl_kg/cellxgene_marker_template.tsv
 	$(ROBOT) template \
 		--template $< \
-		--prefix "hm: http://example.org/has_marker#" \
+		--add-prefixes template_prefixes.json \
 		--output $@
 
 .PHONY: quick_go
