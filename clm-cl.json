@@ -879,10 +879,10 @@
           },
           {
             "pred": "http://www.w3.org/2002/07/owl#versionInfo",
-            "val": "2025-06-20"
+            "val": "2025-07-17"
           }
         ],
-        "version": "http://purl.obolibrary.org/obo/clm/releases/2025-06-20/clm-cl.json"
+        "version": "http://purl.obolibrary.org/obo/clm/releases/2025-07-17/clm-cl.json"
       },
       "nodes": [
         {
