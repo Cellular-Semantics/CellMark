@@ -1,32 +1,32 @@
 ID	SYMBOL	GENE_PRODUCT_NAME	GO_TERM	GO EVIDENCE CODE	REFERENCE	TAXON ID	SUPERCLASS
 ID	A IAO:0000028	A rdfs:label	AI RO:0004032	>A oboInOwl:evidence	>A oboInOwl:hasDbXref	AI RO:0002162	SC %
-https://identifiers.org/uniprot/E9Q2M9	Wdfy4	WD repeat- and FYVE domain-containing protein 4	GO:0036037	IMP	PMID:30409884	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q5CZC0	FSIP2	Fibrous sheath-interacting protein 2	GO:0007288	IMP	PMID:30137358	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q5CZC0	FSIP2	Fibrous sheath-interacting protein 2	GO:0007288	IMP	PMID:30745215	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q5CZC0	FSIP2	Fibrous sheath-interacting protein 2	GO:0030317	IMP	PMID:30745215	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P70170	Abcc9	ATP-binding cassette sub-family C member 9	GO:0086003	IMP	PMID:31575858	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P43028	Gdf6	Growth/differentiation factor 6	GO:0010631	IMP	PMID:32737436	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P97464	Ext1	Exostosin-1	GO:0007411	IMP	PMID:14605369	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/E9Q2M9	Wdfy4	WD repeat- and FYVE domain-containing protein 4	GO:0036037	IMP	PMID:30409884	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q64221	Nhlh2	Helix-loop-helix protein 2	GO:0021888	IMP	PMID:23785158	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P49769	Psen1	Presenilin-1	GO:0051208	IMP	PMID:15009636	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q01955	COL4A3	Collagen alpha-3(IV) chain	GO:0072577	IDA	PMID:10766752	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/G3X8Y1	Trim55	Tripartite motif-containing 55	GO:0002523	IMP	PMID:26452100	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/G3X8Y1	Trim55	Tripartite motif-containing 55	GO:0050904	IMP	PMID:26452100	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P43028	Gdf6	Growth/differentiation factor 6	GO:0035788	IMP	PMID:32737436	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/O75467	ZNF324	Zinc finger protein 324A	GO:0000082	IEP	PMID:11779640	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P97464	Ext1	Exostosin-1	GO:0072112	IMP	PMID:18480751	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P14598	NCF1	Neutrophil cytosol factor 1	GO:0042554	IMP	PMID:2547247	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/O75467	ZNF324	Zinc finger protein 324A	GO:0008283	IEP	PMID:11779640	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P17439	Gba1	Lysosomal acid glucosylceramidase	GO:0071425	IMP	PMID:22665763	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P43028	Gdf6	Growth/differentiation factor 6	GO:0010631	IMP	PMID:32737436	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q99NH8	Trem2	Triggering receptor expressed on myeloid cells 2	GO:0050829	IMP	PMID:29887864	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/O35659	Glp1r	Glucagon-like peptide 1 receptor	GO:0046879	IMP	PMID:23542788	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q9EQZ6	Rapgef4	Rap guanine nucleotide exchange factor 4	GO:0046879	IMP	PMID:23542788	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P97464	Ext1	Exostosin-1	GO:0000902	IMP	PMID:18480751	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P97464	Ext1	Exostosin-1	GO:0072112	IMP	PMID:18480751	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P17439	Gba1	Lysosomal acid glucosylceramidase	GO:0071425	IMP	PMID:22665763	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P97464	Ext1	Exostosin-1	GO:0007411	IMP	PMID:14605369	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/G3X8Y1	Trim55	Tripartite motif-containing 55	GO:0002523	IMP	PMID:26452100	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P06281	Ren1	Renin-1	GO:0008217	IDA	PMID:27754863	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P55086	F2rl1	Proteinase-activated receptor 2	GO:0042311	IMP	PMID:9918574	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P03995	Gfap	Glial fibrillary acidic protein	GO:0006886	IMP	PMID:15135219	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P51150	Rab7a	Ras-related protein Rab-7a	GO:0051650	IMP	PMID:29712939	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q99NH8	Trem2	Triggering receptor expressed on myeloid cells 2	GO:0050829	IMP	PMID:29887864	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P70170	Abcc9	ATP-binding cassette sub-family C member 9	GO:0086003	IMP	PMID:31575858	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P14598	NCF1	Neutrophil cytosol factor 1	GO:0042554	IMP	PMID:2547247	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/O75467	ZNF324	Zinc finger protein 324A	GO:0008283	IEP	PMID:11779640	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P97464	Ext1	Exostosin-1	GO:0030210	IMP	PMID:10926768	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P97464	Ext1	Exostosin-1	GO:0030210	IMP	PMID:15161920	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P97464	Ext1	Exostosin-1	GO:0030210	IMP	PMID:15177029	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P97464	Ext1	Exostosin-1	GO:0030210	IMP	PMID:18480751	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/G3X8Y1	Trim55	Tripartite motif-containing 55	GO:0050904	IMP	PMID:26452100	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P43028	Gdf6	Growth/differentiation factor 6	GO:0035788	IMP	PMID:32737436	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P97464	Ext1	Exostosin-1	GO:0000902	IMP	PMID:18480751	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P49769	Psen1	Presenilin-1	GO:0051208	IMP	PMID:15009636	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/O75467	ZNF324	Zinc finger protein 324A	GO:0000082	IEP	PMID:11779640	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q01955	COL4A3	Collagen alpha-3(IV) chain	GO:0072577	IDA	PMID:10766752	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P03995	Gfap	Glial fibrillary acidic protein	GO:0006886	IMP	PMID:15135219	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P51150	Rab7a	Ras-related protein Rab-7a	GO:0051650	IMP	PMID:29712939	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001

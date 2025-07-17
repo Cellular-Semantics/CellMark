@@ -1,28 +1,30 @@
 ID	SYMBOL	GENE_PRODUCT_NAME	GO_TERM	GO EVIDENCE CODE	REFERENCE	TAXON ID	SUPERCLASS
 ID	A IAO:0000028	A rdfs:label	AI RO:0004034	>A oboInOwl:evidence	>A oboInOwl:hasDbXref	AI RO:0002162	SC %
+https://identifiers.org/uniprot/Q9HCE0	EPG5	Ectopic P granules protein 5 homolog	GO:0034162	IMP	PMID:29130391	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/O00629	KPNA4	Importin subunit alpha-3	GO:0014046	IDA	PMID:32273471	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P21980	TGM2	Protein-glutamine gamma-glutamyltransferase 2	GO:0014046	IDA	PMID:32273471	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P51141	Dvl1	Segment polarity protein dishevelled homolog DVL-1	GO:0016079	IMP	PMID:16818724	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9HBJ8	CLTRN	Collectrin	GO:0017156	IDA	PMID:16330323	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9HBJ8	CLTRN	Collectrin	GO:0035773	IDA	PMID:16330323	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q00887	PSG9	Pregnancy-specific beta-1-glycoprotein 9	GO:0045589	IDA	PMID:27389696	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P31938	Map2k1	Dual specificity mitogen-activated protein kinase kinase 1	GO:0044342	IMP	PMID:18202127	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q99N57	Raf1	RAF proto-oncogene serine/threonine-protein kinase	GO:0044342	IMP	PMID:18202127	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q6DFV1	Ncapg2	Condensin-2 complex subunit G2	GO:0030218	IDA	PMID:16673016	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P03966	Mycn	N-myc proto-oncogene protein	GO:0141068	IMP	PMID:21047779	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q2NL51	Gsk3a	Glycogen synthase kinase-3 alpha	GO:0141068	IMP	PMID:21047779	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9NYL2	MAP3K20	Mitogen-activated protein kinase kinase kinase 20	GO:0070269	IDA	PMID:35857590	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q149S1	Tekt4	Tektin-4	GO:0060378	IGI	PMID:18951373	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q6X6Z7	Tekt3	Tektin-3	GO:0060378	IGI	PMID:18951373	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8VHP9	Asb17	Ankyrin repeat and SOCS box protein 17	GO:0160087	IMP	PMID:35070814	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9WV60	Gsk3b	Glycogen synthase kinase-3 beta	GO:0141068	IMP	PMID:21047779	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8WTV0	SCARB1	Scavenger receptor class B member 1	GO:0042311	IDA	PMID:11792700	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P06802	Enpp1	Ectonucleotide pyrophosphatase/phosphodiesterase family member 1	GO:0000902	IDA	PMID:21930712	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P06802	Enpp1	Ectonucleotide pyrophosphatase/phosphodiesterase family member 1	GO:0000902	IMP	PMID:21930712	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/O15049	N4BP3	NEDD4-binding protein 3	GO:0045087	IDA	PMID:23951545	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P46934	NEDD4	E3 ubiquitin-protein ligase NEDD4	GO:0045087	IDA	PMID:23951545	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q12933	TRAF2	TNF receptor-associated factor 2	GO:0045087	IDA	PMID:23951545	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q7Z434	MAVS	Mitochondrial antiviral-signaling protein	GO:0045087	IDA	PMID:23951545	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P03966	Mycn	N-myc proto-oncogene protein	GO:0141068	IMP	PMID:21047779	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q2NL51	Gsk3a	Glycogen synthase kinase-3 alpha	GO:0141068	IMP	PMID:21047779	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9WV60	Gsk3b	Glycogen synthase kinase-3 beta	GO:0141068	IMP	PMID:21047779	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q6DFV1	Ncapg2	Condensin-2 complex subunit G2	GO:0030218	IDA	PMID:16673016	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9HBJ8	CLTRN	Collectrin	GO:0035773	IDA	PMID:16330323	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P62829	RPL23	Large ribosomal subunit protein uL14	GO:0070314	IMP	PMID:19160485	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P30301	MIP	Lens fiber major intrinsic protein	GO:1990349	IMP	PMID:11001937	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P51141	Dvl1	Segment polarity protein dishevelled homolog DVL-1	GO:0016079	IMP	PMID:16818724	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9HBJ8	CLTRN	Collectrin	GO:0017156	IDA	PMID:16330323	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P06802	Enpp1	Ectonucleotide pyrophosphatase/phosphodiesterase family member 1	GO:0000902	IDA	PMID:21930712	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P06802	Enpp1	Ectonucleotide pyrophosphatase/phosphodiesterase family member 1	GO:0000902	IMP	PMID:21930712	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9HCE0	EPG5	Ectopic P granules protein 5 homolog	GO:0034162	IMP	PMID:29130391	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q00887	PSG9	Pregnancy-specific beta-1-glycoprotein 9	GO:0045589	IDA	PMID:27389696	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P05132	Prkaca	cAMP-dependent protein kinase catalytic subunit alpha	GO:0006611	IDA	PMID:18606808	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P09103	P4hb	Protein disulfide-isomerase	GO:0006888	IMP	PMID:31184304	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q149S1	Tekt4	Tektin-4	GO:0060378	IGI	PMID:18951373	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q6X6Z7	Tekt3	Tektin-3	GO:0060378	IGI	PMID:18951373	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9NYL2	MAP3K20	Mitogen-activated protein kinase kinase kinase 20	GO:0070269	IDA	PMID:35857590	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P62829	RPL23	Large ribosomal subunit protein uL14	GO:0070314	IMP	PMID:19160485	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001

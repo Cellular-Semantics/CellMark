@@ -1,132 +1,55 @@
 ID	SYMBOL	GENE_PRODUCT_NAME	GO_TERM	GO EVIDENCE CODE	REFERENCE	TAXON ID	SUPERCLASS
 ID	A IAO:0000028	A rdfs:label	AI RO:0002325	>A oboInOwl:evidence	>A oboInOwl:hasDbXref	AI RO:0002162	SC %
-https://identifiers.org/uniprot/P10644	PRKAR1A	cAMP-dependent protein kinase type I-alpha regulatory subunit	GO:0005930	IDA	PMID:12475942	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P13861	PRKAR2A	cAMP-dependent protein kinase type II-alpha regulatory subunit	GO:0005930	IDA	PMID:12475942	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P17612	PRKACA	cAMP-dependent protein kinase catalytic subunit alpha	GO:0005930	IDA	PMID:12475942	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P61006	RAB8A	Ras-related protein Rab-8A	GO:0005929	IDA	PMID:21844891	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q5SSG4	Gas2l2	GAS2-like protein 2	GO:0036064	IMP	PMID:30665704	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q8NHY3	GAS2L2	GAS2-like protein 2	GO:0036064	IMP	PMID:30665704	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q8WVS4	DYNC2I1	Cytoplasmic dynein 2 intermediate chain 1	GO:0097546	IDA	PMID:25830415	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q8WW35	DYNLT2B	Dynein light chain Tctex-type protein 2B	GO:0005930	IDA	PMID:25830415	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q8WW35	DYNLT2B	Dynein light chain Tctex-type protein 2B	GO:0097546	IDA	PMID:25830415	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q96PN6	ADCY10	Adenylate cyclase type 10	GO:0031514	IDA	PMID:17591988	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9Y5K8	ATP6V1D	V-type proton ATPase subunit D	GO:0005929	IDA	PMID:21844891	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/A0A087WPF7	Auts2	Autism susceptibility gene 2 protein homolog	GO:0015629	IDA	PMID:25533347	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/A0A1B0GVQ0	SPAAR	Small regulatory polypeptide of amino acid response	GO:0046611	IDA	PMID:28024296	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/A2A5K6	Znf335	Zinc finger protein 335	GO:0035097	IDA	PMID:23178126	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/A2ALU4	Shroom2	Protein Shroom2	GO:0030864	IDA	PMID:16684770	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/A4UGR9	XIRP2	Xin actin-binding repeat-containing protein 2	GO:0001725	IMP	PMID:15454575	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/A6NHR9	SMCHD1	Structural maintenance of chromosomes flexible hinge domain-containing protein 1	GO:0000781	IDA	PMID:24270157	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/A8K0Z3	WASHC1	WASH complex subunit 1	GO:0000145	IDA	PMID:24344185	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/D3Z3K2	Ccnb1ip1	E3 ubiquitin-protein ligase CCNB1IP1	GO:0000795	IDA	PMID:24390283	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/E9Q394	Akap13	A-kinase anchor protein 13	GO:0005884	IDA	PMID:20139090	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/E9Q394	Akap13	A-kinase anchor protein 13	GO:0015629	IDA	PMID:20139090	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/E9Q557	Dsp	Desmoplakin	GO:0005882	IDA	PMID:16917092	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/F6TQD1	Rnf212	Probable E3 SUMO-protein ligase RNF212	GO:0000795	IDA	PMID:23396135	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/F6TQD1	Rnf212	Probable E3 SUMO-protein ligase RNF212	GO:0000795	IDA	PMID:24390283	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P07203	GPX1	Glutathione peroxidase 1	GO:0097413	IDA	PMID:18853169	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q5DTJ9	Mypn	Myopalladin	GO:0030018	IDA	PMID:11309420	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q6P5Q4	LMOD2	Leiomodin-2	GO:0031430	IDA	PMID:18403713	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q6P5Q4	LMOD2	Leiomodin-2	GO:0031430	IDA	PMID:20685966	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q86TC9	MYPN	Myopalladin	GO:0030018	IDA	PMID:11309420	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9WV06	Ankrd2	Ankyrin repeat domain-containing protein 2	GO:0031674	IDA	PMID:17926058	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/A2AFS3	Elapor1	Endosome/lysosome-associated apoptosis and autophagy regulator 1	GO:0005764	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/O60896	RAMP3	Receptor activity-modifying protein 3	GO:0005764	IDA	PMID:15613468	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P05067-PRO_0000000093	APP	Amyloid-beta precursor protein	GO:0005764	IDA	PMID:23152628	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P11279	LAMP1	Lysosome-associated membrane glycoprotein 1	GO:0005764	IDA	PMID:15613468	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P22314	UBA1	Ubiquitin-like modifier-activating enzyme 1	GO:0005765	IDA	PMID:1376922	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P22749	GNLY	Granulysin	GO:0044194	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P22749	GNLY	Granulysin	GO:0044194	IDA	PMID:9756476	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P51149	RAB7A	Ras-related protein Rab-7a	GO:0005764	IDA	PMID:18272684	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P51150	Rab7a	Ras-related protein Rab-7a	GO:0005765	IDA	PMID:23708524	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P61073	CXCR4	C-X-C chemokine receptor type 4	GO:0005764	IDA	PMID:24790097	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P97432	Nbr1	Next to BRCA1 gene 1 protein	GO:0005776	IDA	PMID:20616007	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q3LRV9	Treml4	Trem-like transcript 4 protein	GO:0005765	IDA	PMID:25848864	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q53GT1	KLHL22	Kelch-like protein 22	GO:0005764	IDA	PMID:29769719	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q6UXG2	ELAPOR1	Endosome/lysosome-associated apoptosis and autophagy regulator 1	GO:0005764	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q6UXG2	ELAPOR1	Endosome/lysosome-associated apoptosis and autophagy regulator 1	GO:0005764	IDA	PMID:21072319	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8NBW4	SLC38A9	Neutral amino acid transporter 9	GO:0071986	IDA	PMID:25561175	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8NBW4	SLC38A9	Neutral amino acid transporter 9	GO:0071986	IDA	PMID:25567906	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q96PG8	BBC3	Bcl-2-binding component 3, isoforms 3/4	GO:0005764	IDA	PMID:26212789	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9H270	VPS11	Vacuolar protein sorting-associated protein 11 homolog	GO:0005764	IDA	PMID:21148287	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9NVJ2	ARL8B	ADP-ribosylation factor-like protein 8B	GO:0005765	IDA	PMID:25898167	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9UQN3	CHMP2B	Charged multivesicular body protein 2b	GO:0005764	IDA	PMID:16041373	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9Y4I1	MYO5A	Unconventional myosin-Va	GO:0005764	IDA	PMID:24006491	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q80ZI1	Trnp1	TMF-regulated nuclear protein 1	GO:0000791	IDA	PMID:23622239	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/O14523	C2CD2L	Phospholipid transfer protein C2CD2L	GO:0098592	IDA	PMID:28209843	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/A2A259	Pkd2l1	Polycystin-2-like protein 1	GO:0009986	IDA	PMID:16891422	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/O35632	Hyal2	Hyaluronidase-2	GO:0009897	IDA	PMID:19443707	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/O35930	Gp1ba	Platelet glycoprotein Ib alpha chain	GO:0009897	IDA	PMID:19443707	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/O70326	Grem1	Gremlin-1	GO:0009986	IDA	PMID:17077323	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/O95867	LY6G6C	Lymphocyte antigen 6 complex locus protein G6c	GO:0009897	IDA	PMID:17008713	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/O95868	LY6G6D	Lymphocyte antigen 6 complex locus protein G6d	GO:0009897	IDA	PMID:17008713	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P00734	F2	Prothrombin	GO:0009897	IDA	PMID:20421939	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P06727	APOA4	Apolipoprotein A-IV	GO:0009986	IDA	PMID:1935934	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P07359	GP1BA	Platelet glycoprotein Ib alpha chain	GO:0009897	IDA	PMID:19443707	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q12891	HYAL2	Hyaluronidase-2	GO:0009897	IDA	PMID:19443707	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q2EG98	Pkd1l3	Polycystin-1-like protein 3	GO:0009986	IDA	PMID:16891422	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q5SRR4	LY6G5C	Lymphocyte antigen 6 complex locus protein G5c	GO:0009897	IDA	PMID:17008713	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q8K1T4	Ly6g5b	Lymphocyte antigen 6 complex locus protein G5b	GO:0009897	IDA	PMID:17008713	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q8K1T5	Ly6g5c	Lymphocyte antigen 6 complex locus protein G5c	GO:0009897	IDA	PMID:17008713	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q8NDX9	LY6G5B	Lymphocyte antigen 6 complex locus protein G5b	GO:0009897	IDA	PMID:17008713	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9Z1Q3	Ly6g6d	Lymphocyte antigen 6 complex locus protein G6d	GO:0009897	IDA	PMID:17008713	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9Z1Q4	Ly6g6c	Lymphocyte antigen 6 complex locus protein G6c	GO:0009897	IDA	PMID:17008713	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q15018	ABRAXAS2	BRISC complex subunit Abraxas 2	GO:0030496	IDA	PMID:26195665	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q8NFG4	FLCN	Folliculin	GO:0030496	IDA	PMID:22965878	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q8WV92	MITD1	MIT domain-containing protein 1	GO:0030496	IDA	PMID:23045692	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q96GD0	PDXP	Chronophin	GO:0030496	IDA	PMID:15580268	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q99569	PKP4	Plakophilin-4	GO:0030496	IDA	PMID:22965878	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9NQC7	CYLD	Ubiquitin carboxyl-terminal hydrolase CYLD	GO:0030496	IDA	PMID:17495026	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9UBP0	SPAST	Spastin	GO:0030496	IDA	PMID:19000169	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P35670	ATP7B	Copper-transporting ATPase 2	GO:0016323	IDA	PMID:15269005	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q86TB3	ALPK2	Alpha-protein kinase 2	GO:0016323	IMP	PMID:28668886	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/D3YZU1	Shank1	SH3 and multiple ankyrin repeat domains protein 1	GO:0045211	IDA	PMID:15207857	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q14160	SCRIB	Protein scribble homolog	GO:0045211	IDA	PMID:15182672	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q62108	Dlg4	Disks large homolog 4	GO:0045211	IDA	PMID:15207857	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q80Z38	Shank2	SH3 and multiple ankyrin repeat domains protein 2	GO:0045211	IDA	PMID:15207857	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P46939	UTRN	Utrophin	GO:0070938	IDA	PMID:16803572	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q96GD0	PDXP	Chronophin	GO:0070938	IDA	PMID:15580268	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P04925	Prnp	Major prion protein	GO:0030425	IDA	PMID:19242475	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q66L44	Cbarp	Voltage-dependent calcium channel beta subunit-associated regulatory protein	GO:0030426	IDA	PMID:24751537	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q91YN9	Bag2	BAG family molecular chaperone regulator 2	GO:1901588	IDA	PMID:19228967	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9WV92	Epb41l3	Band 4.1-like protein 3	GO:0030673	IDA	PMID:21966409	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P20073	ANXA7	Annexin A7	GO:0042584	IDA	PMID:9268363	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P30626	SRI	Sorcin	GO:0042584	IDA	PMID:9268363	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P01137	TGFB1	Transforming growth factor beta-1 proprotein	GO:0005902	IDA	PMID:19366691	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9NZC7	WWOX	WW domain-containing oxidoreductase	GO:0005902	IDA	PMID:19366691	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q3V0F0	Rimbp3	RIMS-binding protein 3	GO:0002177	IDA	PMID:19091768	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/O35613	Daxx	Death domain-associated protein 6	GO:0000792	IDA	PMID:17081986	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P22314	UBA1	Ubiquitin-like modifier-activating enzyme 1	GO:0000792	IDA	PMID:1376922	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q02880	TOP2B	DNA topoisomerase 2-beta	GO:0000792	IDA	PMID:9049244	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9NZM5	NOP53	Ribosome biogenesis protein NOP53	GO:0033553	IDA	PMID:27729611	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/A2AFS3	Elapor1	Endosome/lysosome-associated apoptosis and autophagy regulator 1	GO:0005770	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/A2AFS3	Elapor1	Endosome/lysosome-associated apoptosis and autophagy regulator 1	GO:0005802	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/O00506	STK25	Serine/threonine-protein kinase 25	GO:0005794	IDA	PMID:22652780	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/O43795	MYO1B	Unconventional myosin-Ib	GO:0032588	IDA	PMID:21666684	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/O75581	LRP6	Low-density lipoprotein receptor-related protein 6	GO:0005794	IDA	PMID:16890161	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P08754	GNAI3	Guanine nucleotide-binding protein G(i) subunit alpha-3	GO:0000139	IDA	PMID:12642577	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P16054	Prkce	Protein kinase C epsilon type	GO:0005794	IDA	PMID:17611075	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P35670	ATP7B	Copper-transporting ATPase 2	GO:0005802	IDA	PMID:15269005	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P35670	ATP7B	Copper-transporting ATPase 2	GO:0005802	IDA	PMID:16472602	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q08AD1	CAMSAP2	Calmodulin-regulated spectrin-associated protein 2	GO:0005794	IDA	PMID:27666745	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q10471	GALNT2	Polypeptide N-acetylgalactosaminyltransferase 2	GO:0005794	IDA	PMID:12506059	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q10472	GALNT1	Polypeptide N-acetylgalactosaminyltransferase 1	GO:0005794	IDA	PMID:12506059	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q12893	TMEM115	Transmembrane protein 115	GO:0017119	IDA	PMID:24806965	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q13635	PTCH1	Protein patched homolog 1	GO:0005794	IDA	PMID:11278759	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q14435	GALNT3	Polypeptide N-acetylgalactosaminyltransferase 3	GO:0005794	IDA	PMID:12506059	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q53HC9	EIPR1	EARP and GARP complex-interacting protein 1	GO:0000938	IDA	PMID:27440922	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q6UXG2	ELAPOR1	Endosome/lysosome-associated apoptosis and autophagy regulator 1	GO:0005802	IDA	PMID:21072319	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q86YR5	GPSM1	G-protein-signaling modulator 1	GO:0000139	IDA	PMID:12642577	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q8C167	Prepl	Prolyl endopeptidase-like	GO:0005802	IMP	PMID:23321636	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q8N4A0	GALNT4	Polypeptide N-acetylgalactosaminyltransferase 4	GO:0005794	IDA	PMID:12506059	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q8WXH6	RAB40A	Ras-related protein Rab-40A	GO:0005794	IDA	PMID:34469730	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q92503	SEC14L1	SEC14-like protein 1	GO:0005794	IDA	PMID:17092608	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q96G01	BICD1	Protein bicaudal D homolog 1	GO:0005794	IDA	PMID:17139249	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q96MK3	FAM20A	Pseudokinase FAM20A	GO:0005794	IDA	PMID:22582013	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q96S21	RAB40C	Ras-related protein Rab-40C	GO:0005794	IDA	PMID:34469730	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q99835	SMO	Protein smoothened	GO:0005794	IDA	PMID:11278759	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9BUL8	PDCD10	Programmed cell death protein 10	GO:0005794	IDA	PMID:22652780	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9QY84	Actl7a	Actin-like protein 7A	GO:0005794	IDA	PMID:21278383	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9UIL1	SCOC	Short coiled-coil protein	GO:0005802	IDA	PMID:22354037	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q5VY09	IER5	Immediate early response gene 5 protein	GO:0000159	IDA	PMID:25816751	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q5VY09	IER5	Immediate early response gene 5 protein	GO:0000159	IDA	PMID:26496226	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P37840	SNCA	Alpha-synuclein	GO:0031092	IDA	PMID:12239163	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q768S5	Rph3a	Rabphilin	GO:0030141	IDA	PMID:16043482	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9CZT8	Rab3b	Ras-related protein Rab-3B	GO:0030141	IDA	PMID:16043482	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/O00571	DDX3X	ATP-dependent RNA helicase DDX3X	GO:0022627	IDA	PMID:18596238	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q0VDF9	HSPA14	Heat shock 70 kDa protein 14	GO:0005840	IDA	PMID:16002468	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q71RC2	LARP4	La-related protein 4	GO:0022627	IDA	PMID:21098120	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9D3A8	Nos1ap	Carboxyl-terminal PDZ ligand of neuronal nitric oxide synthase protein	GO:0030315	IDA	PMID:24665357	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/O15504	NUP42	Nucleoporin NUP42	GO:0005635	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/O15504	NUP42	Nucleoporin NUP42	GO:0005635	IDA	PMID:22250199	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/O43592	XPOT	Exportin-T	GO:0005643	IDA	PMID:9660920	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/O43795	MYO1B	Unconventional myosin-Ib	GO:0032588	IDA	PMID:21666684	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/O60493	SNX3	Sorting nexin-3	GO:0030904	IDA	PMID:21725319	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/O60493	SNX3	Sorting nexin-3	GO:0030904	IDA	PMID:24344282	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/O75581	LRP6	Low-density lipoprotein receptor-related protein 6	GO:0005769	IDA	PMID:16890161	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/O75581	LRP6	Low-density lipoprotein receptor-related protein 6	GO:0005794	IDA	PMID:16890161	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/O94868	FCHSD2	F-BAR and double SH3 domains protein 2	GO:0005905	IDA	PMID:29887380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/O94901	SUN1	SUN domain-containing protein 1	GO:0005635	IMP	PMID:21610090	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/O95772	STARD3NL	STARD3 N-terminal-like protein	GO:0005789	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/O95772	STARD3NL	STARD3 N-terminal-like protein	GO:0005789	IDA	PMID:24105263	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P00533	EGFR	Epidermal growth factor receptor	GO:0005768	IDA	PMID:16554368	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P02545	LMNA	Prelamin-A/C	GO:0005635	IMP	PMID:21610090	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P05981	HPN	Serine protease hepsin	GO:0031965	IDA	PMID:15614436	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P06213	INSR	Insulin receptor	GO:0005635	IDA	PMID:19406747	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P08754	GNAI3	Guanine nucleotide-binding protein G(i) subunit alpha-3	GO:0000139	IDA	PMID:12642577	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P08754	GNAI3	Guanine nucleotide-binding protein G(i) subunit alpha-3	GO:0005789	IDA	PMID:12642577	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P14373	TRIM27	Zinc finger protein RFP	GO:0030904	IDA	PMID:23452853	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P16054	Prkce	Protein kinase C epsilon type	GO:0005794	IDA	PMID:17611075	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P20073	ANXA7	Annexin A7	GO:0042584	IDA	PMID:9268363	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P20700	LMNB1	Lamin-B1	GO:0005635	IDA	PMID:21610090	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P22314	UBA1	Ubiquitin-like modifier-activating enzyme 1	GO:0010008	IDA	PMID:1376922	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P22314	UBA1	Ubiquitin-like modifier-activating enzyme 1	GO:0030867	IDA	PMID:1376922	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
@@ -135,6 +58,10 @@ https://identifiers.org/uniprot/P26641	EEF1G	Elongation factor 1-gamma	GO:000578
 https://identifiers.org/uniprot/P27635	RPL10	Large ribosomal subunit protein uL16	GO:0005790	IDA	PMID:10508860	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P29692	EEF1D	Elongation factor 1-delta	GO:0005783	IDA	PMID:8743958	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P30622	CLIP1	CAP-Gly domain-containing linker protein 1	GO:0044354	IDA	PMID:12433698	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P30626	SRI	Sorcin	GO:0042584	IDA	PMID:9268363	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P35670	ATP7B	Copper-transporting ATPase 2	GO:0005802	IDA	PMID:15269005	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P35670	ATP7B	Copper-transporting ATPase 2	GO:0005802	IDA	PMID:16472602	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P37840	SNCA	Alpha-synuclein	GO:0031092	IDA	PMID:12239163	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P49768	PSEN1	Presenilin-1	GO:0005790	IDA	PMID:10508860	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P50402	EMD	Emerin	GO:0005635	IMP	PMID:21610090	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P50402	EMD	Emerin	GO:0032541	IDA	PMID:19494128	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
@@ -146,69 +73,176 @@ https://identifiers.org/uniprot/P51787	KCNQ1	Potassium voltage-gated channel sub
 https://identifiers.org/uniprot/P54252	ATXN3	Ataxin-3	GO:0005789	IDA	PMID:17000876	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P61073	CXCR4	C-X-C chemokine receptor type 4	GO:0005769	IDA	PMID:24790097	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P97762	rp9	Retinitis pigmentosa 9 protein homolog	GO:0005785	IDA	PMID:15652350	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q00536	CDK16	Cyclin-dependent kinase 16	GO:0008021	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q04735	Cdk16	Cyclin-dependent kinase 16	GO:0008021	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q04735	Cdk16	Cyclin-dependent kinase 16	GO:0008021	IDA	PMID:16461345	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q07960	ARHGAP1	Rho GTPase-activating protein 1	GO:0097443	IMP	PMID:16380373	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q08AD1	CAMSAP2	Calmodulin-regulated spectrin-associated protein 2	GO:0005794	IDA	PMID:27666745	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q10471	GALNT2	Polypeptide N-acetylgalactosaminyltransferase 2	GO:0005794	IDA	PMID:12506059	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q10472	GALNT1	Polypeptide N-acetylgalactosaminyltransferase 1	GO:0005794	IDA	PMID:12506059	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q12893	TMEM115	Transmembrane protein 115	GO:0017119	IDA	PMID:24806965	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q13635	PTCH1	Protein patched homolog 1	GO:0005794	IDA	PMID:11278759	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q14203	DCTN1	Dynactin subunit 1	GO:0030904	IDA	PMID:19619496	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q14435	GALNT3	Polypeptide N-acetylgalactosaminyltransferase 3	GO:0005794	IDA	PMID:12506059	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q14849	STARD3	StAR-related lipid transfer protein 3	GO:0005789	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q14849	STARD3	StAR-related lipid transfer protein 3	GO:0005789	IDA	PMID:24105263	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q14849	STARD3	StAR-related lipid transfer protein 3	GO:0005789	IDA	PMID:28377464	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q15811	ITSN1	Intersectin-1	GO:0005905	IDA	PMID:29887380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q2KHT3	CLEC16A	Protein CLEC16A	GO:0005770	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q3LRV9	Treml4	Trem-like transcript 4 protein	GO:0010008	IDA	PMID:25848864	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q53HC9	EIPR1	EARP and GARP complex-interacting protein 1	GO:0000938	IDA	PMID:27440922	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q53HC9	EIPR1	EARP and GARP complex-interacting protein 1	GO:1990745	IDA	PMID:27440922	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q61542	Stard3	StAR-related lipid transfer protein 3	GO:0005789	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q6IQ26	DENND5A	DENN domain-containing protein 5A	GO:0030904	IDA	PMID:19619496	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q6UXG2	ELAPOR1	Endosome/lysosome-associated apoptosis and autophagy regulator 1	GO:0005770	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q6UXG2	ELAPOR1	Endosome/lysosome-associated apoptosis and autophagy regulator 1	GO:0005770	IDA	PMID:21072319	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q6UXG2	ELAPOR1	Endosome/lysosome-associated apoptosis and autophagy regulator 1	GO:0005802	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q6UXG2	ELAPOR1	Endosome/lysosome-associated apoptosis and autophagy regulator 1	GO:0005802	IDA	PMID:21072319	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q6ZWV3	Rpl10	Large ribosomal subunit protein uL16	GO:0005790	IDA	PMID:10508860	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q768S5	Rph3a	Rabphilin-3A	GO:0030141	IDA	PMID:16043482	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q78YZ6	Scoc	Short coiled-coil protein	GO:0005802	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q80U30	Clec16a	Protein CLEC16A	GO:0005770	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q86YR5	GPSM1	G-protein-signaling modulator 1	GO:0000139	IDA	PMID:12642577	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q86YR5	GPSM1	G-protein-signaling modulator 1	GO:0005789	IDA	PMID:12642577	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8C167	Prepl	Prolyl endopeptidase-like	GO:0005802	IMP	PMID:23321636	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8CIC2	Nup42	Nucleoporin NUP42	GO:0005635	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q8N3Y7	SDR16C5	Epidermal retinol dehydrogenase 2	GO:0005783	IDA	PMID:16691198	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8N4A0	GALNT4	Polypeptide N-acetylgalactosaminyltransferase 4	GO:0005794	IDA	PMID:12506059	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q8N6S4	ANKRD13C	Ankyrin repeat domain-containing protein 13C	GO:0005783	IDA	PMID:20959461	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q8NC56	LEMD2	LEM domain-containing protein 2	GO:0005635	IDA	PMID:28242692	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q8NC56	LEMD2	LEM domain-containing protein 2	GO:0005783	IDA	PMID:28242692	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q8TDB6	DTX3L	E3 ubiquitin-protein ligase DTX3L	GO:0005769	IDA	PMID:24790097	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8WXH6	RAB40A	Ras-related protein Rab-40A	GO:0005794	IDA	PMID:34469730	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q8WYP5	AHCTF1	Protein ELYS	GO:0005643	IDA	PMID:17098863	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q8WYP5	AHCTF1	Protein ELYS	GO:0031080	IDA	PMID:17098863	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q920N7	Syt12	Synaptotagmin-12	GO:0008021	IDA	PMID:17190793	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q92503	SEC14L1	SEC14-like protein 1	GO:0005794	IDA	PMID:17092608	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q92609	TBC1D5	TBC1 domain family member 5	GO:0030122	IDA	PMID:24603492	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q96C92	ENTR1	Endosome-associated-trafficking regulator 1	GO:0030904	IDA	PMID:25278552	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q96J02	ITCH	E3 ubiquitin-protein ligase Itchy homolog	GO:0005769	IDA	PMID:24790097	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q96L92	SNX27	Sorting nexin-27	GO:0030904	IDA	PMID:23563491	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q96S99	PLEKHF1	Pleckstrin homology domain-containing family F member 1	GO:0005768	IDA	PMID:22115783	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9BY43	CHMP4A	Charged multivesicular body protein 4a	GO:0005768	IDA	PMID:24878737	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9C035	TRIM5	Tripartite motif-containing protein 5	GO:1990462	IDA	PMID:25127057	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9EQD0	Fzd5	Frizzled-5	GO:0005769	IDA	PMID:16890161	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9H270	VPS11	Vacuolar protein sorting-associated protein 11 homolog	GO:0005769	IDA	PMID:21148287	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9H270	VPS11	Vacuolar protein sorting-associated protein 11 homolog	GO:0005770	IDA	PMID:21148287	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9NUU6	OTULINL	Inactive ubiquitin thioesterase OTULINL	GO:0005635	IDA	PMID:31056421	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9P2R3	ANKFY1	Rabankyrin-5	GO:0030904	IDA	PMID:22284051	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9UBP0	SPAST	Spastin	GO:0005768	IDA	PMID:19000169	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9UBP0	SPAST	Spastin	GO:0005783	IDA	PMID:19000169	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9UH99	SUN2	SUN domain-containing protein 2	GO:0005635	IDA	PMID:21610090	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9UIL1	SCOC	Short coiled-coil protein	GO:0005768	IDA	PMID:22354037	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9UJ55	MAGEL2	MAGE-like protein 2	GO:0030904	IDA	PMID:23452853	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9UQN3	CHMP2B	Charged multivesicular body protein 2b	GO:0005768	IDA	PMID:24878737	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9UQN3	CHMP2B	Charged multivesicular body protein 2b	GO:0005770	IDA	PMID:16041373	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9Y2H2	INPP5F	Phosphatidylinositide phosphatase SAC2	GO:0005905	IDA	PMID:25869669	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9Y4I1	MYO5A	Unconventional myosin-Va	GO:0005769	IDA	PMID:24006491	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9Y4I1	MYO5A	Unconventional myosin-Va	GO:0005770	IDA	PMID:24006491	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9Y4I1	MYO5A	Unconventional myosin-Va	GO:0005783	IDA	PMID:24006491	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9Y4I1	MYO5A	Unconventional myosin-Va	GO:0055037	IDA	PMID:24006491	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9Y5X2	SNX8	Sorting nexin-8	GO:0030904	IDA	PMID:19782049	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9Y6D9	MAD1L1	Mitotic spindle assembly checkpoint protein MAD1	GO:0005635	IDA	PMID:22351768	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q5DTJ9	Mypn	Myopalladin	GO:0030018	IDA	PMID:11309420	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q6P5Q4	LMOD2	Leiomodin-2	GO:0031430	IDA	PMID:18403713	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q6P5Q4	LMOD2	Leiomodin-2	GO:0031430	IDA	PMID:20685966	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q86TC9	MYPN	Myopalladin	GO:0030018	IDA	PMID:11309420	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9WV06	Ankrd2	Ankyrin repeat domain-containing protein 2	GO:0031674	IDA	PMID:17926058	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q6PFY1	Fchsd1	F-BAR and double SH3 domains protein 1	GO:0032437	IDA	PMID:23437151	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q91VH2	Snx9	Sorting nexin-9	GO:0032437	IDA	PMID:23437151	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P05556	ITGB1	Integrin beta-1	GO:0032587	IDA	PMID:14970227	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P08648	ITGA5	Integrin alpha-5	GO:0032587	IDA	PMID:14970227	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P14234	Fgr	Tyrosine-protein kinase Fgr	GO:0032587	IDA	PMID:15561106	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P16591	FER	Tyrosine-protein kinase Fer	GO:0030027	IDA	PMID:19738202	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P55008	AIF1	Allograft inflammatory factor 1	GO:0032587	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P55008	AIF1	Allograft inflammatory factor 1	GO:0032587	IDA	PMID:18699778	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P78536	ADAM17	Disintegrin and metalloproteinase domain-containing protein 17	GO:0032587	IDA	PMID:14970227	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q14160	SCRIB	Protein scribble homolog	GO:0031252	IDA	PMID:18716323	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q3UU41	Scimp	SLP adapter and CSK-interacting membrane protein	GO:0001726	IMP	PMID:28098138	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q91YR1	Twf1	Twinfilin-1	GO:0032587	IDA	PMID:12807912	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q96GD0	PDXP	Chronophin	GO:0030027	IDA	PMID:15580268	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q96GD0	PDXP	Chronophin	GO:0032587	IDA	PMID:15580268	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9BQI0	AIF1L	Allograft inflammatory factor 1-like	GO:0032587	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9EQX4	Aif1l	Allograft inflammatory factor 1-like	GO:0032587	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9WV92	Epb41l3	Band 4.1-like protein 3	GO:0030673	IDA	PMID:21966409	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/O35613	Daxx	Death domain-associated protein 6	GO:0000792	IDA	PMID:17081986	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P22314	UBA1	Ubiquitin-like modifier-activating enzyme 1	GO:0000792	IDA	PMID:1376922	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q02880	TOP2B	DNA topoisomerase 2-beta	GO:0000792	IDA	PMID:9049244	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9NZM5	NOP53	Ribosome biogenesis protein NOP53	GO:0033553	IDA	PMID:27729611	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P07203	GPX1	Glutathione peroxidase 1	GO:0097413	IDA	PMID:18853169	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q15018	ABRAXAS2	BRISC complex subunit Abraxas 2	GO:0030496	IDA	PMID:26195665	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8NFG4	FLCN	Folliculin	GO:0030496	IDA	PMID:22965878	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8VDV8	Mitd1	MIT domain-containing protein 1	GO:0030496	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8WV92	MITD1	MIT domain-containing protein 1	GO:0030496	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8WV92	MITD1	MIT domain-containing protein 1	GO:0030496	IDA	PMID:23045692	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q96GD0	PDXP	Chronophin	GO:0030496	IDA	PMID:15580268	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q99569	PKP4	Plakophilin-4	GO:0030496	IDA	PMID:22965878	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9NQC7	CYLD	Ubiquitin carboxyl-terminal hydrolase CYLD	GO:0030496	IDA	PMID:17495026	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9UBP0	SPAST	Spastin	GO:0030496	IDA	PMID:19000169	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P61586	RHOA	Transforming protein RhoA	GO:0032154	IDA	PMID:16103226	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q52KF3	Spire1	Protein spire homolog 1	GO:0032154	IDA	PMID:21620703	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q6P4I2	WDR73	Integrator complex assembly factor WDR73	GO:0032154	IDA	PMID:25466283	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8K1S6	Spire2	Protein spire homolog 2	GO:0032154	IDA	PMID:21620703	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q96GD0	PDXP	Chronophin	GO:0032154	IDA	PMID:15580268	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/A0A087WPF7	Auts2	Autism susceptibility gene 2 protein homolog	GO:0015629	IDA	PMID:25533347	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/A0A2Z4LIS9	FOXO3B	Forkhead box protein O3B	GO:0005759	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/A2A5K6	Znf335	Zinc finger protein 335	GO:0035097	IDA	PMID:23178126	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/A2AGT5	Ckap5	Cytoskeleton-associated protein 5	GO:0035371	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/A2AHC3	Camsap1	Calmodulin-regulated spectrin-associated protein 1	GO:0036449	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/A2AKB4	Frmpd1	FERM and PDZ domain-containing protein 1	GO:0005938	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/A2ALU4	Shroom2	Protein Shroom2	GO:0030864	IDA	PMID:16684770	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/A4UGR9	XIRP2	Xin actin-binding repeat-containing protein 2	GO:0001725	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/A4UGR9	XIRP2	Xin actin-binding repeat-containing protein 2	GO:0001725	IMP	PMID:15454575	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/A6NHR9	SMCHD1	Structural maintenance of chromosomes flexible hinge domain-containing protein 1	GO:0000781	IDA	PMID:24270157	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/A6NI79	CCDC69	Coiled-coil domain-containing protein 69	GO:0005737	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/A6NJZ7	RIMBP3C	RIMS-binding protein 3C	GO:0002177	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/A6NNM3	RIMBP3B	RIMS-binding protein 3B	GO:0002177	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/A8K0Z3	WASHC1	WASH complex subunit 1	GO:0000145	IDA	PMID:24344185	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/D3Z3K2	Ccnb1ip1	E3 ubiquitin-protein ligase CCNB1IP1	GO:0000795	IDA	PMID:24390283	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P04925	Prnp	Major prion protein	GO:0030425	IDA	PMID:19242475	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q91YN9	Bag2	BAG family molecular chaperone regulator 2	GO:1901588	IDA	PMID:19228967	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/O00571	DDX3X	ATP-dependent RNA helicase DDX3X	GO:0022627	IDA	PMID:18596238	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q0VDF9	HSPA14	Heat shock 70 kDa protein 14	GO:0005840	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q0VDF9	HSPA14	Heat shock 70 kDa protein 14	GO:0005840	IDA	PMID:16002468	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q71RC2	LARP4	La-related protein 4	GO:0022627	IDA	PMID:21098120	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q99M31	Hspa14	Heat shock 70 kDa protein 14	GO:0005840	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q66L44	Cbarp	Voltage-dependent calcium channel beta subunit-associated regulatory protein	GO:0030426	IDA	PMID:24751537	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q5VY09	IER5	Immediate early response gene 5 protein	GO:0000159	IDA	PMID:25816751	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q5VY09	IER5	Immediate early response gene 5 protein	GO:0000159	IDA	PMID:26496226	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/D3YZU1	Shank1	SH3 and multiple ankyrin repeat domains protein 1	GO:0045211	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/D3YZU1	Shank1	SH3 and multiple ankyrin repeat domains protein 1	GO:0045211	IDA	PMID:15207857	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q14160	SCRIB	Protein scribble homolog	GO:0045211	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q14160	SCRIB	Protein scribble homolog	GO:0045211	IDA	PMID:15182672	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q4ACU6	Shank3	SH3 and multiple ankyrin repeat domains protein 3	GO:0045211	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q62108	Dlg4	Disks large homolog 4	GO:0045211	IDA	PMID:15207857	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q80TE7	Lrrc7	Leucine-rich repeat-containing protein 7	GO:0045211	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q80U72	Scrib	Protein scribble homolog	GO:0045211	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q80Z38	Shank2	SH3 and multiple ankyrin repeat domains protein 2	GO:0045211	IDA	PMID:15207857	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q96NW7	LRRC7	Leucine-rich repeat-containing protein 7	GO:0045211	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9BYB0	SHANK3	SH3 and multiple ankyrin repeat domains protein 3	GO:0045211	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9UPX8	SHANK2	SH3 and multiple ankyrin repeat domains protein 2	GO:0045211	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9Y566	SHANK1	SH3 and multiple ankyrin repeat domains protein 1	GO:0045211	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q96PN6	ADCY10	Adenylate cyclase type 10	GO:0031514	IDA	PMID:17591988	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q3V0F0	Rimbp3	RIMS-binding protein 3	GO:0002177	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q3V0F0	Rimbp3	RIMS-binding protein 3	GO:0002177	IDA	PMID:19091768	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9UFD9	RIMBP3	RIMS-binding protein 3A	GO:0002177	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9CZT8	Rab3b	Ras-related protein Rab-3B	GO:0030141	IDA	PMID:16043482	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/O14523	C2CD2L	Phospholipid transfer protein C2CD2L	GO:0098592	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/O14523	C2CD2L	Phospholipid transfer protein C2CD2L	GO:0098592	IDA	PMID:28209843	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q80X80	C2cd2l	Phospholipid transfer protein C2CD2L	GO:0098592	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/O15381	NVL	Nuclear valosin-containing protein-like	GO:0005730	IDA	PMID:26456651	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P21675	TAF1	Transcription initiation factor TFIID subunit 1	GO:0005730	IDA	PMID:12498690	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q6RFH5	WDR74	WD repeat-containing protein 74	GO:0005730	IDA	PMID:26456651	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q92688	ANP32B	Acidic leucine-rich nuclear phosphoprotein 32 family member B	GO:0005730	IDA	PMID:9285060	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q14160	SCRIB	Protein scribble homolog	GO:0042734	IDA	PMID:15182672	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q61086	Fzd3	Frizzled-3	GO:0048786	IDA	PMID:18986540	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P61586	RHOA	Transforming protein RhoA	GO:0032154	IDA	PMID:16103226	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q52KF3	Spire1	Protein spire homolog 1	GO:0032154	IDA	PMID:21620703	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q6P4I2	WDR73	WD repeat-containing protein 73	GO:0032154	IDA	PMID:25466283	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q8K1S6	Spire2	Protein spire homolog 2	GO:0032154	IDA	PMID:21620703	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q96GD0	PDXP	Chronophin	GO:0032154	IDA	PMID:15580268	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P01137	TGFB1	Transforming growth factor beta-1 proprotein	GO:0005902	IDA	PMID:19366691	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P10644	PRKAR1A	cAMP-dependent protein kinase type I-alpha regulatory subunit	GO:0005930	IDA	PMID:12475942	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P13861	PRKAR2A	cAMP-dependent protein kinase type II-alpha regulatory subunit	GO:0005930	IDA	PMID:12475942	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P17612	PRKACA	cAMP-dependent protein kinase catalytic subunit alpha	GO:0005930	IDA	PMID:12475942	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P61006	RAB8A	Ras-related protein Rab-8A	GO:0005929	IDA	PMID:21844891	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q3UU41	Scimp	SLP adapter and CSK-interacting membrane protein	GO:0030175	IMP	PMID:28098138	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q5SSG4	Gas2l2	GAS2-like protein 2	GO:0036064	IMP	PMID:30665704	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8C761	Dync2i1	Cytoplasmic dynein 2 intermediate chain 1	GO:0097546	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8NHY3	GAS2L2	GAS2-like protein 2	GO:0036064	IMP	PMID:30665704	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8WVS4	DYNC2I1	Cytoplasmic dynein 2 intermediate chain 1	GO:0097546	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8WVS4	DYNC2I1	Cytoplasmic dynein 2 intermediate chain 1	GO:0097546	IDA	PMID:25830415	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8WW35	DYNLT2B	Dynein light chain Tctex-type protein 2B	GO:0005930	IDA	PMID:25830415	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8WW35	DYNLT2B	Dynein light chain Tctex-type protein 2B	GO:0097546	IDA	PMID:25830415	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9NZC7	WWOX	WW domain-containing oxidoreductase	GO:0005902	IDA	PMID:19366691	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9Y5K8	ATP6V1D	V-type proton ATPase subunit D	GO:0005929	IDA	PMID:21844891	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P46939	UTRN	Utrophin	GO:0070938	IDA	PMID:16803572	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q96GD0	PDXP	Chronophin	GO:0070938	IDA	PMID:15580268	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q96G01	BICD1	Protein bicaudal D homolog 1	GO:0005794	IDA	PMID:17139249	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q96MK3	FAM20A	Pseudokinase FAM20A	GO:0005794	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q96MK3	FAM20A	Pseudokinase FAM20A	GO:0005794	IDA	PMID:22582013	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q96S21	RAB40C	Ras-related protein Rab-40C	GO:0005794	IDA	PMID:34469730	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q99835	SMO	Protein smoothened	GO:0005794	IDA	PMID:11278759	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9BUL8	PDCD10	Programmed cell death protein 10	GO:0005794	IDA	PMID:22652780	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9QY84	Actl7a	Actin-like protein 7A	GO:0005794	IDA	PMID:21278383	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9UIL1	SCOC	Short coiled-coil protein	GO:0005802	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9UIL1	SCOC	Short coiled-coil protein	GO:0005802	IDA	PMID:22354037	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/F6TQD1	Rnf212	Probable E3 SUMO-protein ligase RNF212	GO:0000795	IDA	PMID:23396135	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/F6TQD1	Rnf212	Probable E3 SUMO-protein ligase RNF212	GO:0000795	IDA	PMID:24390283	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/G2XKQ0	SUMO1P1	Small ubiquitin-related modifier 5	GO:0016605	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/O00422	SAP18	Histone deacetylase complex subunit SAP18	GO:0035145	IDA	PMID:16314458	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/O14746	TERT	Telomerase reverse transcriptase	GO:0016605	IDA	PMID:19567472	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/O14867	BACH1	Transcription regulator protein BACH1	GO:0005634	HDA	PMID:16780588	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/O15381	NVL	Nuclear valosin-containing protein-like	GO:0000176	IDA	PMID:26166824	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/O43143	DHX15	ATP-dependent RNA helicase DHX15	GO:0071008	IDA	PMID:19103666	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/O43189	PHF1	PHD finger protein 1	GO:0035098	IDA	PMID:23273982	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/O43491	EPB41L2	Band 4.1-like protein 2	GO:0008180	IDA	PMID:18850735	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/O43660	PLRG1	Pleiotropic regulator 1	GO:0005662	IDA	PMID:24332808	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/O60264	SMARCA5	SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A member 5	GO:0043596	IDA	PMID:15543136	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
@@ -229,153 +263,142 @@ https://identifiers.org/uniprot/P0DMV8	HSPA1A	Heat shock 70 kDa protein 1A	GO:00
 https://identifiers.org/uniprot/P11021	HSPA5	Endoplasmic reticulum chaperone BiP	GO:0008180	IDA	PMID:18850735	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P11387	TOP1	DNA topoisomerase 1	GO:0000228	IDA	PMID:9049244	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P11388	TOP2A	DNA topoisomerase 2-alpha	GO:0000228	IDA	PMID:9049244	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P15927	RPA2	Replication protein A 32 kDa subunit	GO:0016605	IDA	PMID:17959650	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P17066	HSPA6	Heat shock 70 kDa protein 6	GO:0008180	IDA	PMID:18850735	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P19784	CSNK2A2	Casein kinase II subunit alpha'	GO:0031519	IDA	PMID:21282530	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P21675	TAF1	Transcription initiation factor TFIID subunit 1	GO:0005654	IDA	PMID:12498690	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P23025	XPA	DNA repair protein complementing XP-A cells	GO:0005662	IDA	PMID:7700386	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P23497	SP100	Nuclear autoantigen Sp-100	GO:0030870	IDA	PMID:15767676	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P25705	ATP5F1A	ATP synthase subunit alpha, mitochondrial	GO:0008180	IDA	PMID:18850735	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P27694	RPA1	Replication protein A 70 kDa DNA-binding subunit	GO:0016605	IDA	PMID:17959650	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P28289	TMOD1	Tropomodulin-1	GO:0008180	IDA	PMID:18850735	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P28715	ERCC5	DNA excision repair protein ERCC-5	GO:0005662	IDA	PMID:7700386	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P34931	HSPA1L	Heat shock 70 kDa protein 1-like	GO:0008180	IDA	PMID:18850735	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P35579	MYH9	Myosin-9	GO:0008180	IDA	PMID:18850735	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P13688	CEACAM1	Cell adhesion molecule CEACAM1	GO:0042101	IDA	PMID:18424730	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/P30203	CD6	T-cell differentiation antigen CD6	GO:0042101	IDA	PMID:15294938	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q13740	ALCAM	CD166 antigen	GO:0042101	IDA	PMID:15294938	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/O00339	MATN2	Matrilin-2	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/O00468	AGRN	Agrin	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/O09164	Sod3	Extracellular superoxide dismutase [Cu-Zn]	GO:0062023	IDA	PMID:15528465	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9D3A8	Nos1ap	Carboxyl-terminal PDZ ligand of neuronal nitric oxide synthase protein	GO:0030315	IDA	PMID:24665357	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q14160	SCRIB	Protein scribble homolog	GO:0042734	IDA	PMID:15182672	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q61086	Fzd3	Frizzled-3	GO:0048786	IDA	PMID:18986540	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/O00339	MATN2	Matrilin-2	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/O00468	AGRN	Agrin	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/O14936	CASK	Peripheral plasma membrane protein CASK	GO:0005604	IDA	PMID:18664494	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/O15230	LAMA5	Laminin subunit alpha-5	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/O15520	FGF10	Fibroblast growth factor 10	GO:0062023	IDA	PMID:17959718	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/O43294	TGFB1I1	Transforming growth factor beta-1-induced transcript 1 protein	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/O60565	GREM1	Gremlin-1	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/O15230	LAMA5	Laminin subunit alpha-5	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/O60565	GREM1	Gremlin-1	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/O70589	Cask	Peripheral plasma membrane protein CASK	GO:0005604	IDA	PMID:18664494	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/O75326	SEMA7A	Semaphorin-7A	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P00734	F2	Prothrombin	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P01023	A2M	Alpha-2-macroglobulin	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P01241	GH1	Somatotropin	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P01563	IFNA2	Interferon alpha-2	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P02452	COL1A1	Collagen alpha-1(I) chain	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P02743	APCS	Serum amyloid P-component	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P02749	APOH	Beta-2-glycoprotein 1	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P02751	FN1	Fibronectin	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P03973	SLPI	Antileukoproteinase	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P04004	VTN	Vitronectin	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P05121	SERPINE1	Plasminogen activator inhibitor 1	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P05154	SERPINA5	Plasma serine protease inhibitor	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P07093	SERPINE2	Glia-derived nexin	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P07339	CTSD	Cathepsin D	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P07355	ANXA2	Annexin A2	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P07585	DCN	Decorin	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P07858	CTSB	Cathepsin B	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P07996	THBS1	Thrombospondin-1	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P08123	COL1A2	Collagen alpha-2(I) chain	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P08133	ANXA6	Annexin A6	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P08253	MMP2	72 kDa type IV collagenase	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P08294	SOD3	Extracellular superoxide dismutase [Cu-Zn]	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P08311	CTSG	Cathepsin G	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P08493	MGP	Matrix Gla protein	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P08572	COL4A2	Collagen alpha-2(IV) chain	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P08758	ANXA5	Annexin A5	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P09382	LGALS1	Galectin-1	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P09382	LGALS1	Galectin-1	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P10909	CLU	Clusterin	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P10915	HAPLN1	Hyaluronan and proteoglycan link protein 1	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P11047	LAMC1	Laminin subunit gamma-1	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P12109	COL6A1	Collagen alpha-1(VI) chain	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P12110	COL6A2	Collagen alpha-2(VI) chain	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P12111	COL6A3	Collagen alpha-3(VI) chain	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P13611	VCAN	Versican core protein	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P14543	NID1	Nidogen-1	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P16112	ACAN	Aggrecan core protein	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P17931	LGALS3	Galectin-3	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P17931	LGALS3	Galectin-3	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P19823	ITIH2	Inter-alpha-trypsin inhibitor heavy chain H2	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P20742	PZP	Pregnancy zone protein	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P20774	OGN	Mimecan	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P20908	COL5A1	Collagen alpha-1(V) chain	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P21741	MDK	Midkine	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P21802	FGFR2	Fibroblast growth factor receptor 2	GO:0062023	IDA	PMID:17959718	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P21810	BGN	Biglycan	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P21980	TGM2	Protein-glutamine gamma-glutamyltransferase 2	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P22105	TNXB	Tenascin-X	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P23142	FBLN1	Fibulin-1	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P23946	CMA1	Chymase	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P24158	PRTN3	Myeloblastin	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P24821	TNC	Tenascin	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P25067	COL8A2	Collagen alpha-2(VIII) chain	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P27658	COL8A1	Collagen alpha-1(VIII) chain	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P27918	CFP	Properdin	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P29279	CCN2	CCN family member 2	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P35555	FBN1	Fibrillin-1	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P35625	TIMP3	Metalloproteinase inhibitor 3	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P36955	SERPINF1	Pigment epithelium-derived factor	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P39059	COL15A1	Collagen alpha-1(XV) chain	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P39060	COL18A1	Collagen alpha-1(XVIII) chain	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P41221	WNT5A	Protein Wnt-5a	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P49747	COMP	Cartilage oligomeric matrix protein	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P50454	SERPINH1	Serpin H1	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P51884	LUM	Lumican	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P51888	PRELP	Prolargin	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P55083	MFAP4	Microfibril-associated glycoprotein 4	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P55268	LAMB2	Laminin subunit beta-2	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P59665	DEFA1	Neutrophil defensin 1	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P98160	HSPG2	Basement membrane-specific heparan sulfate proteoglycan core protein	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q05707	COL14A1	Collagen alpha-1(XIV) chain	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q06828	FMOD	Fibromodulin	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q07507	DPT	Dermatopontin	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q08380	LGALS3BP	Galectin-3-binding protein	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q08397	LOXL1	Lysyl oxidase homolog 1	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q08397	LOXL1	Lysyl oxidase homolog 1	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q08431	MFGE8	Lactadherin	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q12805	EFEMP1	EGF-containing fibulin-like extracellular matrix protein 1	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q14112	NID2	Nidogen-2	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q14766	LTBP1	Latent-transforming growth factor beta-binding protein 1	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q14767	LTBP2	Latent-transforming growth factor beta-binding protein 2	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q15063	POSTN	Periostin	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q15113	PCOLCE	Procollagen C-endopeptidase enhancer 1	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q15582	TGFBI	Transforming growth factor-beta-induced protein ig-h3	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q15661	TPSAB1	Tryptase alpha/beta-1	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q16270	IGFBP7	Insulin-like growth factor-binding protein 7	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q32P28	P3H1	Prolyl 3-hydroxylase 1	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q6UY14	ADAMTSL4	ADAMTS-like protein 4	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q7Z7G0	ABI3BP	Target of Nesh-SH3	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q8IUX7	AEBP1	Adipocyte enhancer-binding protein 1	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q8IVN8	SBSPON	Somatomedin-B and thrombospondin type-1 domain-containing protein	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q8IWU6	SULF1	Extracellular sulfatase Sulf-1	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q8N2S1	LTBP4	Latent-transforming growth factor beta-binding protein 4	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q8N474	SFRP1	Secreted frizzled-related protein 1	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q8TF66	LRRC15	Leucine-rich repeat-containing protein 15	GO:0062023	IDA	PMID:16098915	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q92743	HTRA1	Serine protease HTRA1	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q92743	HTRA1	Serine protease HTRA1	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q96P44	COL21A1	Collagen alpha-1(XXI) chain	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q99715	COL12A1	Collagen alpha-1(XII) chain	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q99988	GDF15	Growth/differentiation factor 15	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9BQB4	SOST	Sclerostin	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9BXN1	ASPN	Asporin	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9GZM7	TINAGL1	Tubulointerstitial nephritis antigen-like	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9H1J7	WNT5B	Protein Wnt-5b	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9HCB6	SPON1	Spondin-1	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9UBX5	FBLN5	Fibulin-5	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9UHI8	ADAMTS1	A disintegrin and metalloproteinase with thrombospondin motifs 1	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9WVH9	Fbln5	Fibulin-5	GO:0062023	IDA	PMID:15528465	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/O75326	SEMA7A	Semaphorin-7A	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P00734	F2	Prothrombin	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P01023	A2M	Alpha-2-macroglobulin	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P01241	GH1	Somatotropin	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P01563	IFNA2	Interferon alpha-2	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P02452	COL1A1	Collagen alpha-1(I) chain	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P02751	FN1	Fibronectin	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P03973	SLPI	Antileukoproteinase	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P04004	VTN	Vitronectin	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P05121	SERPINE1	Plasminogen activator inhibitor 1	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P05154	SERPINA5	Plasma serine protease inhibitor	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P07093	SERPINE2	Glia-derived nexin	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P07339	CTSD	Cathepsin D	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P07355	ANXA2	Annexin A2	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P07585	DCN	Decorin	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P07858	CTSB	Cathepsin B	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P07996	THBS1	Thrombospondin-1	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P08123	COL1A2	Collagen alpha-2(I) chain	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P08133	ANXA6	Annexin A6	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P08253	MMP2	72 kDa type IV collagenase	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P08311	CTSG	Cathepsin G	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P08493	MGP	Matrix Gla protein	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P08572	COL4A2	Collagen alpha-2(IV) chain	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P08758	ANXA5	Annexin A5	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P09382	LGALS1	Galectin-1	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P09382	LGALS1	Galectin-1	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P10915	HAPLN1	Hyaluronan and proteoglycan link protein 1	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P11047	LAMC1	Laminin subunit gamma-1	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P12109	COL6A1	Collagen alpha-1(VI) chain	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P12110	COL6A2	Collagen alpha-2(VI) chain	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P12111	COL6A3	Collagen alpha-3(VI) chain	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P13611	VCAN	Versican core protein	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P14543	NID1	Nidogen-1	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P16112	ACAN	Aggrecan core protein	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P17931	LGALS3	Galectin-3	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P17931	LGALS3	Galectin-3	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P19823	ITIH2	Inter-alpha-trypsin inhibitor heavy chain H2	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P20742	PZP	Pregnancy zone protein	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P20774	OGN	Mimecan	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P20908	COL5A1	Collagen alpha-1(V) chain	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P21741	MDK	Midkine	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P21810	BGN	Biglycan	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P21980	TGM2	Protein-glutamine gamma-glutamyltransferase 2	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P22105	TNXB	Tenascin-X	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P23142	FBLN1	Fibulin-1	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P23946	CMA1	Chymase	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P24158	PRTN3	Myeloblastin	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P24821	TNC	Tenascin	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P25067	COL8A2	Collagen alpha-2(VIII) chain	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P27658	COL8A1	Collagen alpha-1(VIII) chain	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P29279	CCN2	CCN family member 2	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P35555	FBN1	Fibrillin-1	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P35625	TIMP3	Metalloproteinase inhibitor 3	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P36955	SERPINF1	Pigment epithelium-derived factor	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P39059	COL15A1	Collagen alpha-1(XV) chain	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P39060	COL18A1	Collagen alpha-1(XVIII) chain	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P41221	WNT5A	Protein Wnt-5a	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P49747	COMP	Cartilage oligomeric matrix protein	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P50454	SERPINH1	Serpin H1	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P51884	LUM	Lumican	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P51888	PRELP	Prolargin	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P55083	MFAP4	Microfibril-associated glycoprotein 4	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P55268	LAMB2	Laminin subunit beta-2	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P98160	HSPG2	Basement membrane-specific heparan sulfate proteoglycan core protein	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q05707	COL14A1	Collagen alpha-1(XIV) chain	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q06828	FMOD	Fibromodulin	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q07507	DPT	Dermatopontin	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q08380	LGALS3BP	Galectin-3-binding protein	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q08397	LOXL1	Lysyl oxidase homolog 1	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q08397	LOXL1	Lysyl oxidase homolog 1	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q08431	MFGE8	Lactadherin	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q12805	EFEMP1	EGF-containing fibulin-like extracellular matrix protein 1	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q14112	NID2	Nidogen-2	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q14766	LTBP1	Latent-transforming growth factor beta-binding protein 1	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q14767	LTBP2	Latent-transforming growth factor beta-binding protein 2	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q15063	POSTN	Periostin	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q15113	PCOLCE	Procollagen C-endopeptidase enhancer 1	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q15582	TGFBI	Transforming growth factor-beta-induced protein ig-h3	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q15661	TPSAB1	Tryptase alpha/beta-1	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q16270	IGFBP7	Insulin-like growth factor-binding protein 7	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q32P28	P3H1	Prolyl 3-hydroxylase 1	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q6UY14	ADAMTSL4	ADAMTS-like protein 4	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q7Z7G0	ABI3BP	Target of Nesh-SH3	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8IUX7	AEBP1	Adipocyte enhancer-binding protein 1	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8IVN8	SBSPON	Somatomedin-B and thrombospondin type-1 domain-containing protein	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8IWU6	SULF1	Extracellular sulfatase Sulf-1	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8N2S1	LTBP4	Latent-transforming growth factor beta-binding protein 4	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8N474	SFRP1	Secreted frizzled-related protein 1	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q92743	HTRA1	Serine protease HTRA1	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q92743	HTRA1	Serine protease HTRA1	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q96P44	COL21A1	Collagen alpha-1(XXI) chain	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q99715	COL12A1	Collagen alpha-1(XII) chain	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q99988	GDF15	Growth/differentiation factor 15	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9BXN1	ASPN	Asporin	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9GZM7	TINAGL1	Tubulointerstitial nephritis antigen-like	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9H1J7	WNT5B	Protein Wnt-5b	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9HCB6	SPON1	Spondin-1	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9UBX5	FBLN5	Fibulin-5	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9UHI8	ADAMTS1	A disintegrin and metalloproteinase with thrombospondin motifs 1	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
 https://identifiers.org/uniprot/Q9WVH9	Fbln5	Fibulin-5	GO:0071953	IDA	PMID:11805834	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9Y4K0	LOXL2	Lysyl oxidase homolog 2	GO:0062023	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q9Y6C2	EMILIN1	EMILIN-1	GO:0062023	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P05556	ITGB1	Integrin beta-1	GO:0032587	IDA	PMID:14970227	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P08648	ITGA5	Integrin alpha-5	GO:0032587	IDA	PMID:14970227	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P14234	Fgr	Tyrosine-protein kinase Fgr	GO:0032587	IDA	PMID:15561106	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P16591	FER	Tyrosine-protein kinase Fer	GO:0030027	IDA	PMID:19738202	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P55008	AIF1	Allograft inflammatory factor 1	GO:0032587	IDA	PMID:18699778	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/P78536	ADAM17	Disintegrin and metalloproteinase domain-containing protein 17	GO:0032587	IDA	PMID:14970227	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q3UU41	Scimp	SLP adapter and CSK-interacting membrane protein	GO:0001726	IMP	PMID:28098138	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q3UU41	Scimp	SLP adapter and CSK-interacting membrane protein	GO:0030175	IMP	PMID:28098138	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q91YR1	Twf1	Twinfilin-1	GO:0032587	IDA	PMID:12807912	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q96GD0	PDXP	Chronophin	GO:0030027	IDA	PMID:15580268	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q96GD0	PDXP	Chronophin	GO:0032587	IDA	PMID:15580268	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q14160	SCRIB	Protein scribble homolog	GO:0031252	IDA	PMID:18716323	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q6PFY1	Fchsd1	F-BAR and double SH3 domains protein 1	GO:0032437	IDA	PMID:23437151	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
-https://identifiers.org/uniprot/Q91VH2	Snx9	Sorting nexin-9	GO:0032437	IDA	PMID:23437151	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9Y4K0	LOXL2	Lysyl oxidase homolog 2	GO:0031012	HDA	PMID:28327460	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9Y6C2	EMILIN1	EMILIN-1	GO:0031012	HDA	PMID:20551380	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/A2A259	Pkd2l1	Polycystin-2-like protein 1	GO:0009986	IDA	PMID:16891422	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/O35632	Hyal2	Hyaluronidase-2	GO:0009897	IDA	PMID:19443707	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/O35930	Gp1ba	Platelet glycoprotein Ib alpha chain	GO:0009897	IDA	PMID:19443707	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/O70326	Grem1	Gremlin-1	GO:0009986	IDA	PMID:17077323	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/O95867	LY6G6C	Lymphocyte antigen 6 complex locus protein G6c	GO:0009897	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/O95867	LY6G6C	Lymphocyte antigen 6 complex locus protein G6c	GO:0009897	IDA	PMID:17008713	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/O95868	LY6G6D	Lymphocyte antigen 6 complex locus protein G6d	GO:0009897	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/O95868	LY6G6D	Lymphocyte antigen 6 complex locus protein G6d	GO:0009897	IDA	PMID:17008713	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P00734	F2	Prothrombin	GO:0009897	IDA	PMID:20421939	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P06727	APOA4	Apolipoprotein A-IV	GO:0009986	IDA	PMID:1935934	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/P07359	GP1BA	Platelet glycoprotein Ib alpha chain	GO:0009897	IDA	PMID:19443707	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q12891	HYAL2	Hyaluronidase-2	GO:0009897	IDA	PMID:19443707	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q2EG98	Pkd1l3	Polycystin-1-like protein 3	GO:0009986	IDA	PMID:16891422	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q5SRR4	LY6G5C	Lymphocyte antigen 6 complex locus protein G5c	GO:0009897	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q5SRR4	LY6G5C	Lymphocyte antigen 6 complex locus protein G5c	GO:0009897	IDA	PMID:17008713	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8K1T4	Ly6g5b	Lymphocyte antigen 6 complex locus protein G5b	GO:0009897	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8K1T4	Ly6g5b	Lymphocyte antigen 6 complex locus protein G5b	GO:0009897	IDA	PMID:17008713	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8K1T5	Ly6g5c	Lymphocyte antigen 6 complex locus protein G5c	GO:0009897	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8K1T5	Ly6g5c	Lymphocyte antigen 6 complex locus protein G5c	GO:0009897	IDA	PMID:17008713	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8NDX9	LY6G5B	Lymphocyte antigen 6 complex locus protein G5b	GO:0009897	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q8NDX9	LY6G5B	Lymphocyte antigen 6 complex locus protein G5b	GO:0009897	IDA	PMID:17008713	http://purl.obolibrary.org/obo/NCBITaxon_9606	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9Z1Q3	Ly6g6d	Lymphocyte antigen 6 complex locus protein G6d	GO:0009897	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9Z1Q3	Ly6g6d	Lymphocyte antigen 6 complex locus protein G6d	GO:0009897	IDA	PMID:17008713	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9Z1Q4	Ly6g6c	Lymphocyte antigen 6 complex locus protein G6c	GO:0009897	IBA	GO_REF:0000033	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
+https://identifiers.org/uniprot/Q9Z1Q4	Ly6g6c	Lymphocyte antigen 6 complex locus protein G6c	GO:0009897	IDA	PMID:17008713	http://purl.obolibrary.org/obo/NCBITaxon_10090	http://purl.obolibrary.org/obo/PR_000000001
