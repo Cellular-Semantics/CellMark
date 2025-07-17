@@ -38,11 +38,12 @@ selected_fields = [
 include_fields = ["goName", "taxonName"]
 
 # Parameters template for QuickGO API
+evidence_codes = ["ECO:0000318", "ECO:0000269"]
 quickgo_params_template = [
     ("goUsageRelationships", "is_a,part_of,occurs_in"),
     ("taxonId", "9606,10090"),
     ("taxonUsage", "descendants"),
-    ("evidenceCode", "ECO:0000269"),
+    ("evidenceCode", ",".join(evidence_codes)),
     ("evidenceCodeUsage", "descendants"),
 ]
 
