@@ -15,9 +15,13 @@ GENE_LIST = LungMAP LungCellAtlas Neocortex
 GENE_TABLES = $(patsubst %, $(TEMPLATESDIR)/%.tsv, $(GENE_LIST))
 GENE_TEMPLATE = $(TEMPLATESDIR)/genes.tsv
 GENE_TEMPLATE_CL = $(TEMPLATESDIR)/genes_cl.tsv
-# Find all the template files in the templates directory
+# Find all the cellxgene_markers template files in the templates directory
+CXG_TEMPLATES := $(wildcard $(TEMPLATESDIR)/cl_kg/cellxgene_marker_*.tsv)
+# Pattern to generate cellxgene_markers OWL files from each template
+CXG_TEMPLATE_OWL_FILES := $(patsubst $(TEMPLATESDIR)/cl_kg/cellxgene_marker_%.tsv,$(TMPDIR)/cellxgene_markers_%.owl,$(CXG_TEMPLATES))
+# Find all the quick_go template files in the templates directory
 GO_TEMPLATES := $(wildcard $(TEMPLATESDIR)/cl_kg/*_quick_go_template.tsv)
-# Pattern to generate OWL files from each template
+# Pattern to generate quick_go OWL files from each template
 GO_TEMPLATE_OWL_FILES := $(patsubst $(TEMPLATESDIR)/cl_kg/%_quick_go_template.tsv,$(TMPDIR)/%_quick_go.owl,$(GO_TEMPLATES))
 
 LOCAL_CLEAN_FILES = $(GENE_TEMPLATE) $(GENE_TEMPLATE_CL) $(PATTERNDIR)/data/default/NSForestMarkers_all.tsv $(PATTERNDIR)/data/default/MarkersToCells_all.tsv $(SOURCE_TABLE)
@@ -32,22 +36,33 @@ clean_files:
 cellxgene_markers: $(COMPONENTSDIR)/cellxgene_markers.owl
 
 # Rule to generate the OWL file from the CellxGene marker template TSV
-$(COMPONENTSDIR)/cellxgene_markers.owl: $(TEMPLATESDIR)/cl_kg/cellxgene_marker_template.tsv
+#$(COMPONENTSDIR)/cellxgene_markers.owl: $(TEMPLATESDIR)/cl_kg/cellxgene_marker_template.tsv
+#	$(ROBOT) template \
+#		--template $< \
+#		--add-prefixes template_prefixes.json \
+#		--output $@
+
+# Rule to generate the cellxgene_markers OWL file from the CellxGene marker template TSV
+$(TMPDIR)/cellxgene_markers_%.owl: $(TEMPLATESDIR)/cl_kg/cellxgene_marker_%.tsv
 	$(ROBOT) template \
 		--template $< \
 		--add-prefixes template_prefixes.json \
 		--output $@
 
+# Rule to merge all cellxgene_markers OWL files into a single quick_go_terms.owl
+$(COMPONENTSDIR)/cellxgene_markers.owl: $(CXG_TEMPLATE_OWL_FILES)
+	$(ROBOT) merge $(foreach file, $(CXG_TEMPLATE_OWL_FILES), -i $(file)) -o $@
+
 .PHONY: quick_go
 # Rule to process quick_go OWL files
 quick_go: $(COMPONENTSDIR)/quick_go_terms.owl
 
-# Rule to generate OWL file from each TSV template and write to TMPDIR
+# Rule to generate quick_go OWL file from each TSV template and write to TMPDIR
 $(TMPDIR)/%_quick_go.owl: $(TEMPLATESDIR)/cl_kg/%_quick_go_template.tsv
 	$(ROBOT) template --input https://purl.obolibrary.org/obo/go/go-base.owl --template $< \
 		--add-prefixes template_prefixes.json --output $@
 
-# Rule to merge all OWL files into a single quick_go_terms.owl
+# Rule to merge all quick_go OWL files into a single quick_go_terms.owl
 $(COMPONENTSDIR)/quick_go_terms.owl: $(GO_TEMPLATE_OWL_FILES)
 	$(ROBOT) merge $(foreach file, $(GO_TEMPLATE_OWL_FILES), -i $(file)) -o $@
 
