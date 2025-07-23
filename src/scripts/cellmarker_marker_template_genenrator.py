@@ -118,7 +118,7 @@ def process_marker_data(df: pd.DataFrame) -> pd.DataFrame:
             if pd.notna(row.uberonongology_id)
             else get_uberon_uris(row.tissue_type)
         )
-        tissue = tissue if tissue else ""
+        tissue = tissue[0] if tissue else ""
         species = "http://purl.obolibrary.org/obo/NCBITaxon_9606"
         source = "http://bio-bigdata.hrbmu.edu.cn/CellMarker/"
         reference = f"PMID:{int(row.PMID)}" if pd.notna(row.PMID) else ""
