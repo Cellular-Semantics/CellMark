@@ -32,6 +32,8 @@ gene_cache = {}
 script_dir = os.path.dirname(os.path.abspath(__file__))
 output_dir = os.path.join(script_dir, "../templates/cl_kg/")
 
+_uberon_cache = {}
+
 
 def download_marker_data(url: str, target: str) -> None:
     """
@@ -74,8 +76,10 @@ def query_sparql(label: str, defined_by: str) -> list:
 
 
 def get_uberon_uris(label: str) -> list:
-    """Get full UBERON URIs for a tissue label."""
-    return query_sparql(label, "http://purl.obolibrary.org/obo/uberon.owl")
+    """Get full UBERON URIs for a tissue label, using a manual cache."""
+    if label not in _uberon_cache:
+        _uberon_cache[label] = query_sparql(label, "http://purl.obolibrary.org/obo/uberon.owl")
+    return _uberon_cache[label]
 
 
 def get_ncbitaxon_uris(label: str) -> list:
@@ -127,22 +131,20 @@ def build_mapping(data: dict) -> dict:
             taxid = tax_uri.split('_')[-1]
             mapped.setdefault(tax_uri, {})
             for tissue_label, cl_groups in tissues.items():
-                if tissue_label == "All Tissues":
-                    continue
-                uberon_uris = get_uberon_uris(tissue_label)
-                for uberon_uri in uberon_uris:
-                    mapped[tax_uri].setdefault(uberon_uri, {})
-                    for cl_term, markers in cl_groups.items():
-                        # filter by threshold
-                        filtered = [m for m in markers if m.get('marker_score', 0) >= THRESHOLD][
-                                   :10]
-                        # convert genes to URIs using cache
-                        for m in filtered:
-                            gene_uri = get_ncbigene_uri(m.get('gene', ''), taxid)
-                            if gene_uri:
-                                m['gene_iri'] = gene_uri
+                uberon_uri = get_uberon_uris(tissue_label)
+                uberon_uri = uberon_uri[0] if uberon_uri else ""
+                mapped[tax_uri].setdefault(uberon_uri, {})
+                for cl_term, markers in cl_groups.items():
+                    # filter by threshold
+                    filtered = [m for m in markers if m.get('marker_score', 0) >= THRESHOLD][
+                               :10]
+                    # convert genes to URIs using cache
+                    for m in filtered:
+                        gene_uri = get_ncbigene_uri(m.get('gene', ''), taxid)
+                        if gene_uri:
+                            m['gene_iri'] = gene_uri
 
-                        mapped[tax_uri][uberon_uri][cl_term] = filtered
+                    mapped[tax_uri][uberon_uri][cl_term] = filtered
     return mapped
 
 
