@@ -30,6 +30,7 @@ Workflow for the Cell Markers Ontology (CLM) pipeline, detailing the steps invol
 - The `go_term_template_generator.py` script retrieves Gene Ontology (GO) terms from a Neo4j database, fetches additional data from the QuickGO API, and converts the data into ROBOT templates for use in the CLM ontology pipeline.
 - It processes the data into ROBOT templates, which are saved in the `src/templates/cl_kg/` directory.
 - This step is optional and only run when new GO terms are needed.
+<img width="736" height="347" alt="image" src="https://github.com/user-attachments/assets/7c36df82-f243-4847-a0d6-89ef2c88dfb2" />
 
 ## 5. CellxGene Marker Template Generation
 - The `cellxgene_marker_template_generator.py` script downloads and parses marker–gene JSON data from the CxG (cellxgene) service, then:
@@ -39,7 +40,7 @@ Workflow for the Cell Markers Ontology (CLM) pipeline, detailing the steps invol
   4. Writes out a remapped JSON (`new_marker.json`).  
   5. Generates a ROBOT template TSV (`cellxgene_marker_template.tsv`) in the `src/templates/cl_kg/` directory for OWL template processing.
 - This step is **optional**, and should be run whenever you need to regenerate templates for new or updated CellxGene marker data.
-
+<img width="1119" height="398" alt="image" src="https://github.com/user-attachments/assets/743012af-a8cd-488e-9187-ba15a35e3872" />
 
 ## 6. Run ODK Pipeline
 
