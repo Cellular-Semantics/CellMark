@@ -1,0 +1,2 @@
+clm-kg.owl filter=lfs diff=lfs merge=lfs -text
+clm-kg.json filter=lfs diff=lfs merge=lfs -text

@@ -16,9 +16,9 @@
         "val" : "Cell Markers Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-07-17"
+        "val" : "2025-07-23"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/clm/releases/2025-07-17/clm-base.json"
+      "version" : "http://purl.obolibrary.org/obo/clm/releases/2025-07-23/clm-base.json"
     },
     "nodes" : [ {
       "id" : "http://identifiers.org/ensembl/ENSG00000006128",

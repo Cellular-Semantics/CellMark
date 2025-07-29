@@ -15,10 +15,22 @@ GENE_LIST = LungMAP LungCellAtlas Neocortex
 GENE_TABLES = $(patsubst %, $(TEMPLATESDIR)/%.tsv, $(GENE_LIST))
 GENE_TEMPLATE = $(TEMPLATESDIR)/genes.tsv
 GENE_TEMPLATE_CL = $(TEMPLATESDIR)/genes_cl.tsv
-# Find all the template files in the templates directory
+###################################################################################################################
+# Find all the cellxgene_markers template files in the templates directory
+CXG_TEMPLATES := $(wildcard $(TEMPLATESDIR)/cl_kg/cellxgene_marker_*.tsv)
+# Pattern to generate cellxgene_markers OWL files from each template
+CXG_TEMPLATE_OWL_FILES := $(patsubst $(TEMPLATESDIR)/cl_kg/cellxgene_marker_%.tsv,$(TMPDIR)/cellxgene_markers_%.owl,$(CXG_TEMPLATES))
+###################################################################################################################
+# Find all the celmarker_markers template files in the templates directory
+CELLMARKER_TEMPLATES := $(wildcard $(TEMPLATESDIR)/cl_kg/cellmarker_marker_*.tsv)
+# Pattern to generate cellxgene_markers OWL files from each template
+CELLMARKER_TEMPLATE_OWL_FILES := $(patsubst $(TEMPLATESDIR)/cl_kg/cellmarker_marker_%.tsv,$(TMPDIR)/cellmarker_markers_%.owl,$(CELLMARKER_TEMPLATES))
+###################################################################################################################
+# Find all the quick_go template files in the templates directory
 GO_TEMPLATES := $(wildcard $(TEMPLATESDIR)/cl_kg/*_quick_go_template.tsv)
-# Pattern to generate OWL files from each template
+# Pattern to generate quick_go OWL files from each template
 GO_TEMPLATE_OWL_FILES := $(patsubst $(TEMPLATESDIR)/cl_kg/%_quick_go_template.tsv,$(TMPDIR)/%_quick_go.owl,$(GO_TEMPLATES))
+###################################################################################################################
 
 LOCAL_CLEAN_FILES = $(GENE_TEMPLATE) $(GENE_TEMPLATE_CL) $(PATTERNDIR)/data/default/NSForestMarkers_all.tsv $(PATTERNDIR)/data/default/MarkersToCells_all.tsv $(SOURCE_TABLE)
 
@@ -31,23 +43,43 @@ clean_files:
 # Rule to process cellxgene_markers OWL file
 cellxgene_markers: $(COMPONENTSDIR)/cellxgene_markers.owl
 
-# Rule to generate the OWL file from the CellxGene marker template TSV
-$(COMPONENTSDIR)/cellxgene_markers.owl: $(TEMPLATESDIR)/cl_kg/cellxgene_marker_template.tsv
+# Rule to generate the cellxgene_markers OWL file from the CellxGene marker template TSV
+$(TMPDIR)/cellxgene_markers_%.owl: $(TEMPLATESDIR)/cl_kg/cellxgene_marker_%.tsv
 	$(ROBOT) template \
 		--template $< \
 		--add-prefixes template_prefixes.json \
 		--output $@
 
+# Rule to merge all cellxgene_markers OWL files into a single cellxgene_markers.owl
+$(COMPONENTSDIR)/cellxgene_markers.owl: $(CXG_TEMPLATE_OWL_FILES)
+	$(ROBOT) merge $(foreach file, $(CXG_TEMPLATE_OWL_FILES), -i $(file)) -o $@
+
+
+.PHONY: cellmarker_markers
+# Rule to process cellmarker_markers OWL file
+cellmarker_markers: $(COMPONENTSDIR)/cellmarker_markers.owl
+
+# Rule to generate the cellmarker_markers OWL file from the CellxGene marker template TSV
+$(TMPDIR)/cellmarker_markers_%.owl: $(TEMPLATESDIR)/cl_kg/cellmarker_marker_%.tsv
+	$(ROBOT) template \
+		--template $< \
+		--add-prefixes template_prefixes.json \
+		--output $@
+
+# Rule to merge all cellmarker_markers OWL files into a single cellmarker_markers.owl
+$(COMPONENTSDIR)/cellmarker_markers.owl: $(CELLMARKER_TEMPLATE_OWL_FILES)
+	$(ROBOT) merge $(foreach file, $(CELLMARKER_TEMPLATE_OWL_FILES), -i $(file)) -o $@
+
 .PHONY: quick_go
 # Rule to process quick_go OWL files
 quick_go: $(COMPONENTSDIR)/quick_go_terms.owl
 
-# Rule to generate OWL file from each TSV template and write to TMPDIR
+# Rule to generate quick_go OWL file from each TSV template and write to TMPDIR
 $(TMPDIR)/%_quick_go.owl: $(TEMPLATESDIR)/cl_kg/%_quick_go_template.tsv
 	$(ROBOT) template --input https://purl.obolibrary.org/obo/go/go-base.owl --template $< \
 		--add-prefixes template_prefixes.json --output $@
 
-# Rule to merge all OWL files into a single quick_go_terms.owl
+# Rule to merge all quick_go OWL files into a single quick_go_terms.owl
 $(COMPONENTSDIR)/quick_go_terms.owl: $(GO_TEMPLATE_OWL_FILES)
 	$(ROBOT) merge $(foreach file, $(GO_TEMPLATE_OWL_FILES), -i $(file)) -o $@
 
@@ -100,7 +132,7 @@ $(ONT).owl: $(ONT)-full.owl $(ONT)-kg.owl $(ONT)-kg.obo $(ONT)-kg.json $(ONT)-cl
 	rm -f $(LOCAL_CLEAN_FILES)
 
 # Artifact for KG that hosts non-validated gene annotations
-$(ONT)-kg.owl: $(ONT)-base.owl $(MIRRORDIR)/genes.owl $(COMPONENTSDIR)/quick_go_terms.owl $(COMPONENTSDIR)/cellxgene_markers.owl
+$(ONT)-kg.owl: $(ONT)-base.owl $(MIRRORDIR)/genes.owl $(COMPONENTSDIR)/quick_go_terms.owl $(COMPONENTSDIR)/cellxgene_markers.owl $(COMPONENTSDIR)/cellmarker_markers.owl
 	python $(SCRIPTSDIR)/dosdp_template_generator.py generate --template NSForestMarkers --out $(PATTERNDIR)/data/default/NSForestMarkers_all.tsv
 	$(DOSDPT) generate --catalog=$(CATALOG) --infile=$(PATTERNDIR)/data/default/NSForestMarkers_all.tsv \
 		--template=$(PATTERNDIR)/dosdp-patterns/NSForestMarkers.yaml --ontology=$(EDIT_PREPROCESSED) \
@@ -110,6 +142,7 @@ $(ONT)-kg.owl: $(ONT)-base.owl $(MIRRORDIR)/genes.owl $(COMPONENTSDIR)/quick_go_
 	$(ROBOT) merge -i $< -i $(ONT)-kg-edit.$(EDIT_FORMAT) -i $(MIRRORDIR)/genes.owl \
 		-i $(COMPONENTSDIR)/NSForestMarkers_all.owl -i $(COMPONENTSDIR)/MarkersToCells_all.owl \
 		-i $(COMPONENTSDIR)/quick_go_terms.owl -i $(COMPONENTSDIR)/cellxgene_markers.owl \
+		-i $(COMPONENTSDIR)/cellmarker_markers.owl \
 		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $(RELEASEDIR)/$@
 
 
