@@ -3,6 +3,7 @@
     "ensembl": "http://identifiers.org/ensembl/",
     "ncbigene": "http://identifiers.org/ncbigene/",
     "CLM": "http://purl.obolibrary.org/obo/CLM_",
-    "PMID": "https://pubmed.ncbi.nlm.nih.gov/"
+    "PMID": "https://pubmed.ncbi.nlm.nih.gov/",
+    "dcterms": "http://purl.org/dc/terms/"
   }
 }

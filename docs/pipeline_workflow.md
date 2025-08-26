@@ -38,11 +38,25 @@ Workflow for the Cell Markers Ontology (CLM) pipeline, detailing the steps invol
   2. Resolves gene labels to NCBI Gene URIs via the MyGene.info API (with a simple cache).  
   3. Filters markers by score threshold and caps at 7 entries per CL term.  
   4. Writes out a remapped JSON (`new_marker.json`).  
-  5. Generates a ROBOT template TSV (`cellxgene_marker_template.tsv`) in the `src/templates/cl_kg/` directory for OWL template processing.
+  5. Generates two ROBOT template TSVs in the `src/templates/cl_kg/` :
+    - `cellxgene_marker_template.tsv`
+    - `cellxgene_marker_annotations_template.tsv` 
 - This step is **optional**, and should be run whenever you need to regenerate templates for new or updated CellxGene marker data.
-<img width="1119" height="398" alt="image" src="https://github.com/user-attachments/assets/743012af-a8cd-488e-9187-ba15a35e3872" />
 
-## 6. Run ODK Pipeline
+<img width="1119" height="398" alt="image" src="https://github.com/user-attachments/assets/743012af-a8cd-488e-9187-ba15a35e3872" /
+
+## 6. CellMarker Marker Template Generation
+- The `cellmarker_marker_template_generator.py` script downloads and parses marker–gene data from the CxG (cellxgene) service, then:
+  1. Looks up UBERON and NCBITaxon URIs via SPARQL if UBERON ontology IDs do not exist in the gene table.  
+  2. Retrieves NCBI Gene URIs from the gene table.  
+  3. Filters markers to include only normal (non‑cancer) cells.  
+  4. Writes out a remapped CSV (`cell_marker_human.csv`).  
+  5. Generates two ROBOT template TSVs in `src/templates/cl_kg/`:  
+     - `cellmarker_marker_template.tsv`  
+     - `cellmarker_marker_annotations_template.tsv` 
+- This step is **optional**, and should be run whenever you need to regenerate templates for new or updated CellxGene marker data.
+
+## 7. Run ODK Pipeline
 
 - The ODK pipeline is executed to generate the final ontology files.
 - `cd src/onotology & sh run.sh make prepare_release`
