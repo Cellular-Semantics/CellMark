@@ -8,6 +8,11 @@ This ontology integrates cell type markers for cells in the [Cell Ontology](http
 
 This ontology is not currently registered with or approved by the OBO foundry.  It is intended, primarily, as a source for the content for the [CL knowledge graph](https://github.com/Cellular-Semantics/CL_KG/).
 
+## Schema
+
+The ontology captures the following key concepts:
+<img width="1021" height="372" alt="image" src="https://github.com/user-attachments/assets/03431491-14c8-4b55-8f0f-adf55e9183af" />
+
 ## Adding New Marker Files
 
 To add new marker files, follow these steps:
