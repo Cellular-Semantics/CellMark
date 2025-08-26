@@ -42,8 +42,7 @@ Workflow for the Cell Markers Ontology (CLM) pipeline, detailing the steps invol
     - `cellxgene_marker_template.tsv`
     - `cellxgene_marker_annotations_template.tsv` 
 - This step is **optional**, and should be run whenever you need to regenerate templates for new or updated CellxGene marker data.
-
-<img width="1119" height="398" alt="image" src="https://github.com/user-attachments/assets/743012af-a8cd-488e-9187-ba15a35e3872" /
+<img width="1119" height="398" alt="image" src="https://github.com/user-attachments/assets/743012af-a8cd-488e-9187-ba15a35e3872" />
 
 ## 6. CellMarker Marker Template Generation
 - The `cellmarker_marker_template_generator.py` script downloads and parses marker–gene data from the CxG (cellxgene) service, then:
