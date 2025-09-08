@@ -33,7 +33,7 @@ jobs:
         python ./src/scripts/validate_input_files.py 2>&1 | tee validation_output.txt
         python ./src/scripts/validate_input_files.py
         exit_code=$?
-        echo "Exit code: $exit_code"
+        echo "Exit code1: $exit_code"
         echo "Exit code2: ${PIPESTATUS[0]}"
         echo "Validation output:"
         cat validation_output.txt
