@@ -32,10 +32,8 @@ jobs:
       id: validate
       run: |
         python ./src/scripts/validate_input_files.py 2>&1 | tee validation_output.txt
-        python ./src/scripts/validate_input_files.py
-        exit_code=$?
-        echo "Exit code111: $exit_code"
-        echo "Exit code2: ${PIPESTATUS[0]}"
+        exit_code=${PIPESTATUS[0]}
+        echo "Exit code3: $exit_code"
         echo "Validation output:"
         cat validation_output.txt
         if [ $exit_code -ne 0 ]; then
