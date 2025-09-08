@@ -60,7 +60,7 @@ def main():
 
     if issues:
         for issue in issues:
-            print(issue)
+            print(issue, file=sys.stderr)
         sys.exit(1)
 
 
