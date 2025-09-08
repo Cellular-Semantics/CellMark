@@ -31,7 +31,8 @@ jobs:
       run: |
         set -e
         python ./src/scripts/validate_input_files.py 2>&1 | tee validation_output.txt
-        exit_code=${PIPESTATUS[0]}
+        python ./src/scripts/validate_input_files.py
+        exit_code=$?
         echo "Exit code: $exit_code"
         echo "Exit code2: ${PIPESTATUS[0]}"
         echo "Validation output:"
