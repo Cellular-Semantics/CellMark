@@ -39,9 +39,12 @@ def validate_metadata_record(file_name, metadata_df):
     if metadata_record.empty:
         return f"Metadata record not found for file: {file_name}. Please update the src/markers/input/metadata.csv file."
 
+    missing_columns = list()
     for col in METADATA_REQUIRED_COLUMNS:
         if pd.isna(metadata_record.iloc[0][col]) or metadata_record.iloc[0][col] == "":
-            return f"Metadata record in metadata.csv for {file_name} is missing value in column: {col}"
+            missing_columns.append(col)
+    if missing_columns:
+        return f"Metadata record in metadata.csv for {file_name} is missing columns: {', '.join(missing_columns)}"
     return None
 
 def validate_metadata(issues):
