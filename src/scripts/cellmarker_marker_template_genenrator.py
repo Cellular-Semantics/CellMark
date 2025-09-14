@@ -208,7 +208,7 @@ def write_templates(marker_df: pd.DataFrame, directory: str) -> None:
             cl_term = row.ID
             gene = row.MARKER
             gene_name = row.MARKER_SYMBOL
-            uberon_uri = row.TISSUE if not pd.isna(row.TISSUE) else ""
+            uberon_uri = f"http://purl.obolibrary.org/obo/{row.TISSUE}" if not pd.isna(row.TISSUE) else ""
             taxon_uri = row.SPECIES
             source = row.SOURCE
             reference = row.REFERENCE if not pd.isna(row.REFERENCE) else ""

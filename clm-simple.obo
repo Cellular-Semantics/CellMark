@@ -1,9 +1,9 @@
 format-version: 1.2
-data-version: clm/releases/2025-09-10/clm-simple.owl
+data-version: clm/releases/2025-09-14/clm-simple.owl
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 idspace: terms http://purl.org/dc/terms/ 
 ontology: clm/clm-simple
-property_value: owl:versionInfo "2025-09-10" xsd:string
+property_value: owl:versionInfo "2025-09-14" xsd:string
 property_value: terms:description "None" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/unspecified
 property_value: terms:title "Cell Markers Ontology" xsd:string
