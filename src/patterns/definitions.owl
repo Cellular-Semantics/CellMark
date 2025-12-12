@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/clm/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/clm/releases/2025-09-14/patterns/definitions.owl>
-Annotation(owl:versionInfo "2025-09-14")
+<http://purl.obolibrary.org/obo/clm/releases/2025-12-12/patterns/definitions.owl>
+Annotation(owl:versionInfo "2025-12-12")
 
 Declaration(Class(<http://identifiers.org/ensembl/ENSG00000006128>))
 Declaration(Class(<http://identifiers.org/ensembl/ENSG00000010327>))
@@ -350,10 +350,10 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000061> "NS 
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000061> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000061> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000051128>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000118513>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000137709>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1000063> (NS forest marker set of chandelier pvalb GABAergic cortical interneuron (Human neocortex).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1000063> (NS forest marker set of pvalb chandelier GABAergic interneuron (Human neocortex).)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1000063> "0.799748111")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000063> "NS forest marker set of chandelier pvalb GABAergic cortical interneuron (Human neocortex).")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000063> "NS forest marker set of pvalb chandelier GABAergic interneuron (Human neocortex).")
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000063> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000063> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000174948>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000178538>)))
 
@@ -420,10 +420,10 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000073> "NS 
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000073> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000073> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000047936>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000118523>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1000074> (NS forest marker set of lamp5 GABAergic cortical interneuron (Human neocortex).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1000074> (NS forest marker set of lamp5 GABAergic interneuron (Human neocortex).)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1000074> "0.814687838")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000074> "NS forest marker set of lamp5 GABAergic cortical interneuron (Human neocortex).")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000074> "NS forest marker set of lamp5 GABAergic interneuron (Human neocortex).")
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000074> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000074> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000157404>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000235665>)))
 
@@ -434,45 +434,45 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000075> "NS 
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000075> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000075> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000125869>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000154080>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1000079> (NS forest marker set of PAX6 GABAergic cortical interneuron (Human neocortex).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1000079> (NS forest marker set of PAX6 GABAergic interneuron (Human neocortex).)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1000079> "0.724125093")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000079> "NS forest marker set of PAX6 GABAergic cortical interneuron (Human neocortex).")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000079> "NS forest marker set of PAX6 GABAergic interneuron (Human neocortex).")
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000079> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000079> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000137252>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000189056>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1000080> (NS forest marker set of pvalb GABAergic cortical interneuron (Human neocortex).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1000080> (NS forest marker set of pvalb GABAergic interneuron (Human neocortex).)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1000080> "0.691998764")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000080> "NS forest marker set of pvalb GABAergic cortical interneuron (Human neocortex).")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000080> "NS forest marker set of pvalb GABAergic interneuron (Human neocortex).")
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000080> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000080> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000006128>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000100362>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000167306>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1000081> (NS forest marker set of sncg GABAergic cortical interneuron (Human neocortex).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1000081> (NS forest marker set of sncg GABAergic interneuron (Human neocortex).)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1000081> "0.628943702")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000081> "NS forest marker set of sncg GABAergic cortical interneuron (Human neocortex).")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000081> "NS forest marker set of sncg GABAergic interneuron (Human neocortex).")
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000081> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000081> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000143171>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000144229>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1000082> (NS forest marker set of sst GABAergic cortical interneuron (Human neocortex).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1000082> (NS forest marker set of sst GABAergic interneuron (Human neocortex).)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1000082> "0.842367005")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000082> "NS forest marker set of sst GABAergic cortical interneuron (Human neocortex).")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000082> "NS forest marker set of sst GABAergic interneuron (Human neocortex).")
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000082> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000082> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000114805>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000157005>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1000083> (NS forest marker set of sst chodl GABAergic cortical interneuron (Human neocortex).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1000083> (NS forest marker set of sst chodl GABAergic interneuron (Human neocortex).)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1000083> "0.894026187")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000083> "NS forest marker set of sst chodl GABAergic cortical interneuron (Human neocortex).")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000083> "NS forest marker set of sst chodl GABAergic interneuron (Human neocortex).")
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000083> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000083> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000122585>))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1000085> (NS forest marker set of VIP GABAergic cortical interneuron (Human neocortex).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1000085> (NS forest marker set of VIP GABAergic interneuron (Human neocortex).)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1000085> "0.855531344")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000085> "NS forest marker set of VIP GABAergic cortical interneuron (Human neocortex).")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1000085> "NS forest marker set of VIP GABAergic interneuron (Human neocortex).")
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000085> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1000085> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000146469>))
 

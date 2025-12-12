@@ -11,12 +11,12 @@
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/clm/clm-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/clm/releases/2025-09-14/clm-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/clm/releases/2025-12-12/clm-base.owl"/>
         <dce:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <dcterms:description>None</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <dcterms:title>Cell Markers Ontology</dcterms:title>
-        <owl:versionInfo>2025-09-14</owl:versionInfo>
+        <owl:versionInfo>2025-12-12</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1191,7 +1191,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:STATO_0000663>0.799748111</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of chandelier pvalb GABAergic cortical interneuron (Human neocortex).</rdfs:label>
+        <rdfs:label>NS forest marker set of pvalb chandelier GABAergic interneuron (Human neocortex).</rdfs:label>
     </owl:Class>
     
 
@@ -1439,7 +1439,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:STATO_0000663>0.814687838</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of lamp5 GABAergic cortical interneuron (Human neocortex).</rdfs:label>
+        <rdfs:label>NS forest marker set of lamp5 GABAergic interneuron (Human neocortex).</rdfs:label>
     </owl:Class>
     
 
@@ -1487,7 +1487,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:STATO_0000663>0.724125093</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of PAX6 GABAergic cortical interneuron (Human neocortex).</rdfs:label>
+        <rdfs:label>NS forest marker set of PAX6 GABAergic interneuron (Human neocortex).</rdfs:label>
     </owl:Class>
     
 
@@ -1515,7 +1515,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:STATO_0000663>0.691998764</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of pvalb GABAergic cortical interneuron (Human neocortex).</rdfs:label>
+        <rdfs:label>NS forest marker set of pvalb GABAergic interneuron (Human neocortex).</rdfs:label>
     </owl:Class>
     
 
@@ -1539,7 +1539,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:STATO_0000663>0.628943702</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of sncg GABAergic cortical interneuron (Human neocortex).</rdfs:label>
+        <rdfs:label>NS forest marker set of sncg GABAergic interneuron (Human neocortex).</rdfs:label>
     </owl:Class>
     
 
@@ -1563,7 +1563,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:STATO_0000663>0.842367005</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of sst GABAergic cortical interneuron (Human neocortex).</rdfs:label>
+        <rdfs:label>NS forest marker set of sst GABAergic interneuron (Human neocortex).</rdfs:label>
     </owl:Class>
     
 
@@ -1579,7 +1579,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:STATO_0000663>0.894026187</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of sst chodl GABAergic cortical interneuron (Human neocortex).</rdfs:label>
+        <rdfs:label>NS forest marker set of sst chodl GABAergic interneuron (Human neocortex).</rdfs:label>
     </owl:Class>
     
 
@@ -1595,7 +1595,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:STATO_0000663>0.855531344</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of VIP GABAergic cortical interneuron (Human neocortex).</rdfs:label>
+        <rdfs:label>NS forest marker set of VIP GABAergic interneuron (Human neocortex).</rdfs:label>
     </owl:Class>
     
 

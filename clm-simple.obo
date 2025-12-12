@@ -1,9 +1,9 @@
 format-version: 1.2
-data-version: clm/releases/2025-09-14/clm-simple.owl
+data-version: clm/releases/2025-12-12/clm-simple.owl
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 idspace: terms http://purl.org/dc/terms/ 
 ontology: clm/clm-simple
-property_value: owl:versionInfo "2025-09-14" xsd:string
+property_value: owl:versionInfo "2025-12-12" xsd:string
 property_value: terms:description "None" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/unspecified
 property_value: terms:title "Cell Markers Ontology" xsd:string
@@ -125,7 +125,7 @@ property_value: STATO:0000663 "0.56" xsd:string
 
 [Term]
 id: CLM:1000063
-name: NS forest marker set of chandelier pvalb GABAergic cortical interneuron (Human neocortex).
+name: NS forest marker set of pvalb chandelier GABAergic interneuron (Human neocortex).
 property_value: STATO:0000663 "0.799748111" xsd:string
 
 [Term]
@@ -175,7 +175,7 @@ property_value: STATO:0000663 "0.819940964" xsd:string
 
 [Term]
 id: CLM:1000074
-name: NS forest marker set of lamp5 GABAergic cortical interneuron (Human neocortex).
+name: NS forest marker set of lamp5 GABAergic interneuron (Human neocortex).
 property_value: STATO:0000663 "0.814687838" xsd:string
 
 [Term]
@@ -185,32 +185,32 @@ property_value: STATO:0000663 "0.821678322" xsd:string
 
 [Term]
 id: CLM:1000079
-name: NS forest marker set of PAX6 GABAergic cortical interneuron (Human neocortex).
+name: NS forest marker set of PAX6 GABAergic interneuron (Human neocortex).
 property_value: STATO:0000663 "0.724125093" xsd:string
 
 [Term]
 id: CLM:1000080
-name: NS forest marker set of pvalb GABAergic cortical interneuron (Human neocortex).
+name: NS forest marker set of pvalb GABAergic interneuron (Human neocortex).
 property_value: STATO:0000663 "0.691998764" xsd:string
 
 [Term]
 id: CLM:1000081
-name: NS forest marker set of sncg GABAergic cortical interneuron (Human neocortex).
+name: NS forest marker set of sncg GABAergic interneuron (Human neocortex).
 property_value: STATO:0000663 "0.628943702" xsd:string
 
 [Term]
 id: CLM:1000082
-name: NS forest marker set of sst GABAergic cortical interneuron (Human neocortex).
+name: NS forest marker set of sst GABAergic interneuron (Human neocortex).
 property_value: STATO:0000663 "0.842367005" xsd:string
 
 [Term]
 id: CLM:1000083
-name: NS forest marker set of sst chodl GABAergic cortical interneuron (Human neocortex).
+name: NS forest marker set of sst chodl GABAergic interneuron (Human neocortex).
 property_value: STATO:0000663 "0.894026187" xsd:string
 
 [Term]
 id: CLM:1000085
-name: NS forest marker set of VIP GABAergic cortical interneuron (Human neocortex).
+name: NS forest marker set of VIP GABAergic interneuron (Human neocortex).
 property_value: STATO:0000663 "0.855531344" xsd:string
 
 [Typedef]

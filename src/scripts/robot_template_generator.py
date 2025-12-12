@@ -15,7 +15,7 @@ SHARED_DRIVE = "/Volumes/osumi-sutherland/development"
 CL_KG_TEMPLATE_PATH = os.path.join(TEMPLATES_FOLDER_PATH, "cl_kg/Clusters.tsv")
 
 
-def extract_genes_from_anndata(anndata_path, gene_name_column, prefix, output_path):
+def extract_genes_from_anndata(anndata_path, gene_name_column, prefix, output_path, use_backed=False):
     """
     Extracts gene names from the AnnData object and saves them to a ROBOT template.
     Params:
@@ -23,13 +23,15 @@ def extract_genes_from_anndata(anndata_path, gene_name_column, prefix, output_pa
         gene_name_column: column name containing the gene names.
         prefix: prefix for the gene IDs (such as ensembl or ncbigene).
         output_path: path to the output file.
+        use_backed: load AnnData in backed mode (memory efficient, slower).
     """
     import anndata as ad  # Importing anndata here to avoid unnecessary dependency in the main script that cause ODK failure
 
     if os.path.exists(anndata_path):
-        anndata = ad.read_h5ad(anndata_path)
+        anndata = ad.read_h5ad(anndata_path, backed='r' if use_backed else False)
     elif os.path.exists(SHARED_DRIVE):
-        anndata = ad.read_h5ad(os.path.join(SHARED_DRIVE, anndata_path))
+        shared_path = os.path.join(SHARED_DRIVE, anndata_path)
+        anndata = ad.read_h5ad(shared_path, backed='r' if use_backed else False)
     else:
         raise FileNotFoundError(f"File not found: {anndata_path}. Consider mounting the shared drive.")
     genes = anndata.var.index.unique().tolist()
@@ -41,6 +43,8 @@ def extract_genes_from_anndata(anndata_path, gene_name_column, prefix, output_pa
 
     df = pd.DataFrame(records, columns=["ID", "TYPE", "NAME", "SYNONYMS"])
     df.to_csv(output_path, sep="\t", index=False)
+    if use_backed and hasattr(anndata, "file") and anndata.file is not None:
+        anndata.file.close()
 
 
 def generate_genes_robot_template(input_files: list, output_filepath: str, agreed: bool = False):
@@ -171,6 +175,7 @@ if __name__ == "__main__":
     parser_anndata.add_argument("-n", "--namecolumn", type=str, help="AnnData var column name containing gene names")
     parser_anndata.add_argument("-p", "--prefix", type=str, help="Gene ID prefix (such as ensembl or ncbigene)")
     parser_anndata.add_argument("-o", "--out", type=str, help="Output file path")
+    parser_anndata.add_argument("-b", "--backed", action="store_true", help="Load AnnData in backed mode for large files")
 
     parser_genes = subparsers.add_parser("genes", description="Genes template extractor")
     parser_genes.add_argument("-i", "--input", action='append', type=str, help="list of input file paths")
@@ -183,7 +188,7 @@ if __name__ == "__main__":
     args = cli.parse_args()
 
     if args.action == "anndata":
-        extract_genes_from_anndata(args.anndata, args.namecolumn, args.prefix, args.out)
+        extract_genes_from_anndata(args.anndata, args.namecolumn, args.prefix, args.out, use_backed=args.backed)
     elif args.action == "genes":
         generate_genes_robot_template(args.input, args.out)
     elif args.action == "genes_cl":
