@@ -20,17 +20,17 @@ GENE_TABLES = $(patsubst %, $(TEMPLATESDIR)/%.tsv, $(GENE_LIST))
 all: $(GENE_TABLES)
 
 $(TEMPLATESDIR)/LungMAP.tsv:
-	python $(SCRIPTSDIR)/robot_template_generator.py anndata --anndata 8bcc7ef5-f08e-49fc-824f-ced6d951138a.h5ad --namecolumn origSymbol --prefix ensembl --out $@
+	python $(SCRIPTSDIR)/robot_template_generator.py anndata --anndata /Volumes/osumi-sutherland/development/8bcc7ef5-f08e-49fc-824f-ced6d951138a.h5ad --namecolumn origSymbol --prefix ensembl --out $@
 
 $(TEMPLATESDIR)/LungCellAtlas.tsv:
-	python $(SCRIPTSDIR)/robot_template_generator.py anndata --anndata 8d84ba15-d367-4dce-979c-85da70b868a2.h5ad --namecolumn original_gene_symbols --prefix ensembl --out $@
+	python $(SCRIPTSDIR)/robot_template_generator.py anndata --anndata /Volumes/osumi-sutherland/development/8d84ba15-d367-4dce-979c-85da70b868a2.h5ad --namecolumn original_gene_symbols --prefix ensembl --out $@
 
 # process Jorstad MTG anndata
 $(TEMPLATESDIR)/Neocortex.tsv:
-	python $(SCRIPTSDIR)/robot_template_generator.py anndata --anndata 015c230d-650c-4527-870d-8a805849a382.h5ad --namecolumn feature_name --prefix ensembl --out $@
+	python $(SCRIPTSDIR)/robot_template_generator.py anndata --anndata /Volumes/osumi-sutherland/development/015c230d-650c-4527-870d-8a805849a382.h5ad --namecolumn feature_name --prefix ensembl --out $@
 
 $(TEMPLATESDIR)/RetinaSnRNA.tsv:
-	python $(SCRIPTSDIR)/robot_template_generator.py anndata --anndata 12c0bcd3-fa5b-4b91-bc56-7828ad3af719.h5ad --namecolumn feature_name --prefix ensembl --out $@
+	python $(SCRIPTSDIR)/robot_template_generator.py anndata --anndata /Volumes/osumi-sutherland/development/12c0bcd3-fa5b-4b91-bc56-7828ad3af719.h5ad --namecolumn feature_name --prefix ensembl --out $@
 
 $(TEMPLATESDIR)/RetinaScRNA.tsv:
-	python $(SCRIPTSDIR)/robot_template_generator.py anndata --anndata 1438f095-cee9-4006-ad43-f1de3c0116d2.h5ad --namecolumn feature_name --prefix ensembl --out $@
+	python $(SCRIPTSDIR)/robot_template_generator.py anndata --anndata /Volumes/osumi-sutherland/development/1438f095-cee9-4006-ad43-f1de3c0116d2.h5ad --namecolumn feature_name --prefix ensembl --out $@
