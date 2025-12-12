@@ -24,7 +24,7 @@ In addition to the input data files, the user should provide a supplementary met
 ## 2- Prepare Gene DBs
 
 1- Pipeline requires gene databases to be in place. These gene DBs are located at: `src/templates`. Please check `src/templates/LungCellAtlas.tsv` as an example.
-2- These DBs are automatically generated from the related anndata files. When a new experiment data is added to the `src/markers/input` directory, its gene DB should be generated.
+2- These DBs are automatically generated from the related AnnData files. When a new experiment data is added to the `src/markers/input` directory, its gene DB should be generated.
 3- Generation of gene DBs is driven by the `src/markers/Makefile`:
 - Mount the shared drive `/Volumes/osumi-sutherland/development` to access anndata files or download the anndata files to the `src/markers` directory
 - add DB name (any simple name) to the `GENE_LIST`
@@ -47,7 +47,7 @@ Curators should add their CL annotations to the source files (`cl_term` column) 
 Run the following script to generate the source files:
 
 ```bash
-pyton src/scripts/dosdp_template_generator.py
+python src/scripts/dosdp_template_generator.py
 ```
 
 ## 4- Prepare QuickGo Templates
@@ -71,6 +71,6 @@ template files will be removed at the start of the run.
 Run the ODK pipeline as usual
 
 ```bash
-cd src/onotology
+cd src/ontology
 sh run.sh make prepare_release
 ```
