@@ -5,13 +5,15 @@
 ## 8bcc7ef5-f08e-49fc-824f-ced6d951138a.h5ad		Human CellCards Multi-Study CellRef 1.0 Atlas (LungMAP)		https://cellxgene.cziscience.com/collections/f86d6317-7215-409e-bfda-3f4ded3dadaa
 ## 8d84ba15-d367-4dce-979c-85da70b868a2.h5ad		The integrated Human Lung Cell Atlas		https://cellxgene.cziscience.com/collections/6f6d381a-7701-4781-935c-db10d30de293
 ## 015c230d-650c-4527-870d-8a805849a382.h5ad		Transcriptomic cytoarchitecture reveals principles of human neocortex organization		https://cellxgene.cziscience.com/collections/d17249d2-0e6e-4500-abb8-e6c93fa1ac6f
+## 12c0bcd3-fa5b-4b91-bc56-7828ad3af719.h5ad		snRNA-seq of human retina - bipolar cell subset		https://cellxgene.cziscience.com/collections/1c6f3f6b-F3b4-4d13-8e2b-2f5f5f8b8e6a
+## 1438f095-cee9-4006-ad43-f1de3c0116d2.h5ad		scRNA-seq of human retina - bipolar cell subclass		https://cellxgene.cziscience.com/collections/1c6f3f6b-F3b4-4d13-8e2b-2f5f5f8b8e6a
 
 
 
 SCRIPTSDIR=                 ../scripts
 TEMPLATESDIR = 				../templates
 
-GENE_LIST = LungMAP LungCellAtlas Neocortex
+GENE_LIST = LungMAP LungCellAtlas Neocortex RetinaSnRNA RetinaScRNA
 GENE_TABLES = $(patsubst %, $(TEMPLATESDIR)/%.tsv, $(GENE_LIST))
 
 
@@ -25,4 +27,10 @@ $(TEMPLATESDIR)/LungCellAtlas.tsv:
 
 # process Jorstad MTG anndata
 $(TEMPLATESDIR)/Neocortex.tsv:
-	python $(SCRIPTSDIR)/robot_template_generator.py anndata --anndata /Users/hk9/tdt_datasets/015c230d-650c-4527-870d-8a805849a382.h5ad --namecolumn feature_name --prefix ensembl --out $@
+	python $(SCRIPTSDIR)/robot_template_generator.py anndata --anndata 015c230d-650c-4527-870d-8a805849a382.h5ad --namecolumn feature_name --prefix ensembl --out $@
+
+$(TEMPLATESDIR)/RetinaSnRNA.tsv:
+	python $(SCRIPTSDIR)/robot_template_generator.py anndata --anndata 12c0bcd3-fa5b-4b91-bc56-7828ad3af719.h5ad --namecolumn feature_name --prefix ensembl --out $@
+
+$(TEMPLATESDIR)/RetinaScRNA.tsv:
+	python $(SCRIPTSDIR)/robot_template_generator.py anndata --anndata 1438f095-cee9-4006-ad43-f1de3c0116d2.h5ad --namecolumn feature_name --prefix ensembl --out $@
