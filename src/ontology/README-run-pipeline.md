@@ -66,7 +66,18 @@ The `go_term_template_generator.py` script retrieves Gene Ontology (GO) terms fr
 The templates generated will be saved in the `src/templates/cl_kg/` folder, and any existing 
 template files will be removed at the start of the run.
 
-## 5- Run the ODK pipeline
+## 5- Prepare CellxGene Marker Templates
+
+When CellxGene marker data needs to be refreshed, run `cellxgene_marker_template_generator.py`. The script downloads marker JSON from the CxG service, resolves UBERON/NCBITaxon URIs via SPARQL, looks up NCBI Gene IDs (using the gene templates), filters markers (score threshold + max 7 per CL term), and writes ROBOT templates under `src/templates/cl_kg/` (for both marker and marker-annotation templates).
+
+```bash
+cd src/scripts/
+python cellxgene_marker_template_generator.py
+```
+
+This step is optional—run it only when new CxG marker releases need to be incorporated.
+
+## 6- Run the ODK pipeline
 
 Run the ODK pipeline as usual
 
