@@ -3,6 +3,7 @@ semantic.cache
 bin/
 
 .idea/
+venv/
 
 *.tmp
 *.tmp.obo
