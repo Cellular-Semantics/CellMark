@@ -16,9 +16,9 @@
         "val" : "Cell Markers Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-12-12"
+        "val" : "2025-09-14"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/clm/releases/2025-12-12/clm-base.json"
+      "version" : "http://purl.obolibrary.org/obo/clm/releases/2025-09-14/clm-base.json"
     },
     "nodes" : [ {
       "id" : "http://identifiers.org/ensembl/ENSG00000006128",
@@ -504,7 +504,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000063",
-      "lbl" : "NS forest marker set of pvalb chandelier GABAergic interneuron (Human neocortex).",
+      "lbl" : "NS forest marker set of chandelier pvalb GABAergic cortical interneuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -604,7 +604,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000074",
-      "lbl" : "NS forest marker set of lamp5 GABAergic interneuron (Human neocortex).",
+      "lbl" : "NS forest marker set of lamp5 GABAergic cortical interneuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -624,7 +624,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000079",
-      "lbl" : "NS forest marker set of PAX6 GABAergic interneuron (Human neocortex).",
+      "lbl" : "NS forest marker set of PAX6 GABAergic cortical interneuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -634,7 +634,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000080",
-      "lbl" : "NS forest marker set of pvalb GABAergic interneuron (Human neocortex).",
+      "lbl" : "NS forest marker set of pvalb GABAergic cortical interneuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -644,7 +644,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000081",
-      "lbl" : "NS forest marker set of sncg GABAergic interneuron (Human neocortex).",
+      "lbl" : "NS forest marker set of sncg GABAergic cortical interneuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -654,7 +654,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000082",
-      "lbl" : "NS forest marker set of sst GABAergic interneuron (Human neocortex).",
+      "lbl" : "NS forest marker set of sst GABAergic cortical interneuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -664,7 +664,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000083",
-      "lbl" : "NS forest marker set of sst chodl GABAergic interneuron (Human neocortex).",
+      "lbl" : "NS forest marker set of sst chodl GABAergic cortical interneuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -674,7 +674,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000085",
-      "lbl" : "NS forest marker set of VIP GABAergic interneuron (Human neocortex).",
+      "lbl" : "NS forest marker set of VIP GABAergic cortical interneuron (Human neocortex).",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
