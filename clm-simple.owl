@@ -10,11 +10,11 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/clm/clm-simple.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/clm/releases/2025-12-12/clm-simple.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/clm/releases/2025-12-15/clm-simple.owl"/>
         <terms:description>None</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <terms:title>Cell Markers Ontology</terms:title>
-        <owl:versionInfo>2025-12-12</owl:versionInfo>
+        <owl:versionInfo>2025-12-15</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -475,6 +475,258 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000085">
         <obo:STATO_0000663>0.855531344</obo:STATO_0000663>
         <rdfs:label>NS forest marker set of VIP GABAergic interneuron (Human neocortex).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001239">
+        <obo:STATO_0000663>0.608139214</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of diffuse bipolar 4a cell (Human retina).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001240">
+        <obo:STATO_0000663>0.785018957</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of OFFx cell (Human retina).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001241">
+        <obo:STATO_0000663>0.843060252</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of cone retinal bipolar cell (Human retina).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001242">
+        <obo:STATO_0000663>0.821782012</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of diffuse bipolar 3b cell (Human retina).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001243">
+        <obo:STATO_0000663>0.917474411</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of diffuse bipolar 1 cell (Human retina).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001244">
+        <obo:STATO_0000663>0.877512571</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of diffuse bipolar 6 cell (Human retina).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001245">
+        <obo:STATO_0000663>0.770513807</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of diffuse bipolar 2 cell (Human retina).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001246">
+        <obo:STATO_0000663>0.871187664</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of diffuse bipolar 4a cell (Human retina).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001247">
+        <obo:STATO_0000663>0.915774104</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of flat midget bipolar cell (Human retina).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001248">
+        <obo:STATO_0000663>0.808459341</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of giant bipolar cell (Human retina).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001249">
+        <obo:STATO_0000663>0.949243066</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of diffuse bipolar 3a cell (Human retina).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001250">
+        <obo:STATO_0000663>0.797269292</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of ON-blue cone bipolar cell (Human retina).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001251">
+        <obo:STATO_0000663>0.929575519</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of rod bipolar cell (Human retina).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001252">
+        <obo:STATO_0000663>0.884807812</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of invaginating midget bipolar cell (Human retina).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001253">
+        <obo:STATO_0000663>0.765019652</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of diffuse bipolar 3b cell (Human retina).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001254">
+        <obo:STATO_0000663>0.752547687</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of diffuse bipolar 1 cell (Human retina).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001255">
+        <obo:STATO_0000663>0.722779636</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of OFFx cell (Human retina).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001256">
+        <obo:STATO_0000663>0.489741893</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of diffuse bipolar 4b cell (Human retina).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001257">
+        <obo:STATO_0000663>0.817444508</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of diffuse bipolar 6 cell (Human retina).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001258">
+        <obo:STATO_0000663>0.886091243</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of diffuse bipolar 2 cell (Human retina).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001259 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001259">
+        <obo:STATO_0000663>0.709302326</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of ON-blue cone bipolar cell (Human retina).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001260">
+        <obo:STATO_0000663>0.848827502</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of diffuse bipolar 3a cell (Human retina).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001261">
+        <obo:STATO_0000663>0.782434709</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of cone retinal bipolar cell (Human retina).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001262">
+        <obo:STATO_0000663>0.891115106</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of flat midget bipolar cell (Human retina).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001263">
+        <obo:STATO_0000663>0.814956496</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of diffuse bipolar 4a cell (Human retina).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001264">
+        <obo:STATO_0000663>0.80078521</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of invaginating midget bipolar cell (Human retina).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001265">
+        <obo:STATO_0000663>0.725035162</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of giant bipolar cell (Human retina).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_1001266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001266">
+        <obo:STATO_0000663>0.907779697</obo:STATO_0000663>
+        <rdfs:label>NS forest marker set of rod bipolar cell (Human retina).</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

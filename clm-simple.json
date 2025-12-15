@@ -13,9 +13,9 @@
         "val" : "Cell Markers Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-12-12"
+        "val" : "2025-12-15"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/clm/releases/2025-12-12/clm-simple.json"
+      "version" : "http://purl.obolibrary.org/obo/clm/releases/2025-12-15/clm-simple.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/CLM_1000001",
@@ -425,6 +425,286 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
           "val" : "0.855531344"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001239",
+      "lbl" : "NS forest marker set of diffuse bipolar 4a cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.608139214"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001240",
+      "lbl" : "NS forest marker set of OFFx cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.785018957"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001241",
+      "lbl" : "NS forest marker set of cone retinal bipolar cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.843060252"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001242",
+      "lbl" : "NS forest marker set of diffuse bipolar 3b cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.821782012"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001243",
+      "lbl" : "NS forest marker set of diffuse bipolar 1 cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.917474411"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001244",
+      "lbl" : "NS forest marker set of diffuse bipolar 6 cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.877512571"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001245",
+      "lbl" : "NS forest marker set of diffuse bipolar 2 cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.770513807"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001246",
+      "lbl" : "NS forest marker set of diffuse bipolar 4a cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.871187664"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001247",
+      "lbl" : "NS forest marker set of flat midget bipolar cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.915774104"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001248",
+      "lbl" : "NS forest marker set of giant bipolar cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.808459341"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001249",
+      "lbl" : "NS forest marker set of diffuse bipolar 3a cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.949243066"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001250",
+      "lbl" : "NS forest marker set of ON-blue cone bipolar cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.797269292"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001251",
+      "lbl" : "NS forest marker set of rod bipolar cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.929575519"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001252",
+      "lbl" : "NS forest marker set of invaginating midget bipolar cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.884807812"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001253",
+      "lbl" : "NS forest marker set of diffuse bipolar 3b cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.765019652"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001254",
+      "lbl" : "NS forest marker set of diffuse bipolar 1 cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.752547687"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001255",
+      "lbl" : "NS forest marker set of OFFx cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.722779636"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001256",
+      "lbl" : "NS forest marker set of diffuse bipolar 4b cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.489741893"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001257",
+      "lbl" : "NS forest marker set of diffuse bipolar 6 cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.817444508"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001258",
+      "lbl" : "NS forest marker set of diffuse bipolar 2 cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.886091243"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001259",
+      "lbl" : "NS forest marker set of ON-blue cone bipolar cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.709302326"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001260",
+      "lbl" : "NS forest marker set of diffuse bipolar 3a cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.848827502"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001261",
+      "lbl" : "NS forest marker set of cone retinal bipolar cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.782434709"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001262",
+      "lbl" : "NS forest marker set of flat midget bipolar cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.891115106"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001263",
+      "lbl" : "NS forest marker set of diffuse bipolar 4a cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.814956496"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001264",
+      "lbl" : "NS forest marker set of invaginating midget bipolar cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.80078521"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001265",
+      "lbl" : "NS forest marker set of giant bipolar cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.725035162"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_1001266",
+      "lbl" : "NS forest marker set of rod bipolar cell (Human retina).",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/STATO_0000663",
+          "val" : "0.907779697"
         } ]
       }
     }, {

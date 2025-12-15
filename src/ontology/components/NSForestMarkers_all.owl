@@ -2372,199 +2372,199 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001238> "NS 
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001238> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001238> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000006128>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000123700>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000145703>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000146469>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000167306>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001239> (NS forest marker set of DB4b (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001239> (NS forest marker set of diffuse bipolar 4a cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001239> "0.6081392137003959"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001239> "NS forest marker set of DB4b (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001239> "0.608139214"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001239> "NS forest marker set of diffuse bipolar 4a cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001239> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001239> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000145730>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000196569>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001240> (NS forest marker set of OFFx (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001240> (NS forest marker set of OFFx cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001240> "0.7850189568603341"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001240> "NS forest marker set of OFFx (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001240> "0.785018957"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001240> "NS forest marker set of OFFx cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001240> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001240> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000047648>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000278254>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001241> (NS forest marker set of DB5 (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001241> (NS forest marker set of cone retinal bipolar cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001241> "0.8430602523544598"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001241> "NS forest marker set of DB5 (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001241> "0.843060252"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001241> "NS forest marker set of cone retinal bipolar cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001241> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001241> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000082293>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000101134>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001242> (NS forest marker set of DB3b (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001242> (NS forest marker set of diffuse bipolar 3b cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001242> "0.821782011862157"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001242> "NS forest marker set of DB3b (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001242> "0.821782012"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001242> "NS forest marker set of diffuse bipolar 3b cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001242> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001242> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000134138>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000242021>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001243> (NS forest marker set of DB1 (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001243> (NS forest marker set of diffuse bipolar 1 cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001243> "0.9174744107692386"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001243> "NS forest marker set of DB1 (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001243> "0.917474411"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001243> "NS forest marker set of diffuse bipolar 1 cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001243> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001243> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000053747>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000164330>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001244> (NS forest marker set of DB6 (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001244> (NS forest marker set of diffuse bipolar 6 cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001244> "0.877512570651428"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001244> "NS forest marker set of DB6 (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001244> "0.877512571"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001244> "NS forest marker set of diffuse bipolar 6 cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001244> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001244> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000275443>))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001245> (NS forest marker set of DB2 (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001245> (NS forest marker set of diffuse bipolar 2 cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001245> "0.7705138070338049"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001245> "NS forest marker set of DB2 (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001245> "0.770513807"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001245> "NS forest marker set of diffuse bipolar 2 cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001245> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001245> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000243004>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000249803>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001246> (NS forest marker set of DB4a (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001246> (NS forest marker set of diffuse bipolar 4a cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001246> "0.871187663792776"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001246> "NS forest marker set of DB4a (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001246> "0.871187664"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001246> "NS forest marker set of diffuse bipolar 4a cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001246> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001246> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000265485>))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001247> (NS forest marker set of FMB (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001247> (NS forest marker set of flat midget bipolar cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001247> "0.9157741044694531"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001247> "NS forest marker set of FMB (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001247> "0.915774104"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001247> "NS forest marker set of flat midget bipolar cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001247> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001247> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000163377>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000185942>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001248> (NS forest marker set of GB (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001248> (NS forest marker set of giant bipolar cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001248> "0.8084593411777038"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001248> "NS forest marker set of GB (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001248> "0.808459341"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001248> "NS forest marker set of giant bipolar cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001248> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001248> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000152818>))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001249> (NS forest marker set of DB3a (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001249> (NS forest marker set of diffuse bipolar 3a cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001249> "0.9492430663786582"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001249> "NS forest marker set of DB3a (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001249> "0.949243066"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001249> "NS forest marker set of diffuse bipolar 3a cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001249> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001249> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000178568>))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001250> (NS forest marker set of BB (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001250> (NS forest marker set of ON-blue cone bipolar cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001250> "0.7972692917225406"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001250> "NS forest marker set of BB (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001250> "0.797269292"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001250> "NS forest marker set of ON-blue cone bipolar cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001250> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001250> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000183662>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000250971>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001251> (NS forest marker set of RB (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001251> (NS forest marker set of rod bipolar cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001251> "0.9295755186933219"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001251> "NS forest marker set of RB (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001251> "0.929575519"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001251> "NS forest marker set of rod bipolar cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001251> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001251> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000128536>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000264630>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001252> (NS forest marker set of IMB (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001252> (NS forest marker set of invaginating midget bipolar cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001252> "0.884807811930246"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001252> "NS forest marker set of IMB (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001252> "0.884807812"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001252> "NS forest marker set of invaginating midget bipolar cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001252> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001252> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000189056>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000271860>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001253> (NS forest marker set of DB3b (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001253> (NS forest marker set of diffuse bipolar 3b cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001253> "0.7650196518809658"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001253> "NS forest marker set of DB3b (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001253> "0.765019652"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001253> "NS forest marker set of diffuse bipolar 3b cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001253> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001253> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000175497>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000198691>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001254> (NS forest marker set of DB1 (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001254> (NS forest marker set of diffuse bipolar 1 cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001254> "0.7525476874836686"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001254> "NS forest marker set of DB1 (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001254> "0.752547687"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001254> "NS forest marker set of diffuse bipolar 1 cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001254> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001254> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000144227>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000164330>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001255> (NS forest marker set of OFFx (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001255> (NS forest marker set of OFFx cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001255> "0.7227796358231141"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001255> "NS forest marker set of OFFx (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001255> "0.722779636"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001255> "NS forest marker set of OFFx cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001255> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001255> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000178568>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000278254>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001256> (NS forest marker set of DB4b (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001256> (NS forest marker set of diffuse bipolar 4b cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001256> "0.48974189278623426"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001256> "NS forest marker set of DB4b (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001256> "0.489741893"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001256> "NS forest marker set of diffuse bipolar 4b cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001256> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001256> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000145730>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000196569>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001257> (NS forest marker set of DB6 (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001257> (NS forest marker set of diffuse bipolar 6 cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001257> "0.8174445076835515"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001257> "NS forest marker set of DB6 (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001257> "0.817444508"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001257> "NS forest marker set of diffuse bipolar 6 cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001257> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001257> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000275443>))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001258> (NS forest marker set of DB2 (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001258> (NS forest marker set of diffuse bipolar 2 cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001258> "0.8860912429924609"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001258> "NS forest marker set of DB2 (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001258> "0.886091243"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001258> "NS forest marker set of diffuse bipolar 2 cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001258> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001258> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000163377>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000171587>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001259> (NS forest marker set of BB (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001259> (NS forest marker set of ON-blue cone bipolar cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001259> "0.7093023255813954"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001259> "NS forest marker set of BB (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001259> "0.709302326"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001259> "NS forest marker set of ON-blue cone bipolar cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001259> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001259> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000156395>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000183662>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001260> (NS forest marker set of DB3a (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001260> (NS forest marker set of diffuse bipolar 3a cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001260> "0.8488275024664188"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001260> "NS forest marker set of DB3a (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001260> "0.848827502"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001260> "NS forest marker set of diffuse bipolar 3a cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001260> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001260> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000267109>))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001261> (NS forest marker set of DB5 (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001261> (NS forest marker set of cone retinal bipolar cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001261> "0.7824347093513058"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001261> "NS forest marker set of DB5 (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001261> "0.782434709"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001261> "NS forest marker set of cone retinal bipolar cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001261> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001261> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000101134>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000184005>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001262> (NS forest marker set of FMB (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001262> (NS forest marker set of flat midget bipolar cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001262> "0.8911151057340793"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001262> "NS forest marker set of FMB (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001262> "0.891115106"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001262> "NS forest marker set of flat midget bipolar cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001262> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001262> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000163377>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000171951>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001263> (NS forest marker set of DB4a (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001263> (NS forest marker set of diffuse bipolar 4a cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001263> "0.814956495649565"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001263> "NS forest marker set of DB4a (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001263> "0.814956496"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001263> "NS forest marker set of diffuse bipolar 4a cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001263> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001263> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000265485>))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001264> (NS forest marker set of IMB (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001264> (NS forest marker set of invaginating midget bipolar cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001264> "0.8007852100344681"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001264> "NS forest marker set of IMB (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001264> "0.80078521"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001264> "NS forest marker set of invaginating midget bipolar cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001264> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001264> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000079691>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000196090>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001265> (NS forest marker set of GB (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001265> (NS forest marker set of giant bipolar cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001265> "0.7250351617440225"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001265> "NS forest marker set of GB (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001265> "0.725035162"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001265> "NS forest marker set of giant bipolar cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001265> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001265> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000140538>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000152818>)))
 
-# Class: <http://purl.obolibrary.org/obo/CLM_1001266> (NS forest marker set of RB (Human retina).)
+# Class: <http://purl.obolibrary.org/obo/CLM_1001266> (NS forest marker set of rod bipolar cell (Human retina).)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001266> "0.9077796969319254"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001266> "NS forest marker set of RB (Human retina)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/STATO_0000663> <http://purl.obolibrary.org/obo/CLM_1001266> "0.907779697"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLM_1001266> "NS forest marker set of rod bipolar cell (Human retina)."^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001266> <http://purl.obolibrary.org/obo/SO_0001260>)
 SubClassOf(<http://purl.obolibrary.org/obo/CLM_1001266> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000154102>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://identifiers.org/ensembl/ENSG00000227681>)))
 
