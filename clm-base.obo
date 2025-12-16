@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: clm/releases/2025-09-14/clm-base.owl
+data-version: clm/releases/2025-12-15/clm-base.owl
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
@@ -8,12 +8,28 @@ property_value: dce:type IAO:8000001
 property_value: dcterms:description "None" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/unspecified
 property_value: dcterms:title "Cell Markers Ontology" xsd:string
-property_value: owl:versionInfo "2025-09-14" xsd:string
+property_value: owl:versionInfo "2025-12-15" xsd:string
 
 [Term]
 id: CL:0000583
 comment: The marker set MSR1, FABP4 can identify the Human cell type alveolar macrophage in the lung with a confidence of 0.80 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CLM:1000003 ! has characterizing marker set NS forest marker set of alveolar macrophage (Human lung).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:0000751
+comment: The marker set CDHR3, PRKCA-AS1 can identify the Human cell type http://purl.obolibrary.org/obo/CL_0000751 in the retina with a confidence of 0.929575519 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set ENSG00000227681, C16orf74 can identify the Human cell type http://purl.obolibrary.org/obo/CL_0000751 in the retina with a confidence of 0.907779697 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1001251 ! has characterizing marker set NS forest marker set of rod bipolar cell (Human retina).
+relationship: RO:0015004 CLM:1001266 ! has characterizing marker set NS forest marker set of rod bipolar cell (Human retina).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:0000752
+comment: The marker set COL19A1, DOK5 can identify the Human cell type http://purl.obolibrary.org/obo/CL_0000752 in the retina with a confidence of 0.843060252 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set DOK5, ST6GALNAC3 can identify the Human cell type http://purl.obolibrary.org/obo/CL_0000752 in the retina with a confidence of 0.782434709 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1001241 ! has characterizing marker set NS forest marker set of cone retinal bipolar cell (Human retina).
+relationship: RO:0015004 CLM:1001261 ! has characterizing marker set NS forest marker set of cone retinal bipolar cell (Human retina).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
@@ -84,38 +100,38 @@ property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4023011
-comment: The marker set LINC00298, KIT can identify the Human cell type lamp5 GABAergic cortical interneuron in the neocortex with a confidence of 0.814687838 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
-relationship: RO:0015004 CLM:1000074 ! has characterizing marker set NS forest marker set of lamp5 GABAergic cortical interneuron (Human neocortex).
+comment: The marker set LINC00298, KIT can identify the Human cell type lamp5 GABAergic interneuron in the neocortex with a confidence of 0.814687838 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000074 ! has characterizing marker set NS forest marker set of lamp5 GABAergic interneuron (Human neocortex).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4023015
-comment: The marker set RXRG, THSD7B can identify the Human cell type sncg GABAergic cortical interneuron in the neocortex with a confidence of 0.628943702 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
-relationship: RO:0015004 CLM:1000081 ! has characterizing marker set NS forest marker set of sncg GABAergic cortical interneuron (Human neocortex).
+comment: The marker set RXRG, THSD7B can identify the Human cell type sncg GABAergic interneuron in the neocortex with a confidence of 0.628943702 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000081 ! has characterizing marker set NS forest marker set of sncg GABAergic interneuron (Human neocortex).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4023016
-comment: The marker set VIP can identify the Human cell type VIP GABAergic cortical interneuron in the neocortex with a confidence of 0.855531344 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
-relationship: RO:0015004 CLM:1000085 ! has characterizing marker set NS forest marker set of VIP GABAergic cortical interneuron (Human neocortex).
+comment: The marker set VIP can identify the Human cell type VIP GABAergic interneuron in the neocortex with a confidence of 0.855531344 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000085 ! has characterizing marker set NS forest marker set of VIP GABAergic interneuron (Human neocortex).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4023017
-comment: The marker set SST, PLCH1 can identify the Human cell type sst GABAergic cortical interneuron in the neocortex with a confidence of 0.842367005 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
-relationship: RO:0015004 CLM:1000082 ! has characterizing marker set NS forest marker set of sst GABAergic cortical interneuron (Human neocortex).
+comment: The marker set SST, PLCH1 can identify the Human cell type sst GABAergic interneuron in the neocortex with a confidence of 0.842367005 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000082 ! has characterizing marker set NS forest marker set of sst GABAergic interneuron (Human neocortex).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4023018
-comment: The marker set PVALB, TAC1, MYO5B can identify the Human cell type pvalb GABAergic cortical interneuron in the neocortex with a confidence of 0.691998764 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
-relationship: RO:0015004 CLM:1000080 ! has characterizing marker set NS forest marker set of pvalb GABAergic cortical interneuron (Human neocortex).
+comment: The marker set PVALB, TAC1, MYO5B can identify the Human cell type pvalb GABAergic interneuron in the neocortex with a confidence of 0.691998764 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000080 ! has characterizing marker set NS forest marker set of pvalb GABAergic interneuron (Human neocortex).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4023036
-comment: The marker set GPR149, CA8 can identify the Human cell type chandelier pvalb GABAergic cortical interneuron in the neocortex with a confidence of 0.799748111 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
-relationship: RO:0015004 CLM:1000063 ! has characterizing marker set NS forest marker set of chandelier pvalb GABAergic cortical interneuron (Human neocortex).
+comment: The marker set GPR149, CA8 can identify the Human cell type pvalb chandelier GABAergic interneuron in the neocortex with a confidence of 0.799748111 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000063 ! has characterizing marker set NS forest marker set of pvalb chandelier GABAergic interneuron (Human neocortex).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
@@ -138,8 +154,8 @@ property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4023121
-comment: The marker set NPY can identify the Human cell type sst chodl GABAergic cortical interneuron in the neocortex with a confidence of 0.894026187 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
-relationship: RO:0015004 CLM:1000083 ! has characterizing marker set NS forest marker set of sst chodl GABAergic cortical interneuron (Human neocortex).
+comment: The marker set NPY can identify the Human cell type sst chodl GABAergic interneuron in the neocortex with a confidence of 0.894026187 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000083 ! has characterizing marker set NS forest marker set of sst chodl GABAergic interneuron (Human neocortex).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
@@ -197,6 +213,14 @@ relationship: RO:0015004 CLM:1000054 ! has characterizing marker set NS forest m
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
+id: CL:4033019
+comment: The marker set SORCS3, TAFA1 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033019 in the retina with a confidence of 0.709302326 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set TAFA1, ENSG00000250971 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033019 in the retina with a confidence of 0.797269292 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1001250 ! has characterizing marker set NS forest marker set of ON-blue cone bipolar cell (Human retina).
+relationship: RO:0015004 CLM:1001259 ! has characterizing marker set NS forest marker set of ON-blue cone bipolar cell (Human retina).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
 id: CL:4033022
 comment: The marker set BPIFB2 can identify the Human cell type mucus secreting cell of bronchus submucosal gland in the lung with a confidence of 0.93 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CLM:1000053 ! has characterizing marker set NS forest marker set of mucus secreting cell of bronchus submucosal gland (Human lung).
@@ -206,6 +230,78 @@ property_value: RO:0002175 NCBITaxon:9606
 id: CL:4033023
 comment: The marker set GLYATL2, DMBT1 can identify the Human cell type airway submucosal gland collecting duct epithelial cell in the lung with a confidence of 0.46 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CLM:1000052 ! has characterizing marker set NS forest marker set of airway submucosal gland collecting duct epithelial cell (Human lung).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4033027
+comment: The marker set LAMA3, EBF1 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033027 in the retina with a confidence of 0.917474411 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set NXPH2, EBF1 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033027 in the retina with a confidence of 0.752547687 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1001243 ! has characterizing marker set NS forest marker set of diffuse bipolar 1 cell (Human retina).
+relationship: RO:0015004 CLM:1001254 ! has characterizing marker set NS forest marker set of diffuse bipolar 1 cell (Human retina).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4033028
+comment: The marker set ENSG00000243004, ENSG00000249803 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033028 in the retina with a confidence of 0.770513807 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set TAFA4, DSCAM can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033028 in the retina with a confidence of 0.886091243 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1001245 ! has characterizing marker set NS forest marker set of diffuse bipolar 2 cell (Human retina).
+relationship: RO:0015004 CLM:1001258 ! has characterizing marker set NS forest marker set of diffuse bipolar 2 cell (Human retina).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4033029
+comment: The marker set ENSG00000267109 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033029 in the retina with a confidence of 0.848827502 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set ERBB4 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033029 in the retina with a confidence of 0.949243066 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1001249 ! has characterizing marker set NS forest marker set of diffuse bipolar 3a cell (Human retina).
+relationship: RO:0015004 CLM:1001260 ! has characterizing marker set NS forest marker set of diffuse bipolar 3a cell (Human retina).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4033030
+comment: The marker set ABCA4, DPP10 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033030 in the retina with a confidence of 0.765019652 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set MEIS2, ENSG00000242021 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033030 in the retina with a confidence of 0.821782012 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1001242 ! has characterizing marker set NS forest marker set of diffuse bipolar 3b cell (Human retina).
+relationship: RO:0015004 CLM:1001253 ! has characterizing marker set NS forest marker set of diffuse bipolar 3b cell (Human retina).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4033032
+comment: The marker set ENSG00000275443 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033032 in the retina with a confidence of 0.817444508 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set ENSG00000275443 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033032 in the retina with a confidence of 0.877512571 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1001244 ! has characterizing marker set NS forest marker set of diffuse bipolar 6 cell (Human retina).
+relationship: RO:0015004 CLM:1001257 ! has characterizing marker set NS forest marker set of diffuse bipolar 6 cell (Human retina).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4033033
+comment: The marker set NKAIN3, TAFA4 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033033 in the retina with a confidence of 0.915774104 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set SCG2, TAFA4 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033033 in the retina with a confidence of 0.891115106 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1001247 ! has characterizing marker set NS forest marker set of flat midget bipolar cell (Human retina).
+relationship: RO:0015004 CLM:1001262 ! has characterizing marker set NS forest marker set of flat midget bipolar cell (Human retina).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4033034
+comment: The marker set PTPRT, CARMIL1 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033034 in the retina with a confidence of 0.80078521 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set RELN, ENSG00000271860 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033034 in the retina with a confidence of 0.884807812 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1001252 ! has characterizing marker set NS forest marker set of invaginating midget bipolar cell (Human retina).
+relationship: RO:0015004 CLM:1001264 ! has characterizing marker set NS forest marker set of invaginating midget bipolar cell (Human retina).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4033035
+comment: The marker set UTRN can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033035 in the retina with a confidence of 0.808459341 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set UTRN, NTRK3 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033035 in the retina with a confidence of 0.725035162 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1001248 ! has characterizing marker set NS forest marker set of giant bipolar cell (Human retina).
+relationship: RO:0015004 CLM:1001265 ! has characterizing marker set NS forest marker set of giant bipolar cell (Human retina).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4033036
+comment: The marker set ARHGAP6, ENSG00000278254 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033036 in the retina with a confidence of 0.785018957 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set ENSG00000278254, ERBB4 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033036 in the retina with a confidence of 0.722779636 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1001240 ! has characterizing marker set NS forest marker set of OFFx cell (Human retina).
+relationship: RO:0015004 CLM:1001255 ! has characterizing marker set NS forest marker set of OFFx cell (Human retina).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
@@ -245,6 +341,22 @@ relationship: RO:0015004 CLM:1000010 ! has characterizing marker set NS forest m
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
+id: CL:4033095
+comment: The marker set LINC01915 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033095 in the retina with a confidence of 0.814956496 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set LINC01915 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033095 in the retina with a confidence of 0.871187664 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+comment: The marker set PAM, LAMA2 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033095 in the retina with a confidence of 0.608139214 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1001239 ! has characterizing marker set NS forest marker set of diffuse bipolar 4a cell (Human retina).
+relationship: RO:0015004 CLM:1001246 ! has characterizing marker set NS forest marker set of diffuse bipolar 4a cell (Human retina).
+relationship: RO:0015004 CLM:1001263 ! has characterizing marker set NS forest marker set of diffuse bipolar 4a cell (Human retina).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:4033096
+comment: The marker set PAM, LAMA2 can identify the Human cell type http://purl.obolibrary.org/obo/CL_4033096 in the retina with a confidence of 0.489741893 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1001256 ! has characterizing marker set NS forest marker set of diffuse bipolar 4b cell (Human retina).
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
 id: CL:4042013
 comment: The marker set CHST9, LAMP5 can identify the Human cell type Lamp5 Lhx6 neuron in the neocortex with a confidence of 0.821678322 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 relationship: RO:0015004 CLM:1000075 ! has characterizing marker set NS forest marker set of Lamp5 Lhx6 neuron (Human neocortex).
@@ -252,8 +364,8 @@ property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: CL:4042032
-comment: The marker set RELN, HCRTR2 can identify the Human cell type PAX6 GABAergic cortical interneuron in the neocortex with a confidence of 0.724125093 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
-relationship: RO:0015004 CLM:1000079 ! has characterizing marker set NS forest marker set of PAX6 GABAergic cortical interneuron (Human neocortex).
+comment: The marker set RELN, HCRTR2 can identify the Human cell type PAX6 GABAergic interneuron in the neocortex with a confidence of 0.724125093 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
+relationship: RO:0015004 CLM:1000079 ! has characterizing marker set NS forest marker set of PAX6 GABAergic interneuron (Human neocortex).
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
@@ -445,7 +557,7 @@ property_value: STATO:0000663 "0.56" xsd:string
 
 [Term]
 id: CLM:1000063
-name: NS forest marker set of chandelier pvalb GABAergic cortical interneuron (Human neocortex).
+name: NS forest marker set of pvalb chandelier GABAergic interneuron (Human neocortex).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000174948
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000178538
@@ -527,7 +639,7 @@ property_value: STATO:0000663 "0.819940964" xsd:string
 
 [Term]
 id: CLM:1000074
-name: NS forest marker set of lamp5 GABAergic cortical interneuron (Human neocortex).
+name: NS forest marker set of lamp5 GABAergic interneuron (Human neocortex).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000157404
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000235665
@@ -543,7 +655,7 @@ property_value: STATO:0000663 "0.821678322" xsd:string
 
 [Term]
 id: CLM:1000079
-name: NS forest marker set of PAX6 GABAergic cortical interneuron (Human neocortex).
+name: NS forest marker set of PAX6 GABAergic interneuron (Human neocortex).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000137252
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000189056
@@ -551,7 +663,7 @@ property_value: STATO:0000663 "0.724125093" xsd:string
 
 [Term]
 id: CLM:1000080
-name: NS forest marker set of pvalb GABAergic cortical interneuron (Human neocortex).
+name: NS forest marker set of pvalb GABAergic interneuron (Human neocortex).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000006128
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000100362
@@ -560,7 +672,7 @@ property_value: STATO:0000663 "0.691998764" xsd:string
 
 [Term]
 id: CLM:1000081
-name: NS forest marker set of sncg GABAergic cortical interneuron (Human neocortex).
+name: NS forest marker set of sncg GABAergic interneuron (Human neocortex).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000143171
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000144229
@@ -568,7 +680,7 @@ property_value: STATO:0000663 "0.628943702" xsd:string
 
 [Term]
 id: CLM:1000082
-name: NS forest marker set of sst GABAergic cortical interneuron (Human neocortex).
+name: NS forest marker set of sst GABAergic interneuron (Human neocortex).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000114805
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000157005
@@ -576,17 +688,234 @@ property_value: STATO:0000663 "0.842367005" xsd:string
 
 [Term]
 id: CLM:1000083
-name: NS forest marker set of sst chodl GABAergic cortical interneuron (Human neocortex).
+name: NS forest marker set of sst chodl GABAergic interneuron (Human neocortex).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000122585
 property_value: STATO:0000663 "0.894026187" xsd:string
 
 [Term]
 id: CLM:1000085
-name: NS forest marker set of VIP GABAergic cortical interneuron (Human neocortex).
+name: NS forest marker set of VIP GABAergic interneuron (Human neocortex).
 is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000146469
 property_value: STATO:0000663 "0.855531344" xsd:string
+
+[Term]
+id: CLM:1001239
+name: NS forest marker set of diffuse bipolar 4a cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000145730
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000196569
+property_value: STATO:0000663 "0.608139214" xsd:string
+
+[Term]
+id: CLM:1001240
+name: NS forest marker set of OFFx cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000047648
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000278254
+property_value: STATO:0000663 "0.785018957" xsd:string
+
+[Term]
+id: CLM:1001241
+name: NS forest marker set of cone retinal bipolar cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000082293
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000101134
+property_value: STATO:0000663 "0.843060252" xsd:string
+
+[Term]
+id: CLM:1001242
+name: NS forest marker set of diffuse bipolar 3b cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000134138
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000242021
+property_value: STATO:0000663 "0.821782012" xsd:string
+
+[Term]
+id: CLM:1001243
+name: NS forest marker set of diffuse bipolar 1 cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000053747
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000164330
+property_value: STATO:0000663 "0.917474411" xsd:string
+
+[Term]
+id: CLM:1001244
+name: NS forest marker set of diffuse bipolar 6 cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000275443
+property_value: STATO:0000663 "0.877512571" xsd:string
+
+[Term]
+id: CLM:1001245
+name: NS forest marker set of diffuse bipolar 2 cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000243004
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000249803
+property_value: STATO:0000663 "0.770513807" xsd:string
+
+[Term]
+id: CLM:1001246
+name: NS forest marker set of diffuse bipolar 4a cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000265485
+property_value: STATO:0000663 "0.871187664" xsd:string
+
+[Term]
+id: CLM:1001247
+name: NS forest marker set of flat midget bipolar cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000163377
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000185942
+property_value: STATO:0000663 "0.915774104" xsd:string
+
+[Term]
+id: CLM:1001248
+name: NS forest marker set of giant bipolar cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000152818
+property_value: STATO:0000663 "0.808459341" xsd:string
+
+[Term]
+id: CLM:1001249
+name: NS forest marker set of diffuse bipolar 3a cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000178568
+property_value: STATO:0000663 "0.949243066" xsd:string
+
+[Term]
+id: CLM:1001250
+name: NS forest marker set of ON-blue cone bipolar cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000183662
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000250971
+property_value: STATO:0000663 "0.797269292" xsd:string
+
+[Term]
+id: CLM:1001251
+name: NS forest marker set of rod bipolar cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000128536
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000264630
+property_value: STATO:0000663 "0.929575519" xsd:string
+
+[Term]
+id: CLM:1001252
+name: NS forest marker set of invaginating midget bipolar cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000189056
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000271860
+property_value: STATO:0000663 "0.884807812" xsd:string
+
+[Term]
+id: CLM:1001253
+name: NS forest marker set of diffuse bipolar 3b cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000175497
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000198691
+property_value: STATO:0000663 "0.765019652" xsd:string
+
+[Term]
+id: CLM:1001254
+name: NS forest marker set of diffuse bipolar 1 cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000144227
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000164330
+property_value: STATO:0000663 "0.752547687" xsd:string
+
+[Term]
+id: CLM:1001255
+name: NS forest marker set of OFFx cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000178568
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000278254
+property_value: STATO:0000663 "0.722779636" xsd:string
+
+[Term]
+id: CLM:1001256
+name: NS forest marker set of diffuse bipolar 4b cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000145730
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000196569
+property_value: STATO:0000663 "0.489741893" xsd:string
+
+[Term]
+id: CLM:1001257
+name: NS forest marker set of diffuse bipolar 6 cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000275443
+property_value: STATO:0000663 "0.817444508" xsd:string
+
+[Term]
+id: CLM:1001258
+name: NS forest marker set of diffuse bipolar 2 cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000163377
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000171587
+property_value: STATO:0000663 "0.886091243" xsd:string
+
+[Term]
+id: CLM:1001259
+name: NS forest marker set of ON-blue cone bipolar cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000156395
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000183662
+property_value: STATO:0000663 "0.709302326" xsd:string
+
+[Term]
+id: CLM:1001260
+name: NS forest marker set of diffuse bipolar 3a cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000267109
+property_value: STATO:0000663 "0.848827502" xsd:string
+
+[Term]
+id: CLM:1001261
+name: NS forest marker set of cone retinal bipolar cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000101134
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000184005
+property_value: STATO:0000663 "0.782434709" xsd:string
+
+[Term]
+id: CLM:1001262
+name: NS forest marker set of flat midget bipolar cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000163377
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000171951
+property_value: STATO:0000663 "0.891115106" xsd:string
+
+[Term]
+id: CLM:1001263
+name: NS forest marker set of diffuse bipolar 4a cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000265485
+property_value: STATO:0000663 "0.814956496" xsd:string
+
+[Term]
+id: CLM:1001264
+name: NS forest marker set of invaginating midget bipolar cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000079691
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000196090
+property_value: STATO:0000663 "0.80078521" xsd:string
+
+[Term]
+id: CLM:1001265
+name: NS forest marker set of giant bipolar cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000140538
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000152818
+property_value: STATO:0000663 "0.725035162" xsd:string
+
+[Term]
+id: CLM:1001266
+name: NS forest marker set of rod bipolar cell (Human retina).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000154102
+relationship: BFO:0000051 http://identifiers.org/ensembl/ENSG00000227681
+property_value: STATO:0000663 "0.907779697" xsd:string
 
 [Term]
 id: SO:0001260

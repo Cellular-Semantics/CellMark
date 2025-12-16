@@ -1,9 +1,9 @@
 format-version: 1.2
-data-version: clm/releases/2025-09-14/clm-simple.owl
+data-version: clm/releases/2025-12-15/clm-simple.owl
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 idspace: terms http://purl.org/dc/terms/ 
 ontology: clm/clm-simple
-property_value: owl:versionInfo "2025-09-14" xsd:string
+property_value: owl:versionInfo "2025-12-15" xsd:string
 property_value: terms:description "None" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/unspecified
 property_value: terms:title "Cell Markers Ontology" xsd:string
@@ -125,7 +125,7 @@ property_value: STATO:0000663 "0.56" xsd:string
 
 [Term]
 id: CLM:1000063
-name: NS forest marker set of chandelier pvalb GABAergic cortical interneuron (Human neocortex).
+name: NS forest marker set of pvalb chandelier GABAergic interneuron (Human neocortex).
 property_value: STATO:0000663 "0.799748111" xsd:string
 
 [Term]
@@ -175,7 +175,7 @@ property_value: STATO:0000663 "0.819940964" xsd:string
 
 [Term]
 id: CLM:1000074
-name: NS forest marker set of lamp5 GABAergic cortical interneuron (Human neocortex).
+name: NS forest marker set of lamp5 GABAergic interneuron (Human neocortex).
 property_value: STATO:0000663 "0.814687838" xsd:string
 
 [Term]
@@ -185,33 +185,173 @@ property_value: STATO:0000663 "0.821678322" xsd:string
 
 [Term]
 id: CLM:1000079
-name: NS forest marker set of PAX6 GABAergic cortical interneuron (Human neocortex).
+name: NS forest marker set of PAX6 GABAergic interneuron (Human neocortex).
 property_value: STATO:0000663 "0.724125093" xsd:string
 
 [Term]
 id: CLM:1000080
-name: NS forest marker set of pvalb GABAergic cortical interneuron (Human neocortex).
+name: NS forest marker set of pvalb GABAergic interneuron (Human neocortex).
 property_value: STATO:0000663 "0.691998764" xsd:string
 
 [Term]
 id: CLM:1000081
-name: NS forest marker set of sncg GABAergic cortical interneuron (Human neocortex).
+name: NS forest marker set of sncg GABAergic interneuron (Human neocortex).
 property_value: STATO:0000663 "0.628943702" xsd:string
 
 [Term]
 id: CLM:1000082
-name: NS forest marker set of sst GABAergic cortical interneuron (Human neocortex).
+name: NS forest marker set of sst GABAergic interneuron (Human neocortex).
 property_value: STATO:0000663 "0.842367005" xsd:string
 
 [Term]
 id: CLM:1000083
-name: NS forest marker set of sst chodl GABAergic cortical interneuron (Human neocortex).
+name: NS forest marker set of sst chodl GABAergic interneuron (Human neocortex).
 property_value: STATO:0000663 "0.894026187" xsd:string
 
 [Term]
 id: CLM:1000085
-name: NS forest marker set of VIP GABAergic cortical interneuron (Human neocortex).
+name: NS forest marker set of VIP GABAergic interneuron (Human neocortex).
 property_value: STATO:0000663 "0.855531344" xsd:string
+
+[Term]
+id: CLM:1001239
+name: NS forest marker set of diffuse bipolar 4a cell (Human retina).
+property_value: STATO:0000663 "0.608139214" xsd:string
+
+[Term]
+id: CLM:1001240
+name: NS forest marker set of OFFx cell (Human retina).
+property_value: STATO:0000663 "0.785018957" xsd:string
+
+[Term]
+id: CLM:1001241
+name: NS forest marker set of cone retinal bipolar cell (Human retina).
+property_value: STATO:0000663 "0.843060252" xsd:string
+
+[Term]
+id: CLM:1001242
+name: NS forest marker set of diffuse bipolar 3b cell (Human retina).
+property_value: STATO:0000663 "0.821782012" xsd:string
+
+[Term]
+id: CLM:1001243
+name: NS forest marker set of diffuse bipolar 1 cell (Human retina).
+property_value: STATO:0000663 "0.917474411" xsd:string
+
+[Term]
+id: CLM:1001244
+name: NS forest marker set of diffuse bipolar 6 cell (Human retina).
+property_value: STATO:0000663 "0.877512571" xsd:string
+
+[Term]
+id: CLM:1001245
+name: NS forest marker set of diffuse bipolar 2 cell (Human retina).
+property_value: STATO:0000663 "0.770513807" xsd:string
+
+[Term]
+id: CLM:1001246
+name: NS forest marker set of diffuse bipolar 4a cell (Human retina).
+property_value: STATO:0000663 "0.871187664" xsd:string
+
+[Term]
+id: CLM:1001247
+name: NS forest marker set of flat midget bipolar cell (Human retina).
+property_value: STATO:0000663 "0.915774104" xsd:string
+
+[Term]
+id: CLM:1001248
+name: NS forest marker set of giant bipolar cell (Human retina).
+property_value: STATO:0000663 "0.808459341" xsd:string
+
+[Term]
+id: CLM:1001249
+name: NS forest marker set of diffuse bipolar 3a cell (Human retina).
+property_value: STATO:0000663 "0.949243066" xsd:string
+
+[Term]
+id: CLM:1001250
+name: NS forest marker set of ON-blue cone bipolar cell (Human retina).
+property_value: STATO:0000663 "0.797269292" xsd:string
+
+[Term]
+id: CLM:1001251
+name: NS forest marker set of rod bipolar cell (Human retina).
+property_value: STATO:0000663 "0.929575519" xsd:string
+
+[Term]
+id: CLM:1001252
+name: NS forest marker set of invaginating midget bipolar cell (Human retina).
+property_value: STATO:0000663 "0.884807812" xsd:string
+
+[Term]
+id: CLM:1001253
+name: NS forest marker set of diffuse bipolar 3b cell (Human retina).
+property_value: STATO:0000663 "0.765019652" xsd:string
+
+[Term]
+id: CLM:1001254
+name: NS forest marker set of diffuse bipolar 1 cell (Human retina).
+property_value: STATO:0000663 "0.752547687" xsd:string
+
+[Term]
+id: CLM:1001255
+name: NS forest marker set of OFFx cell (Human retina).
+property_value: STATO:0000663 "0.722779636" xsd:string
+
+[Term]
+id: CLM:1001256
+name: NS forest marker set of diffuse bipolar 4b cell (Human retina).
+property_value: STATO:0000663 "0.489741893" xsd:string
+
+[Term]
+id: CLM:1001257
+name: NS forest marker set of diffuse bipolar 6 cell (Human retina).
+property_value: STATO:0000663 "0.817444508" xsd:string
+
+[Term]
+id: CLM:1001258
+name: NS forest marker set of diffuse bipolar 2 cell (Human retina).
+property_value: STATO:0000663 "0.886091243" xsd:string
+
+[Term]
+id: CLM:1001259
+name: NS forest marker set of ON-blue cone bipolar cell (Human retina).
+property_value: STATO:0000663 "0.709302326" xsd:string
+
+[Term]
+id: CLM:1001260
+name: NS forest marker set of diffuse bipolar 3a cell (Human retina).
+property_value: STATO:0000663 "0.848827502" xsd:string
+
+[Term]
+id: CLM:1001261
+name: NS forest marker set of cone retinal bipolar cell (Human retina).
+property_value: STATO:0000663 "0.782434709" xsd:string
+
+[Term]
+id: CLM:1001262
+name: NS forest marker set of flat midget bipolar cell (Human retina).
+property_value: STATO:0000663 "0.891115106" xsd:string
+
+[Term]
+id: CLM:1001263
+name: NS forest marker set of diffuse bipolar 4a cell (Human retina).
+property_value: STATO:0000663 "0.814956496" xsd:string
+
+[Term]
+id: CLM:1001264
+name: NS forest marker set of invaginating midget bipolar cell (Human retina).
+property_value: STATO:0000663 "0.80078521" xsd:string
+
+[Term]
+id: CLM:1001265
+name: NS forest marker set of giant bipolar cell (Human retina).
+property_value: STATO:0000663 "0.725035162" xsd:string
+
+[Term]
+id: CLM:1001266
+name: NS forest marker set of rod bipolar cell (Human retina).
+property_value: STATO:0000663 "0.907779697" xsd:string
 
 [Typedef]
 id: RO:0015004

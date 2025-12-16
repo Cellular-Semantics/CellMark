@@ -3,6 +3,8 @@ semantic.cache
 bin/
 
 .idea/
+venv/
+__pycache__/
 
 *.tmp
 *.tmp.obo

@@ -24,7 +24,7 @@ In addition to the input data files, the user should provide a supplementary met
 ## 2- Prepare Gene DBs
 
 1- Pipeline requires gene databases to be in place. These gene DBs are located at: `src/templates`. Please check `src/templates/LungCellAtlas.tsv` as an example.
-2- These DBs are automatically generated from the related anndata files. When a new experiment data is added to the `src/markers/input` directory, its gene DB should be generated.
+2- These DBs are automatically generated from the related AnnData files. When a new experiment data is added to the `src/markers/input` directory, its gene DB should be generated.
 3- Generation of gene DBs is driven by the `src/markers/Makefile`:
 - Mount the shared drive `/Volumes/osumi-sutherland/development` to access anndata files or download the anndata files to the `src/markers` directory
 - add DB name (any simple name) to the `GENE_LIST`
@@ -47,7 +47,7 @@ Curators should add their CL annotations to the source files (`cl_term` column) 
 Run the following script to generate the source files:
 
 ```bash
-pyton src/scripts/dosdp_template_generator.py
+python src/scripts/dosdp_template_generator.py
 ```
 
 ## 4- Prepare QuickGo Templates
@@ -66,11 +66,22 @@ The `go_term_template_generator.py` script retrieves Gene Ontology (GO) terms fr
 The templates generated will be saved in the `src/templates/cl_kg/` folder, and any existing 
 template files will be removed at the start of the run.
 
-## 5- Run the ODK pipeline
+## 5- Prepare CellxGene Marker Templates
+
+When CellxGene marker data needs to be refreshed, run `cellxgene_marker_template_generator.py`. The script downloads marker JSON from the CxG service, resolves UBERON/NCBITaxon URIs via SPARQL, looks up NCBI Gene IDs (using the gene templates), filters markers (score threshold + max 7 per CL term), and writes ROBOT templates under `src/templates/cl_kg/` (for both marker and marker-annotation templates).
+
+```bash
+cd src/scripts/
+python cellxgene_marker_template_generator.py
+```
+
+This step is optional—run it only when new CxG marker releases need to be incorporated.
+
+## 6- Run the ODK pipeline
 
 Run the ODK pipeline as usual
 
 ```bash
-cd src/onotology
+cd src/ontology
 sh run.sh make prepare_release
 ```
