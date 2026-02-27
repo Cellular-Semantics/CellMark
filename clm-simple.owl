@@ -10,11 +10,11 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/clm/clm-simple.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/clm/releases/2025-12-15/clm-simple.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/clm/releases/2026-02-27/clm-simple.owl"/>
         <terms:description>None</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <terms:title>Cell Markers Ontology</terms:title>
-        <owl:versionInfo>2025-12-15</owl:versionInfo>
+        <owl:versionInfo>2026-02-27</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -114,7 +114,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000001">
         <obo:STATO_0000663>0.85</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of alveolar adventitial fibroblast (Human lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of alveolar adventitial fibroblast (Human http://purl.obolibrary.org/obo/UBERON_0002048).</rdfs:label>
     </owl:Class>
     
 
@@ -123,7 +123,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000002">
         <obo:STATO_0000663>0.70</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of alveolar type 1 fibroblast cell (Human lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of alveolar type 1 fibroblast cell (Human http://purl.obolibrary.org/obo/UBERON_0002048).</rdfs:label>
     </owl:Class>
     
 
@@ -132,7 +132,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000003">
         <obo:STATO_0000663>0.80</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of alveolar macrophage (Human lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of alveolar macrophage (Human http://purl.obolibrary.org/obo/UBERON_0002048).</rdfs:label>
     </owl:Class>
     
 
@@ -141,7 +141,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000004">
         <obo:STATO_0000663>0.67</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of CCL3-positive alveolar macrophage (Human lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of CCL3-positive alveolar macrophage (Human http://purl.obolibrary.org/obo/UBERON_0002048).</rdfs:label>
     </owl:Class>
     
 
@@ -150,7 +150,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000005">
         <obo:STATO_0000663>0.41</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of metallothionein-positive alveolar macrophage (Human lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of metallothionein-positive alveolar macrophage (Human http://purl.obolibrary.org/obo/UBERON_0002048).</rdfs:label>
     </owl:Class>
     
 
@@ -159,7 +159,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000006">
         <obo:STATO_0000663>0.26</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of cycling alveolar macrophage (Human lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of cycling alveolar macrophage (Human http://purl.obolibrary.org/obo/UBERON_0002048).</rdfs:label>
     </owl:Class>
     
 
@@ -168,7 +168,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000008">
         <obo:STATO_0000663>0.85</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of pulmonary alveolar type 1 cell (Human lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of pulmonary alveolar type 1 cell (Human http://purl.obolibrary.org/obo/UBERON_0002048).</rdfs:label>
     </owl:Class>
     
 
@@ -177,7 +177,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000009">
         <obo:STATO_0000663>0.95</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of pulmonary alveolar type 2 cell (Human lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of pulmonary alveolar type 2 cell (Human http://purl.obolibrary.org/obo/UBERON_0002048).</rdfs:label>
     </owl:Class>
     
 
@@ -186,7 +186,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000010">
         <obo:STATO_0000663>0.61</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of cycling pulmonary alveolar type 2 cell (Human lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of cycling pulmonary alveolar type 2 cell (Human http://purl.obolibrary.org/obo/UBERON_0002048).</rdfs:label>
     </owl:Class>
     
 
@@ -195,7 +195,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000026">
         <obo:STATO_0000663>0.55</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of bronchial goblet cell (Human lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of bronchial goblet cell (Human http://purl.obolibrary.org/obo/UBERON_0002048).</rdfs:label>
     </owl:Class>
     
 
@@ -204,7 +204,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000027">
         <obo:STATO_0000663>0.81</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of nasal mucosa goblet cell (Human lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of nasal mucosa goblet cell (Human http://purl.obolibrary.org/obo/UBERON_0002048).</rdfs:label>
     </owl:Class>
     
 
@@ -213,7 +213,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000031">
         <obo:STATO_0000663>0.46</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of lung interstitial macrophage (Human lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of lung interstitial macrophage (Human http://purl.obolibrary.org/obo/UBERON_0002048).</rdfs:label>
     </owl:Class>
     
 
@@ -222,7 +222,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000032">
         <obo:STATO_0000663>0.82</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of pulmonary ionocyte (Human lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of pulmonary ionocyte (Human http://purl.obolibrary.org/obo/UBERON_0002048).</rdfs:label>
     </owl:Class>
     
 
@@ -231,7 +231,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000041">
         <obo:STATO_0000663>0.86</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of multiciliated columnar cell of tracheobronchial tree (Human lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of multiciliated columnar cell of tracheobronchial tree (Human http://purl.obolibrary.org/obo/UBERON_0002048).</rdfs:label>
     </owl:Class>
     
 
@@ -240,7 +240,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000043">
         <obo:STATO_0000663>0.94</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of pulmonary neuroendocrine cell (Human lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of pulmonary neuroendocrine cell (Human http://purl.obolibrary.org/obo/UBERON_0002048).</rdfs:label>
     </owl:Class>
     
 
@@ -249,7 +249,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000046">
         <obo:STATO_0000663>0.58</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of pulmonary interstitial fibroblast (Human lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of pulmonary interstitial fibroblast (Human http://purl.obolibrary.org/obo/UBERON_0002048).</rdfs:label>
     </owl:Class>
     
 
@@ -258,7 +258,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000047">
         <obo:STATO_0000663>0.84</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of lung pericyte (Human lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of lung pericyte (Human http://purl.obolibrary.org/obo/UBERON_0002048).</rdfs:label>
     </owl:Class>
     
 
@@ -267,7 +267,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000052">
         <obo:STATO_0000663>0.46</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of airway submucosal gland collecting duct epithelial cell (Human lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of airway submucosal gland collecting duct epithelial cell (Human http://purl.obolibrary.org/obo/UBERON_0002048).</rdfs:label>
     </owl:Class>
     
 
@@ -276,7 +276,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000053">
         <obo:STATO_0000663>0.93</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of mucus secreting cell of bronchus submucosal gland (Human lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of mucus secreting cell of bronchus submucosal gland (Human http://purl.obolibrary.org/obo/UBERON_0002048).</rdfs:label>
     </owl:Class>
     
 
@@ -285,7 +285,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000054">
         <obo:STATO_0000663>0.75</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of serous secreting cell of bronchus submucosal gland (Human lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of serous secreting cell of bronchus submucosal gland (Human http://purl.obolibrary.org/obo/UBERON_0002048).</rdfs:label>
     </owl:Class>
     
 
@@ -294,7 +294,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000056">
         <obo:STATO_0000663>0.69</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of tracheobronchial smooth muscle cell (Human lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of tracheobronchial smooth muscle cell (Human http://purl.obolibrary.org/obo/UBERON_0002048).</rdfs:label>
     </owl:Class>
     
 
@@ -303,7 +303,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000059">
         <obo:STATO_0000663>0.62</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of respiratory tract suprabasal cell (Human lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of respiratory tract suprabasal cell (Human http://purl.obolibrary.org/obo/UBERON_0002048).</rdfs:label>
     </owl:Class>
     
 
@@ -312,7 +312,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000061">
         <obo:STATO_0000663>0.56</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of brush cell of tracheobronchial tree (Human lung).</rdfs:label>
+        <rdfs:label>NS forest marker set of brush cell of tracheobronchial tree (Human http://purl.obolibrary.org/obo/UBERON_0002048).</rdfs:label>
     </owl:Class>
     
 
@@ -321,7 +321,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000063">
         <obo:STATO_0000663>0.799748111</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of pvalb chandelier GABAergic interneuron (Human neocortex).</rdfs:label>
+        <rdfs:label>NS forest marker set of pvalb chandelier GABAergic interneuron (Human http://purl.obolibrary.org/obo/UBERON_0001950).</rdfs:label>
     </owl:Class>
     
 
@@ -330,7 +330,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000065">
         <obo:STATO_0000663>0.670149932</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of L2/3 intratelencephalic projecting glutamatergic neuron (Human neocortex).</rdfs:label>
+        <rdfs:label>NS forest marker set of L2/3 intratelencephalic projecting glutamatergic neuron (Human http://purl.obolibrary.org/obo/UBERON_0001950).</rdfs:label>
     </owl:Class>
     
 
@@ -339,7 +339,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000066">
         <obo:STATO_0000663>0.720108696</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of L4 intratelencephalic projecting glutamatergic neuron (Human neocortex).</rdfs:label>
+        <rdfs:label>NS forest marker set of L4 intratelencephalic projecting glutamatergic neuron (Human http://purl.obolibrary.org/obo/UBERON_0001950).</rdfs:label>
     </owl:Class>
     
 
@@ -348,7 +348,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000067">
         <obo:STATO_0000663>0.815891473</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of L5 extratelencephalic projecting glutamatergic cortical neuron (Human neocortex).</rdfs:label>
+        <rdfs:label>NS forest marker set of L5 extratelencephalic projecting glutamatergic cortical neuron (Human http://purl.obolibrary.org/obo/UBERON_0001950).</rdfs:label>
     </owl:Class>
     
 
@@ -357,7 +357,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000068">
         <obo:STATO_0000663>0.764261336</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of L5 intratelencephalic projecting glutamatergic neuron (Human neocortex).</rdfs:label>
+        <rdfs:label>NS forest marker set of L5 intratelencephalic projecting glutamatergic neuron (Human http://purl.obolibrary.org/obo/UBERON_0001950).</rdfs:label>
     </owl:Class>
     
 
@@ -366,7 +366,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000069">
         <obo:STATO_0000663>0.899288218</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of L5/6 near-projecting glutamatergic neuron (Human neocortex).</rdfs:label>
+        <rdfs:label>NS forest marker set of L5/6 near-projecting glutamatergic neuron (Human http://purl.obolibrary.org/obo/UBERON_0001950).</rdfs:label>
     </owl:Class>
     
 
@@ -375,7 +375,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000070">
         <obo:STATO_0000663>0.631898455</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of L6 corticothalamic-projecting glutamatergic cortical neuron (Human neocortex).</rdfs:label>
+        <rdfs:label>NS forest marker set of L6 corticothalamic-projecting glutamatergic cortical neuron (Human http://purl.obolibrary.org/obo/UBERON_0001950).</rdfs:label>
     </owl:Class>
     
 
@@ -384,7 +384,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000071">
         <obo:STATO_0000663>0.641695703</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of L6 intratelencephalic projecting glutamatergic neuron (Human neocortex).</rdfs:label>
+        <rdfs:label>NS forest marker set of L6 intratelencephalic projecting glutamatergic neuron (Human http://purl.obolibrary.org/obo/UBERON_0001950).</rdfs:label>
     </owl:Class>
     
 
@@ -393,7 +393,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000072">
         <obo:STATO_0000663>0.877752028</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of L6 intratelencephalic projecting Car3 glutamatergic neuron (Human neocortex).</rdfs:label>
+        <rdfs:label>NS forest marker set of L6 intratelencephalic projecting Car3 glutamatergic neuron (Human http://purl.obolibrary.org/obo/UBERON_0001950).</rdfs:label>
     </owl:Class>
     
 
@@ -402,7 +402,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000073">
         <obo:STATO_0000663>0.819940964</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of L6b glutamatergic neuron of the primary motor cortex (Human neocortex).</rdfs:label>
+        <rdfs:label>NS forest marker set of L6b glutamatergic neuron of the primary motor cortex (Human http://purl.obolibrary.org/obo/UBERON_0001950).</rdfs:label>
     </owl:Class>
     
 
@@ -411,7 +411,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000074">
         <obo:STATO_0000663>0.814687838</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of lamp5 GABAergic interneuron (Human neocortex).</rdfs:label>
+        <rdfs:label>NS forest marker set of lamp5 GABAergic interneuron (Human http://purl.obolibrary.org/obo/UBERON_0001950).</rdfs:label>
     </owl:Class>
     
 
@@ -420,7 +420,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000075">
         <obo:STATO_0000663>0.821678322</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of Lamp5 Lhx6 neuron (Human neocortex).</rdfs:label>
+        <rdfs:label>NS forest marker set of Lamp5 Lhx6 neuron (Human http://purl.obolibrary.org/obo/UBERON_0001950).</rdfs:label>
     </owl:Class>
     
 
@@ -429,7 +429,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000079">
         <obo:STATO_0000663>0.724125093</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of PAX6 GABAergic interneuron (Human neocortex).</rdfs:label>
+        <rdfs:label>NS forest marker set of PAX6 GABAergic interneuron (Human http://purl.obolibrary.org/obo/UBERON_0001950).</rdfs:label>
     </owl:Class>
     
 
@@ -438,7 +438,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000080">
         <obo:STATO_0000663>0.691998764</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of pvalb GABAergic interneuron (Human neocortex).</rdfs:label>
+        <rdfs:label>NS forest marker set of pvalb GABAergic interneuron (Human http://purl.obolibrary.org/obo/UBERON_0001950).</rdfs:label>
     </owl:Class>
     
 
@@ -447,7 +447,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000081">
         <obo:STATO_0000663>0.628943702</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of sncg GABAergic interneuron (Human neocortex).</rdfs:label>
+        <rdfs:label>NS forest marker set of sncg GABAergic interneuron (Human http://purl.obolibrary.org/obo/UBERON_0001950).</rdfs:label>
     </owl:Class>
     
 
@@ -456,7 +456,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000082">
         <obo:STATO_0000663>0.842367005</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of sst GABAergic interneuron (Human neocortex).</rdfs:label>
+        <rdfs:label>NS forest marker set of sst GABAergic interneuron (Human http://purl.obolibrary.org/obo/UBERON_0001950).</rdfs:label>
     </owl:Class>
     
 
@@ -465,7 +465,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000083">
         <obo:STATO_0000663>0.894026187</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of sst chodl GABAergic interneuron (Human neocortex).</rdfs:label>
+        <rdfs:label>NS forest marker set of sst chodl GABAergic interneuron (Human http://purl.obolibrary.org/obo/UBERON_0001950).</rdfs:label>
     </owl:Class>
     
 
@@ -474,7 +474,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1000085">
         <obo:STATO_0000663>0.855531344</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of VIP GABAergic interneuron (Human neocortex).</rdfs:label>
+        <rdfs:label>NS forest marker set of VIP GABAergic interneuron (Human http://purl.obolibrary.org/obo/UBERON_0001950).</rdfs:label>
     </owl:Class>
     
 
@@ -483,7 +483,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001239">
         <obo:STATO_0000663>0.608139214</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of diffuse bipolar 4a cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of diffuse bipolar 4a cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
     
 
@@ -492,7 +492,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001240">
         <obo:STATO_0000663>0.785018957</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of OFFx cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of OFFx cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
     
 
@@ -501,7 +501,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001241">
         <obo:STATO_0000663>0.843060252</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of cone retinal bipolar cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of cone retinal bipolar cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
     
 
@@ -510,7 +510,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001242">
         <obo:STATO_0000663>0.821782012</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of diffuse bipolar 3b cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of diffuse bipolar 3b cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
     
 
@@ -519,7 +519,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001243">
         <obo:STATO_0000663>0.917474411</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of diffuse bipolar 1 cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of diffuse bipolar 1 cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
     
 
@@ -528,7 +528,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001244">
         <obo:STATO_0000663>0.877512571</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of diffuse bipolar 6 cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of diffuse bipolar 6 cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
     
 
@@ -537,7 +537,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001245">
         <obo:STATO_0000663>0.770513807</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of diffuse bipolar 2 cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of diffuse bipolar 2 cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
     
 
@@ -546,7 +546,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001246">
         <obo:STATO_0000663>0.871187664</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of diffuse bipolar 4a cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of diffuse bipolar 4a cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
     
 
@@ -555,7 +555,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001247">
         <obo:STATO_0000663>0.915774104</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of flat midget bipolar cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of flat midget bipolar cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
     
 
@@ -564,7 +564,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001248">
         <obo:STATO_0000663>0.808459341</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of giant bipolar cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of giant bipolar cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
     
 
@@ -573,7 +573,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001249">
         <obo:STATO_0000663>0.949243066</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of diffuse bipolar 3a cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of diffuse bipolar 3a cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
     
 
@@ -582,7 +582,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001250">
         <obo:STATO_0000663>0.797269292</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of ON-blue cone bipolar cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of ON-blue cone bipolar cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
     
 
@@ -591,7 +591,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001251">
         <obo:STATO_0000663>0.929575519</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of rod bipolar cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of rod bipolar cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
     
 
@@ -600,7 +600,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001252">
         <obo:STATO_0000663>0.884807812</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of invaginating midget bipolar cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of invaginating midget bipolar cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
     
 
@@ -609,7 +609,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001253">
         <obo:STATO_0000663>0.765019652</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of diffuse bipolar 3b cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of diffuse bipolar 3b cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
     
 
@@ -618,7 +618,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001254">
         <obo:STATO_0000663>0.752547687</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of diffuse bipolar 1 cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of diffuse bipolar 1 cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
     
 
@@ -627,7 +627,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001255">
         <obo:STATO_0000663>0.722779636</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of OFFx cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of OFFx cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
     
 
@@ -636,7 +636,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001256">
         <obo:STATO_0000663>0.489741893</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of diffuse bipolar 4b cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of diffuse bipolar 4b cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
     
 
@@ -645,7 +645,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001257">
         <obo:STATO_0000663>0.817444508</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of diffuse bipolar 6 cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of diffuse bipolar 6 cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
     
 
@@ -654,7 +654,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001258">
         <obo:STATO_0000663>0.886091243</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of diffuse bipolar 2 cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of diffuse bipolar 2 cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
     
 
@@ -663,7 +663,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001259">
         <obo:STATO_0000663>0.709302326</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of ON-blue cone bipolar cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of ON-blue cone bipolar cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
     
 
@@ -672,7 +672,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001260">
         <obo:STATO_0000663>0.848827502</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of diffuse bipolar 3a cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of diffuse bipolar 3a cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
     
 
@@ -681,7 +681,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001261">
         <obo:STATO_0000663>0.782434709</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of cone retinal bipolar cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of cone retinal bipolar cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
     
 
@@ -690,7 +690,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001262">
         <obo:STATO_0000663>0.891115106</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of flat midget bipolar cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of flat midget bipolar cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
     
 
@@ -699,7 +699,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001263">
         <obo:STATO_0000663>0.814956496</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of diffuse bipolar 4a cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of diffuse bipolar 4a cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
     
 
@@ -708,7 +708,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001264">
         <obo:STATO_0000663>0.80078521</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of invaginating midget bipolar cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of invaginating midget bipolar cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
     
 
@@ -717,7 +717,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001265">
         <obo:STATO_0000663>0.725035162</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of giant bipolar cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of giant bipolar cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
     
 
@@ -726,7 +726,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_1001266">
         <obo:STATO_0000663>0.907779697</obo:STATO_0000663>
-        <rdfs:label>NS forest marker set of rod bipolar cell (Human retina).</rdfs:label>
+        <rdfs:label>NS forest marker set of rod bipolar cell (Human http://purl.obolibrary.org/obo/UBERON_0000966).</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
